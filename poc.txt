@@ -1120,6 +1120,7 @@
 ./poc/api/kube-api-services-8514.yaml
 ./poc/api/kube-api-services.yaml
 ./poc/api/kubernetes-api-detect.yaml
+./poc/api/kubernetes-api-exposure.yaml
 ./poc/api/kubernetes-pods-api.yaml
 ./poc/api/liferay-api.yaml
 ./poc/api/loqate-api-key.yaml
@@ -3591,6 +3592,7 @@
 ./poc/auth/jupyterhub-default-login-8400.yaml
 ./poc/auth/jupyterhub-default-login-8401.yaml
 ./poc/auth/jupyterhub-default-login.yaml
+./poc/auth/jwt-algorithm-confusion.yaml
 ./poc/auth/jwt-auth-095adf04b2058ec616033a7aa2b24d07.yaml
 ./poc/auth/jwt-auth.yaml
 ./poc/auth/jwt-detection.yaml
@@ -4318,6 +4320,7 @@
 ./poc/auth/oauth-client-for-user-authentication.yaml
 ./poc/auth/oauth-client.yaml
 ./poc/auth/oauth-credentials-json.yaml
+./poc/auth/oauth-state-bypass.yaml
 ./poc/auth/oauth-twitter-feed-for-developers-2c4a03e880aaa9ac7d131e8aec6fd5ff.yaml
 ./poc/auth/oauth-twitter-feed-for-developers.yaml
 ./poc/auth/oauth2-detect-9180.yaml
@@ -7804,6 +7807,7 @@
 ./poc/config/joomla-config-file.yaml
 ./poc/config/joomla-sensitive-config.yaml
 ./poc/config/jsconfig-json.yaml
+./poc/config/jwt-algorithm-confusion.yaml
 ./poc/config/kafka-misconfig.yaml
 ./poc/config/karma-config-js.yaml
 ./poc/config/keycloak-openid-config-1.yaml
@@ -9589,6 +9593,7 @@
 ./poc/cve/CVE-2013-4626.yaml
 ./poc/cve/CVE-2013-4693-2e4cdd5fc80b964c52ff42c9fb8b96fa.yaml
 ./poc/cve/CVE-2013-4693.yaml
+./poc/cve/CVE-2013-4786.yaml
 ./poc/cve/CVE-2013-4944-57262e72a105d4935c294e7ae70aa134.yaml
 ./poc/cve/CVE-2013-4944.yaml
 ./poc/cve/CVE-2013-4954-64300736e1d93dc984e59afef52202e7.yaml
@@ -64333,6 +64338,7 @@
 ./poc/detect/connectwise-control-detect.yaml
 ./poc/detect/conpot-siemens-honeypot-detect.yaml
 ./poc/detect/conpot-siemens-honeypot-detection.yaml
+./poc/detect/container-escape-detection.yaml
 ./poc/detect/contentkeeper-detect-1201.yaml
 ./poc/detect/contentkeeper-detect-1202.yaml
 ./poc/detect/contentkeeper-detect-1203.yaml
@@ -65860,6 +65866,7 @@
 ./poc/docker/aws-ecs-container-agent-tasks-641.yaml
 ./poc/docker/aws-ecs-container-agent-tasks.yaml
 ./poc/docker/azure-kubernetes-service.yaml
+./poc/docker/container-escape-detection.yaml
 ./poc/docker/container-registry-exposure.yaml
 ./poc/docker/default-page-azure-container.yaml
 ./poc/docker/docker-api-detection.yaml
@@ -65931,6 +65938,7 @@
 ./poc/docker/flask-redis-docker.yaml
 ./poc/docker/kubernetes-allow-privilege-escalation-no-securitycontext.yaml
 ./poc/docker/kubernetes-api-detect.yaml
+./poc/docker/kubernetes-api-exposure.yaml
 ./poc/docker/kubernetes-dashboard-8526.yaml
 ./poc/docker/kubernetes-dashboard.yaml
 ./poc/docker/kubernetes-dockercfg-secret.yaml
@@ -66998,6 +67006,7 @@
 ./poc/exposed/kiwi-information-disclosure.yaml
 ./poc/exposed/kpcms-socket-login-info-disclosure.yaml
 ./poc/exposed/kronos-wsld-exposure(1).yaml
+./poc/exposed/kubernetes-api-exposure.yaml
 ./poc/exposed/kubernetes-kustomization-disclosure-8531.yaml
 ./poc/exposed/kubernetes-kustomization-disclosure-8532.yaml
 ./poc/exposed/kubernetes-kustomization-disclosure-8533.yaml
@@ -68923,6 +68932,7 @@
 ./poc/graphql/graphql-array-batching-7827.yaml
 ./poc/graphql/graphql-array-batching-7828.yaml
 ./poc/graphql/graphql-array-batching.yaml
+./poc/graphql/graphql-depth-bomb.yaml
 ./poc/graphql/graphql-depth-limit.yaml
 ./poc/graphql/graphql-detect-7829.yaml
 ./poc/graphql/graphql-detect-7831.yaml
@@ -69247,6 +69257,7 @@
 ./poc/http/http-verb-tampering.yaml
 ./poc/http/http-xframe-header.yaml
 ./poc/http/http.yaml
+./poc/http/http2-request-smuggling.yaml
 ./poc/http/http_file_server.yaml
 ./poc/http/http_server.yaml
 ./poc/http/httpbin-detection.yaml
