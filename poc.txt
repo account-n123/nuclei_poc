@@ -6022,6 +6022,7 @@
 ./poc/auth/kafka-center-login-8419.yaml
 ./poc/auth/kafka-center-login_1.yaml
 ./poc/auth/kafka-manager-unauth.yml
+./poc/auth/kakao-login-phish.yaml
 ./poc/auth/kakao-login-phish_1.yaml
 ./poc/auth/kakao-login-phish_1_1.yaml
 ./poc/auth/kakao-login-phish_2.yaml
@@ -6062,9 +6063,11 @@
 ./poc/auth/key-cloak-admin-panel_2.yaml
 ./poc/auth/key4ce-osticket-bridge-ab82959ff53f951e1a89a788266e8435.yaml
 ./poc/auth/key4ce_osticket_bridge-de897025-e2e0-4e21-9c58-db2c20d5d3f9.yaml
+./poc/auth/keybase-domain-owwnership-verification.yaml
 ./poc/auth/keybase-domain-owwnership-verification_1.yaml
 ./poc/auth/keybase-domain-owwnership-verification_2.yaml
 ./poc/auth/keybase-domain-owwnership-verification_3.yaml
+./poc/auth/keybase-phish.yaml
 ./poc/auth/keybase-phish_1.yaml
 ./poc/auth/keybase-phish_1_1.yaml
 ./poc/auth/keybase-phish_2.yaml
@@ -6658,7 +6661,6 @@
 ./poc/auth/malware-cap-hookexkeylogger.yaml
 ./poc/auth/malware-hawkeye.yaml
 ./poc/auth/malware_cap_hookexkeylogger.yaml
-./poc/auth/manage-cabinet-register.yaml
 ./poc/auth/manage-cabinet-register_1.yaml
 ./poc/auth/manage-cabinet-register_2.yaml
 ./poc/auth/manage-cabinet-register_3.yaml
@@ -7001,6 +7003,7 @@
 ./poc/auth/nagiosxi-default-login_1.yaml
 ./poc/auth/nagiosxi-default-login_1_1.yaml
 ./poc/auth/nagiosxi-default-login_3.yaml
+./poc/auth/naver-login-phish.yaml
 ./poc/auth/naver-login-phish_1.yaml
 ./poc/auth/naver-login-phish_1_1.yaml
 ./poc/auth/naver-login-phish_2.yaml
@@ -10218,6 +10221,7 @@
 ./poc/aws/amazon-sns-topic-284.yaml
 ./poc/aws/amazon-sns-topic-disclosure-detect.yaml
 ./poc/aws/amazon-sns-topic.yaml
+./poc/aws/amazon-web-services-phish.yaml
 ./poc/aws/amazon-web-services-phish_1.yaml
 ./poc/aws/amazon-web-services-phish_1_1.yaml
 ./poc/aws/amazon-web-services-phish_2.yaml
@@ -11858,6 +11862,7 @@
 ./poc/cisco/cisco-prime-infrastructure_1.yaml
 ./poc/cisco/cisco-prime-infrastructure_2.yaml
 ./poc/cisco/cisco-prime-infrastructure_3.yaml
+./poc/cisco/cisco-prime-license-manager-panel.yaml
 ./poc/cisco/cisco-prime-license-manager-panel_1.yaml
 ./poc/cisco/cisco-prime-license-manager-panel_2.yaml
 ./poc/cisco/cisco-prime-network-registrar.yaml
@@ -13169,7 +13174,6 @@
 ./poc/cve/CVE-2000-0114_3.yaml
 ./poc/cve/CVE-2000-0114_5.yaml
 ./poc/cve/CVE-2000-0114_6.yaml
-./poc/cve/CVE-2000-0760.yaml
 ./poc/cve/CVE-2000-0760_1.yaml
 ./poc/cve/CVE-2001-0537.yaml
 ./poc/cve/CVE-2001-0537_1.yaml
@@ -13512,6 +13516,7 @@
 ./poc/cve/CVE-2007-2828.yaml
 ./poc/cve/CVE-2007-2828_1.yaml
 ./poc/cve/CVE-2007-2828_3.yaml
+./poc/cve/CVE-2007-3010.yaml
 ./poc/cve/CVE-2007-3010_1.yaml
 ./poc/cve/CVE-2007-3010_2.yaml
 ./poc/cve/CVE-2007-3010_3.yaml
@@ -13942,6 +13947,7 @@
 ./poc/cve/CVE-2008-4734.yaml
 ./poc/cve/CVE-2008-4734_1.yaml
 ./poc/cve/CVE-2008-4764-1370_1.yaml
+./poc/cve/CVE-2008-4764.yaml
 ./poc/cve/CVE-2008-4764_1.yaml
 ./poc/cve/CVE-2008-4764_2.yaml
 ./poc/cve/CVE-2008-4764_3.yaml
@@ -14064,7 +14070,6 @@
 ./poc/cve/CVE-2009-0545_3.yaml
 ./poc/cve/CVE-2009-0545_4.yaml
 ./poc/cve/CVE-2009-0932-1408_1.yaml
-./poc/cve/CVE-2009-0932.yaml
 ./poc/cve/CVE-2009-0932_1.yaml
 ./poc/cve/CVE-2009-0932_2.yaml
 ./poc/cve/CVE-2009-0932_3.yaml
@@ -14303,6 +14308,7 @@
 ./poc/cve/CVE-2010-0219.yaml
 ./poc/cve/CVE-2010-0219_1.yaml
 ./poc/cve/CVE-2010-0219_2.yaml
+./poc/cve/CVE-2010-0467.yaml
 ./poc/cve/CVE-2010-0467_1.yaml
 ./poc/cve/CVE-2010-0467_2.yaml
 ./poc/cve/CVE-2010-0467_3.yaml
@@ -14321,17 +14327,16 @@
 ./poc/cve/CVE-2010-0696_1.yaml
 ./poc/cve/CVE-2010-0696_2.yaml
 ./poc/cve/CVE-2010-0696_3.yaml
+./poc/cve/CVE-2010-0759.yaml
 ./poc/cve/CVE-2010-0759_1.yaml
 ./poc/cve/CVE-2010-0759_2.yaml
 ./poc/cve/CVE-2010-0759_3.yaml
 ./poc/cve/CVE-2010-0759_4.yaml
-./poc/cve/CVE-2010-0942.yaml
 ./poc/cve/CVE-2010-0942_1.yaml
 ./poc/cve/CVE-2010-0942_2.yaml
 ./poc/cve/CVE-2010-0942_3.yaml
 ./poc/cve/CVE-2010-0943-1512_1.yaml
 ./poc/cve/CVE-2010-0943-1513_1.yaml
-./poc/cve/CVE-2010-0943.yaml
 ./poc/cve/CVE-2010-0943_1.yaml
 ./poc/cve/CVE-2010-0943_2.yaml
 ./poc/cve/CVE-2010-0943_3.yaml
@@ -14349,6 +14354,7 @@
 ./poc/cve/CVE-2010-0982_2.yaml
 ./poc/cve/CVE-2010-0982_3.yaml
 ./poc/cve/CVE-2010-0982_4.yaml
+./poc/cve/CVE-2010-0985.yaml
 ./poc/cve/CVE-2010-0985_1.yaml
 ./poc/cve/CVE-2010-0985_2.yaml
 ./poc/cve/CVE-2010-0985_3.yaml
@@ -14380,6 +14386,7 @@
 ./poc/cve/CVE-2010-1219_3.yaml
 ./poc/cve/CVE-2010-1219_4.yaml
 ./poc/cve/CVE-2010-1302-1563_1.yaml
+./poc/cve/CVE-2010-1302.yaml
 ./poc/cve/CVE-2010-1302_1.yaml
 ./poc/cve/CVE-2010-1302_2.yaml
 ./poc/cve/CVE-2010-1302_3.yaml
@@ -14412,7 +14419,6 @@
 ./poc/cve/CVE-2010-1308_3.yaml
 ./poc/cve/CVE-2010-1308_4.yaml
 ./poc/cve/CVE-2010-1312-1595_1.yaml
-./poc/cve/CVE-2010-1312.yaml
 ./poc/cve/CVE-2010-1312_1.yaml
 ./poc/cve/CVE-2010-1312_2.yaml
 ./poc/cve/CVE-2010-1313-1600_1.yaml
@@ -14431,6 +14437,7 @@
 ./poc/cve/CVE-2010-1315_2.yaml
 ./poc/cve/CVE-2010-1315_3.yaml
 ./poc/cve/CVE-2010-1315_4.yaml
+./poc/cve/CVE-2010-1340.yaml
 ./poc/cve/CVE-2010-1340_1.yaml
 ./poc/cve/CVE-2010-1340_2.yaml
 ./poc/cve/CVE-2010-1340_3.yaml
@@ -14448,6 +14455,7 @@
 ./poc/cve/CVE-2010-1353_2.yaml
 ./poc/cve/CVE-2010-1353_3.yaml
 ./poc/cve/CVE-2010-1354-1635_1.yaml
+./poc/cve/CVE-2010-1354.yaml
 ./poc/cve/CVE-2010-1354_1.yaml
 ./poc/cve/CVE-2010-1354_2.yaml
 ./poc/cve/CVE-2010-1429.yaml
@@ -14495,6 +14503,7 @@
 ./poc/cve/CVE-2010-1473_3.yaml
 ./poc/cve/CVE-2010-1473_4.yaml
 ./poc/cve/CVE-2010-1474-1669_1.yaml
+./poc/cve/CVE-2010-1474.yaml
 ./poc/cve/CVE-2010-1474_1.yaml
 ./poc/cve/CVE-2010-1474_2.yaml
 ./poc/cve/CVE-2010-1474_3.yaml
@@ -14521,7 +14530,6 @@
 ./poc/cve/CVE-2010-1491_1.yaml
 ./poc/cve/CVE-2010-1491_2.yaml
 ./poc/cve/CVE-2010-1494-1694_1.yaml
-./poc/cve/CVE-2010-1494.yaml
 ./poc/cve/CVE-2010-1494_1.yaml
 ./poc/cve/CVE-2010-1494_2.yaml
 ./poc/cve/CVE-2010-1494_3.yaml
@@ -14555,6 +14563,7 @@
 ./poc/cve/CVE-2010-1534_3.yaml
 ./poc/cve/CVE-2010-1534_4.yaml
 ./poc/cve/CVE-2010-1535-1724_1.yaml
+./poc/cve/CVE-2010-1535.yaml
 ./poc/cve/CVE-2010-1535_1.yaml
 ./poc/cve/CVE-2010-1535_2.yaml
 ./poc/cve/CVE-2010-1535_3.yaml
@@ -14574,6 +14583,7 @@
 ./poc/cve/CVE-2010-1601_4.yaml
 ./poc/cve/CVE-2010-1601_5.yaml
 ./poc/cve/CVE-2010-1602-1740_1.yaml
+./poc/cve/CVE-2010-1602.yaml
 ./poc/cve/CVE-2010-1602_1.yaml
 ./poc/cve/CVE-2010-1602_2.yaml
 ./poc/cve/CVE-2010-1602_3.yaml
@@ -14601,6 +14611,7 @@
 ./poc/cve/CVE-2010-1657_1.yaml
 ./poc/cve/CVE-2010-1657_2.yaml
 ./poc/cve/CVE-2010-1658-1765_1.yaml
+./poc/cve/CVE-2010-1658.yaml
 ./poc/cve/CVE-2010-1658_1.yaml
 ./poc/cve/CVE-2010-1658_2.yaml
 ./poc/cve/CVE-2010-1659-1770_1.yaml
@@ -14610,7 +14621,6 @@
 ./poc/cve/CVE-2010-1659_2.yaml
 ./poc/cve/CVE-2010-1659_3.yaml
 ./poc/cve/CVE-2010-1659_4.yaml
-./poc/cve/CVE-2010-1714.yaml
 ./poc/cve/CVE-2010-1714_1.yaml
 ./poc/cve/CVE-2010-1714_2.yaml
 ./poc/cve/CVE-2010-1715-1780_1.yaml
@@ -14620,6 +14630,7 @@
 ./poc/cve/CVE-2010-1715_2.yaml
 ./poc/cve/CVE-2010-1715_3.yaml
 ./poc/cve/CVE-2010-1715_4.yaml
+./poc/cve/CVE-2010-1717.yaml
 ./poc/cve/CVE-2010-1717_1.yaml
 ./poc/cve/CVE-2010-1717_2.yaml
 ./poc/cve/CVE-2010-1718-1791_1.yaml
@@ -14632,6 +14643,7 @@
 ./poc/cve/CVE-2010-1718_5.yaml
 ./poc/cve/CVE-2010-1719-1797_1.yaml
 ./poc/cve/CVE-2010-1719-1798_1.yaml
+./poc/cve/CVE-2010-1719.yaml
 ./poc/cve/CVE-2010-1719_1.yaml
 ./poc/cve/CVE-2010-1719_2.yaml
 ./poc/cve/CVE-2010-1719_3.yaml
@@ -14758,7 +14770,6 @@
 ./poc/cve/CVE-2010-2034_3.yaml
 ./poc/cve/CVE-2010-2034_4.yaml
 ./poc/cve/CVE-2010-2035-1904_1.yaml
-./poc/cve/CVE-2010-2035.yaml
 ./poc/cve/CVE-2010-2035_1.yaml
 ./poc/cve/CVE-2010-2035_2.yaml
 ./poc/cve/CVE-2010-2035_3.yaml
@@ -14798,7 +14809,6 @@
 ./poc/cve/CVE-2010-2128_3.yaml
 ./poc/cve/CVE-2010-2259-1938_1.yaml
 ./poc/cve/CVE-2010-2259-1939_1.yaml
-./poc/cve/CVE-2010-2259.yaml
 ./poc/cve/CVE-2010-2259_1.yaml
 ./poc/cve/CVE-2010-2259_2.yaml
 ./poc/cve/CVE-2010-2307-1943_1.yaml
@@ -15256,6 +15266,7 @@
 ./poc/cve/CVE-2011-4624_3.yaml
 ./poc/cve/CVE-2011-4624_4.yaml
 ./poc/cve/CVE-2011-4624_5.yaml
+./poc/cve/CVE-2011-4640.yaml
 ./poc/cve/CVE-2011-4640_1.yaml
 ./poc/cve/CVE-2011-4640_2.yaml
 ./poc/cve/CVE-2011-4640_3.yaml
@@ -15648,7 +15659,6 @@
 ./poc/cve/CVE-2012-2109.yaml
 ./poc/cve/CVE-2012-2109_1.yaml
 ./poc/cve/CVE-2012-2109_3.yaml
-./poc/cve/CVE-2012-2122.yaml
 ./poc/cve/CVE-2012-2371-2174_1.yaml
 ./poc/cve/CVE-2012-2371-768a12a075bfd3e1bc707162b718c0d5.yaml
 ./poc/cve/CVE-2012-2371-wp_facethumb-a5bb8804-0b90-44c3-bf74-bbc6b4baf229.yaml
@@ -19112,7 +19122,6 @@
 ./poc/cve/CVE-2014-9735-d5f2e06efb5a6d5066fe03eddaa2c311.yaml
 ./poc/cve/CVE-2014-9735-revslider-28cb96a9-12bd-4d9c-ac53-72e81d11b0b6.yaml
 ./poc/cve/CVE-2014-9735-showbizpro-28cb96a9-12bd-4d9c-ac53-72e81d11b0b6.yaml
-./poc/cve/CVE-2014-9735.yaml
 ./poc/cve/CVE-2014-9735_1.yaml
 ./poc/cve/CVE-2014-9735_3.yaml
 ./poc/cve/CVE-2014-9735_4.yaml
@@ -19213,7 +19222,6 @@
 ./poc/cve/CVE-2015-1000012-2458_1.yaml
 ./poc/cve/CVE-2015-1000012-bd172eb0a5f5b4fee2b93533e1882477.yaml
 ./poc/cve/CVE-2015-1000012-mypixs-5413ae2a-9afa-4ff6-b241-73b446881185.yaml
-./poc/cve/CVE-2015-1000012.yaml
 ./poc/cve/CVE-2015-1000012_1.yaml
 ./poc/cve/CVE-2015-1000012_2.yaml
 ./poc/cve/CVE-2015-1000012_3.yaml
@@ -20034,6 +20042,7 @@
 ./poc/cve/CVE-2015-4694-2547_1.yaml
 ./poc/cve/CVE-2015-4694-bbfaa835f212f610b17a47bd8740dc68.yaml
 ./poc/cve/CVE-2015-4694-zip_attachments-b5b5d36d-02de-4569-b2cf-addc122ebe34.yaml
+./poc/cve/CVE-2015-4694.yaml
 ./poc/cve/CVE-2015-4694_1.yaml
 ./poc/cve/CVE-2015-4694_2.yaml
 ./poc/cve/CVE-2015-4694_3.yaml
@@ -21732,7 +21741,6 @@
 ./poc/cve/CVE-2016-1000135-2685_1.yaml
 ./poc/cve/CVE-2016-1000135-953ff551adbc4893b237af8ca2f3090a.yaml
 ./poc/cve/CVE-2016-1000135-hdw_tube-1c5d214e-65e2-4158-a88f-58bef7c9952b.yaml
-./poc/cve/CVE-2016-1000135.yaml
 ./poc/cve/CVE-2016-1000135_1.yaml
 ./poc/cve/CVE-2016-1000135_2.yaml
 ./poc/cve/CVE-2016-1000135_3.yaml
@@ -21762,6 +21770,7 @@
 ./poc/cve/CVE-2016-1000139-2701_1.yaml
 ./poc/cve/CVE-2016-1000139-5a043184256624a09d5739ac78a02adf.yaml
 ./poc/cve/CVE-2016-1000139-infusionsoft-7c3726fa-e3ee-4c5d-a727-b33d0d077ef1.yaml
+./poc/cve/CVE-2016-1000139.yaml
 ./poc/cve/CVE-2016-1000139_1.yaml
 ./poc/cve/CVE-2016-1000139_2.yaml
 ./poc/cve/CVE-2016-1000139_3.yaml
@@ -22968,7 +22977,6 @@
 ./poc/cve/CVE-2017-1000227_1.yaml
 ./poc/cve/CVE-2017-1000227_3.yaml
 ./poc/cve/CVE-2017-1000227_4.yaml
-./poc/cve/CVE-2017-1000353.yaml
 ./poc/cve/CVE-2017-1000353_1.yaml
 ./poc/cve/CVE-2017-1000353_2.yaml
 ./poc/cve/CVE-2017-1000434-ab25852ac7260209ca470673696e1afa.yaml
@@ -23120,6 +23128,7 @@
 ./poc/cve/CVE-2017-10075-2.yaml
 ./poc/cve/CVE-2017-10075-2848_1.yaml
 ./poc/cve/CVE-2017-10075-2849_1.yaml
+./poc/cve/CVE-2017-10075.yaml
 ./poc/cve/CVE-2017-10075_1.yaml
 ./poc/cve/CVE-2017-10075_2.yaml
 ./poc/cve/CVE-2017-10075_3.yaml
@@ -23190,7 +23199,6 @@
 ./poc/cve/CVE-2017-12131-easy_testimonials-d3a5d7c3-b9dd-46e8-92e2-455ef1394b50.yaml
 ./poc/cve/CVE-2017-12131.yaml
 ./poc/cve/CVE-2017-12131_1.yaml
-./poc/cve/CVE-2017-12138.yaml
 ./poc/cve/CVE-2017-12138_1.yaml
 ./poc/cve/CVE-2017-12138_2.yaml
 ./poc/cve/CVE-2017-12149-2.yaml
@@ -23616,6 +23624,7 @@
 ./poc/cve/CVE-2017-17096_3.yaml
 ./poc/cve/CVE-2017-17451-d2a9ff3a8200ef11b1101f81f347bebc.yaml
 ./poc/cve/CVE-2017-17451-wp_mailster-f61bda49-1eb0-49a3-8af1-8cadf088464f.yaml
+./poc/cve/CVE-2017-17451.yaml
 ./poc/cve/CVE-2017-17451_1.yaml
 ./poc/cve/CVE-2017-17451_2.yaml
 ./poc/cve/CVE-2017-17451_3.yaml
@@ -24508,7 +24517,6 @@
 ./poc/cve/CVE-2017-3131_1.yaml
 ./poc/cve/CVE-2017-3132.yaml
 ./poc/cve/CVE-2017-3132_1.yaml
-./poc/cve/CVE-2017-3133.yaml
 ./poc/cve/CVE-2017-3133_1.yaml
 ./poc/cve/CVE-2017-3506-3002_1.yaml
 ./poc/cve/CVE-2017-3506.yaml
@@ -24946,7 +24954,6 @@
 ./poc/cve/CVE-2018-0127.yaml
 ./poc/cve/CVE-2018-0127_2.yaml
 ./poc/cve/CVE-2018-0127_3.yaml
-./poc/cve/CVE-2018-0171.yaml
 ./poc/cve/CVE-2018-0296.yaml
 ./poc/cve/CVE-2018-0296_1.yaml
 ./poc/cve/CVE-2018-0296_2.yaml
@@ -25194,7 +25201,6 @@
 ./poc/cve/CVE-2018-10141_2.yaml
 ./poc/cve/CVE-2018-10141_4.yaml
 ./poc/cve/CVE-2018-10141_5.yaml
-./poc/cve/CVE-2018-10201.yaml
 ./poc/cve/CVE-2018-10201_1.yaml
 ./poc/cve/CVE-2018-10201_2.yaml
 ./poc/cve/CVE-2018-10230.yaml
@@ -25467,7 +25473,6 @@
 ./poc/cve/CVE-2018-12613 2.yaml
 ./poc/cve/CVE-2018-12613-3245_1.yaml
 ./poc/cve/CVE-2018-12613-3246_1.yaml
-./poc/cve/CVE-2018-12613.yaml
 ./poc/cve/CVE-2018-12613_1.yaml
 ./poc/cve/CVE-2018-12613_2.yaml
 ./poc/cve/CVE-2018-12613_3.yaml
@@ -26893,7 +26898,6 @@
 ./poc/cve/CVE-2018-7160.yaml
 ./poc/cve/CVE-2018-7192_1.yaml
 ./poc/cve/CVE-2018-7193.yaml
-./poc/cve/CVE-2018-7196.yaml
 ./poc/cve/CVE-2018-7196_1.yaml
 ./poc/cve/CVE-2018-7204-cd7ef7e5a458fb8fde38fb5b78198693.yaml
 ./poc/cve/CVE-2018-7204-file_manager-b0ae27c4-0381-4622-90e8-f4fee29767a3.yaml
@@ -26990,6 +26994,7 @@
 ./poc/cve/CVE-2018-7747.yaml
 ./poc/cve/CVE-2018-7747_1.yaml
 ./poc/cve/CVE-2018-7747_3.yaml
+./poc/cve/CVE-2018-7841.yaml
 ./poc/cve/CVE-2018-8006-3629_1.yaml
 ./poc/cve/CVE-2018-8006.yaml
 ./poc/cve/CVE-2018-8006_1.yaml
@@ -27037,6 +27042,7 @@
 ./poc/cve/CVE-2018-8770_1.yaml
 ./poc/cve/CVE-2018-8770_2.yaml
 ./poc/cve/CVE-2018-8770_3.yaml
+./poc/cve/CVE-2018-8823.yaml
 ./poc/cve/CVE-2018-8823_1.yaml
 ./poc/cve/CVE-2018-8823_2.yaml
 ./poc/cve/CVE-2018-8823_3.yaml
@@ -27676,6 +27682,7 @@
 ./poc/cve/CVE-2019-14322-1.yaml
 ./poc/cve/CVE-2019-14322-2.yaml
 ./poc/cve/CVE-2019-14322-3.yaml
+./poc/cve/CVE-2019-14322.yaml
 ./poc/cve/CVE-2019-14322_1.yaml
 ./poc/cve/CVE-2019-14322_2.yaml
 ./poc/cve/CVE-2019-14322_3.yaml
@@ -28568,6 +28575,7 @@
 ./poc/cve/CVE-2019-16332-3934_1.yaml
 ./poc/cve/CVE-2019-16332-631af0e19eb4b0682697e79015bf538a.yaml
 ./poc/cve/CVE-2019-16332-api_bearer_auth-13843a16-7ae3-412d-a2ac-7a5ee556b6e2.yaml
+./poc/cve/CVE-2019-16332.yaml
 ./poc/cve/CVE-2019-16332_1.yaml
 ./poc/cve/CVE-2019-16332_2.yaml
 ./poc/cve/CVE-2019-16332_3.yaml
@@ -28848,6 +28856,7 @@
 ./poc/cve/CVE-2019-17558_4.yaml
 ./poc/cve/CVE-2019-17558_5.yaml
 ./poc/cve/CVE-2019-17558_6.yaml
+./poc/cve/CVE-2019-17564.yaml
 ./poc/cve/CVE-2019-17567.yaml
 ./poc/cve/CVE-2019-17571.yaml
 ./poc/cve/CVE-2019-17574-7f678c605aac0889d34a3344e17ce5fe.yaml
@@ -29405,6 +29414,7 @@
 ./poc/cve/CVE-2019-3401_3.yaml
 ./poc/cve/CVE-2019-3401_5.yaml
 ./poc/cve/CVE-2019-3401_6.yaml
+./poc/cve/CVE-2019-3402.yaml
 ./poc/cve/CVE-2019-3402_1.yaml
 ./poc/cve/CVE-2019-3402_2.yaml
 ./poc/cve/CVE-2019-3402_3.yaml
@@ -29486,7 +29496,6 @@
 ./poc/cve/CVE-2019-5463.yaml
 ./poc/cve/CVE-2019-5472.yaml
 ./poc/cve/CVE-2019-5487.yaml
-./poc/cve/CVE-2019-5544.yaml
 ./poc/cve/CVE-2019-5737.yaml
 ./poc/cve/CVE-2019-5920-575d42c0e618d241bc60c8704bc86c45.yaml
 ./poc/cve/CVE-2019-5920-formcraft_form_builder-77a2d64f-852f-4cc2-9905-98c8f0930817.yaml
@@ -29584,6 +29593,7 @@
 ./poc/cve/CVE-2019-6112-1f54eae75545a600dd1eb9f077acc54f.yaml
 ./poc/cve/CVE-2019-6112-4178_1.yaml
 ./poc/cve/CVE-2019-6112-sell_media-41307a48-d49d-402f-bd3f-96b99afe6a42.yaml
+./poc/cve/CVE-2019-6112.yaml
 ./poc/cve/CVE-2019-6112_1.yaml
 ./poc/cve/CVE-2019-6112_2.yaml
 ./poc/cve/CVE-2019-6112_4.yaml
@@ -29645,6 +29655,7 @@
 ./poc/cve/CVE-2019-6802_4.yaml
 ./poc/cve/CVE-2019-6802_6.yaml
 ./poc/cve/CVE-2019-6960.yaml
+./poc/cve/CVE-2019-7139.yaml
 ./poc/cve/CVE-2019-7139_1.yaml
 ./poc/cve/CVE-2019-7139_2.yaml
 ./poc/cve/CVE-2019-7192 (copy 2).yaml
@@ -29762,7 +29773,6 @@
 ./poc/cve/CVE-2019-8449_4.yaml
 ./poc/cve/CVE-2019-8449_5.yaml
 ./poc/cve/CVE-2019-8449_6.yaml
-./poc/cve/CVE-2019-8451.yaml
 ./poc/cve/CVE-2019-8451_1.yaml
 ./poc/cve/CVE-2019-8451_2.yaml
 ./poc/cve/CVE-2019-8451_3.yaml
@@ -29786,7 +29796,6 @@
 ./poc/cve/CVE-2019-8942_3.yaml
 ./poc/cve/CVE-2019-8943-fecd21e6eeb90d0826f82bb9b217a1f3.yaml
 ./poc/cve/CVE-2019-8943-wordpress-58e3b7f1-26f4-453a-ae1f-a1e6eed0348c.yaml
-./poc/cve/CVE-2019-8943.yaml
 ./poc/cve/CVE-2019-8943_3.yaml
 ./poc/cve/CVE-2019-8943_4.yaml
 ./poc/cve/CVE-2019-8982 2.yaml
@@ -29809,6 +29818,7 @@
 ./poc/cve/CVE-2019-9168.yaml
 ./poc/cve/CVE-2019-9168_1.yaml
 ./poc/cve/CVE-2019-9193_1.yaml
+./poc/cve/CVE-2019-9194.yaml
 ./poc/cve/CVE-2019-9206.yaml
 ./poc/cve/CVE-2019-9207.yaml
 ./poc/cve/CVE-2019-9554.yaml
@@ -29847,7 +29857,6 @@
 ./poc/cve/CVE-2019-9618_4.yaml
 ./poc/cve/CVE-2019-9618_5.yaml
 ./poc/cve/CVE-2019-9618_6.yaml
-./poc/cve/CVE-2019-9632.yaml
 ./poc/cve/CVE-2019-9632_1.yaml
 ./poc/cve/CVE-2019-9646-contact_form_to_email-4515507c-a0a4-4e45-8112-fedd117e425f.yaml
 ./poc/cve/CVE-2019-9646-d4b6d4f05e7c5af9c49d42d2dc60849a.yaml
@@ -30114,7 +30123,6 @@
 ./poc/cve/CVE-2020-11110_6.yaml
 ./poc/cve/CVE-2020-11110_7.yaml
 ./poc/cve/CVE-2020-11110_8.yaml
-./poc/cve/CVE-2020-11441.yaml
 ./poc/cve/CVE-2020-11441_1.yaml
 ./poc/cve/CVE-2020-11450.yaml
 ./poc/cve/CVE-2020-11450_1.yaml
@@ -30123,7 +30131,6 @@
 ./poc/cve/CVE-2020-11450_5.yaml
 ./poc/cve/CVE-2020-11453.yaml
 ./poc/cve/CVE-2020-11455-4397_1.yaml
-./poc/cve/CVE-2020-11455.yaml
 ./poc/cve/CVE-2020-11455_1.yaml
 ./poc/cve/CVE-2020-11455_2.yaml
 ./poc/cve/CVE-2020-11455_4.yaml
@@ -30288,6 +30295,7 @@
 ./poc/cve/CVE-2020-11930_4.yaml
 ./poc/cve/CVE-2020-11930_5.yaml
 ./poc/cve/CVE-2020-11930_6.yaml
+./poc/cve/CVE-2020-11975.yaml
 ./poc/cve/CVE-2020-11978.yaml
 ./poc/cve/CVE-2020-11978_1.yaml
 ./poc/cve/CVE-2020-11978_2.yaml
@@ -30393,7 +30401,6 @@
 ./poc/cve/CVE-2020-12259.yaml
 ./poc/cve/CVE-2020-12259_2.yaml
 ./poc/cve/CVE-2020-12259_3.yaml
-./poc/cve/CVE-2020-12262.yaml
 ./poc/cve/CVE-2020-12271 (copy 1).yaml
 ./poc/cve/CVE-2020-12271.yaml
 ./poc/cve/CVE-2020-12447.yaml
@@ -30571,6 +30578,7 @@
 ./poc/cve/CVE-2020-13693_3.yaml
 ./poc/cve/CVE-2020-13700-82316cdb4427a73e8b697e5d1cdfa14a.yaml
 ./poc/cve/CVE-2020-13700-acf_to_rest_api-738e5946-65e4-4403-bb23-f84910289a45.yaml
+./poc/cve/CVE-2020-13700.yaml
 ./poc/cve/CVE-2020-13700_1.yaml
 ./poc/cve/CVE-2020-13700_2.yaml
 ./poc/cve/CVE-2020-13700_3.yaml
@@ -30614,7 +30622,6 @@
 ./poc/cve/CVE-2020-13927_4.yaml
 ./poc/cve/CVE-2020-13933.yaml
 ./poc/cve/CVE-2020-13934.yaml
-./poc/cve/CVE-2020-13935.yaml
 ./poc/cve/CVE-2020-13937 (copy 1).yaml
 ./poc/cve/CVE-2020-13937 3.yaml
 ./poc/cve/CVE-2020-13937.yaml
@@ -31153,7 +31160,6 @@
 ./poc/cve/CVE-2020-20913.yaml
 ./poc/cve/CVE-2020-20948.yaml
 ./poc/cve/CVE-2020-2096 2.yaml
-./poc/cve/CVE-2020-2096.yaml
 ./poc/cve/CVE-2020-2096_1.yaml
 ./poc/cve/CVE-2020-2096_2.yaml
 ./poc/cve/CVE-2020-2096_3.yaml
@@ -31405,7 +31411,6 @@
 ./poc/cve/CVE-2020-24312 2.yaml
 ./poc/cve/CVE-2020-24312-694d378ae813237a53116c0909956f7b.yaml
 ./poc/cve/CVE-2020-24312-wp_file_manager-46438bd3-7c4a-4939-ab46-05dc8bbe461f.yaml
-./poc/cve/CVE-2020-24312.yaml
 ./poc/cve/CVE-2020-24312_1.yaml
 ./poc/cve/CVE-2020-24312_2.yaml
 ./poc/cve/CVE-2020-24312_3.yaml
@@ -31708,7 +31713,6 @@
 ./poc/cve/CVE-2020-26876_2.yaml
 ./poc/cve/CVE-2020-26876_3.yaml
 ./poc/cve/CVE-2020-26876_6.yaml
-./poc/cve/CVE-2020-26879.yaml
 ./poc/cve/CVE-2020-26919-4927_1.yaml
 ./poc/cve/CVE-2020-26919-4930_1.yaml
 ./poc/cve/CVE-2020-26919.yaml
@@ -31781,7 +31785,6 @@
 ./poc/cve/CVE-2020-27735_1.yaml
 ./poc/cve/CVE-2020-27735_3.yaml
 ./poc/cve/CVE-2020-27735_4.yaml
-./poc/cve/CVE-2020-27838.yaml
 ./poc/cve/CVE-2020-27838_1.yaml
 ./poc/cve/CVE-2020-27846.yaml
 ./poc/cve/CVE-2020-27866.yaml
@@ -31884,7 +31887,6 @@
 ./poc/cve/CVE-2020-28351_4.yaml
 ./poc/cve/CVE-2020-28351_5.yaml
 ./poc/cve/CVE-2020-28351_6.yaml
-./poc/cve/CVE-2020-28429.yaml
 ./poc/cve/CVE-2020-28429_1.yaml
 ./poc/cve/CVE-2020-28494.yaml
 ./poc/cve/CVE-2020-28495.yaml
@@ -32933,6 +32935,7 @@
 ./poc/cve/CVE-2020-5750.yaml
 ./poc/cve/CVE-2020-5766-3fea351827589adb14ae58ec235f0f7a.yaml
 ./poc/cve/CVE-2020-5766-srs_simple_hits_counter-b157356c-a4be-48d6-8c58-ad1a9c96cda3.yaml
+./poc/cve/CVE-2020-5766.yaml
 ./poc/cve/CVE-2020-5766_1.yaml
 ./poc/cve/CVE-2020-5766_3.yaml
 ./poc/cve/CVE-2020-5767-d510132758663197f8c007dac45125f5.yaml
@@ -32951,6 +32954,7 @@
 ./poc/cve/CVE-2020-5775_5.yaml
 ./poc/cve/CVE-2020-5776-1.yaml
 ./poc/cve/CVE-2020-5776-2.yaml
+./poc/cve/CVE-2020-5776.yaml
 ./poc/cve/CVE-2020-5776_1.yaml
 ./poc/cve/CVE-2020-5776_2.yaml
 ./poc/cve/CVE-2020-5776_3.yaml
@@ -32958,6 +32962,7 @@
 ./poc/cve/CVE-2020-5776_5.yaml
 ./poc/cve/CVE-2020-5776_6.yaml
 ./poc/cve/CVE-2020-5776_7.yaml
+./poc/cve/CVE-2020-5777.yaml
 ./poc/cve/CVE-2020-5777_1.yaml
 ./poc/cve/CVE-2020-5777_2.yaml
 ./poc/cve/CVE-2020-5777_3.yaml
@@ -33588,7 +33593,6 @@
 ./poc/cve/CVE-2020-9514_1.yaml
 ./poc/cve/CVE-2020-9514_3.yaml
 ./poc/cve/CVE-2020-9547.yaml
-./poc/cve/CVE-2020-9548.yaml
 ./poc/cve/CVE-2020-9757-1.yaml
 ./poc/cve/CVE-2020-9757-2.yaml
 ./poc/cve/CVE-2020-9757-5422_1.yaml
@@ -33778,6 +33782,7 @@
 ./poc/cve/CVE-2021-20782_1.yaml
 ./poc/cve/CVE-2021-20792-9e734576f8947f045209bee0935e5c84.yaml
 ./poc/cve/CVE-2021-20792-quiz_master_next-fca4040d-3c6c-4e31-9bed-d1b6bf5b2bed.yaml
+./poc/cve/CVE-2021-20792.yaml
 ./poc/cve/CVE-2021-20792_1.yaml
 ./poc/cve/CVE-2021-20792_2.yaml
 ./poc/cve/CVE-2021-20792_3.yaml
@@ -34916,6 +34921,7 @@
 ./poc/cve/CVE-2021-24274-5658_1.yaml
 ./poc/cve/CVE-2021-24274-c0de31a7825ac9622f57009054aa149c.yaml
 ./poc/cve/CVE-2021-24274-ultimate_maps_by_supsystic-d5848d3a-d6a8-4e56-9012-9d600a3cf7fa.yaml
+./poc/cve/CVE-2021-24274.yaml
 ./poc/cve/CVE-2021-24274_1.yaml
 ./poc/cve/CVE-2021-24274_2.yaml
 ./poc/cve/CVE-2021-24274_3.yaml
@@ -34984,7 +34990,6 @@
 ./poc/cve/CVE-2021-24284_6.yaml
 ./poc/cve/CVE-2021-24285-1e351fe03157cfef97611aeb987561d8.yaml
 ./poc/cve/CVE-2021-24285-cars_seller_auto_classifieds_script-b80c2a5a-49f2-4b93-a1eb-a0be53aa921d.yaml
-./poc/cve/CVE-2021-24285.yaml
 ./poc/cve/CVE-2021-24285_1.yaml
 ./poc/cve/CVE-2021-24285_2.yaml
 ./poc/cve/CVE-2021-24285_3.yaml
@@ -35172,6 +35177,7 @@
 ./poc/cve/CVE-2021-24319_3.yaml
 ./poc/cve/CVE-2021-24320-bello-349e3b4a-c46b-48f6-acf7-bcdc86c13db7.yaml
 ./poc/cve/CVE-2021-24320-c8160790fc64dd9d54e12b78a8aa1fe1.yaml
+./poc/cve/CVE-2021-24320.yaml
 ./poc/cve/CVE-2021-24320_1.yaml
 ./poc/cve/CVE-2021-24320_2.yaml
 ./poc/cve/CVE-2021-24320_3.yaml
@@ -35410,7 +35416,6 @@
 ./poc/cve/CVE-2021-24363_1.yaml
 ./poc/cve/CVE-2021-24364-7702beddd0a0b2680c0837a95ad7470c.yaml
 ./poc/cve/CVE-2021-24364-jannah-0b04ea62-8e6b-4876-a9f8-7bc342e837f4.yaml
-./poc/cve/CVE-2021-24364.yaml
 ./poc/cve/CVE-2021-24364_1.yaml
 ./poc/cve/CVE-2021-24364_2.yaml
 ./poc/cve/CVE-2021-24364_3.yaml
@@ -35536,7 +35541,6 @@
 ./poc/cve/CVE-2021-24388_1.yaml
 ./poc/cve/CVE-2021-24389-06a3e9b6b25dd1aa8ca593f5bb9ce3d3.yaml
 ./poc/cve/CVE-2021-24389-wp_foodbakery-6c9e5cd4-303c-48a7-aef8-20c804aa5985.yaml
-./poc/cve/CVE-2021-24389.yaml
 ./poc/cve/CVE-2021-24389_1.yaml
 ./poc/cve/CVE-2021-24389_2.yaml
 ./poc/cve/CVE-2021-24389_3.yaml
@@ -36244,7 +36248,6 @@
 ./poc/cve/CVE-2021-24521_1.yaml
 ./poc/cve/CVE-2021-24522-35b01896c62cf59208a2f624693bc09e.yaml
 ./poc/cve/CVE-2021-24522-wp_user_avatar-684253b3-0a96-4822-84c8-bde8ed45f35e.yaml
-./poc/cve/CVE-2021-24522.yaml
 ./poc/cve/CVE-2021-24522_1.yaml
 ./poc/cve/CVE-2021-24522_4.yaml
 ./poc/cve/CVE-2021-24523-a2ffeecfe4e45e36c9fd784142dc66e7.yaml
@@ -37365,6 +37368,7 @@
 ./poc/cve/CVE-2021-24761_4.yaml
 ./poc/cve/CVE-2021-24762-2fcb6209fb43c94e80b55a4789073679.yaml
 ./poc/cve/CVE-2021-24762-perfect_survey-bfd1e244-27c2-4c3e-9d82-a7ffefd4eab6.yaml
+./poc/cve/CVE-2021-24762.yaml
 ./poc/cve/CVE-2021-24762_1.yaml
 ./poc/cve/CVE-2021-24762_2.yaml
 ./poc/cve/CVE-2021-24762_3.yaml
@@ -37787,6 +37791,7 @@
 ./poc/cve/CVE-2021-24848_3.yaml
 ./poc/cve/CVE-2021-24849-981dad1df8c99ffefd90bf5bb3707c46.yaml
 ./poc/cve/CVE-2021-24849-wc_multivendor_marketplace-2d6e9aea-6ccb-4c83-83bb-63c9c9f59005.yaml
+./poc/cve/CVE-2021-24849.yaml
 ./poc/cve/CVE-2021-24849_1.yaml
 ./poc/cve/CVE-2021-24849_2.yaml
 ./poc/cve/CVE-2021-24849_3.yaml
@@ -38788,7 +38793,6 @@
 ./poc/cve/CVE-2021-25052-5791_1.yaml
 ./poc/cve/CVE-2021-25052-button_generation-e78097a6-6828-4d62-abf0-995a906ad68b.yaml
 ./poc/cve/CVE-2021-25052-f487b28c12c37cef66c1233546a49147.yaml
-./poc/cve/CVE-2021-25052.yaml
 ./poc/cve/CVE-2021-25052_1.yaml
 ./poc/cve/CVE-2021-25052_2.yaml
 ./poc/cve/CVE-2021-25052_3.yaml
@@ -39707,6 +39711,7 @@
 ./poc/cve/CVE-2021-3129_7.yaml
 ./poc/cve/CVE-2021-31316.yaml
 ./poc/cve/CVE-2021-31316_1.yaml
+./poc/cve/CVE-2021-31324.yaml
 ./poc/cve/CVE-2021-31324_1.yaml
 ./poc/cve/CVE-2021-3133-56aa2b4993d959935e930e514bbf1ec6.yaml
 ./poc/cve/CVE-2021-3133-sb_elementor_contact_form_db-e287e85d-8687-4079-99ea-92718031f343.yaml
@@ -39725,6 +39730,7 @@
 ./poc/cve/CVE-2021-31537_1.yaml
 ./poc/cve/CVE-2021-31537_3.yaml
 ./poc/cve/CVE-2021-31537_4.yaml
+./poc/cve/CVE-2021-3156.yaml
 ./poc/cve/CVE-2021-31567-c96c052269482d514cfa168533296262.yaml
 ./poc/cve/CVE-2021-31567-download_monitor-3b515142-4e04-4570-b5cb-18261974c659.yaml
 ./poc/cve/CVE-2021-31567.yaml
@@ -40060,6 +40066,7 @@
 ./poc/cve/CVE-2021-34629_1.yaml
 ./poc/cve/CVE-2021-34630-856edcebf4da9d6240d8b9b045101551.yaml
 ./poc/cve/CVE-2021-34630-gtranslate-d6ae7c9f-852d-428f-a469-6bfeead53db5.yaml
+./poc/cve/CVE-2021-34630.yaml
 ./poc/cve/CVE-2021-34630_3.yaml
 ./poc/cve/CVE-2021-34630_4.yaml
 ./poc/cve/CVE-2021-34631-255968e8305cfc85200922165850dea4.yaml
@@ -41290,7 +41297,6 @@
 ./poc/cve/CVE-2021-39321_3.yaml
 ./poc/cve/CVE-2021-39322-262084dbc8e5d4ed4776882955e89dac.yaml
 ./poc/cve/CVE-2021-39322-easy_social_icons-8ef3a657-28ce-4a27-b4d8-617db8027ffc.yaml
-./poc/cve/CVE-2021-39322.yaml
 ./poc/cve/CVE-2021-39322_1.yaml
 ./poc/cve/CVE-2021-39322_2.yaml
 ./poc/cve/CVE-2021-39322_3.yaml
@@ -41306,6 +41312,7 @@
 ./poc/cve/CVE-2021-39327-6342_1.yaml
 ./poc/cve/CVE-2021-39327-a0eb14b3ca4a2c0e42604c386f7dff88.yaml
 ./poc/cve/CVE-2021-39327-bulletproof_security-4735c491-9595-42b8-bb1c-1b18c89fcf7a.yaml
+./poc/cve/CVE-2021-39327.yaml
 ./poc/cve/CVE-2021-39327_1.yaml
 ./poc/cve/CVE-2021-39327_2.yaml
 ./poc/cve/CVE-2021-39327_3.yaml
@@ -41559,6 +41566,7 @@
 ./poc/cve/CVE-2021-40868-6384_1.yaml
 ./poc/cve/CVE-2021-40868.yaml
 ./poc/cve/CVE-2021-40868_1.yaml
+./poc/cve/CVE-2021-40870.yaml
 ./poc/cve/CVE-2021-40870_2.yaml
 ./poc/cve/CVE-2021-40870_3.yaml
 ./poc/cve/CVE-2021-40870_5.yaml
@@ -42291,7 +42299,6 @@
 ./poc/cve/CVE-2021-4383-295d3c9b8cdf987ee5fd4f4df538c44f.yaml
 ./poc/cve/CVE-2021-4383-wp_quick_front_end_editor-f5492bff-cfd9-41ed-a59b-4445d5e83e86.yaml
 ./poc/cve/CVE-2021-4383.yaml
-./poc/cve/CVE-2021-43831.yaml
 ./poc/cve/CVE-2021-43831_1.yaml
 ./poc/cve/CVE-2021-4383_1.yaml
 ./poc/cve/CVE-2021-4383_3.yaml
@@ -42542,7 +42549,6 @@
 ./poc/cve/CVE-2021-44351.yaml
 ./poc/cve/CVE-2021-4436-3dprint_lite-d52f601b-6a80-4b6f-895b-fcbbdf73103a.yaml
 ./poc/cve/CVE-2021-4436-e4122bcbb6130d4a538daa9027caab6e.yaml
-./poc/cve/CVE-2021-4436.yaml
 ./poc/cve/CVE-2021-4436_1.yaml
 ./poc/cve/CVE-2021-4436_2.yaml
 ./poc/cve/CVE-2021-4436_3.yaml
@@ -42704,7 +42710,6 @@
 ./poc/cve/CVE-2021-45735.yaml
 ./poc/cve/CVE-2021-45738.yaml
 ./poc/cve/CVE-2021-45790.yaml
-./poc/cve/CVE-2021-45793.yaml
 ./poc/cve/CVE-2021-45793_1.yaml
 ./poc/cve/CVE-2021-45793_2.yaml
 ./poc/cve/CVE-2021-45793_3.yaml
@@ -42712,7 +42717,6 @@
 ./poc/cve/CVE-2021-45793_5.yaml
 ./poc/cve/CVE-2021-45793_6.yaml
 ./poc/cve/CVE-2021-45793_7.yaml
-./poc/cve/CVE-2021-45811.yaml
 ./poc/cve/CVE-2021-45811_1.yaml
 ./poc/cve/CVE-2021-45812.yaml
 ./poc/cve/CVE-2021-45837.yaml
@@ -42881,6 +42885,7 @@
 ./poc/cve/CVE-2022-0147_5.yaml
 ./poc/cve/CVE-2022-0148-778debe7427c4fcb86e1fb7a681ea552.yaml
 ./poc/cve/CVE-2022-0148-mystickyelements-5f4d57e4-1b82-45bb-9824-b7b2eaa73b6d.yaml
+./poc/cve/CVE-2022-0148.yaml
 ./poc/cve/CVE-2022-0148_1.yaml
 ./poc/cve/CVE-2022-0148_2.yaml
 ./poc/cve/CVE-2022-0148_3.yaml
@@ -42889,6 +42894,7 @@
 ./poc/cve/CVE-2022-0149-6606_1.yaml
 ./poc/cve/CVE-2022-0149-6608_1.yaml
 ./poc/cve/CVE-2022-0149-woocommerce_exporter-1bae23a4-0f25-430f-8bad-6ec7b2de3dbe.yaml
+./poc/cve/CVE-2022-0149.yaml
 ./poc/cve/CVE-2022-0149_1.yaml
 ./poc/cve/CVE-2022-0149_2.yaml
 ./poc/cve/CVE-2022-0149_3.yaml
@@ -43740,6 +43746,7 @@
 ./poc/cve/CVE-2022-0663.yaml
 ./poc/cve/CVE-2022-0663_1.yaml
 ./poc/cve/CVE-2022-0663_3.yaml
+./poc/cve/CVE-2022-0666.yaml
 ./poc/cve/CVE-2022-0666_1.yaml
 ./poc/cve/CVE-2022-0674-db2580df214645d8661d2c85c9e46fb5.yaml
 ./poc/cve/CVE-2022-0674-kunze_law-6ef70f07-ef60-4842-91a9-879478d3f4d2.yaml
@@ -43944,7 +43951,6 @@
 ./poc/cve/CVE-2022-0782_1.yaml
 ./poc/cve/CVE-2022-0783-9157e44a060938b323c434e86513487b.yaml
 ./poc/cve/CVE-2022-0783-multiple_shipping_address_woocommerce-b9502669-ddbb-40c3-9d98-95c862f47a9a.yaml
-./poc/cve/CVE-2022-0783.yaml
 ./poc/cve/CVE-2022-0783_1.yaml
 ./poc/cve/CVE-2022-0783_3.yaml
 ./poc/cve/CVE-2022-0784-466098c58acf52e376d0eec7805c1980.yaml
@@ -44371,6 +44377,7 @@
 ./poc/cve/CVE-2022-1051_1.yaml
 ./poc/cve/CVE-2022-1054-7f1b89f8c35c27ba5ee9488de1b16610.yaml
 ./poc/cve/CVE-2022-1054-rsvp-4ac44e4f-7052-465c-82ab-c3f23a62c898.yaml
+./poc/cve/CVE-2022-1054.yaml
 ./poc/cve/CVE-2022-1054_1.yaml
 ./poc/cve/CVE-2022-1054_2.yaml
 ./poc/cve/CVE-2022-1054_3.yaml
@@ -44593,7 +44600,6 @@
 ./poc/cve/CVE-2022-1220_3.yaml
 ./poc/cve/CVE-2022-1221-68fdd6169f00cc3f16c2b4cbae40d78f.yaml
 ./poc/cve/CVE-2022-1221-gwyns_imagemap_selector-0a2740bc-5d4a-4449-b28a-5bf84b03c878.yaml
-./poc/cve/CVE-2022-1221.yaml
 ./poc/cve/CVE-2022-1221_1.yaml
 ./poc/cve/CVE-2022-1221_2.yaml
 ./poc/cve/CVE-2022-1221_3.yaml
@@ -46027,7 +46033,6 @@
 ./poc/cve/CVE-2022-21261.yaml
 ./poc/cve/CVE-2022-21262.yaml
 ./poc/cve/CVE-2022-21292.yaml
-./poc/cve/CVE-2022-2130.yaml
 ./poc/cve/CVE-2022-21306.yaml
 ./poc/cve/CVE-2022-2133-fa8fe641d3ffa2fe04c1ec79d8b25729.yaml
 ./poc/cve/CVE-2022-2133-miniorange_login_with_eve_online_google_facebook-fae6e691-0d2a-4784-8ab1-4923d650a703.yaml
@@ -46126,7 +46131,6 @@
 ./poc/cve/CVE-2022-2167_4.yaml
 ./poc/cve/CVE-2022-2168-6aa09b6328faa62b89c78fae5f12d99b.yaml
 ./poc/cve/CVE-2022-2168-download_manager-cace29fd-95d0-48ea-8dfa-6fd12dd9ccbf.yaml
-./poc/cve/CVE-2022-2168.yaml
 ./poc/cve/CVE-2022-2168_1.yaml
 ./poc/cve/CVE-2022-2168_3.yaml
 ./poc/cve/CVE-2022-2169-46e2a3625844c7f36aa45cb631b3383f.yaml
@@ -47216,7 +47220,6 @@
 ./poc/cve/CVE-2022-25216_1.yaml
 ./poc/cve/CVE-2022-25216_2.yaml
 ./poc/cve/CVE-2022-25216_3.yaml
-./poc/cve/CVE-2022-25226.yaml
 ./poc/cve/CVE-2022-25226_1.yaml
 ./poc/cve/CVE-2022-25237.yaml
 ./poc/cve/CVE-2022-25245.yaml
@@ -47647,6 +47650,7 @@
 ./poc/cve/CVE-2022-26159_4.yaml
 ./poc/cve/CVE-2022-26180.yaml
 ./poc/cve/CVE-2022-26213.yaml
+./poc/cve/CVE-2022-26233.yaml
 ./poc/cve/CVE-2022-26233_1.yaml
 ./poc/cve/CVE-2022-26233_2.yaml
 ./poc/cve/CVE-2022-26233_3.yaml
@@ -47777,6 +47781,7 @@
 ./poc/cve/CVE-2022-27004.yaml
 ./poc/cve/CVE-2022-27005.yaml
 ./poc/cve/CVE-2022-27041.yaml
+./poc/cve/CVE-2022-27043.yaml
 ./poc/cve/CVE-2022-27043_1.yaml
 ./poc/cve/CVE-2022-2709-b9622f259b3e97c4856e284e4db1d7ec.yaml
 ./poc/cve/CVE-2022-2709-float_to_top_button-70fee28f-7a2b-4d57-9fca-04a805dca3f6.yaml
@@ -49760,6 +49765,7 @@
 ./poc/cve/CVE-2022-35493_2.yaml
 ./poc/cve/CVE-2022-35493_3.yaml
 ./poc/cve/CVE-2022-35493_4.yaml
+./poc/cve/CVE-2022-35507.yaml
 ./poc/cve/CVE-2022-35516.yaml
 ./poc/cve/CVE-2022-3556-0b0b9ef8507e5c9523734c6ecd195cd4.yaml
 ./poc/cve/CVE-2022-3556-cab_fare_calculator-219de193-32d0-40b0-a471-bf8bf6e2bb62.yaml
@@ -50079,7 +50085,6 @@
 ./poc/cve/CVE-2022-36537_1.yaml
 ./poc/cve/CVE-2022-36537_2.yaml
 ./poc/cve/CVE-2022-36537_5.yaml
-./poc/cve/CVE-2022-36553.yaml
 ./poc/cve/CVE-2022-36553_1.yaml
 ./poc/cve/CVE-2022-36553_3.yaml
 ./poc/cve/CVE-2022-36583.yaml
@@ -50713,7 +50718,6 @@
 ./poc/cve/CVE-2022-3865.yaml
 ./poc/cve/CVE-2022-3865_1.yaml
 ./poc/cve/CVE-2022-3865_3.yaml
-./poc/cve/CVE-2022-3869.yaml
 ./poc/cve/CVE-2022-3869_1.yaml
 ./poc/cve/CVE-2022-38703-888689bfe619992505973b3f4ee91448.yaml
 ./poc/cve/CVE-2022-38703-maxbuttons-8eaf6dfd-bc66-466f-af80-213213fdb839.yaml
@@ -51291,7 +51295,6 @@
 ./poc/cve/CVE-2022-4043-wp_custom_admin_interface-e57f4853-cade-4bb5-8f12-4a88a200921f.yaml
 ./poc/cve/CVE-2022-4043.yaml
 ./poc/cve/CVE-2022-4043_1.yaml
-./poc/cve/CVE-2022-40443.yaml
 ./poc/cve/CVE-2022-40443_1.yaml
 ./poc/cve/CVE-2022-40444.yaml
 ./poc/cve/CVE-2022-4047-59ef4ab68b01d9030cc470e529c1c00c.yaml
@@ -51904,7 +51907,6 @@
 ./poc/cve/CVE-2022-41791-profilegrid_user_profiles_groups_and_communities-f9337519-0b33-43fa-9be4-2390b8b3afb9.yaml
 ./poc/cve/CVE-2022-41791.yaml
 ./poc/cve/CVE-2022-41791_1.yaml
-./poc/cve/CVE-2022-41800.yaml
 ./poc/cve/CVE-2022-41800_1.yaml
 ./poc/cve/CVE-2022-41800_2.yaml
 ./poc/cve/CVE-2022-41805-29ac92757b15c0aa7e8bf393b33a1917.yaml
@@ -52022,7 +52024,6 @@
 ./poc/cve/CVE-2022-4211-chained_quiz-6781b7b7-c11a-4328-8d14-ffafc2ccb127.yaml
 ./poc/cve/CVE-2022-4211.yaml
 ./poc/cve/CVE-2022-42110.yaml
-./poc/cve/CVE-2022-42118.yaml
 ./poc/cve/CVE-2022-42118_1.yaml
 ./poc/cve/CVE-2022-4211_1.yaml
 ./poc/cve/CVE-2022-4211_3.yaml
@@ -53291,6 +53292,7 @@
 ./poc/cve/CVE-2022-4519_3.yaml
 ./poc/cve/CVE-2022-45205.yaml
 ./poc/cve/CVE-2022-45207.yaml
+./poc/cve/CVE-2022-45269.yaml
 ./poc/cve/CVE-2022-45269_1.yaml
 ./poc/cve/CVE-2022-4529-ff12538e98daa18fdbd13715dc609a2c.yaml
 ./poc/cve/CVE-2022-4529-security_antivirus_firewall-cd177a43-6059-4125-9408-1090b9a54117.yaml
@@ -53580,6 +53582,7 @@
 ./poc/cve/CVE-2022-45807_3.yaml
 ./poc/cve/CVE-2022-45808-c946229160c7c2ddcd79a4cad5b83e93.yaml
 ./poc/cve/CVE-2022-45808-learnpress-9890c852-a38d-4429-bd75-751bd0f986fc.yaml
+./poc/cve/CVE-2022-45808.yaml
 ./poc/cve/CVE-2022-45808_1.yaml
 ./poc/cve/CVE-2022-45808_4.yaml
 ./poc/cve/CVE-2022-45808_5.yaml
@@ -55261,6 +55264,7 @@
 ./poc/cve/CVE-2022-48012_3.yaml
 ./poc/cve/CVE-2022-48118.yaml
 ./poc/cve/CVE-2022-48120.yaml
+./poc/cve/CVE-2022-48164.yaml
 ./poc/cve/CVE-2022-48165.yaml
 ./poc/cve/CVE-2022-48165_1.yaml
 ./poc/cve/CVE-2022-48165_2.yaml
@@ -57516,6 +57520,7 @@
 ./poc/cve/CVE-2023-0669_5.yaml
 ./poc/cve/CVE-2023-0676_1.yaml
 ./poc/cve/CVE-2023-0677.yaml
+./poc/cve/CVE-2023-0678.yaml
 ./poc/cve/CVE-2023-0678_1.yaml
 ./poc/cve/CVE-2023-0678_2.yaml
 ./poc/cve/CVE-2023-0684-61600827cad2190fbeff344b63ca951c.yaml
@@ -58660,8 +58665,10 @@
 ./poc/cve/CVE-2023-1891.yaml
 ./poc/cve/CVE-2023-1891_1.yaml
 ./poc/cve/CVE-2023-1891_3.yaml
+./poc/cve/CVE-2023-1892.yaml
 ./poc/cve/CVE-2023-1893-99b0522d2f6512240efe1815d9f746f6.yaml
 ./poc/cve/CVE-2023-1893-login_configurator-cb148264-c75e-4e73-95d7-3a06cdd8990e.yaml
+./poc/cve/CVE-2023-1893.yaml
 ./poc/cve/CVE-2023-1893_1.yaml
 ./poc/cve/CVE-2023-1893_3.yaml
 ./poc/cve/CVE-2023-1895-0cb8746fa503b5b5728747da00b9376c.yaml
@@ -58840,7 +58847,6 @@
 ./poc/cve/CVE-2023-2032_1.yaml
 ./poc/cve/CVE-2023-2032_2.yaml
 ./poc/cve/CVE-2023-2032_4.yaml
-./poc/cve/CVE-2023-2059.yaml
 ./poc/cve/CVE-2023-2059_1.yaml
 ./poc/cve/CVE-2023-2059_2.yaml
 ./poc/cve/CVE-2023-2066-5389a3d8af6d2deb31645f9011b88d1f.yaml
@@ -59047,6 +59053,7 @@
 ./poc/cve/CVE-2023-2201_3.yaml
 ./poc/cve/CVE-2023-22035.yaml
 ./poc/cve/CVE-2023-22042.yaml
+./poc/cve/CVE-2023-22047.yaml
 ./poc/cve/CVE-2023-2221-ba6f1860bc5b5db13d70cc5966f855c3.yaml
 ./poc/cve/CVE-2023-2221-wp_custom_cursors-a2248ba8-b7d7-4691-bf7c-8b23c24417f7.yaml
 ./poc/cve/CVE-2023-2221.yaml
@@ -59054,7 +59061,6 @@
 ./poc/cve/CVE-2023-2223-4b5cb1ff9718a39a98a6c69a962bfad9.yaml
 ./poc/cve/CVE-2023-2223-login_rebuilder-7ae14765-ba85-4aba-83ae-41f7de2f2551.yaml
 ./poc/cve/CVE-2023-2223.yaml
-./poc/cve/CVE-2023-22232.yaml
 ./poc/cve/CVE-2023-22232_1.yaml
 ./poc/cve/CVE-2023-22232_2.yaml
 ./poc/cve/CVE-2023-22232_3.yaml
@@ -59063,7 +59069,6 @@
 ./poc/cve/CVE-2023-2223_3.yaml
 ./poc/cve/CVE-2023-2224-cc16cd9fe48d4f1220d8a7bbc6ecb3e6.yaml
 ./poc/cve/CVE-2023-2224-seo_by_10web-1a850176-973c-49aa-a420-e379223b6dc3.yaml
-./poc/cve/CVE-2023-2224.yaml
 ./poc/cve/CVE-2023-2224_1.yaml
 ./poc/cve/CVE-2023-2224_2.yaml
 ./poc/cve/CVE-2023-2224_3.yaml
@@ -59073,6 +59078,7 @@
 ./poc/cve/CVE-2023-2225.yaml
 ./poc/cve/CVE-2023-2225_1.yaml
 ./poc/cve/CVE-2023-2225_3.yaml
+./poc/cve/CVE-2023-2227.yaml
 ./poc/cve/CVE-2023-2227_1.yaml
 ./poc/cve/CVE-2023-2227_2.yaml
 ./poc/cve/CVE-2023-2229-714fa1063bf549772814222bc983c167.yaml
@@ -61388,7 +61394,6 @@
 ./poc/cve/CVE-2023-2518_1.yaml
 ./poc/cve/CVE-2023-2518_3.yaml
 ./poc/cve/CVE-2023-2518_4.yaml
-./poc/cve/CVE-2023-25194.yaml
 ./poc/cve/CVE-2023-25194_1.yaml
 ./poc/cve/CVE-2023-25194_2.yaml
 ./poc/cve/CVE-2023-2523.yaml
@@ -62528,7 +62533,6 @@
 ./poc/cve/CVE-2023-2701.yaml
 ./poc/cve/CVE-2023-2701_1.yaml
 ./poc/cve/CVE-2023-2701_3.yaml
-./poc/cve/CVE-2023-27032.yaml
 ./poc/cve/CVE-2023-27034.yaml
 ./poc/cve/CVE-2023-27034_1.yaml
 ./poc/cve/CVE-2023-27034_2.yaml
@@ -62920,7 +62924,6 @@
 ./poc/cve/CVE-2023-2757-waiting-38cc5a39-6ec3-4ce9-b9ad-d4ca5dafe9a7.yaml
 ./poc/cve/CVE-2023-2757.yaml
 ./poc/cve/CVE-2023-2757_1.yaml
-./poc/cve/CVE-2023-27584.yaml
 ./poc/cve/CVE-2023-27587.yaml
 ./poc/cve/CVE-2023-27587_1.yaml
 ./poc/cve/CVE-2023-27587_2.yaml
@@ -63072,9 +63075,9 @@
 ./poc/cve/CVE-2023-2764-57c0dfa081049a62ca2e8a04e6755cc6.yaml
 ./poc/cve/CVE-2023-2764-draw_attention-18530601-a294-448c-a1b2-c3995f9042ac.yaml
 ./poc/cve/CVE-2023-2764.yaml
-./poc/cve/CVE-2023-27640.yaml
 ./poc/cve/CVE-2023-27640_1.yaml
 ./poc/cve/CVE-2023-27640_2.yaml
+./poc/cve/CVE-2023-27641.yaml
 ./poc/cve/CVE-2023-27641_1.yaml
 ./poc/cve/CVE-2023-2764_1.yaml
 ./poc/cve/CVE-2023-2764_3.yaml
@@ -63107,7 +63110,6 @@
 ./poc/cve/CVE-2023-27812.yaml
 ./poc/cve/CVE-2023-2781_1.yaml
 ./poc/cve/CVE-2023-2781_3.yaml
-./poc/cve/CVE-2023-27847.yaml
 ./poc/cve/CVE-2023-27847_1.yaml
 ./poc/cve/CVE-2023-27889-965e16401eed7d13cba5130afd395eb5.yaml
 ./poc/cve/CVE-2023-27889-liquid_speech_balloon-23980e13-b632-43ec-938e-8171884cb87b.yaml
@@ -64025,7 +64027,6 @@
 ./poc/cve/CVE-2023-29441-weblibrarian-6b4b05a8-3a32-4fa9-9ff5-a2a62b11a05d.yaml
 ./poc/cve/CVE-2023-29441.yaml
 ./poc/cve/CVE-2023-29441_2.yaml
-./poc/cve/CVE-2023-2948.yaml
 ./poc/cve/CVE-2023-29489.yaml
 ./poc/cve/CVE-2023-29489_1.yaml
 ./poc/cve/CVE-2023-29489_2.yaml
@@ -64033,6 +64034,7 @@
 ./poc/cve/CVE-2023-29489_5.yaml
 ./poc/cve/CVE-2023-29489_6.yaml
 ./poc/cve/CVE-2023-2948_1.yaml
+./poc/cve/CVE-2023-2949.yaml
 ./poc/cve/CVE-2023-2949_1.yaml
 ./poc/cve/CVE-2023-2949_2.yaml
 ./poc/cve/CVE-2023-29506.yaml
@@ -64070,7 +64072,6 @@
 ./poc/cve/CVE-2023-2982_5.yaml
 ./poc/cve/CVE-2023-2986-70590c18fd9f14fbae590e8f0ae82892.yaml
 ./poc/cve/CVE-2023-2986-woocommerce_abandoned_cart-68052614-204f-4237-af0e-4b8210ebd59f.yaml
-./poc/cve/CVE-2023-2986.yaml
 ./poc/cve/CVE-2023-2986_1.yaml
 ./poc/cve/CVE-2023-2986_3.yaml
 ./poc/cve/CVE-2023-2987-0525060cce1946c27a3697cc1520f683.yaml
@@ -64376,7 +64377,6 @@
 ./poc/cve/CVE-2023-3076_2.yaml
 ./poc/cve/CVE-2023-3077-8dadea859595bd4db3549c0726f24572.yaml
 ./poc/cve/CVE-2023-3077-mstore_api-da36ba83-490e-4c9d-8a34-c5c79392a09a.yaml
-./poc/cve/CVE-2023-3077.yaml
 ./poc/cve/CVE-2023-30777-6ba9a886f8cf569f9e4ff14279a528a4.yaml
 ./poc/cve/CVE-2023-30777-advanced_custom_fields-e7ae8dcd-00b6-4afc-85bb-6697820bb37c.yaml
 ./poc/cve/CVE-2023-30777-advanced_custom_fields_pro-e7ae8dcd-00b6-4afc-85bb-6697820bb37c.yaml
@@ -64766,7 +64766,6 @@
 ./poc/cve/CVE-2023-3139.yaml
 ./poc/cve/CVE-2023-3139_1.yaml
 ./poc/cve/CVE-2023-31418.yaml
-./poc/cve/CVE-2023-31446.yaml
 ./poc/cve/CVE-2023-31446_1.yaml
 ./poc/cve/CVE-2023-31446_2.yaml
 ./poc/cve/CVE-2023-31465.yaml
@@ -64887,7 +64886,6 @@
 ./poc/cve/CVE-2023-3204_1.yaml
 ./poc/cve/CVE-2023-32068.yaml
 ./poc/cve/CVE-2023-32068_1.yaml
-./poc/cve/CVE-2023-32077.yaml
 ./poc/cve/CVE-2023-32077_1.yaml
 ./poc/cve/CVE-2023-32077_2.yaml
 ./poc/cve/CVE-2023-32091-7459d81c635096d60a0dc2cc2bf43dec.yaml
@@ -65871,6 +65869,7 @@
 ./poc/cve/CVE-2023-3366-multiparcels_shipping_for_woocommerce-4e860293-0dfb-444f-a103-33942d9ff75c.yaml
 ./poc/cve/CVE-2023-3366.yaml
 ./poc/cve/CVE-2023-33661.yaml
+./poc/cve/CVE-2023-3368.yaml
 ./poc/cve/CVE-2023-3368_1.yaml
 ./poc/cve/CVE-2023-3369-20161f9bba74e354947b850e249eb97b.yaml
 ./poc/cve/CVE-2023-3369-about_me_3000-be6f660f-041a-42f2-ab5b-72aedf75727d.yaml
@@ -67526,7 +67525,6 @@
 ./poc/cve/CVE-2023-3499.yaml
 ./poc/cve/CVE-2023-34990.yaml
 ./poc/cve/CVE-2023-34992.yaml
-./poc/cve/CVE-2023-34993.yaml
 ./poc/cve/CVE-2023-34993_1.yaml
 ./poc/cve/CVE-2023-34993_2.yaml
 ./poc/cve/CVE-2023-3499_2.yaml
@@ -67661,19 +67659,16 @@
 ./poc/cve/CVE-2023-3510_2.yaml
 ./poc/cve/CVE-2023-35155.yaml
 ./poc/cve/CVE-2023-35155_1.yaml
-./poc/cve/CVE-2023-35158.yaml
 ./poc/cve/CVE-2023-35158_1.yaml
 ./poc/cve/CVE-2023-35159_1.yaml
-./poc/cve/CVE-2023-35160.yaml
 ./poc/cve/CVE-2023-35160_1.yaml
-./poc/cve/CVE-2023-35161.yaml
 ./poc/cve/CVE-2023-35161_1.yaml
+./poc/cve/CVE-2023-35162.yaml
 ./poc/cve/CVE-2023-35162_1.yaml
 ./poc/cve/CVE-2023-3519.yaml
 ./poc/cve/CVE-2023-3519_1.yaml
 ./poc/cve/CVE-2023-3519_2.yaml
 ./poc/cve/CVE-2023-3519_3.yaml
-./poc/cve/CVE-2023-3521.yaml
 ./poc/cve/CVE-2023-3521_1.yaml
 ./poc/cve/CVE-2023-3524-574cb64f1d78e22890675dc86fe1e07c.yaml
 ./poc/cve/CVE-2023-3524-insert_headers_and_footers-0f2ebd89-d34f-4f08-9654-049355fdfa3f.yaml
@@ -67737,6 +67732,7 @@
 ./poc/cve/CVE-2023-35779-seed_fonts-57953bab-7430-4841-b073-7db7964e6a65.yaml
 ./poc/cve/CVE-2023-35779.yaml
 ./poc/cve/CVE-2023-35779_1.yaml
+./poc/cve/CVE-2023-3578.yaml
 ./poc/cve/CVE-2023-35780-8798f85c077c6cff523846326911d00c.yaml
 ./poc/cve/CVE-2023-35780-galleria-ea85fa9a-78ea-4017-b72e-49db7eafa11e.yaml
 ./poc/cve/CVE-2023-35780.yaml
@@ -67861,6 +67857,7 @@
 ./poc/cve/CVE-2023-3604-change_wp_admin_login-9410b5b8-1bb2-42d7-8d4d-721131d392e3.yaml
 ./poc/cve/CVE-2023-3604-fad4b2ec60a4f2b9e325170ec1474550.yaml
 ./poc/cve/CVE-2023-3604.yaml
+./poc/cve/CVE-2023-36144.yaml
 ./poc/cve/CVE-2023-36144_1.yaml
 ./poc/cve/CVE-2023-36144_2.yaml
 ./poc/cve/CVE-2023-36162.yaml
@@ -68516,6 +68513,7 @@
 ./poc/cve/CVE-2023-3814_2.yaml
 ./poc/cve/CVE-2023-38191.yaml
 ./poc/cve/CVE-2023-38192.yaml
+./poc/cve/CVE-2023-38194.yaml
 ./poc/cve/CVE-2023-38194_1.yaml
 ./poc/cve/CVE-2023-38203.yaml
 ./poc/cve/CVE-2023-38203_1.yaml
@@ -68701,6 +68699,7 @@
 ./poc/cve/CVE-2023-3869-wpdiscuz-b30ac1b0-eae2-4194-bf8e-ae73b4236965.yaml
 ./poc/cve/CVE-2023-3869.yaml
 ./poc/cve/CVE-2023-3869_2.yaml
+./poc/cve/CVE-2023-38879.yaml
 ./poc/cve/CVE-2023-38950.yaml
 ./poc/cve/CVE-2023-38964.yaml
 ./poc/cve/CVE-2023-38964_1.yaml
@@ -68715,6 +68714,7 @@
 ./poc/cve/CVE-2023-39003.yaml
 ./poc/cve/CVE-2023-39004.yaml
 ./poc/cve/CVE-2023-39005.yaml
+./poc/cve/CVE-2023-39007.yaml
 ./poc/cve/CVE-2023-39007_1.yaml
 ./poc/cve/CVE-2023-39008.yaml
 ./poc/cve/CVE-2023-39024_1.yaml
@@ -69267,6 +69267,7 @@
 ./poc/cve/CVE-2023-4035-70f93d19e69e64c44039be264d19b131.yaml
 ./poc/cve/CVE-2023-4035-simple_blog_card-78f6d878-6ba8-4d80-9c9b-1a363d6aaed5.yaml
 ./poc/cve/CVE-2023-4035.yaml
+./poc/cve/CVE-2023-40355.yaml
 ./poc/cve/CVE-2023-40355_1.yaml
 ./poc/cve/CVE-2023-40355_2.yaml
 ./poc/cve/CVE-2023-40355_3.yaml
@@ -69436,8 +69437,8 @@
 ./poc/cve/CVE-2023-40681-groundhogg-edafc213-a95f-483e-ac5f-d5b56817d046.yaml
 ./poc/cve/CVE-2023-40681.yaml
 ./poc/cve/CVE-2023-40748.yaml
-./poc/cve/CVE-2023-40749.yaml
 ./poc/cve/CVE-2023-40749_1.yaml
+./poc/cve/CVE-2023-40750.yaml
 ./poc/cve/CVE-2023-40750_1.yaml
 ./poc/cve/CVE-2023-40751.yaml
 ./poc/cve/CVE-2023-40751_1.yaml
@@ -69563,9 +69564,9 @@
 ./poc/cve/CVE-2023-41244_2.yaml
 ./poc/cve/CVE-2023-41265_1.yaml
 ./poc/cve/CVE-2023-41265_2.yaml
-./poc/cve/CVE-2023-41266.yaml
 ./poc/cve/CVE-2023-41266_1.yaml
 ./poc/cve/CVE-2023-41266_2.yaml
+./poc/cve/CVE-2023-4136.yaml
 ./poc/cve/CVE-2023-4139-dc0bf99e8ef50dbf67e2a374a811c849.yaml
 ./poc/cve/CVE-2023-4139-wp_ultimate_csv_importer-6404476e-0c32-4f8e-882f-6a1785ba5748.yaml
 ./poc/cve/CVE-2023-4139.yaml
@@ -69833,6 +69834,7 @@
 ./poc/cve/CVE-2023-4174.yaml
 ./poc/cve/CVE-2023-4174_1.yaml
 ./poc/cve/CVE-2023-4174_3.yaml
+./poc/cve/CVE-2023-41763.yaml
 ./poc/cve/CVE-2023-41763_1.yaml
 ./poc/cve/CVE-2023-41796-154f6d6cc72329b4eeecb3c255eb8941.yaml
 ./poc/cve/CVE-2023-41796-sunshine_photo_cart-2eae7c33-2347-4b34-8b5f-7f4a6ee3e9c1.yaml
@@ -70044,7 +70046,6 @@
 ./poc/cve/CVE-2023-4216-woo_orders_tracking-5a62e8b2-7606-4842-8be5-dff8634539d0.yaml
 ./poc/cve/CVE-2023-4216.yaml
 ./poc/cve/CVE-2023-4216_2.yaml
-./poc/cve/CVE-2023-4220.yaml
 ./poc/cve/CVE-2023-4220_1.yaml
 ./poc/cve/CVE-2023-4220_2.yaml
 ./poc/cve/CVE-2023-42268.yaml
@@ -70214,6 +70215,7 @@
 ./poc/cve/CVE-2023-4318_2.yaml
 ./poc/cve/CVE-2023-43193.yaml
 ./poc/cve/CVE-2023-43194.yaml
+./poc/cve/CVE-2023-43208.yaml
 ./poc/cve/CVE-2023-4321.yaml
 ./poc/cve/CVE-2023-43261.yaml
 ./poc/cve/CVE-2023-43261_1.yaml
@@ -70283,7 +70285,6 @@
 ./poc/cve/CVE-2023-44008.yaml
 ./poc/cve/CVE-2023-44009.yaml
 ./poc/cve/CVE-2023-44011.yaml
-./poc/cve/CVE-2023-44012.yaml
 ./poc/cve/CVE-2023-44012_1.yaml
 ./poc/cve/CVE-2023-44012_2.yaml
 ./poc/cve/CVE-2023-4402-1b9127ecbaee455b31f3148a779bb508.yaml
@@ -70455,7 +70456,6 @@
 ./poc/cve/CVE-2023-44352_1.yaml
 ./poc/cve/CVE-2023-44352_2.yaml
 ./poc/cve/CVE-2023-44352_3.yaml
-./poc/cve/CVE-2023-44353.yaml
 ./poc/cve/CVE-2023-44353_1.yaml
 ./poc/cve/CVE-2023-44353_2.yaml
 ./poc/cve/CVE-2023-44470-49ba1c074d5cf001741ed1502a6b000c.yaml
@@ -70497,7 +70497,6 @@
 ./poc/cve/CVE-2023-44479.yaml
 ./poc/cve/CVE-2023-44479_2.yaml
 ./poc/cve/CVE-2023-44487.yaml
-./poc/cve/CVE-2023-4450.yaml
 ./poc/cve/CVE-2023-4451.yaml
 ./poc/cve/CVE-2023-4451_1.yaml
 ./poc/cve/CVE-2023-4451_3.yaml
@@ -70536,6 +70535,7 @@
 ./poc/cve/CVE-2023-4488_2.yaml
 ./poc/cve/CVE-2023-4490-bccc8996593ba5f5d8bbe13f768da538.yaml
 ./poc/cve/CVE-2023-4490-wp_job_portal-d68d2144-96b9-482e-9791-c3506661596e.yaml
+./poc/cve/CVE-2023-4490.yaml
 ./poc/cve/CVE-2023-4490_2.yaml
 ./poc/cve/CVE-2023-44973.yaml
 ./poc/cve/CVE-2023-44974.yaml
@@ -70818,6 +70818,7 @@
 ./poc/cve/CVE-2023-45110-bold_timeline_lite-9bbabf5e-dbfc-4b01-94ae-0e8fd6b3cc26.yaml
 ./poc/cve/CVE-2023-45110.yaml
 ./poc/cve/CVE-2023-45110_2.yaml
+./poc/cve/CVE-2023-45136.yaml
 ./poc/cve/CVE-2023-45136_1.yaml
 ./poc/cve/CVE-2023-4514-e19f386cdf61ccc8a3f84465770e8f80.yaml
 ./poc/cve/CVE-2023-4514-mmm_file_list-c064227f-6332-40c8-9e96-337c608da832.yaml
@@ -70830,6 +70831,7 @@
 ./poc/cve/CVE-2023-4520_2.yaml
 ./poc/cve/CVE-2023-4521-55aa7b00ccb6900cccd84e5ecacd50e3.yaml
 ./poc/cve/CVE-2023-4521-import_xml_feed-c0856920-5463-4dd3-a4fd-e56901a89b83.yaml
+./poc/cve/CVE-2023-4521.yaml
 ./poc/cve/CVE-2023-4521_1.yaml
 ./poc/cve/CVE-2023-4521_2.yaml
 ./poc/cve/CVE-2023-45267-56d8f0d8462876614d9df9b25bc7bbb8.yaml
@@ -70872,7 +70874,6 @@
 ./poc/cve/CVE-2023-4536-4cbfdc30882328bd239ae7b63a1226cc.yaml
 ./poc/cve/CVE-2023-4536-my_account_page_editor-f87b6987-8896-4edf-9b14-8582426adeb0.yaml
 ./poc/cve/CVE-2023-4536.yaml
-./poc/cve/CVE-2023-45375.yaml
 ./poc/cve/CVE-2023-45375_1.yaml
 ./poc/cve/CVE-2023-45375_2.yaml
 ./poc/cve/CVE-2023-4542.yaml
@@ -71180,6 +71181,7 @@
 ./poc/cve/CVE-2023-45855.yaml
 ./poc/cve/CVE-2023-45855_1.yaml
 ./poc/cve/CVE-2023-45856.yaml
+./poc/cve/CVE-2023-45878.yaml
 ./poc/cve/CVE-2023-45878_1.yaml
 ./poc/cve/CVE-2023-45881.yaml
 ./poc/cve/CVE-2023-4596-9447b369d5045eb005d55eea3025f099.yaml
@@ -71537,7 +71539,6 @@
 ./poc/cve/CVE-2023-4645-26b18a60defa44a42e7bdeb4632c8c06.yaml
 ./poc/cve/CVE-2023-4645-ad_inserter-57b3eef3-e165-45ac-89d7-2a2a6529b310.yaml
 ./poc/cve/CVE-2023-4645.yaml
-./poc/cve/CVE-2023-46455.yaml
 ./poc/cve/CVE-2023-4645_2.yaml
 ./poc/cve/CVE-2023-4646-903a88c85452e908c541b533dd7f1571.yaml
 ./poc/cve/CVE-2023-4646-simple_posts_ticker-ec1ffc70-fc0c-4c25-926c-e78e0f206d2b.yaml
@@ -71797,13 +71798,11 @@
 ./poc/cve/CVE-2023-4703-abd33185e9a1cfe9176774cce9a1e2d3.yaml
 ./poc/cve/CVE-2023-4703-all_in_one_b2b_for_woocommerce-aab3016d-5834-4b4a-a206-0b626884b335.yaml
 ./poc/cve/CVE-2023-4703.yaml
-./poc/cve/CVE-2023-47105.yaml
 ./poc/cve/CVE-2023-47105_1.yaml
 ./poc/cve/CVE-2023-47115.yaml
 ./poc/cve/CVE-2023-47115_1.yaml
 ./poc/cve/CVE-2023-47115_2.yaml
 ./poc/cve/CVE-2023-47115_3.yaml
-./poc/cve/CVE-2023-47117.yaml
 ./poc/cve/CVE-2023-47117_1.yaml
 ./poc/cve/CVE-2023-4714.yaml
 ./poc/cve/CVE-2023-4714_1.yaml
@@ -71980,7 +71979,6 @@
 ./poc/cve/CVE-2023-4725-2730f14fa6ecb9ceaab790acf29d39a9.yaml
 ./poc/cve/CVE-2023-4725-simple_posts_ticker-9ac2c929-2188-4818-880d-8793984e8df1.yaml
 ./poc/cve/CVE-2023-4725.yaml
-./poc/cve/CVE-2023-47253.yaml
 ./poc/cve/CVE-2023-47253_1.yaml
 ./poc/cve/CVE-2023-4725_2.yaml
 ./poc/cve/CVE-2023-4726-881925f76e8d40b4c26d5e5fb93d4206.yaml
@@ -72819,6 +72817,7 @@
 ./poc/cve/CVE-2023-4800-1b70b4fc33e79ddc3b63c71c147dcfc5.yaml
 ./poc/cve/CVE-2023-4800-dologin-24e2b96c-665f-4616-ac99-1a2b1b0a9ccd.yaml
 ./poc/cve/CVE-2023-4800.yaml
+./poc/cve/CVE-2023-48022.yaml
 ./poc/cve/CVE-2023-48023-ray.yaml
 ./poc/cve/CVE-2023-48023_1.yaml
 ./poc/cve/CVE-2023-48023_2.yaml
@@ -72863,7 +72862,6 @@
 ./poc/cve/CVE-2023-4824-c73ffd1006fc763b31fef299c4d252b8.yaml
 ./poc/cve/CVE-2023-4824-woohoo-2c657483-204c-4117-ac7c-c0522d9c3816.yaml
 ./poc/cve/CVE-2023-4824.yaml
-./poc/cve/CVE-2023-48241.yaml
 ./poc/cve/CVE-2023-48241_1.yaml
 ./poc/cve/CVE-2023-4826-a7eea1e12eb01f19b0139de952161b4a.yaml
 ./poc/cve/CVE-2023-4826-socialdriver-24ac60fe-d751-43c7-89c1-5c0c9651e8f8.yaml
@@ -73083,7 +73081,6 @@
 ./poc/cve/CVE-2023-4862.yaml
 ./poc/cve/CVE-2023-4863.yaml
 ./poc/cve/CVE-2023-48725.yaml
-./poc/cve/CVE-2023-48728.yaml
 ./poc/cve/CVE-2023-48737-3c2a921dee0d07f703b6a5ad63b81891.yaml
 ./poc/cve/CVE-2023-48737-tripay_payment_gateway-946add6f-4cd5-4c55-9399-a782140f217c.yaml
 ./poc/cve/CVE-2023-48737.yaml
@@ -73314,6 +73311,7 @@
 ./poc/cve/CVE-2023-48776_2.yaml
 ./poc/cve/CVE-2023-48777-b7dfd7db53f0a88205b97d6fcfe5fae4.yaml
 ./poc/cve/CVE-2023-48777-elementor-5b6d0a38-ac28-41c9-9da1-b30b3657b463.yaml
+./poc/cve/CVE-2023-48777.yaml
 ./poc/cve/CVE-2023-48777_1.yaml
 ./poc/cve/CVE-2023-48777_2.yaml
 ./poc/cve/CVE-2023-48777_3.yaml
@@ -73585,7 +73583,6 @@
 ./poc/cve/CVE-2023-4923-e14e057eee873a8236dfe8d688c46d4c.yaml
 ./poc/cve/CVE-2023-4923-woo_bulk_editor-7a4db03d-ec40-4145-aa95-fee78bda5205.yaml
 ./poc/cve/CVE-2023-4923.yaml
-./poc/cve/CVE-2023-49230.yaml
 ./poc/cve/CVE-2023-4923_2.yaml
 ./poc/cve/CVE-2023-4924-fb81053fb67c7bb38bac8e6630e55f3a.yaml
 ./poc/cve/CVE-2023-4924-woo_bulk_editor-7dfd0246-4265-4dde-8a1e-18b7042eae74.yaml
@@ -73658,7 +73655,6 @@
 ./poc/cve/CVE-2023-4948_2.yaml
 ./poc/cve/CVE-2023-49492.yaml
 ./poc/cve/CVE-2023-49493.yaml
-./poc/cve/CVE-2023-49494.yaml
 ./poc/cve/CVE-2023-49494_1.yaml
 ./poc/cve/CVE-2023-4950-d0aa0eab4d1342d5d26ba922635986d0.yaml
 ./poc/cve/CVE-2023-4950-funnelforms_free-ebcbf872-1420-4a57-a4b4-8a52ba74e0a1.yaml
@@ -74088,6 +74084,7 @@
 ./poc/cve/CVE-2023-5001_2.yaml
 ./poc/cve/CVE-2023-5003-a272c0291338f1fc49b7847bf05b0b46.yaml
 ./poc/cve/CVE-2023-5003-ldap_login_for_intranet_sites-8a15ab92-2142-43cb-9600-f4cfa164de31.yaml
+./poc/cve/CVE-2023-5003.yaml
 ./poc/cve/CVE-2023-5003_1.yaml
 ./poc/cve/CVE-2023-5003_2.yaml
 ./poc/cve/CVE-2023-5003_3.yaml
@@ -74483,13 +74480,13 @@
 ./poc/cve/CVE-2023-50905-ac823d28180ea56491492434706155dd.yaml
 ./poc/cve/CVE-2023-50905-wp_security_audit_log-63c6eca6-9b55-48b5-ada3-97dd20d60f31.yaml
 ./poc/cve/CVE-2023-50905.yaml
+./poc/cve/CVE-2023-50917.yaml
 ./poc/cve/CVE-2023-50917_1.yaml
 ./poc/cve/CVE-2023-50917_2.yaml
 ./poc/cve/CVE-2023-50917_3.yaml
 ./poc/cve/CVE-2023-5096-6e62427777121f73fbdb340a70c9400c.yaml
 ./poc/cve/CVE-2023-5096-hk_filter_and_search-157eddd4-67f0-4a07-b3ab-11dbfb9f12aa.yaml
 ./poc/cve/CVE-2023-5096.yaml
-./poc/cve/CVE-2023-50968.yaml
 ./poc/cve/CVE-2023-50968_1.yaml
 ./poc/cve/CVE-2023-50968_2.yaml
 ./poc/cve/CVE-2023-5096_2.yaml
@@ -75527,7 +75524,6 @@
 ./poc/cve/CVE-2023-52219-gecka_terms_thumbnails-07abe182-370f-4241-9631-387a7930f2f6.yaml
 ./poc/cve/CVE-2023-52219.yaml
 ./poc/cve/CVE-2023-52219_2.yaml
-./poc/cve/CVE-2023-5222.yaml
 ./poc/cve/CVE-2023-52220-834d1851202c7735e4eaa13ae7b29158.yaml
 ./poc/cve/CVE-2023-52220-google_analytics_for_wordpress-81099cdc-bce6-4ee6-b819-c3925acf96a8.yaml
 ./poc/cve/CVE-2023-52220.yaml
@@ -75580,7 +75576,6 @@
 ./poc/cve/CVE-2023-52234-b2b4dde404db65c0d21666126d3cafba.yaml
 ./poc/cve/CVE-2023-52234-booster_elite_for_woocommerce-f4afcb16-9c97-483f-be48-31b5156bcca3.yaml
 ./poc/cve/CVE-2023-52234.yaml
-./poc/cve/CVE-2023-52251.yaml
 ./poc/cve/CVE-2023-52251_1.yaml
 ./poc/cve/CVE-2023-5227.yaml
 ./poc/cve/CVE-2023-52274.yaml
@@ -75959,7 +75954,6 @@
 ./poc/cve/CVE-2023-5556_3.yaml
 ./poc/cve/CVE-2023-5558-44db59ebd3cc0712c555daf36464467a.yaml
 ./poc/cve/CVE-2023-5558-learnpress-81fd3ac1-91af-4cfa-ac4e-712beb4236c0.yaml
-./poc/cve/CVE-2023-5558.yaml
 ./poc/cve/CVE-2023-5558_1.yaml
 ./poc/cve/CVE-2023-5558_2.yaml
 ./poc/cve/CVE-2023-5558_3.yaml
@@ -76381,7 +76375,6 @@
 ./poc/cve/CVE-2023-5911-wp_custom_cursors-a0c04f12-7602-4d57-aa0c-54ecbf7f8875.yaml
 ./poc/cve/CVE-2023-5911.yaml
 ./poc/cve/CVE-2023-5911_2.yaml
-./poc/cve/CVE-2023-5914.yaml
 ./poc/cve/CVE-2023-5914_1.yaml
 ./poc/cve/CVE-2023-5914_2.yaml
 ./poc/cve/CVE-2023-5922-216a596381bb0e9f2acfb7b20914c557.yaml
@@ -76453,7 +76446,6 @@
 ./poc/cve/CVE-2023-5971_1.yaml
 ./poc/cve/CVE-2023-5974-39406846356a9809e9773762e2368232.yaml
 ./poc/cve/CVE-2023-5974-wpb_show_core-dec2e656-8936-43e2-b156-e96718fd7ef4.yaml
-./poc/cve/CVE-2023-5974.yaml
 ./poc/cve/CVE-2023-5974_3.yaml
 ./poc/cve/CVE-2023-5974_4.yaml
 ./poc/cve/CVE-2023-5975-7f89bad4dcbb0e3016a141e4d7d4a6d1.yaml
@@ -76475,7 +76467,6 @@
 ./poc/cve/CVE-2023-5982_2.yaml
 ./poc/cve/CVE-2023-5991-0ef1caaa8564f58546d7d3639cf8ce8d.yaml
 ./poc/cve/CVE-2023-5991-motopress_hotel_booking_lite-8de25651-4119-4806-91e4-4ea213086bfb.yaml
-./poc/cve/CVE-2023-5991.yaml
 ./poc/cve/CVE-2023-5991_1.yaml
 ./poc/cve/CVE-2023-5991_2.yaml
 ./poc/cve/CVE-2023-5991_3.yaml
@@ -76514,10 +76505,10 @@
 ./poc/cve/CVE-2023-6020_1.yaml
 ./poc/cve/CVE-2023-6020_2.yaml
 ./poc/cve/CVE-2023-6021-ray.yaml
+./poc/cve/CVE-2023-6021.yaml
 ./poc/cve/CVE-2023-6021_1.yaml
 ./poc/cve/CVE-2023-6021_2.yaml
 ./poc/cve/CVE-2023-6021_3.yaml
-./poc/cve/CVE-2023-6023.yaml
 ./poc/cve/CVE-2023-6023_1.yaml
 ./poc/cve/CVE-2023-6023_2.yaml
 ./poc/cve/CVE-2023-6023_3.yaml
@@ -76563,7 +76554,6 @@
 ./poc/cve/CVE-2023-6050_2.yaml
 ./poc/cve/CVE-2023-6063-9aa0fbf598384953075c0bd6941b304f.yaml
 ./poc/cve/CVE-2023-6063-wp_fastest_cache-876efd71-8867-44b8-8017-86fad2a1b89f.yaml
-./poc/cve/CVE-2023-6063.yaml
 ./poc/cve/CVE-2023-6063_1.yaml
 ./poc/cve/CVE-2023-6063_2.yaml
 ./poc/cve/CVE-2023-6063_4.yaml
@@ -76573,6 +76563,7 @@
 ./poc/cve/CVE-2023-6064_2.yaml
 ./poc/cve/CVE-2023-6065-5ad50c58e298bc77570d945554b07077.yaml
 ./poc/cve/CVE-2023-6065-quttera_web_malware_scanner-2163af55-1ea4-4c60-b9f0-baf99297c6bc.yaml
+./poc/cve/CVE-2023-6065.yaml
 ./poc/cve/CVE-2023-6065_1.yaml
 ./poc/cve/CVE-2023-6065_2.yaml
 ./poc/cve/CVE-2023-6065_3.yaml
@@ -76758,7 +76749,6 @@
 ./poc/cve/CVE-2023-6272-tml_2fa-1398e296-9b20-4f8e-85f2-896888abc67e.yaml
 ./poc/cve/CVE-2023-6272.yaml
 ./poc/cve/CVE-2023-6272_2.yaml
-./poc/cve/CVE-2023-6275.yaml
 ./poc/cve/CVE-2023-6275_1.yaml
 ./poc/cve/CVE-2023-6279-90b7b4f51c6be2130f0fc246b2a1229e.yaml
 ./poc/cve/CVE-2023-6279-woostify_sites_library-977ab23a-06b2-4f54-a2c2-3be2316eaceb.yaml
@@ -76794,6 +76784,7 @@
 ./poc/cve/CVE-2023-6327-woolentor_addons-263324cb-31b7-40ad-ad7d-4582e128cd75.yaml
 ./poc/cve/CVE-2023-6327.yaml
 ./poc/cve/CVE-2023-6327_1.yaml
+./poc/cve/CVE-2023-6329.yaml
 ./poc/cve/CVE-2023-6329_1.yaml
 ./poc/cve/CVE-2023-6360-2e54a145911ffe4ecd3abc50486c57b4.yaml
 ./poc/cve/CVE-2023-6360-my_calendar-496b1c3a-7fbb-4088-9936-6b023718946d.yaml
@@ -76833,6 +76824,7 @@
 ./poc/cve/CVE-2023-6385_1.yaml
 ./poc/cve/CVE-2023-6389-2ea702ce774bb940fef37b7db5d75cd9.yaml
 ./poc/cve/CVE-2023-6389-wordpress_toolbar-e88a45e5-f882-419e-b0b0-612912666693.yaml
+./poc/cve/CVE-2023-6389.yaml
 ./poc/cve/CVE-2023-6389_1.yaml
 ./poc/cve/CVE-2023-6389_2.yaml
 ./poc/cve/CVE-2023-6389_3.yaml
@@ -76984,6 +76976,7 @@
 ./poc/cve/CVE-2023-6541_2.yaml
 ./poc/cve/CVE-2023-6553-backup_backup-3511ba64-56a3-43d7-8ab8-c6e40e3b686e.yaml
 ./poc/cve/CVE-2023-6553-f774997aafad1e3f54d7eb9b5c1f5252.yaml
+./poc/cve/CVE-2023-6553.yaml
 ./poc/cve/CVE-2023-6553_1.yaml
 ./poc/cve/CVE-2023-6553_2.yaml
 ./poc/cve/CVE-2023-6553_3.yaml
@@ -77098,6 +77091,7 @@
 ./poc/cve/CVE-2023-6633_2.yaml
 ./poc/cve/CVE-2023-6634-25d493b4d5f6c92aed0d36f5ef47181a.yaml
 ./poc/cve/CVE-2023-6634-learnpress-21291ed7-cdc0-4698-9ec4-8417160845ed.yaml
+./poc/cve/CVE-2023-6634.yaml
 ./poc/cve/CVE-2023-6634_1.yaml
 ./poc/cve/CVE-2023-6634_2.yaml
 ./poc/cve/CVE-2023-6634_3.yaml
@@ -77327,7 +77321,6 @@
 ./poc/cve/CVE-2023-6830.yaml
 ./poc/cve/CVE-2023-6830_2.yaml
 ./poc/cve/CVE-2023-6831-MLflow.yaml
-./poc/cve/CVE-2023-6831.yaml
 ./poc/cve/CVE-2023-6831_1.yaml
 ./poc/cve/CVE-2023-6842-d09e75e3be32d3953b24ebb848235088.yaml
 ./poc/cve/CVE-2023-6842-formidable-47e402c3-e06c-4ac9-8c60-5666cb1101ce.yaml
@@ -77566,6 +77559,7 @@
 ./poc/cve/CVE-2023-6988_2.yaml
 ./poc/cve/CVE-2023-6989-f3e101de1aabc79baa4bde571ba04314.yaml
 ./poc/cve/CVE-2023-6989-wp_simple_firewall-063826cc-7ff3-4869-9831-f6a4a4bbe74c.yaml
+./poc/cve/CVE-2023-6989.yaml
 ./poc/cve/CVE-2023-6989_1.yaml
 ./poc/cve/CVE-2023-6989_2.yaml
 ./poc/cve/CVE-2023-6989_3.yaml
@@ -77837,6 +77831,7 @@
 ./poc/cve/CVE-2023-7239_2.yaml
 ./poc/cve/CVE-2023-7246-b96b09ae04ea20d9d42912359eae1134.yaml
 ./poc/cve/CVE-2023-7246-system_dashboard-c5b9e53e-d2d3-40a0-adba-f489343c6ee6.yaml
+./poc/cve/CVE-2023-7246.yaml
 ./poc/cve/CVE-2023-7246_1.yaml
 ./poc/cve/CVE-2023-7246_2.yaml
 ./poc/cve/CVE-2023-7246_3.yaml
@@ -77955,6 +77950,7 @@
 ./poc/cve/CVE-2024-0235-7d06707541d916f1c3d92e134fdc503b.yaml
 ./poc/cve/CVE-2024-0235-eventon-d2994fbb-29b0-4725-a046-edeca4bcbcd7.yaml
 ./poc/cve/CVE-2024-0235-eventon_lite-d2994fbb-29b0-4725-a046-edeca4bcbcd7.yaml
+./poc/cve/CVE-2024-0235.yaml
 ./poc/cve/CVE-2024-0235_1.yaml
 ./poc/cve/CVE-2024-0235_2.yaml
 ./poc/cve/CVE-2024-0235_3.yaml
@@ -77983,7 +77979,6 @@
 ./poc/cve/CVE-2024-0249_2.yaml
 ./poc/cve/CVE-2024-0250-analytics_insights-23a3a4c5-0af0-4b5f-b3c7-bf670efea84f.yaml
 ./poc/cve/CVE-2024-0250-fea399aed8554b4e388d3a9027c28e2d.yaml
-./poc/cve/CVE-2024-0250.yaml
 ./poc/cve/CVE-2024-0250_1.yaml
 ./poc/cve/CVE-2024-0250_2.yaml
 ./poc/cve/CVE-2024-0250_3.yaml
@@ -78030,6 +78025,7 @@
 ./poc/cve/CVE-2024-0337_1.yaml
 ./poc/cve/CVE-2024-0337_2.yaml
 ./poc/cve/CVE-2024-0337_3.yaml
+./poc/cve/CVE-2024-0352.yaml
 ./poc/cve/CVE-2024-0352_1.yaml
 ./poc/cve/CVE-2024-0352_2.yaml
 ./poc/cve/CVE-2024-0365-3100b916cccc8039301c892a0f25e094.yaml
@@ -78727,7 +78723,6 @@
 ./poc/cve/CVE-2024-0873_2.yaml
 ./poc/cve/CVE-2024-0881-08699ab33e37c6453296b14c70737df4.yaml
 ./poc/cve/CVE-2024-0881-post_grid-e23dcadf-5858-4b8e-8b48-d3133c40cd89.yaml
-./poc/cve/CVE-2024-0881.yaml
 ./poc/cve/CVE-2024-0892-2ea1023056b29d4ab99c4e9589a8e783.yaml
 ./poc/cve/CVE-2024-0892-4b62382a6fe35f459a40dd51e726706c.yaml
 ./poc/cve/CVE-2024-0892-schema_app_structured_data_for_schemaorg-254291b3-a30d-44ff-9df4-6ba700a9efc9.yaml
@@ -78886,6 +78881,7 @@
 ./poc/cve/CVE-2024-0984.yaml
 ./poc/cve/CVE-2024-0984_2.yaml
 ./poc/cve/CVE-2024-0986-info-disclosure.yaml
+./poc/cve/CVE-2024-0986.yaml
 ./poc/cve/CVE-2024-10000-694d94278b136ae533a9c85fde05b877.yaml
 ./poc/cve/CVE-2024-10000-learning_management_system-575f103e-cfc7-4efd-a592-658a3e919671.yaml
 ./poc/cve/CVE-2024-10000.yaml
@@ -79259,7 +79255,6 @@
 ./poc/cve/CVE-2024-10399.yaml
 ./poc/cve/CVE-2024-10400-de272dff68c05ca8d8505bbaa1aefcf8.yaml
 ./poc/cve/CVE-2024-10400-tutor-bcf37d4e-e94a-4046-9949-c208e4e70197.yaml
-./poc/cve/CVE-2024-10400.yaml
 ./poc/cve/CVE-2024-10400_1.yaml
 ./poc/cve/CVE-2024-10402-d19daccb93672a4dbbaf6e7359c6a5a0.yaml
 ./poc/cve/CVE-2024-10402-forminator-be1d9d2b-cbdf-4d62-85fe-2616eaf02848.yaml
@@ -79343,7 +79338,6 @@
 ./poc/cve/CVE-2024-10484_1.yaml
 ./poc/cve/CVE-2024-10486-e1a737fbb540843ef41698242e6c7245.yaml
 ./poc/cve/CVE-2024-10486-google_listings_and_ads-64bc7d47-6b63-4fd9-85d4-82126f86308a.yaml
-./poc/cve/CVE-2024-10486.yaml
 ./poc/cve/CVE-2024-10486_1.yaml
 ./poc/cve/CVE-2024-1049-0e66fa189b7475aa8bef5ee2db21f9f7.yaml
 ./poc/cve/CVE-2024-1049-coblocks-56d1d152-946f-47c9-b0d5-76513370677f.yaml
@@ -79790,6 +79784,7 @@
 ./poc/cve/CVE-2024-10783-194d14e49a97ce9ed7766354ddcc8c6e.yaml
 ./poc/cve/CVE-2024-10783-ee63f516fd8ff716bac2012b58097e36.yaml
 ./poc/cve/CVE-2024-10783-mainwp_child-9156e536-a58e-4d78-b136-af8a9613ee23.yaml
+./poc/cve/CVE-2024-10783.yaml
 ./poc/cve/CVE-2024-10783_1.yaml
 ./poc/cve/CVE-2024-10784-a9a3accfcb71b14272acd952c8e27676.yaml
 ./poc/cve/CVE-2024-10784-unlimited_elements_for_elementor-0149ae49-5d40-4431-9612-04182afce2ec.yaml
@@ -80029,7 +80024,6 @@
 ./poc/cve/CVE-2024-10900_1.yaml
 ./poc/cve/CVE-2024-10903-broken_link_checker-8e04769b-2977-48fc-8ec8-bb0b2905f89c.yaml
 ./poc/cve/CVE-2024-10903-fdc2e7edc3fafbc38250ad146d5d83df.yaml
-./poc/cve/CVE-2024-10908.yaml
 ./poc/cve/CVE-2024-10909-308c66fb506ba01c372d73eaeb9b223a.yaml
 ./poc/cve/CVE-2024-10909-pojo_forms-511ce6f6-aea3-4c37-8312-d6e5ff2fdf6f.yaml
 ./poc/cve/CVE-2024-10909_1.yaml
@@ -80041,7 +80035,6 @@
 ./poc/cve/CVE-2024-10913-293ddeaa8a2577b31fabdbc30afdd8d5.yaml
 ./poc/cve/CVE-2024-10913-wp_clone_by_wp_academy-16569267-ab52-4b96-86f0-d37c470a3938.yaml
 ./poc/cve/CVE-2024-10914.yaml
-./poc/cve/CVE-2024-10915.yaml
 ./poc/cve/CVE-2024-10916.yaml
 ./poc/cve/CVE-2024-1091_2.yaml
 ./poc/cve/CVE-2024-1092-85884fcb891f00df0a641ec67066fc07.yaml
@@ -80132,7 +80125,6 @@
 ./poc/cve/CVE-2024-11036-gamipress-bad0cd3f-88ea-4a1d-b400-0a450b07a546.yaml
 ./poc/cve/CVE-2024-11038-e55e27e423fe33c29e77cb0449448d5a.yaml
 ./poc/cve/CVE-2024-11038-wpb_popup_for_contact_form_7-a7faa800-3b29-4b79-8b94-1e7985acb50d.yaml
-./poc/cve/CVE-2024-11044.yaml
 ./poc/cve/CVE-2024-11052-46302f570fe994506822128688286180.yaml
 ./poc/cve/CVE-2024-11052-ninja_forms-c3adf367-0126-4d95-b337-cc3581975113.yaml
 ./poc/cve/CVE-2024-11052_1.yaml
@@ -80456,7 +80448,6 @@
 ./poc/cve/CVE-2024-1130-nex_forms_express_wp_form_builder-f2c3b646-d865-4425-bc8f-00b3555a3d74.yaml
 ./poc/cve/CVE-2024-1130.yaml
 ./poc/cve/CVE-2024-11303.yaml
-./poc/cve/CVE-2024-11305.yaml
 ./poc/cve/CVE-2024-1130_2.yaml
 ./poc/cve/CVE-2024-11320.yaml
 ./poc/cve/CVE-2024-11323-93b3a3a19c4e461d1bd3833545daae0f.yaml
@@ -80628,6 +80619,7 @@
 ./poc/cve/CVE-2024-11391-file_manager_advanced-f14a658c-1517-4af4-8bd7-c379ac07ab35.yaml
 ./poc/cve/CVE-2024-11396-0ed6724d31560991c600a6b77c7fe371.yaml
 ./poc/cve/CVE-2024-11396-event_monster-0f522dfe-f2c2-4adb-980c-1f03d3c26e12.yaml
+./poc/cve/CVE-2024-11396.yaml
 ./poc/cve/CVE-2024-11396_1.yaml
 ./poc/cve/CVE-2024-11400-54d1c0bfa8a78c2c6541ad6e842566d4.yaml
 ./poc/cve/CVE-2024-11400-woocommerce_products_filter-f3158e77-39b3-4151-8f10-5824000a585a.yaml
@@ -81148,6 +81140,7 @@
 ./poc/cve/CVE-2024-11827-ootb_openstreetmap-c67c958e-1ab2-498c-b665-73e239d0029b.yaml
 ./poc/cve/CVE-2024-11829-8b23e5c5cc33d83c24529481c045d09c.yaml
 ./poc/cve/CVE-2024-11829-the_plus_addons_for_elementor_page_builder-edf62f82-448a-4ed8-8d4b-7215223494cb.yaml
+./poc/cve/CVE-2024-1183.yaml
 ./poc/cve/CVE-2024-11830-3d_flipbook_dflip_lite-88391d02-66d9-4c00-a519-17f92f64a17a.yaml
 ./poc/cve/CVE-2024-11830-44d06bb406be950cdb81fbeea794891c.yaml
 ./poc/cve/CVE-2024-11832-beaver_builder_lite_version-1988ff5e-2d3f-4901-8bcc-eb0a7da7566c.yaml
@@ -81326,6 +81319,7 @@
 ./poc/cve/CVE-2024-11918-image_alt_text-22143fe3-e599-4b44-99c0-ba66d88ff5d6.yaml
 ./poc/cve/CVE-2024-11921-408ec902f54ba70b447e3c8902a0cefa.yaml
 ./poc/cve/CVE-2024-11921-give-18c0f717-6825-4421-af53-68f1cf502f81.yaml
+./poc/cve/CVE-2024-11921.yaml
 ./poc/cve/CVE-2024-11921_1.yaml
 ./poc/cve/CVE-2024-11924-9979fa9b55ec449f0415ef17884cfc37.yaml
 ./poc/cve/CVE-2024-11924-email_subscribers-5cdc0e86-c1dc-4069-a9c0-08bbf1a9c17c.yaml
@@ -81515,6 +81509,7 @@
 ./poc/cve/CVE-2024-1208_2.yaml
 ./poc/cve/CVE-2024-1209-262fb41bb4526e178dfcbc92b07bdb7c.yaml
 ./poc/cve/CVE-2024-1209-sfwd_lms-7191955e-0db1-4ad1-878b-74f90ca59c91.yaml
+./poc/cve/CVE-2024-1209.yaml
 ./poc/cve/CVE-2024-12096-18f5e0d57b350b6af358645ad6047aad.yaml
 ./poc/cve/CVE-2024-12096-exhibit_to_wp_gallery-daf6ae92-dd50-4592-bb61-047a7ecd3646.yaml
 ./poc/cve/CVE-2024-12096_1.yaml
@@ -81942,6 +81937,7 @@
 ./poc/cve/CVE-2024-1235-21d1ea5a670d46cfb24ae9fe13a6deb9.yaml
 ./poc/cve/CVE-2024-1235-addons_for_elementor-70bda4b7-e442-4956-b3cb-8df96043bcde.yaml
 ./poc/cve/CVE-2024-1235.yaml
+./poc/cve/CVE-2024-12356.yaml
 ./poc/cve/CVE-2024-1235_2.yaml
 ./poc/cve/CVE-2024-1236-8daefb6732783def2c76d904936d05ae.yaml
 ./poc/cve/CVE-2024-1236-essential_addons_for_elementor_lite-43014ecd-72d9-44cc-be24-c0c9790ddc20.yaml
@@ -82580,7 +82576,6 @@
 ./poc/cve/CVE-2024-12822-userpro_mediamanager-a57b2afa-b943-419f-9819-d7b6835c4d10.yaml
 ./poc/cve/CVE-2024-12824-f0974c72a72a76fe869aa50efbbd21f9.yaml
 ./poc/cve/CVE-2024-12824-nokri-60a7cce0-637f-49bd-aa4a-fd7023d99a64.yaml
-./poc/cve/CVE-2024-12824.yaml
 ./poc/cve/CVE-2024-12825-b8f63f7dbcd3506496a18afde4d3a9d9.yaml
 ./poc/cve/CVE-2024-12825-custom_related_posts-40ba98a0-2193-4201-8370-34fd438dadb3.yaml
 ./poc/cve/CVE-2024-12826-17ec73363b1b033756b2f876127836ac.yaml
@@ -82781,7 +82776,6 @@
 ./poc/cve/CVE-2024-13125-everest_forms-db1f8575-aff7-43b3-83ed-8fd146914d0e.yaml
 ./poc/cve/CVE-2024-13126-8ae4283312fc9507ae839a785f5da1ea.yaml
 ./poc/cve/CVE-2024-13126-download_manager-8d07b7c1-8180-4b2a-bf35-2c5b3d419152.yaml
-./poc/cve/CVE-2024-13126.yaml
 ./poc/cve/CVE-2024-13127-1c80ecbb8ff6bb8e7f481b74e05b57e1.yaml
 ./poc/cve/CVE-2024-13127-learnpress-0a79f8f6-a708-4db1-806d-1f782bbcfd16.yaml
 ./poc/cve/CVE-2024-13128-243e08dc66c0f0da098e6a9b3987b3c9.yaml
@@ -82808,7 +82802,6 @@
 ./poc/cve/CVE-2024-1316-event_tickets-5c9d08f5-7c94-40e7-979f-023456aeb54e.yaml
 ./poc/cve/CVE-2024-1316-event_tickets_plus-5c9d08f5-7c94-40e7-979f-023456aeb54e.yaml
 ./poc/cve/CVE-2024-1316.yaml
-./poc/cve/CVE-2024-13160.yaml
 ./poc/cve/CVE-2024-13160_1.yaml
 ./poc/cve/CVE-2024-13161.yaml
 ./poc/cve/CVE-2024-13161_1.yaml
@@ -84246,6 +84239,7 @@
 ./poc/cve/CVE-2024-13887-business_directory_plugin-06c3de6d-92e7-46f8-86a9-37f027767fc0.yaml
 ./poc/cve/CVE-2024-13888-c7efdd4b22ede20af743a6526eb047f4.yaml
 ./poc/cve/CVE-2024-13888-wpappninja-a139f0fc-f3e0-4759-aa8d-ba138e5ccc87.yaml
+./poc/cve/CVE-2024-13888.yaml
 ./poc/cve/CVE-2024-13888_1.yaml
 ./poc/cve/CVE-2024-13889-572b8ac07dc6a9ded1507f47117e7ccf.yaml
 ./poc/cve/CVE-2024-13889-wordpress_importer-5f0795f7-6eba-4ff0-b0da-5d2b544adf14.yaml
@@ -84536,7 +84530,6 @@
 ./poc/cve/CVE-2024-1479-wp_show_posts-6788e2ee-ce61-494b-8d7f-6d1144466e58.yaml
 ./poc/cve/CVE-2024-1479.yaml
 ./poc/cve/CVE-2024-1479_2.yaml
-./poc/cve/CVE-2024-1483.yaml
 ./poc/cve/CVE-2024-1484-52f7f52f7f337214b880e324d4ed1b29.yaml
 ./poc/cve/CVE-2024-1484-ameliabooking-3a849ef2-ad0a-45ea-8827-9a7233b1ca30.yaml
 ./poc/cve/CVE-2024-1484.yaml
@@ -84660,7 +84653,6 @@
 ./poc/cve/CVE-2024-1559-link_library-407a5c69-cce0-4868-aef0-ffc88981e256.yaml
 ./poc/cve/CVE-2024-1559.yaml
 ./poc/cve/CVE-2024-1559_2.yaml
-./poc/cve/CVE-2024-1561.yaml
 ./poc/cve/CVE-2024-1561_1.yaml
 ./poc/cve/CVE-2024-1561_2.yaml
 ./poc/cve/CVE-2024-1561_3.yaml
@@ -84898,6 +84890,7 @@
 ./poc/cve/CVE-2024-1723.yaml
 ./poc/cve/CVE-2024-1723_2.yaml
 ./poc/cve/CVE-2024-1727.yaml
+./poc/cve/CVE-2024-1728.yaml
 ./poc/cve/CVE-2024-1728_1.yaml
 ./poc/cve/CVE-2024-1728_2.yaml
 ./poc/cve/CVE-2024-1730-8929a792a7ed53b7059630ce1c406af5.yaml
@@ -85499,13 +85492,11 @@
 ./poc/cve/CVE-2024-20439.yaml
 ./poc/cve/CVE-2024-20439_1.yaml
 ./poc/cve/CVE-2024-2043_2.yaml
-./poc/cve/CVE-2024-20440.yaml
 ./poc/cve/CVE-2024-20440_1.yaml
 ./poc/cve/CVE-2024-2047-35f6239f5aec31ff683133511cf924a4.yaml
 ./poc/cve/CVE-2024-2047-elementskit_lite-413e6326-14c6-4734-8adc-114a7842c574.yaml
 ./poc/cve/CVE-2024-2047.yaml
 ./poc/cve/CVE-2024-2047_2.yaml
-./poc/cve/CVE-2024-2053.yaml
 ./poc/cve/CVE-2024-20767.yaml
 ./poc/cve/CVE-2024-20767_1.yaml
 ./poc/cve/CVE-2024-20767_2.yaml
@@ -85716,6 +85707,7 @@
 ./poc/cve/CVE-2024-2144-23500ffb45bc67090c3825cea30b2db5.yaml
 ./poc/cve/CVE-2024-2144-ultimate_addons_for_beaver_builder_lite-552c0810-9687-4a66-91a4-e34228552a15.yaml
 ./poc/cve/CVE-2024-2144.yaml
+./poc/cve/CVE-2024-21485.yaml
 ./poc/cve/CVE-2024-21520.yaml
 ./poc/cve/CVE-2024-21520_1.yaml
 ./poc/cve/CVE-2024-2159-f92ee339e92c436f54a3a32d187db5ba.yaml
@@ -85725,11 +85717,12 @@
 ./poc/cve/CVE-2024-2163-4c370188065655705ee7ef45c88385e0.yaml
 ./poc/cve/CVE-2024-2163-ninja_beaver_lite_addons_for_beaver_builder-1e257954-9e44-4939-8e01-efceb3c0953a.yaml
 ./poc/cve/CVE-2024-2163.yaml
+./poc/cve/CVE-2024-21633.yaml
 ./poc/cve/CVE-2024-2163_1.yaml
 ./poc/cve/CVE-2024-21641.yaml
-./poc/cve/CVE-2024-21644.yaml
 ./poc/cve/CVE-2024-21644_1.yaml
 ./poc/cve/CVE-2024-21644_2.yaml
+./poc/cve/CVE-2024-21645.yaml
 ./poc/cve/CVE-2024-21645_1.yaml
 ./poc/cve/CVE-2024-21645_2.yaml
 ./poc/cve/CVE-2024-21645_3.yaml
@@ -85842,6 +85835,7 @@
 ./poc/cve/CVE-2024-2202-438477c7d2eef7cb631661af40a51016.yaml
 ./poc/cve/CVE-2024-2202-siteorigin_panels-52116a6f-506f-4eeb-9bcc-19900ef38101.yaml
 ./poc/cve/CVE-2024-2202.yaml
+./poc/cve/CVE-2024-22024.yaml
 ./poc/cve/CVE-2024-22024_1.yaml
 ./poc/cve/CVE-2024-22027-7661516af21cfb0288c7c83f716fb222.yaml
 ./poc/cve/CVE-2024-22027-quiz_maker-1e177e54-1a17-49d3-85b5-e4c6bf154320.yaml
@@ -85856,7 +85850,6 @@
 ./poc/cve/CVE-2024-2210-the_plus_addons_for_elementor_page_builder-30579058-54f4-4496-9275-078faf99823f.yaml
 ./poc/cve/CVE-2024-2210.yaml
 ./poc/cve/CVE-2024-2210_2.yaml
-./poc/cve/CVE-2024-22120.yaml
 ./poc/cve/CVE-2024-22134-0acb90c8af594860c66b93b71ce65fe0.yaml
 ./poc/cve/CVE-2024-22134-contact_form_7_mailchimp_extension-bed25977-040e-4427-b1e3-e9be9733b31f.yaml
 ./poc/cve/CVE-2024-22134.yaml
@@ -86111,7 +86104,6 @@
 ./poc/cve/CVE-2024-2232-e659f5e90ea4adfb811b5d7b4f0833a4.yaml
 ./poc/cve/CVE-2024-2232-himer-81bb4b60-a674-4276-b7e5-5626f9eb3ff8.yaml
 ./poc/cve/CVE-2024-2232.yaml
-./poc/cve/CVE-2024-22320.yaml
 ./poc/cve/CVE-2024-22320_1.yaml
 ./poc/cve/CVE-2024-22320_2.yaml
 ./poc/cve/CVE-2024-2233-e54d9f448834c7756fcfc5cd8ce2f305.yaml
@@ -86138,7 +86130,6 @@
 ./poc/cve/CVE-2024-2242-8b36c4ecd0a0c68d6b11572547227a00.yaml
 ./poc/cve/CVE-2024-2242-contact_form_7-d5bf4972-424a-4470-a0bc-7dcc95378e0e.yaml
 ./poc/cve/CVE-2024-2242.yaml
-./poc/cve/CVE-2024-22476.yaml
 ./poc/cve/CVE-2024-22476_1.yaml
 ./poc/cve/CVE-2024-2249-b93ba18ac6e98b19d2c00f91d0793a6c.yaml
 ./poc/cve/CVE-2024-2249-lastudio_element_kit-5113170a-5a53-4e53-84e6-56d9ba0740ed.yaml
@@ -86308,6 +86299,7 @@
 ./poc/cve/CVE-2024-2328-real_media_library_lite-d359dc78-fc90-4570-a768-5f1a05f865e1.yaml
 ./poc/cve/CVE-2024-2328.yaml
 ./poc/cve/CVE-2024-2328_2.yaml
+./poc/cve/CVE-2024-2330.yaml
 ./poc/cve/CVE-2024-2330_1.yaml
 ./poc/cve/CVE-2024-2330_2.yaml
 ./poc/cve/CVE-2024-23334.yaml
@@ -86509,6 +86501,7 @@
 ./poc/cve/CVE-2024-2387_2.yaml
 ./poc/cve/CVE-2024-2389.yaml
 ./poc/cve/CVE-2024-23897.yaml
+./poc/cve/CVE-2024-23917.yaml
 ./poc/cve/CVE-2024-2392-7bfe7ea4779aba265f4dcf37d83d468c.yaml
 ./poc/cve/CVE-2024-2392-blocksy_companion-b937cbfb-d43c-4cda-b247-921661cbc0ad.yaml
 ./poc/cve/CVE-2024-2392.yaml
@@ -86546,6 +86539,7 @@
 ./poc/cve/CVE-2024-2411.yaml
 ./poc/cve/CVE-2024-24112.yaml
 ./poc/cve/CVE-2024-24112_1.yaml
+./poc/cve/CVE-2024-24116.yaml
 ./poc/cve/CVE-2024-2411_2.yaml
 ./poc/cve/CVE-2024-24131.yaml
 ./poc/cve/CVE-2024-24131_1.yaml
@@ -86598,6 +86592,7 @@
 ./poc/cve/CVE-2024-2456-2694071fca0eba770c8e51b392626b21.yaml
 ./poc/cve/CVE-2024-2456-ecwid_shopping_cart-e10127aa-a5a5-4394-8b54-b57ba1369d77.yaml
 ./poc/cve/CVE-2024-2456.yaml
+./poc/cve/CVE-2024-24565.yaml
 ./poc/cve/CVE-2024-24565_1.yaml
 ./poc/cve/CVE-2024-2456_2.yaml
 ./poc/cve/CVE-2024-2457-2eb2e422a4d978ee0783b925972d366a.yaml
@@ -86774,6 +86769,7 @@
 ./poc/cve/CVE-2024-24805.yaml
 ./poc/cve/CVE-2024-24805_2.yaml
 ./poc/cve/CVE-2024-24808.yaml
+./poc/cve/CVE-2024-24809.yaml
 ./poc/cve/CVE-2024-24809_1.yaml
 ./poc/cve/CVE-2024-24809_2.yaml
 ./poc/cve/CVE-2024-24831-2dd35327453d967d61fa5f0c79329504.yaml
@@ -87152,7 +87148,6 @@
 ./poc/cve/CVE-2024-25669_2.yaml
 ./poc/cve/CVE-2024-25723.yaml
 ./poc/cve/CVE-2024-25723_1.yaml
-./poc/cve/CVE-2024-25735.yaml
 ./poc/cve/CVE-2024-25735_1.yaml
 ./poc/cve/CVE-2024-25735_2.yaml
 ./poc/cve/CVE-2024-2578-a164b02dbc87c2a13abb70b2d4fd91a5.yaml
@@ -87420,6 +87415,7 @@
 ./poc/cve/CVE-2024-2702-b7e962ff6e19e83f5be875df87658aad.yaml
 ./poc/cve/CVE-2024-2702-olive_one_click_demo_import-11b8c13b-2167-4fca-a981-a331fadc0439.yaml
 ./poc/cve/CVE-2024-2702.yaml
+./poc/cve/CVE-2024-27115.yaml
 ./poc/cve/CVE-2024-27130.yaml
 ./poc/cve/CVE-2024-27188-3e80b51dbae0f0fd95da022c1fdc71f5.yaml
 ./poc/cve/CVE-2024-27188-breeze-c56b1dca-3841-48df-837e-7973940e74e3.yaml
@@ -87464,7 +87460,6 @@
 ./poc/cve/CVE-2024-27198_1.yaml
 ./poc/cve/CVE-2024-27198_2.yaml
 ./poc/cve/CVE-2024-27198_3.yaml
-./poc/cve/CVE-2024-27199.yaml
 ./poc/cve/CVE-2024-27199_1.yaml
 ./poc/cve/CVE-2024-27199_2.yaml
 ./poc/cve/CVE-2024-2729-35dcecd27cee02c251e12e5eea0d0803.yaml
@@ -87511,6 +87506,7 @@
 ./poc/cve/CVE-2024-2749-1e48804d3132b598fe4a6904b948a329.yaml
 ./poc/cve/CVE-2024-2749-vikbooking-b08531b2-968e-4a00-ad7a-7abfe8cf0bd3.yaml
 ./poc/cve/CVE-2024-2749.yaml
+./poc/cve/CVE-2024-27497.yaml
 ./poc/cve/CVE-2024-27497_1.yaml
 ./poc/cve/CVE-2024-27497_2.yaml
 ./poc/cve/CVE-2024-27497_3.yaml
@@ -87635,6 +87631,7 @@
 ./poc/cve/CVE-2024-27953_2.yaml
 ./poc/cve/CVE-2024-27954-d6c3bc31d24527aa3d65a2c4b8094966.yaml
 ./poc/cve/CVE-2024-27954-wp_automatic-620e8931-64f0-4d9c-9a4c-1f5a703845ff.yaml
+./poc/cve/CVE-2024-27954.yaml
 ./poc/cve/CVE-2024-27954_1.yaml
 ./poc/cve/CVE-2024-27954_2.yaml
 ./poc/cve/CVE-2024-27955-b2533785d22274c6dfc0b7dab1452c80.yaml
@@ -87802,7 +87799,6 @@
 ./poc/cve/CVE-2024-2804-57b65fe82d356ce23443f9a39877ba79.yaml
 ./poc/cve/CVE-2024-2804-network_summary-3320c182-b1f9-4e06-92ea-0fa670557dd0.yaml
 ./poc/cve/CVE-2024-2804.yaml
-./poc/cve/CVE-2024-28255.yaml
 ./poc/cve/CVE-2024-28255_1.yaml
 ./poc/cve/CVE-2024-2830-a796714e244ad1af5556ab16b6ffd929.yaml
 ./poc/cve/CVE-2024-2830-simple_tags-0f537479-d5ec-46bb-a04e-2c33a2abc759.yaml
@@ -87831,6 +87827,7 @@
 ./poc/cve/CVE-2024-2839-8ccdd38c06de3dace9a9e97fbfb17b64.yaml
 ./poc/cve/CVE-2024-2839-colibri_page_builder-c9466e5f-d8eb-4de4-a1d2-e5ef15bf1e4e.yaml
 ./poc/cve/CVE-2024-2839.yaml
+./poc/cve/CVE-2024-28397.yaml
 ./poc/cve/CVE-2024-2839_2.yaml
 ./poc/cve/CVE-2024-2840-0898821557a4da90b21168a2726ab476.yaml
 ./poc/cve/CVE-2024-2840-enhanced_media_library-15b30ecb-e3ce-4092-841b-3a1b2553596a.yaml
@@ -87899,6 +87896,7 @@
 ./poc/cve/CVE-2024-2872-14ed9be7eea766d2e8883694e306f218.yaml
 ./poc/cve/CVE-2024-2872-socialdriver_framework-467d5c09-2425-4050-98ca-a7c5d533af77.yaml
 ./poc/cve/CVE-2024-2872.yaml
+./poc/cve/CVE-2024-28734.yaml
 ./poc/cve/CVE-2024-28734_1.yaml
 ./poc/cve/CVE-2024-28734_2.yaml
 ./poc/cve/CVE-2024-28740.yaml
@@ -87910,6 +87908,7 @@
 ./poc/cve/CVE-2024-2876_3.yaml
 ./poc/cve/CVE-2024-2879-7b2784ee61615918dc48fa21dc10811a.yaml
 ./poc/cve/CVE-2024-2879-layerslider-3fddf96e-029c-4753-ba82-043ca64b78d3.yaml
+./poc/cve/CVE-2024-2879.yaml
 ./poc/cve/CVE-2024-2879_1.yaml
 ./poc/cve/CVE-2024-2879_2.yaml
 ./poc/cve/CVE-2024-2879_3.yaml
@@ -87934,7 +87933,6 @@
 ./poc/cve/CVE-2024-2890-tumult_hype_animations-bb267bbd-cd62-49f7-9abc-c6734b23be22.yaml
 ./poc/cve/CVE-2024-2890.yaml
 ./poc/cve/CVE-2024-2890_1.yaml
-./poc/cve/CVE-2024-28987.yaml
 ./poc/cve/CVE-2024-28987_1.yaml
 ./poc/cve/CVE-2024-28995.yaml
 ./poc/cve/CVE-2024-28995_1.yaml
@@ -87943,6 +87941,7 @@
 ./poc/cve/CVE-2024-29009-easy_popup_show-28d622b3-e8a7-4a3b-9f0b-e344b085284d.yaml
 ./poc/cve/CVE-2024-29009.yaml
 ./poc/cve/CVE-2024-29009_1.yaml
+./poc/cve/CVE-2024-29059.yaml
 ./poc/cve/CVE-2024-29059_1.yaml
 ./poc/cve/CVE-2024-29059_2.yaml
 ./poc/cve/CVE-2024-29059_3.yaml
@@ -88133,7 +88132,6 @@
 ./poc/cve/CVE-2024-2919-c0a30238c627516a9f209dc62a8b054c.yaml
 ./poc/cve/CVE-2024-2919-kadence_blocks-b38a69c7-91d4-43be-8650-eb1f0029bd44.yaml
 ./poc/cve/CVE-2024-2919.yaml
-./poc/cve/CVE-2024-29198.yaml
 ./poc/cve/CVE-2024-2919_2.yaml
 ./poc/cve/CVE-2024-2920-304c7f1e1eeeae3f75b32b8e500c6cf6.yaml
 ./poc/cve/CVE-2024-2920-wp_members-4319fa2e-8826-4100-9156-cbe80582367e.yaml
@@ -88167,6 +88165,8 @@
 ./poc/cve/CVE-2024-29269_2.yaml
 ./poc/cve/CVE-2024-29269_3.yaml
 ./poc/cve/CVE-2024-2926_1.yaml
+./poc/cve/CVE-2024-29272.yaml
+./poc/cve/CVE-2024-2928.yaml
 ./poc/cve/CVE-2024-2928_1.yaml
 ./poc/cve/CVE-2024-2931-a31fc7075076c46049041132f7d5d46b.yaml
 ./poc/cve/CVE-2024-2931-wpfront_user_role_editor-078a0647-fc3a-436c-bf00-8776b16e66ff.yaml
@@ -88227,7 +88227,6 @@
 ./poc/cve/CVE-2024-2960.yaml
 ./poc/cve/CVE-2024-2960_1.yaml
 ./poc/cve/CVE-2024-2960_2.yaml
-./poc/cve/CVE-2024-2961.yaml
 ./poc/cve/CVE-2024-2962-83dc38df3d16731c0c01d14dbae5c627.yaml
 ./poc/cve/CVE-2024-2962-networker-1c2b9858-eb0c-42bd-bc32-c58c0f809fc8.yaml
 ./poc/cve/CVE-2024-2962.yaml
@@ -88475,6 +88474,7 @@
 ./poc/cve/CVE-2024-29832-083fab489d05498fee5e7dfc545b702b.yaml
 ./poc/cve/CVE-2024-29832-photo_gallery-13cfcc7a-8529-4bd5-9842-b9ad8eb5f4b3.yaml
 ./poc/cve/CVE-2024-29832.yaml
+./poc/cve/CVE-2024-29868.yaml
 ./poc/cve/CVE-2024-29868_1.yaml
 ./poc/cve/CVE-2024-29868_2.yaml
 ./poc/cve/CVE-2024-29868_3.yaml
@@ -88593,7 +88593,6 @@
 ./poc/cve/CVE-2024-29936-image_hover_effects_addon_for_elementor-05d26003-ae7e-480a-bd63-1c5f5e9c3cab.yaml
 ./poc/cve/CVE-2024-29936.yaml
 ./poc/cve/CVE-2024-29936_2.yaml
-./poc/cve/CVE-2024-29972.yaml
 ./poc/cve/CVE-2024-29972_1.yaml
 ./poc/cve/CVE-2024-29973.yaml
 ./poc/cve/CVE-2024-3005-857ef46e069fe1644ec4cc907777f421.yaml
@@ -88601,7 +88600,6 @@
 ./poc/cve/CVE-2024-3005.yaml
 ./poc/cve/CVE-2024-3005_1.yaml
 ./poc/cve/CVE-2024-3005_2.yaml
-./poc/cve/CVE-2024-30163.yaml
 ./poc/cve/CVE-2024-30177-d20c34d429794e9005345bdd76b7e656.yaml
 ./poc/cve/CVE-2024-30177-exclusive_addons_for_elementor-75da181d-3162-448f-afb8-dc05748184f6.yaml
 ./poc/cve/CVE-2024-30177.yaml
@@ -89336,7 +89334,7 @@
 ./poc/cve/CVE-2024-30561-appointment_calendar-baebd08b-1f40-4cb2-8158-c4421af68c06.yaml
 ./poc/cve/CVE-2024-30561.yaml
 ./poc/cve/CVE-2024-30561_2.yaml
-./poc/cve/CVE-2024-30568.yaml
+./poc/cve/CVE-2024-30569.yaml
 ./poc/cve/CVE-2024-3058-1fc60a5fb30ab7a0e783007cc5132684.yaml
 ./poc/cve/CVE-2024-3058-enl_newsletter-cfec4c31-ba09-4832-a095-4ca5f5192674.yaml
 ./poc/cve/CVE-2024-3058.yaml
@@ -89413,7 +89411,6 @@
 ./poc/cve/CVE-2024-3076.yaml
 ./poc/cve/CVE-2024-3076_2.yaml
 ./poc/cve/CVE-2024-3093.yaml
-./poc/cve/CVE-2024-3094.yaml
 ./poc/cve/CVE-2024-3097-5060507c8548884278ebdc96e7654607.yaml
 ./poc/cve/CVE-2024-3097-nextgen_gallery-75f87f99-9f0d-46c2-a6f1-3c1ea0176303.yaml
 ./poc/cve/CVE-2024-3097.yaml
@@ -90217,6 +90214,7 @@
 ./poc/cve/CVE-2024-3162-ca7f45bf7d0a6e876114ee547f741487.yaml
 ./poc/cve/CVE-2024-3162-jeg_elementor_kit-d54c7623-25af-4bf1-a6e0-9022ec26f391.yaml
 ./poc/cve/CVE-2024-3162.yaml
+./poc/cve/CVE-2024-31621.yaml
 ./poc/cve/CVE-2024-31621_1.yaml
 ./poc/cve/CVE-2024-3163-c5acd299ea512808ad4393f37d3556a0.yaml
 ./poc/cve/CVE-2024-3163-easy_property_listings-ef6b36a2-c18a-403a-aa0b-5d3e3ef1ca90.yaml
@@ -90226,6 +90224,7 @@
 ./poc/cve/CVE-2024-3167.yaml
 ./poc/cve/CVE-2024-3167_2.yaml
 ./poc/cve/CVE-2024-31848_1.yaml
+./poc/cve/CVE-2024-31849.yaml
 ./poc/cve/CVE-2024-31849_1.yaml
 ./poc/cve/CVE-2024-31850.yaml
 ./poc/cve/CVE-2024-31850_1.yaml
@@ -90538,6 +90537,7 @@
 ./poc/cve/CVE-2024-32112-leadinfo-e39d3ec1-b1a5-4176-88ac-432d91dbf621.yaml
 ./poc/cve/CVE-2024-32112.yaml
 ./poc/cve/CVE-2024-32112_2.yaml
+./poc/cve/CVE-2024-32113.yaml
 ./poc/cve/CVE-2024-32113_1.yaml
 ./poc/cve/CVE-2024-32113_2.yaml
 ./poc/cve/CVE-2024-32113_3.yaml
@@ -90658,7 +90658,6 @@
 ./poc/cve/CVE-2024-3217.yaml
 ./poc/cve/CVE-2024-3217_2.yaml
 ./poc/cve/CVE-2024-32231.yaml
-./poc/cve/CVE-2024-32238.yaml
 ./poc/cve/CVE-2024-32238_1.yaml
 ./poc/cve/CVE-2024-32238_2.yaml
 ./poc/cve/CVE-2024-3228-7abe1ffb6465d0631cb5b325dafccc9a.yaml
@@ -90680,7 +90679,6 @@
 ./poc/cve/CVE-2024-3233-762ee7a77f761035d3a49e3f4361c4a9.yaml
 ./poc/cve/CVE-2024-3233-add_search_to_menu-cc9935d8-7790-457b-88bf-bee5e13b0f5a.yaml
 ./poc/cve/CVE-2024-3233.yaml
-./poc/cve/CVE-2024-3234.yaml
 ./poc/cve/CVE-2024-3234_1.yaml
 ./poc/cve/CVE-2024-3235-961b6a208f068475e287d8bf949d2a01.yaml
 ./poc/cve/CVE-2024-3235-essential_grid-adadac1e-3d92-41a5-90d4-b2028c8c40c0.yaml
@@ -90699,6 +90697,7 @@
 ./poc/cve/CVE-2024-3239-d985de4e49a7736bceedd91bb82cc2dc.yaml
 ./poc/cve/CVE-2024-3239-ultimate_post-482bf861-e556-40af-b522-c22ef6c9938b.yaml
 ./poc/cve/CVE-2024-3239.yaml
+./poc/cve/CVE-2024-32399.yaml
 ./poc/cve/CVE-2024-32399_1.yaml
 ./poc/cve/CVE-2024-32399_2.yaml
 ./poc/cve/CVE-2024-3240-c639700ee29b87e7fa63ad5b9f09b861.yaml
@@ -91345,6 +91344,7 @@
 ./poc/cve/CVE-2024-32708_2.yaml
 ./poc/cve/CVE-2024-32709-4db87f2e95bb780269f488d36e94e72f.yaml
 ./poc/cve/CVE-2024-32709-wp_recall-813821c8-a9f9-408e-b85e-1c24d90f5e4a.yaml
+./poc/cve/CVE-2024-32709.yaml
 ./poc/cve/CVE-2024-32709_1.yaml
 ./poc/cve/CVE-2024-32709_2.yaml
 ./poc/cve/CVE-2024-32709_3.yaml
@@ -91387,7 +91387,6 @@
 ./poc/cve/CVE-2024-32719.yaml
 ./poc/cve/CVE-2024-32719_1.yaml
 ./poc/cve/CVE-2024-32719_2.yaml
-./poc/cve/CVE-2024-3272.yaml
 ./poc/cve/CVE-2024-32720-4279d65032ee89a95f16277e42a969f0.yaml
 ./poc/cve/CVE-2024-32720-appointment_hour_booking-c6a3ae10-843f-484a-ad6c-221ffece7cc2.yaml
 ./poc/cve/CVE-2024-32720.yaml
@@ -91435,7 +91434,6 @@
 ./poc/cve/CVE-2024-32736_1.yaml
 ./poc/cve/CVE-2024-32737.yaml
 ./poc/cve/CVE-2024-32737_1.yaml
-./poc/cve/CVE-2024-32738.yaml
 ./poc/cve/CVE-2024-32738_1.yaml
 ./poc/cve/CVE-2024-32739.yaml
 ./poc/cve/CVE-2024-32739_1.yaml
@@ -91771,6 +91769,7 @@
 ./poc/cve/CVE-2024-3287-c2144da6501714797b373f946b96b12c.yaml
 ./poc/cve/CVE-2024-3287-smartcrawl_seo-9a77672b-340e-4f10-abe7-461c2db537b8.yaml
 ./poc/cve/CVE-2024-3287.yaml
+./poc/cve/CVE-2024-32870.yaml
 ./poc/cve/CVE-2024-32877.yaml
 ./poc/cve/CVE-2024-3288-9ec9083e38db99ab2459930f55e51dbf.yaml
 ./poc/cve/CVE-2024-3288-logo_slider_wp-6bcd770c-a93e-4622-8c19-d0c64aad9768.yaml
@@ -91854,7 +91853,6 @@
 ./poc/cve/CVE-2024-32961-cdee5dcc43d19d519d62b13632e2e6d4.yaml
 ./poc/cve/CVE-2024-32961.yaml
 ./poc/cve/CVE-2024-32961_1.yaml
-./poc/cve/CVE-2024-32964.yaml
 ./poc/cve/CVE-2024-32964_1.yaml
 ./poc/cve/CVE-2024-3300.yaml
 ./poc/cve/CVE-2024-3307-9ad0b1e1268a5981c95762aef04ff701.yaml
@@ -92188,6 +92186,7 @@
 ./poc/cve/CVE-2024-33605.yaml
 ./poc/cve/CVE-2024-33605_1.yaml
 ./poc/cve/CVE-2024-33605_2.yaml
+./poc/cve/CVE-2024-33610.yaml
 ./poc/cve/CVE-2024-33610_1.yaml
 ./poc/cve/CVE-2024-33627-23fefb5e095f324c42691eeef54de901.yaml
 ./poc/cve/CVE-2024-33627-ag_custom_admin-9fae8288-898a-4acd-bbdf-c2fd4f1be1c6.yaml
@@ -92654,7 +92653,6 @@
 ./poc/cve/CVE-2024-3406-e579cc3a60547dee0a368ba5eb3b43db.yaml
 ./poc/cve/CVE-2024-3406-wp_prayer-bab68830-5ac5-4aa3-929a-ba2bca03b1ca.yaml
 ./poc/cve/CVE-2024-3406.yaml
-./poc/cve/CVE-2024-34061.yaml
 ./poc/cve/CVE-2024-34061_1.yaml
 ./poc/cve/CVE-2024-34065.yaml
 ./poc/cve/CVE-2024-3406_1.yaml
@@ -92665,7 +92663,6 @@
 ./poc/cve/CVE-2024-3410-b046d6c845a3f82023ad85379d6371c4.yaml
 ./poc/cve/CVE-2024-3410-dn_footer_contacts-9ea21bf9-9e2a-45d1-8cb7-db821ca13e70.yaml
 ./poc/cve/CVE-2024-3410.yaml
-./poc/cve/CVE-2024-34102.yaml
 ./poc/cve/CVE-2024-34102_1.yaml
 ./poc/cve/CVE-2024-34102_2.yaml
 ./poc/cve/CVE-2024-34102_3.yaml
@@ -92675,8 +92672,10 @@
 ./poc/cve/CVE-2024-3412-wp_staging-8ebb1072-ea05-4914-961d-0d8f20248078.yaml
 ./poc/cve/CVE-2024-3412.yaml
 ./poc/cve/CVE-2024-3412_1.yaml
+./poc/cve/CVE-2024-34257.yaml
 ./poc/cve/CVE-2024-34257_1.yaml
 ./poc/cve/CVE-2024-34257_2.yaml
+./poc/cve/CVE-2024-34351.yaml
 ./poc/cve/CVE-2024-34351_1.yaml
 ./poc/cve/CVE-2024-34351_2.yaml
 ./poc/cve/CVE-2024-34351_3.yaml
@@ -93347,9 +93346,9 @@
 ./poc/cve/CVE-2024-3494_1.yaml
 ./poc/cve/CVE-2024-3495-7c55b3e8e7878b97bda58d8105e68931.yaml
 ./poc/cve/CVE-2024-3495-country_state_city_auto_dropdown-17dcacaf-0e2a-4bef-b944-fb7e43d25777.yaml
+./poc/cve/CVE-2024-3495.yaml
 ./poc/cve/CVE-2024-3495_1.yaml
 ./poc/cve/CVE-2024-3495_2.yaml
-./poc/cve/CVE-2024-34982.yaml
 ./poc/cve/CVE-2024-34982_1.yaml
 ./poc/cve/CVE-2024-3499-7053d09b698b523748d97b5922836456.yaml
 ./poc/cve/CVE-2024-3499-elementskit_lite-6158ec37-a6fb-42f9-bab6-bf547ea28ea0.yaml
@@ -93477,7 +93476,6 @@
 ./poc/cve/CVE-2024-3558-598c101c0c91f4d01132ffe924b0e4ee.yaml
 ./poc/cve/CVE-2024-3558-custom_field_suite-8e4dc6fd-4bd5-4ed1-ade0-cf2f8831fac3.yaml
 ./poc/cve/CVE-2024-3558.yaml
-./poc/cve/CVE-2024-35584.yaml
 ./poc/cve/CVE-2024-3558_1.yaml
 ./poc/cve/CVE-2024-3559-custom_field_suite-56d8af3b-6c00-49ed-872a-64f7bebb470b.yaml
 ./poc/cve/CVE-2024-3559-e6ce75d3e4a73a2ba16b30dac10e37b3.yaml
@@ -94235,7 +94233,6 @@
 ./poc/cve/CVE-2024-3611-toolbar_extras-50631f6c-de8b-408e-ab1f-ef74d3180e7f.yaml
 ./poc/cve/CVE-2024-3611.yaml
 ./poc/cve/CVE-2024-36111.yaml
-./poc/cve/CVE-2024-36117.yaml
 ./poc/cve/CVE-2024-36117_1.yaml
 ./poc/cve/CVE-2024-3611_1.yaml
 ./poc/cve/CVE-2024-3615-ace711afc4272dadad85592b05bdb42c.yaml
@@ -94406,6 +94403,7 @@
 ./poc/cve/CVE-2024-3672_2.yaml
 ./poc/cve/CVE-2024-3673-7bf7b9165908fdbf2a2eafaed21dad07.yaml
 ./poc/cve/CVE-2024-3673-web_directory_free-d80ab1a4-19f9-4fea-87b4-1d2ba465e860.yaml
+./poc/cve/CVE-2024-3673.yaml
 ./poc/cve/CVE-2024-3673_1.yaml
 ./poc/cve/CVE-2024-3673_2.yaml
 ./poc/cve/CVE-2024-3674-f8f0b109f3145321593d24900c5cc332.yaml
@@ -94444,6 +94442,7 @@
 ./poc/cve/CVE-2024-3682.yaml
 ./poc/cve/CVE-2024-36823.yaml
 ./poc/cve/CVE-2024-3682_2.yaml
+./poc/cve/CVE-2024-36837.yaml
 ./poc/cve/CVE-2024-36837_1.yaml
 ./poc/cve/CVE-2024-36858.yaml
 ./poc/cve/CVE-2024-3692-8ec9ab594a4faaa70184d127a788723d.yaml
@@ -95475,7 +95474,6 @@
 ./poc/cve/CVE-2024-37843_1.yaml
 ./poc/cve/CVE-2024-37881-de90eab10ab5bda47399add39eb7f97b.yaml
 ./poc/cve/CVE-2024-37881-siteguard-458aeb60-8610-49e8-8f77-2e306bfe7277.yaml
-./poc/cve/CVE-2024-37881.yaml
 ./poc/cve/CVE-2024-37918-5bf479bda05fc248a72a488497c585c9.yaml
 ./poc/cve/CVE-2024-37918-coneblog_widgets-46e47284-2757-40d0-ac76-292a690cfcbb.yaml
 ./poc/cve/CVE-2024-37918.yaml
@@ -95688,7 +95686,6 @@
 ./poc/cve/CVE-2024-3821_1.yaml
 ./poc/cve/CVE-2024-3822-41afcacc1bb8e57b479cf5f27ebf9122.yaml
 ./poc/cve/CVE-2024-3822-base64_encoderdecoder-1754cced-d3e4-40af-b0e9-9089a92db3dc.yaml
-./poc/cve/CVE-2024-3822.yaml
 ./poc/cve/CVE-2024-3822_1.yaml
 ./poc/cve/CVE-2024-3822_2.yaml
 ./poc/cve/CVE-2024-3822_3.yaml
@@ -95709,7 +95706,6 @@
 ./poc/cve/CVE-2024-3828-aaaa49e159a6ee45a9d6bb4318c30fa6.yaml
 ./poc/cve/CVE-2024-3828-spectra_pro-e23e7d66-4b57-4feb-bf77-46238bc6ce7c.yaml
 ./poc/cve/CVE-2024-3828.yaml
-./poc/cve/CVE-2024-38288.yaml
 ./poc/cve/CVE-2024-38288_1.yaml
 ./poc/cve/CVE-2024-38289.yaml
 ./poc/cve/CVE-2024-38289_1.yaml
@@ -95725,10 +95721,11 @@
 ./poc/cve/CVE-2024-38345-f8094f6138e0c9bbcea46667ca99c8a5.yaml
 ./poc/cve/CVE-2024-38345-sola_testimonials-f9429c04-a1f8-42c4-bc43-df0a96aa5a6d.yaml
 ./poc/cve/CVE-2024-38345.yaml
+./poc/cve/CVE-2024-38353.yaml
 ./poc/cve/CVE-2024-38472.yaml
 ./poc/cve/CVE-2024-38472_1.yaml
+./poc/cve/CVE-2024-38473.yaml
 ./poc/cve/CVE-2024-38473_1.yaml
-./poc/cve/CVE-2024-38475.yaml
 ./poc/cve/CVE-2024-3848_1.yaml
 ./poc/cve/CVE-2024-3848_2.yaml
 ./poc/cve/CVE-2024-3849-b86fbef037590625861860408256662a.yaml
@@ -96618,6 +96615,7 @@
 ./poc/cve/CVE-2024-3988-ba0d932b825021468f2ee762dd8e7b70.yaml
 ./poc/cve/CVE-2024-3988-sina_extension_for_elementor-78b24567-c185-4bef-b025-016b091be2e4.yaml
 ./poc/cve/CVE-2024-3988.yaml
+./poc/cve/CVE-2024-39887.yaml
 ./poc/cve/CVE-2024-3988_2.yaml
 ./poc/cve/CVE-2024-3989-7df2b49adfce688a1b571b43377d7436.yaml
 ./poc/cve/CVE-2024-3989-ht_mega_for_elementor-03fba6bb-ff30-42bb-936b-93c009a7e3f7.yaml
@@ -96626,6 +96624,7 @@
 ./poc/cve/CVE-2024-3990-fbfdcda08a813329fa8f3970d1193adb.yaml
 ./poc/cve/CVE-2024-3990-ht_mega_for_elementor-98e74a23-b586-4d6a-b1ab-78838b0eed61.yaml
 ./poc/cve/CVE-2024-3990.yaml
+./poc/cve/CVE-2024-39903.yaml
 ./poc/cve/CVE-2024-39907.yaml
 ./poc/cve/CVE-2024-39907_1.yaml
 ./poc/cve/CVE-2024-39907_2.yaml
@@ -96758,6 +96757,7 @@
 ./poc/cve/CVE-2024-4061-survey_maker-ccea6d3e-a889-4058-a9ff-e75b8de16ba0.yaml
 ./poc/cve/CVE-2024-4061.yaml
 ./poc/cve/CVE-2024-4061_1.yaml
+./poc/cve/CVE-2024-40711.yaml
 ./poc/cve/CVE-2024-40711_1.yaml
 ./poc/cve/CVE-2024-40725.yaml
 ./poc/cve/CVE-2024-4077-810356fac1d68873d9e790939148b3f0.yaml
@@ -96890,6 +96890,7 @@
 ./poc/cve/CVE-2024-4160-download_manager-9f51258a-e228-412f-9d97-28ab679136d7.yaml
 ./poc/cve/CVE-2024-4160.yaml
 ./poc/cve/CVE-2024-4160_1.yaml
+./poc/cve/CVE-2024-41628.yaml
 ./poc/cve/CVE-2024-41628_1.yaml
 ./poc/cve/CVE-2024-41628_2.yaml
 ./poc/cve/CVE-2024-41657.yaml
@@ -96901,7 +96902,6 @@
 ./poc/cve/CVE-2024-4180-the_events_calendar-8b93655b-9a26-4515-8ae2-105271aba9c4.yaml
 ./poc/cve/CVE-2024-4180.yaml
 ./poc/cve/CVE-2024-4180_1.yaml
-./poc/cve/CVE-2024-41810.yaml
 ./poc/cve/CVE-2024-41810_1.yaml
 ./poc/cve/CVE-2024-41816-5e98b78e17eb483d64cd4c783bdfd81f.yaml
 ./poc/cve/CVE-2024-41816-cooked-85201c44-34a9-4995-a162-242dfe703934.yaml
@@ -96924,7 +96924,6 @@
 ./poc/cve/CVE-2024-4194-album_and_image_gallery_plus_lightbox-4822f1c7-3f83-416c-8957-17e4b53d7e69.yaml
 ./poc/cve/CVE-2024-4194.yaml
 ./poc/cve/CVE-2024-4194_1.yaml
-./poc/cve/CVE-2024-41955.yaml
 ./poc/cve/CVE-2024-41955_1.yaml
 ./poc/cve/CVE-2024-4199-799037d1d21fc678e652bea30bd3c401.yaml
 ./poc/cve/CVE-2024-4199-ithemeland_bulk_posts_editing_lite-683131a0-eec3-4251-b322-5c2088855687.yaml
@@ -97002,6 +97001,7 @@
 ./poc/cve/CVE-2024-42404.yaml
 ./poc/cve/CVE-2024-42543.yaml
 ./poc/cve/CVE-2024-42545.yaml
+./poc/cve/CVE-2024-4257.yaml
 ./poc/cve/CVE-2024-4257_1.yaml
 ./poc/cve/CVE-2024-4257_2.yaml
 ./poc/cve/CVE-2024-4258-2f3c9e53bb6b590c5c0b70320030c3a9.yaml
@@ -97083,7 +97083,6 @@
 ./poc/cve/CVE-2024-4281.yaml
 ./poc/cve/CVE-2024-42812.yaml
 ./poc/cve/CVE-2024-4281_1.yaml
-./poc/cve/CVE-2024-42852.yaml
 ./poc/cve/CVE-2024-4288-44628a201f53f3a35e00c50b36da8ee6.yaml
 ./poc/cve/CVE-2024-4288-simply_schedule_appointments-84262b4a-a662-4aaf-9eae-f5cca8f6cd06.yaml
 ./poc/cve/CVE-2024-4288.yaml
@@ -97099,7 +97098,6 @@
 ./poc/cve/CVE-2024-4290_1.yaml
 ./poc/cve/CVE-2024-4295-email_subscribers-641123af-1ec6-4549-a58c-0a08b4678f45.yaml
 ./poc/cve/CVE-2024-4295-f887ea45b60e88fcf428c70a1901be12.yaml
-./poc/cve/CVE-2024-4295.yaml
 ./poc/cve/CVE-2024-4295_1.yaml
 ./poc/cve/CVE-2024-4295_2.yaml
 ./poc/cve/CVE-2024-43044.yaml
@@ -97256,7 +97254,6 @@
 ./poc/cve/CVE-2024-4316.yaml
 ./poc/cve/CVE-2024-43160-50fde11bff7e3b7f5036329784df2bde.yaml
 ./poc/cve/CVE-2024-43160-searchpro-56465338-f9be-49c5-8125-c6729287d590.yaml
-./poc/cve/CVE-2024-43160.yaml
 ./poc/cve/CVE-2024-43160_1.yaml
 ./poc/cve/CVE-2024-43161-d7cd7c176dafec2f84795a118e3e4153.yaml
 ./poc/cve/CVE-2024-43161-depicter-8cde9f8d-ce66-419e-91a2-63a63a95f032.yaml
@@ -97811,7 +97808,6 @@
 ./poc/cve/CVE-2024-43356-oik-5e2e6775-219d-472c-8ebb-794bbff3e5ec.yaml
 ./poc/cve/CVE-2024-43356.yaml
 ./poc/cve/CVE-2024-4335_1.yaml
-./poc/cve/CVE-2024-43360.yaml
 ./poc/cve/CVE-2024-4339-1866bca4b9e3a6717a6f3a0d1ca5a290.yaml
 ./poc/cve/CVE-2024-4339-bdthemes_prime_slider_lite-6eba6056-e087-4347-ad36-96501ceb4cdd.yaml
 ./poc/cve/CVE-2024-4339.yaml
@@ -97840,7 +97836,6 @@
 ./poc/cve/CVE-2024-4347-wp_fastest_cache-634d4062-7004-4e89-89a8-323c939aae93.yaml
 ./poc/cve/CVE-2024-4347.yaml
 ./poc/cve/CVE-2024-4347_1.yaml
-./poc/cve/CVE-2024-4348.yaml
 ./poc/cve/CVE-2024-4348_1.yaml
 ./poc/cve/CVE-2024-4348_2.yaml
 ./poc/cve/CVE-2024-4348_3.yaml
@@ -98020,6 +98015,7 @@
 ./poc/cve/CVE-2024-43919-3034293f8a279842ef9fd887e0efc2ee.yaml
 ./poc/cve/CVE-2024-43919-dae75b9d8c71689167d27f5792fb9217.yaml
 ./poc/cve/CVE-2024-43919-yet_another_related_posts_plugin-89f57714-7643-4839-9932-7a2918dc7127.yaml
+./poc/cve/CVE-2024-43919.yaml
 ./poc/cve/CVE-2024-43919_1.yaml
 ./poc/cve/CVE-2024-43919_2.yaml
 ./poc/cve/CVE-2024-43919_3.yaml
@@ -98302,7 +98298,6 @@
 ./poc/cve/CVE-2024-4400.yaml
 ./poc/cve/CVE-2024-44000-fdad3f25f2c567be8883b9648874315a.yaml
 ./poc/cve/CVE-2024-44000-litespeed_cache-31173691-28fb-46fd-a7da-28bf9c46e2bc.yaml
-./poc/cve/CVE-2024-44000.yaml
 ./poc/cve/CVE-2024-44000_1.yaml
 ./poc/cve/CVE-2024-44000_2.yaml
 ./poc/cve/CVE-2024-44001-b8d0764cae54623560c5805fbee6890d.yaml
@@ -98583,7 +98578,6 @@
 ./poc/cve/CVE-2024-4434_2.yaml
 ./poc/cve/CVE-2024-4439-cf7dcde17cac6509dfc86c67f4eed940.yaml
 ./poc/cve/CVE-2024-4439-wordpress-e363c09a-4381-4b3a-951c-9a0ff5669016.yaml
-./poc/cve/CVE-2024-4439.yaml
 ./poc/cve/CVE-2024-4439_1.yaml
 ./poc/cve/CVE-2024-4439_2.yaml
 ./poc/cve/CVE-2024-4440-9f922de9f42804a7971705edbc6681e1.yaml
@@ -98724,6 +98718,7 @@
 ./poc/cve/CVE-2024-4484-8673257a5f5ade843d804e3860eb0aac.yaml
 ./poc/cve/CVE-2024-4484-the_plus_addons_for_elementor_page_builder-f36c785f-9b8c-43c4-b12f-6fb4c0c67eff.yaml
 ./poc/cve/CVE-2024-4484.yaml
+./poc/cve/CVE-2024-44849.yaml
 ./poc/cve/CVE-2024-44849_1.yaml
 ./poc/cve/CVE-2024-4484_1.yaml
 ./poc/cve/CVE-2024-4485-2e83e464f42cab8220685c7c098bd883.yaml
@@ -98757,7 +98752,6 @@
 ./poc/cve/CVE-2024-45195.yaml
 ./poc/cve/CVE-2024-45195_1.yaml
 ./poc/cve/CVE-2024-45195_2.yaml
-./poc/cve/CVE-2024-45216.yaml
 ./poc/cve/CVE-2024-45216_1.yaml
 ./poc/cve/CVE-2024-45216_10.yaml
 ./poc/cve/CVE-2024-45216_2.yaml
@@ -98768,6 +98762,7 @@
 ./poc/cve/CVE-2024-45216_7.yaml
 ./poc/cve/CVE-2024-45216_8.yaml
 ./poc/cve/CVE-2024-45216_9.yaml
+./poc/cve/CVE-2024-45241.yaml
 ./poc/cve/CVE-2024-45241_1.yaml
 ./poc/cve/CVE-2024-45269-87676ca600bde6a78ec815da9ddc8eb7.yaml
 ./poc/cve/CVE-2024-45269-carousel_slider-d372fbca-47c8-45b8-b5cb-83b8367860f4.yaml
@@ -98848,6 +98843,7 @@
 ./poc/cve/CVE-2024-4544-5e470a25a8681a5bc02ba1f3b19ae5aa.yaml
 ./poc/cve/CVE-2024-4544-pie_register_social_site-b98179c3-8b32-4d75-9f3f-2367215a740b.yaml
 ./poc/cve/CVE-2024-4544.yaml
+./poc/cve/CVE-2024-45440.yaml
 ./poc/cve/CVE-2024-45440_1.yaml
 ./poc/cve/CVE-2024-4544_1.yaml
 ./poc/cve/CVE-2024-45451-da81f33849b83b10bb1022ef46c1da43.yaml
@@ -98884,13 +98880,11 @@
 ./poc/cve/CVE-2024-45460-flipping_cards-c0693caa-2c7e-4e9f-8829-1883876d6966.yaml
 ./poc/cve/CVE-2024-45460.yaml
 ./poc/cve/CVE-2024-4546_1.yaml
-./poc/cve/CVE-2024-45488.yaml
 ./poc/cve/CVE-2024-45507_1.yaml
 ./poc/cve/CVE-2024-4551-82b55f2257036b4890bd2037a5094e09.yaml
 ./poc/cve/CVE-2024-4551-f0f0671db838036fd9c1ce2adf4e33a0.yaml
 ./poc/cve/CVE-2024-4551-yotuwp_easy_youtube_embed-a4c7c932-5955-4fce-a64d-3b5c5de95356.yaml
 ./poc/cve/CVE-2024-4551.yaml
-./poc/cve/CVE-2024-45519.yaml
 ./poc/cve/CVE-2024-45519_1.yaml
 ./poc/cve/CVE-2024-4551_1.yaml
 ./poc/cve/CVE-2024-4552-1b17657dcad2ec9fcf9289049c7e2be9.yaml
@@ -98907,6 +98901,7 @@
 ./poc/cve/CVE-2024-4560-chatbot_chatgpt-7bc33a05-d462-492e-9ea5-cf37b887cc94.yaml
 ./poc/cve/CVE-2024-4560.yaml
 ./poc/cve/CVE-2024-4560_1.yaml
+./poc/cve/CVE-2024-45622.yaml
 ./poc/cve/CVE-2024-45622_1.yaml
 ./poc/cve/CVE-2024-45625-cec96a6e743b0ccdbbe71bef62e99ef5.yaml
 ./poc/cve/CVE-2024-45625-forminator-64e14944-db83-413f-82a3-cda594398c7e.yaml
@@ -99005,7 +99000,6 @@
 ./poc/cve/CVE-2024-4620-38f7ee2e6a89c3f192833e274ef2eaa3.yaml
 ./poc/cve/CVE-2024-4620-881dfd77d6d86c39aaa256deaef65e79.yaml
 ./poc/cve/CVE-2024-4620-arforms-10bad8bc-ee0a-48e6-b7f9-6651a7ab3049.yaml
-./poc/cve/CVE-2024-4620.yaml
 ./poc/cve/CVE-2024-4620_1.yaml
 ./poc/cve/CVE-2024-4620_2.yaml
 ./poc/cve/CVE-2024-4621-arforms-ebfc2677-6e5c-49f2-915b-b07af8c2037d.yaml
@@ -99112,7 +99106,6 @@
 ./poc/cve/CVE-2024-4689-shortpixel_adaptive_images-244d4c73-3b50-4426-9730-f854372d2ba5.yaml
 ./poc/cve/CVE-2024-4689.yaml
 ./poc/cve/CVE-2024-4689_1.yaml
-./poc/cve/CVE-2024-46938.yaml
 ./poc/cve/CVE-2024-4695-bdac3a57b999830375a531b386d0b4ac.yaml
 ./poc/cve/CVE-2024-4695-move_addons-72662a59-f41c-4df7-aa04-7243ff43c48d.yaml
 ./poc/cve/CVE-2024-4695.yaml
@@ -99154,13 +99147,11 @@
 ./poc/cve/CVE-2024-4706-b2d51cf4ca34cd537f8cbffbd1296a4d.yaml
 ./poc/cve/CVE-2024-4706-wpo365_login-602a8030-087b-459f-b649-b4116404cf3e.yaml
 ./poc/cve/CVE-2024-4706.yaml
-./poc/cve/CVE-2024-47062.yaml
 ./poc/cve/CVE-2024-47062_1.yaml
 ./poc/cve/CVE-2024-4706_1.yaml
 ./poc/cve/CVE-2024-4707-4c0a3269f91ec31e5fe0ec03ead69e38.yaml
 ./poc/cve/CVE-2024-4707-materialis_companion-6ca4dff0-ca3a-44cf-a30b-36b31d2848ab.yaml
 ./poc/cve/CVE-2024-4707.yaml
-./poc/cve/CVE-2024-47073.yaml
 ./poc/cve/CVE-2024-4707_1.yaml
 ./poc/cve/CVE-2024-4709-ddfd7af7e2e47d7cbb4c0c8fe714b95a.yaml
 ./poc/cve/CVE-2024-4709-fluentform-5fe317a6-a391-441a-aac8-c8fa57e73169.yaml
@@ -99760,8 +99751,6 @@
 ./poc/cve/CVE-2024-4821.yaml
 ./poc/cve/CVE-2024-4821_1.yaml
 ./poc/cve/CVE-2024-48248.yaml
-./poc/cve/CVE-2024-48307.yaml
-./poc/cve/CVE-2024-4836.yaml
 ./poc/cve/CVE-2024-48360.yaml
 ./poc/cve/CVE-2024-48360_1.yaml
 ./poc/cve/CVE-2024-4836_1.yaml
@@ -99850,8 +99839,8 @@
 ./poc/cve/CVE-2024-4876-ht_mega_for_elementor-39e104fa-591a-41e8-af7e-f8b32a199170.yaml
 ./poc/cve/CVE-2024-4876.yaml
 ./poc/cve/CVE-2024-4876_1.yaml
+./poc/cve/CVE-2024-4879.yaml
 ./poc/cve/CVE-2024-4879_1.yaml
-./poc/cve/CVE-2024-4885.yaml
 ./poc/cve/CVE-2024-4885_1.yaml
 ./poc/cve/CVE-2024-4886-a4ca992ddae5ec5f2effe96be1a25e88.yaml
 ./poc/cve/CVE-2024-4886-buddyboss_platform-e23e52d7-871f-46fc-bd71-60a9f50a22e1.yaml
@@ -100306,7 +100295,6 @@
 ./poc/cve/CVE-2024-4939-weaverx_theme_support-bc121ed0-4cb3-4ba4-b693-413b1c25e4ca.yaml
 ./poc/cve/CVE-2024-4939.yaml
 ./poc/cve/CVE-2024-4939_1.yaml
-./poc/cve/CVE-2024-4940.yaml
 ./poc/cve/CVE-2024-4940_1.yaml
 ./poc/cve/CVE-2024-4942-21b87682d470a2f9ca18316576fd72ae.yaml
 ./poc/cve/CVE-2024-4942-custom_dash-13344366-feb0-4987-9543-222e3d35dab3.yaml
@@ -100316,6 +100304,7 @@
 ./poc/cve/CVE-2024-4943-blocksy-dc7099d7-94fd-42be-a921-bfcad43ae252.yaml
 ./poc/cve/CVE-2024-4943.yaml
 ./poc/cve/CVE-2024-4943_1.yaml
+./poc/cve/CVE-2024-4956.yaml
 ./poc/cve/CVE-2024-4956_1.yaml
 ./poc/cve/CVE-2024-4956_2.yaml
 ./poc/cve/CVE-2024-4957-5ab6393ef6e155e487e47265766a1f92.yaml
@@ -100752,6 +100741,7 @@
 ./poc/cve/CVE-2024-5033-51dd754ef11997cf5bb33c8bd26fa46d.yaml
 ./poc/cve/CVE-2024-5033-sully-c8c89eea-f6b0-4771-ab7d-05e266324d58.yaml
 ./poc/cve/CVE-2024-5033.yaml
+./poc/cve/CVE-2024-50334.yaml
 ./poc/cve/CVE-2024-5033_1.yaml
 ./poc/cve/CVE-2024-5034-b1e55970c723625adeb717b56dad7c7d.yaml
 ./poc/cve/CVE-2024-5034-sully-a3f0e97c-f41f-47ed-93c7-cff5915e9d01.yaml
@@ -101048,6 +101038,7 @@
 ./poc/cve/CVE-2024-50497.yaml
 ./poc/cve/CVE-2024-50498-fc883d29033373124d0294457c9ae875.yaml
 ./poc/cve/CVE-2024-50498-wp_query_console-ae07ca12-e827-43f9-8cbb-275b9abbd4c3.yaml
+./poc/cve/CVE-2024-50498.yaml
 ./poc/cve/CVE-2024-50498_1.yaml
 ./poc/cve/CVE-2024-50500-1039e671f2a857ef3307178c4accf1e9.yaml
 ./poc/cve/CVE-2024-50500-3a92a91fd2024587f01a9619b84cf344.yaml
@@ -101254,7 +101245,6 @@
 ./poc/cve/CVE-2024-5081.yaml
 ./poc/cve/CVE-2024-5084-66325cb7fccab8597f6938b0bc769c2f.yaml
 ./poc/cve/CVE-2024-5084-hash_form-eef9e2fa-d8f0-42bf-95ac-ee4cafff0b14.yaml
-./poc/cve/CVE-2024-5084.yaml
 ./poc/cve/CVE-2024-5084_1.yaml
 ./poc/cve/CVE-2024-5084_2.yaml
 ./poc/cve/CVE-2024-5084_3.yaml
@@ -101288,7 +101278,6 @@
 ./poc/cve/CVE-2024-5092.yaml
 ./poc/cve/CVE-2024-5092_1.yaml
 ./poc/cve/CVE-2024-50967.yaml
-./poc/cve/CVE-2024-51228.yaml
 ./poc/cve/CVE-2024-51378.yaml
 ./poc/cve/CVE-2024-5141-f003c81bdb67e0c478e1919516cc1594.yaml
 ./poc/cve/CVE-2024-5141-rotatingtweets-02cff893-4f41-4bb0-9fb0-344a3a8afa0b.yaml
@@ -101328,6 +101317,7 @@
 ./poc/cve/CVE-2024-5156-e02a8b8cc92881fb9b04294e8cf855dd.yaml
 ./poc/cve/CVE-2024-5156-flatsome-cf6c13de-e666-4c80-aa4c-6f610d899d03.yaml
 ./poc/cve/CVE-2024-5156.yaml
+./poc/cve/CVE-2024-51567.yaml
 ./poc/cve/CVE-2024-5156_1.yaml
 ./poc/cve/CVE-2024-51570-simple_gallery_odihost-745c1501-a148-47ff-adb3-a6af06357bf4.yaml
 ./poc/cve/CVE-2024-51570.yaml
@@ -102248,6 +102238,7 @@
 ./poc/cve/CVE-2024-51940-cb81b4dde73e1406d3de0909a23d54bf.yaml
 ./poc/cve/CVE-2024-51940-my_wp_responsive_video-0293f989-a5fa-46e3-896e-84f58c4e171e.yaml
 ./poc/cve/CVE-2024-51940_1.yaml
+./poc/cve/CVE-2024-51977.yaml
 ./poc/cve/CVE-2024-51978.yaml
 ./poc/cve/CVE-2024-5199-a1facdfef8d991781a1ec044d6c8bf85.yaml
 ./poc/cve/CVE-2024-5199-spotify_play_button-276d46c7-0d56-4e32-91fd-9f214bde5447.yaml
@@ -102762,6 +102753,7 @@
 ./poc/cve/CVE-2024-5266_1.yaml
 ./poc/cve/CVE-2024-5276.yaml
 ./poc/cve/CVE-2024-52762.yaml
+./poc/cve/CVE-2024-52763.yaml
 ./poc/cve/CVE-2024-5276_1.yaml
 ./poc/cve/CVE-2024-5280-414da4535d7b693f4c0f77400f85564e.yaml
 ./poc/cve/CVE-2024-5280-wp_affiliate_platform-055a891b-ee05-431f-aaff-612b3fd1513d.yaml
@@ -102843,7 +102835,6 @@
 ./poc/cve/CVE-2024-5332_1.yaml
 ./poc/cve/CVE-2024-5333-d67b4df7f3c803e7864d3902d8c691cb.yaml
 ./poc/cve/CVE-2024-5333-the_events_calendar-91e27e66-daf2-41d4-91bd-22c398559c23.yaml
-./poc/cve/CVE-2024-5334.yaml
 ./poc/cve/CVE-2024-5334_1.yaml
 ./poc/cve/CVE-2024-5334_2.yaml
 ./poc/cve/CVE-2024-5334_3.yaml
@@ -103206,6 +103197,7 @@
 ./poc/cve/CVE-2024-5419-cf7_widget_elementor-2837c9b2-419e-453a-b011-5ec1ef050d62.yaml
 ./poc/cve/CVE-2024-5419.yaml
 ./poc/cve/CVE-2024-5419_1.yaml
+./poc/cve/CVE-2024-5420.yaml
 ./poc/cve/CVE-2024-54205-8c6843e98b7d35de1333ebd6a9cc4108.yaml
 ./poc/cve/CVE-2024-54205-postman_widget-20590ca1-78f1-47d4-be6e-9378d850103f.yaml
 ./poc/cve/CVE-2024-54205_1.yaml
@@ -103948,6 +103940,7 @@
 ./poc/cve/CVE-2024-55218.yaml
 ./poc/cve/CVE-2024-5522-e4fea960ce0866df9a4418c70bedfc26.yaml
 ./poc/cve/CVE-2024-5522-html5_video_player-43a7f1b0-c2c0-4832-9819-22625c8b727e.yaml
+./poc/cve/CVE-2024-5522.yaml
 ./poc/cve/CVE-2024-5522_1.yaml
 ./poc/cve/CVE-2024-5522_2.yaml
 ./poc/cve/CVE-2024-5522_3.yaml
@@ -103975,6 +103968,8 @@
 ./poc/cve/CVE-2024-5541-ibtana_visual_editor-e022febe-7295-493d-afa7-185f55b4d3b9.yaml
 ./poc/cve/CVE-2024-5541.yaml
 ./poc/cve/CVE-2024-55415.yaml
+./poc/cve/CVE-2024-55416.yaml
+./poc/cve/CVE-2024-55417.yaml
 ./poc/cve/CVE-2024-5541_1.yaml
 ./poc/cve/CVE-2024-5541_2.yaml
 ./poc/cve/CVE-2024-5542-2c78331a027ed0b073a8bb936d867fb6.yaml
@@ -103992,6 +103987,7 @@
 ./poc/cve/CVE-2024-5545-1282fcf86bbdc274164869e0a2a5cb5b.yaml
 ./poc/cve/CVE-2024-5545-motors_car_dealership_classified_listings-62731e0e-8843-4f79-b887-c595fbefae26.yaml
 ./poc/cve/CVE-2024-5545.yaml
+./poc/cve/CVE-2024-55457.yaml
 ./poc/cve/CVE-2024-5545_1.yaml
 ./poc/cve/CVE-2024-5550-H2O.yaml
 ./poc/cve/CVE-2024-5550.yaml
@@ -104012,7 +104008,6 @@
 ./poc/cve/CVE-2024-5555-c92cd8e90a91fbbeb76674d465f92774.yaml
 ./poc/cve/CVE-2024-5555.yaml
 ./poc/cve/CVE-2024-55550.yaml
-./poc/cve/CVE-2024-55556.yaml
 ./poc/cve/CVE-2024-55557.yaml
 ./poc/cve/CVE-2024-55591.yaml
 ./poc/cve/CVE-2024-55591_1.yaml
@@ -104068,7 +104063,6 @@
 ./poc/cve/CVE-2024-5595-ceb803f50c0ac8e651f08593893d8cdd.yaml
 ./poc/cve/CVE-2024-5595-essential_blocks-a223c8b4-6657-40f0-a040-9867595dbf64.yaml
 ./poc/cve/CVE-2024-5595.yaml
-./poc/cve/CVE-2024-55956.yaml
 ./poc/cve/CVE-2024-55956_1.yaml
 ./poc/cve/CVE-2024-5596-4b7698fa3e239cbc2aa790f6c7415799.yaml
 ./poc/cve/CVE-2024-5596-armember-3e55591e-c1e9-4667-b04f-4956d2f37d51.yaml
@@ -104789,6 +104783,7 @@
 ./poc/cve/CVE-2024-5744-c63b3d6b83399d5a26ef0aab624ea92e.yaml
 ./poc/cve/CVE-2024-5744-wp_emember-1ceae0dc-205a-4a24-a912-b632c9ca7e6f.yaml
 ./poc/cve/CVE-2024-5744.yaml
+./poc/cve/CVE-2024-57514.yaml
 ./poc/cve/CVE-2024-5756-c440aca5d3aa19925f24fc32189fb784.yaml
 ./poc/cve/CVE-2024-5756-email_subscribers-c5bd11c6-2f55-4eee-834a-c4e405482b9c.yaml
 ./poc/cve/CVE-2024-5756.yaml
@@ -104889,7 +104884,6 @@
 ./poc/cve/CVE-2024-5819-kadence_blocks-c7457ce7-8471-415d-8e34-4505aa34fd61.yaml
 ./poc/cve/CVE-2024-5819.yaml
 ./poc/cve/CVE-2024-5819_1.yaml
-./poc/cve/CVE-2024-5827.yaml
 ./poc/cve/CVE-2024-5827_1.yaml
 ./poc/cve/CVE-2024-5852-6d354bf6b29f6ea22a042f91cfefa092.yaml
 ./poc/cve/CVE-2024-5852-wp_file_upload-39bb69e0-fb18-4737-9eb7-bda2b5bc16a2.yaml
@@ -105149,6 +105143,7 @@
 ./poc/cve/CVE-2024-6033-9197717be97915089a2b9b5c78c3673f.yaml
 ./poc/cve/CVE-2024-6033-wp_event_solution-1725c7f3-2fac-4714-a63e-6c43694483fc.yaml
 ./poc/cve/CVE-2024-6033.yaml
+./poc/cve/CVE-2024-6049.yaml
 ./poc/cve/CVE-2024-6049_1.yaml
 ./poc/cve/CVE-2024-6054-5423963993c6e57bd26bb8f5ebae154a.yaml
 ./poc/cve/CVE-2024-6054-auto_featured_image-4d1512c2-75c1-405b-8bb4-f42ec69159a7.yaml
@@ -105189,7 +105184,6 @@
 ./poc/cve/CVE-2024-6094-458e042ba5eb74f23c71204ea323fc94.yaml
 ./poc/cve/CVE-2024-6094-wp_ulike-3f1df412-86cd-4ebc-913b-674cc3b8d89a.yaml
 ./poc/cve/CVE-2024-6094.yaml
-./poc/cve/CVE-2024-6095.yaml
 ./poc/cve/CVE-2024-6099-d6d8f3c806dc7aa99e739d6765659006.yaml
 ./poc/cve/CVE-2024-6099-learnpress-7ee714c7-4c9b-4627-9ba9-f83aeca6a0a5.yaml
 ./poc/cve/CVE-2024-6099.yaml
@@ -105243,6 +105237,7 @@
 ./poc/cve/CVE-2024-6159-0f9f1c5b72bec617f8673b685c518020.yaml
 ./poc/cve/CVE-2024-6159-db09e399c3af48df7b5d395de58fbf8e.yaml
 ./poc/cve/CVE-2024-6159-push_notification_for_post_and_buddypress-32df7bdb-d99d-4548-8960-3fefdf635753.yaml
+./poc/cve/CVE-2024-6159.yaml
 ./poc/cve/CVE-2024-6159_1.yaml
 ./poc/cve/CVE-2024-6159_2.yaml
 ./poc/cve/CVE-2024-6161-default_thumbnail_plus-046f11b6-7d1a-4bd3-8250-4c5a50fab3ff.yaml
@@ -105534,6 +105529,7 @@
 ./poc/cve/CVE-2024-6392.yaml
 ./poc/cve/CVE-2024-6393-a1495a718b9b04b09418dfa3d32dcbe3.yaml
 ./poc/cve/CVE-2024-6393-nextgen_gallery-5bde2c99-9ef9-4303-9d02-dd7305674bf0.yaml
+./poc/cve/CVE-2024-6396.yaml
 ./poc/cve/CVE-2024-6396_1.yaml
 ./poc/cve/CVE-2024-6396_2.yaml
 ./poc/cve/CVE-2024-6397-e1c0929ad0dc48578299bac6e98835ff.yaml
@@ -105854,10 +105850,12 @@
 ./poc/cve/CVE-2024-6641-02a5f4f082e3806a9df1c2bc50b815f5.yaml
 ./poc/cve/CVE-2024-6641-wp_security_hardening-7a52a278-1729-4027-8a00-e9804fa6698b.yaml
 ./poc/cve/CVE-2024-6641.yaml
+./poc/cve/CVE-2024-6646.yaml
 ./poc/cve/CVE-2024-6646_1.yaml
 ./poc/cve/CVE-2024-6646_2.yaml
 ./poc/cve/CVE-2024-6651-d997e5d644b2b406feb2935ce47aedc7.yaml
 ./poc/cve/CVE-2024-6651-wp_file_upload-9dc49d44-d4ba-49d8-96eb-547832fe4b5e.yaml
+./poc/cve/CVE-2024-6651.yaml
 ./poc/cve/CVE-2024-6651_1.yaml
 ./poc/cve/CVE-2024-6660-38e4d492edc53bb92181d7805edf8913.yaml
 ./poc/cve/CVE-2024-6660-bookingpress_appointment_booking-851ff861-474e-4063-88ff-d8d35b10e9a0.yaml
@@ -106036,12 +106034,12 @@
 ./poc/cve/CVE-2024-6836-dfcf9c49d7ec6e7d41de196c79e61fb2.yaml
 ./poc/cve/CVE-2024-6836-funnel_builder-d9022afe-0c79-413b-ac0a-a1d32ec09619.yaml
 ./poc/cve/CVE-2024-6836.yaml
-./poc/cve/CVE-2024-6842.yaml
 ./poc/cve/CVE-2024-6843-4c73645cda7e25187e67e72d3f09f636.yaml
 ./poc/cve/CVE-2024-6843-smartsearchwp-109a99ca-1173-4367-b8a7-c3d8cffcfcaf.yaml
 ./poc/cve/CVE-2024-6843.yaml
 ./poc/cve/CVE-2024-6845-440266450ee893990b8ebf6c1d46e846.yaml
 ./poc/cve/CVE-2024-6845-smartsearchwp-1f2cfb14-1076-492f-8a1b-ae04b47dc6fa.yaml
+./poc/cve/CVE-2024-6845.yaml
 ./poc/cve/CVE-2024-6845_1.yaml
 ./poc/cve/CVE-2024-6845_2.yaml
 ./poc/cve/CVE-2024-6846-a3b80ea88f57506dc9d9e2d910bbf04b.yaml
@@ -106116,7 +106114,7 @@
 ./poc/cve/CVE-2024-6889-1c8272a1873b60c8fedb66ae1ee69c2e.yaml
 ./poc/cve/CVE-2024-6889-secure_copy_content_protection-25c35a42-9f1a-4f67-a074-c6359e8b1a41.yaml
 ./poc/cve/CVE-2024-6889.yaml
-./poc/cve/CVE-2024-6893.yaml
+./poc/cve/CVE-2024-6892.yaml
 ./poc/cve/CVE-2024-6893_1.yaml
 ./poc/cve/CVE-2024-6893_2.yaml
 ./poc/cve/CVE-2024-6894-586a0881c5d8ae66a61b156d7983f464.yaml
@@ -106133,7 +106131,6 @@
 ./poc/cve/CVE-2024-6910-eventon_lite-272746cd-0817-4dcb-8a4c-f1d84ed960b2.yaml
 ./poc/cve/CVE-2024-6910.yaml
 ./poc/cve/CVE-2024-6911_1.yaml
-./poc/cve/CVE-2024-6922.yaml
 ./poc/cve/CVE-2024-6922_1.yaml
 ./poc/cve/CVE-2024-6924-57b89cd5c7aee5c3239825f7590be4bb.yaml
 ./poc/cve/CVE-2024-6924-891d9031ce68d673cb979a413864b2b9.yaml
@@ -106146,6 +106143,7 @@
 ./poc/cve/CVE-2024-6925.yaml
 ./poc/cve/CVE-2024-6926-7fc8004678e5aa439634638b7d246f4d.yaml
 ./poc/cve/CVE-2024-6926-viral_signup-54a37c4a-44c7-47fd-8f2d-486372fb643c.yaml
+./poc/cve/CVE-2024-6926.yaml
 ./poc/cve/CVE-2024-6926_1.yaml
 ./poc/cve/CVE-2024-6927-d1f38b2917075d9ec844815e1aaa2ced.yaml
 ./poc/cve/CVE-2024-6927-viral_signup-3f9592d1-73a0-422e-b6d2-c31cc79a1a90.yaml
@@ -106170,6 +106168,7 @@
 ./poc/cve/CVE-2024-6987-376b52de3c45e8347b2ab6e49dec39ca.yaml
 ./poc/cve/CVE-2024-6987-orchid_store-5402f206-0375-4c47-8a5c-e8ea5742493d.yaml
 ./poc/cve/CVE-2024-6987.yaml
+./poc/cve/CVE-2024-7008.yaml
 ./poc/cve/CVE-2024-7027-90534f21ba7ac35c6aefb4db06d95b2d.yaml
 ./poc/cve/CVE-2024-7027-woocommerce_pdf_vouchers-b6cf27d9-c0be-4cff-8867-19297f6d79d7.yaml
 ./poc/cve/CVE-2024-7027.yaml
@@ -106217,7 +106216,6 @@
 ./poc/cve/CVE-2024-7094-js_support_ticket-31513f9e-6185-425b-9e7e-36f21f72d0a2.yaml
 ./poc/cve/CVE-2024-7094.yaml
 ./poc/cve/CVE-2024-7094_1.yaml
-./poc/cve/CVE-2024-7097.yaml
 ./poc/cve/CVE-2024-7100-ad8e27985a77f89f3ffd15a9cd3c761c.yaml
 ./poc/cve/CVE-2024-7100-bold_page_builder-4999bbf3-3dbd-4c9a-b648-744192c9586c.yaml
 ./poc/cve/CVE-2024-7100.yaml
@@ -106294,6 +106292,7 @@
 ./poc/cve/CVE-2024-7304.yaml
 ./poc/cve/CVE-2024-7313-b762e54f8085d18804da0898542a5ec1.yaml
 ./poc/cve/CVE-2024-7313-wp_simple_firewall-f23e7274-45f6-46da-b4c8-2eaa1bd39257.yaml
+./poc/cve/CVE-2024-7313.yaml
 ./poc/cve/CVE-2024-7313_1.yaml
 ./poc/cve/CVE-2024-7314.yaml
 ./poc/cve/CVE-2024-7315-fca7053f6d8d3db3a989ec962d9eabd8.yaml
@@ -106323,7 +106322,6 @@
 ./poc/cve/CVE-2024-7353.yaml
 ./poc/cve/CVE-2024-7354-d12966f5f3ae3670ae8b5bd2b022ab06.yaml
 ./poc/cve/CVE-2024-7354-ninja_forms-5f7dc2c7-1a23-4677-b331-951960e76d43.yaml
-./poc/cve/CVE-2024-7354.yaml
 ./poc/cve/CVE-2024-7354_1.yaml
 ./poc/cve/CVE-2024-7354_2.yaml
 ./poc/cve/CVE-2024-7355-464a77ba558154888cf73a5cab0a6cc4.yaml
@@ -106364,6 +106362,7 @@
 ./poc/cve/CVE-2024-7390-wp_testimonial_widget-67eef869-a57f-40b5-b289-9353bf5b680a.yaml
 ./poc/cve/CVE-2024-7390.yaml
 ./poc/cve/CVE-2024-7390_1.yaml
+./poc/cve/CVE-2024-7399.yaml
 ./poc/cve/CVE-2024-7410-04d2c4288279f4f8c82a74ea1631a64a.yaml
 ./poc/cve/CVE-2024-7410-my_custom_css-d145d0af-e364-4cc3-af4f-03117eb34637.yaml
 ./poc/cve/CVE-2024-7410.yaml
@@ -106772,10 +106771,12 @@
 ./poc/cve/CVE-2024-7924.yaml
 ./poc/cve/CVE-2024-7926.yaml
 ./poc/cve/CVE-2024-7927.yaml
+./poc/cve/CVE-2024-7928.yaml
 ./poc/cve/CVE-2024-7928_1.yaml
 ./poc/cve/CVE-2024-7950-4a4c660d480c32376f512832d16b17e2.yaml
 ./poc/cve/CVE-2024-7950-wp_job_portal-ca1d5275-3398-47a7-889b-4050ebe635ee.yaml
 ./poc/cve/CVE-2024-7950.yaml
+./poc/cve/CVE-2024-7954.yaml
 ./poc/cve/CVE-2024-7955-5e9fd490f09c7370ea858a067ee264fd.yaml
 ./poc/cve/CVE-2024-7955-starbox-210fd125-285d-4d07-bd39-b5ea222025ea.yaml
 ./poc/cve/CVE-2024-7955.yaml
@@ -107167,7 +107168,6 @@
 ./poc/cve/CVE-2024-8500-8a16774b782ae8d1f0b570ebac07cca9.yaml
 ./poc/cve/CVE-2024-8500-shortcodes_ultimate-78af6e06-4b4c-4f56-a6f8-f98e8f681976.yaml
 ./poc/cve/CVE-2024-8500.yaml
-./poc/cve/CVE-2024-8503.yaml
 ./poc/cve/CVE-2024-8503_1.yaml
 ./poc/cve/CVE-2024-8503_2.yaml
 ./poc/cve/CVE-2024-8505-83a08aab53494aec2ab7878bf97aab78.yaml
@@ -107195,7 +107195,6 @@
 ./poc/cve/CVE-2024-8516-b0ae53f5d8bc37643f2a8b5730bca703.yaml
 ./poc/cve/CVE-2024-8516-themesflat_addons_for_elementor-75c5d4e6-9ef3-4b12-9ee9-67121dbb0fcd.yaml
 ./poc/cve/CVE-2024-8516.yaml
-./poc/cve/CVE-2024-8517.yaml
 ./poc/cve/CVE-2024-8517_1.yaml
 ./poc/cve/CVE-2024-8519-c09aac3ec9eb3ec8e899518d68fbb383.yaml
 ./poc/cve/CVE-2024-8519-ultimate_member-9e394bb2-d505-4bf1-b672-fea3504bf936.yaml
@@ -107358,7 +107357,6 @@
 ./poc/cve/CVE-2024-8681.yaml
 ./poc/cve/CVE-2024-8682-9dc923513b3155bc57a455389386fe97.yaml
 ./poc/cve/CVE-2024-8682-jnews-4b0d7ee7-a358-4487-a0cc-31ed810ae8bc.yaml
-./poc/cve/CVE-2024-8698.yaml
 ./poc/cve/CVE-2024-8699-5910cb1b5f98055186e180127e520bbe.yaml
 ./poc/cve/CVE-2024-8699-z_downloads-49d3d11d-76b1-4242-921f-631e2e270ebe.yaml
 ./poc/cve/CVE-2024-8700-de190b763c0105020f55ca3eecb3c90d.yaml
@@ -107658,7 +107656,6 @@
 ./poc/cve/CVE-2024-8962-6b163dfda71e12f7e89fbd87a8f9cc55.yaml
 ./poc/cve/CVE-2024-8962-wpbits_addons_for_elementor-f735f05d-8178-46bd-894d-49ccfb31d304.yaml
 ./poc/cve/CVE-2024-8962_1.yaml
-./poc/cve/CVE-2024-8963.yaml
 ./poc/cve/CVE-2024-8963_1.yaml
 ./poc/cve/CVE-2024-8964-c867d6af282cfd42151c0dd0c624594f.yaml
 ./poc/cve/CVE-2024-8964-sirv-39b2435f-32a3-4158-a734-c21a0cab15be.yaml
@@ -107700,6 +107697,8 @@
 ./poc/cve/CVE-2024-8991-1040b7d5761884370ece96a54a7bee7f.yaml
 ./poc/cve/CVE-2024-8991-osm-839ecd06-9c74-4ddc-b455-26ec3e627889.yaml
 ./poc/cve/CVE-2024-8991.yaml
+./poc/cve/CVE-2024-9007.yaml
+./poc/cve/CVE-2024-9014.yaml
 ./poc/cve/CVE-2024-9014_1.yaml
 ./poc/cve/CVE-2024-9017-3eb213813df79592ded8f5222f7137d3.yaml
 ./poc/cve/CVE-2024-9017-peepso_groups-32ac79f4-ada7-4c14-8675-53f8375912d8.yaml
@@ -107989,6 +107988,7 @@
 ./poc/cve/CVE-2024-9233.yaml
 ./poc/cve/CVE-2024-9234-a70b6d1b82b579fc4a6ae49321787247.yaml
 ./poc/cve/CVE-2024-9234-gutenkit_blocks_addon-e44c5dc0-6bf6-417a-9383-b345ff57ac32.yaml
+./poc/cve/CVE-2024-9234.yaml
 ./poc/cve/CVE-2024-9234_1.yaml
 ./poc/cve/CVE-2024-9235-9f84e172c440fa390654d1d978fbd78e.yaml
 ./poc/cve/CVE-2024-9235-mapster_wp_maps-b81c2990-68d1-4d45-9724-262ec017caf1.yaml
@@ -108238,10 +108238,8 @@
 ./poc/cve/CVE-2024-9462-997ea01500055b7e00f4aeed22a63b86.yaml
 ./poc/cve/CVE-2024-9462-poll_maker-9e6434fb-390d-439d-bf3e-9afe8644fd58.yaml
 ./poc/cve/CVE-2024-9462.yaml
-./poc/cve/CVE-2024-9463.yaml
 ./poc/cve/CVE-2024-9463_1.yaml
 ./poc/cve/CVE-2024-9463_2.yaml
-./poc/cve/CVE-2024-9465.yaml
 ./poc/cve/CVE-2024-9465_1.yaml
 ./poc/cve/CVE-2024-9474.yaml
 ./poc/cve/CVE-2024-9475-d454aa0f8e831ad96768c0f42bd26d3a.yaml
@@ -108788,6 +108786,7 @@
 ./poc/cve/CVE-2024-9935-44469e492e60f8411ffdcda9081fb983.yaml
 ./poc/cve/CVE-2024-9935-e34f6995a95f33b10c197658639863ad.yaml
 ./poc/cve/CVE-2024-9935-pdf_generator_addon_for_elementor_page_builder-36daf2af-1db3-4b35-8849-480212660b2f.yaml
+./poc/cve/CVE-2024-9935.yaml
 ./poc/cve/CVE-2024-9935_1.yaml
 ./poc/cve/CVE-2024-9935_2.yaml
 ./poc/cve/CVE-2024-9937-9915217ba7d6f29cd232016898fb9998.yaml
@@ -108844,7 +108843,6 @@
 ./poc/cve/CVE-2024-9994-essential_addons_for_elementor_lite-855ae993-d887-4416-9b3c-8274a90dce5f.yaml
 ./poc/cve/CVE-2024–24142.yaml
 ./poc/cve/CVE-2025-0107.yaml
-./poc/cve/CVE-2025-0133.yaml
 ./poc/cve/CVE-2025-0169-141bc5e320fd22b32bf2808a9dbba5a3.yaml
 ./poc/cve/CVE-2025-0169-dwt_listing-be0c29a3-0b78-4259-a514-c3674d9d5d55.yaml
 ./poc/cve/CVE-2025-0170-79f8244c74377fd924eb1a0b5327b3aa.yaml
@@ -108935,6 +108933,7 @@
 ./poc/cve/CVE-2025-0661-dethemekit_for_elementor-1e2c937c-1ff8-4bcc-913b-83bade37d754.yaml
 ./poc/cve/CVE-2025-0671-78ec1800ec8cab2d7448be6a0ff16711.yaml
 ./poc/cve/CVE-2025-0671-email_subscribers-6294acc4-e28a-4817-be3e-430086c05e13.yaml
+./poc/cve/CVE-2025-0674.yaml
 ./poc/cve/CVE-2025-0682-08b4644a51dbb68b6e5be096e26096dd.yaml
 ./poc/cve/CVE-2025-0682-trx_addons-15a9718f-f877-4e33-8f7a-950791c4ca85.yaml
 ./poc/cve/CVE-2025-0687-78cb5fb5749fbfbb1fcfef1a562391db.yaml
@@ -109073,7 +109072,6 @@
 ./poc/cve/CVE-2025-1008-803751d216e30cd7ad8ee1e171f29e48.yaml
 ./poc/cve/CVE-2025-1008-903547fd187029c0e122b4b703d8580c.yaml
 ./poc/cve/CVE-2025-1008-recently_purchased_products_for_woo-c9ebcd32-90c1-419c-a67c-6fe41ee9fab1.yaml
-./poc/cve/CVE-2025-1025.yaml
 ./poc/cve/CVE-2025-1028-08322553d3da7ace8191edb7d3c3452f.yaml
 ./poc/cve/CVE-2025-1028-contact_manager-b6f51a8e-4a59-4b64-b0c6-2ce3933a1df5.yaml
 ./poc/cve/CVE-2025-1033-8e2d1f201ccd3e84c8e3e25dffa856be.yaml
@@ -109180,6 +109178,7 @@
 ./poc/cve/CVE-2025-1322-wp_recall-c667be65-e6d3-40e1-aeec-384d309fde3d.yaml
 ./poc/cve/CVE-2025-1323-55039ff85161ef3d8a17ee1852a27a2f.yaml
 ./poc/cve/CVE-2025-1323-wp_recall-ae5b4d81-c2f1-4d0d-b7b0-5556bf0451f5.yaml
+./poc/cve/CVE-2025-1323.yaml
 ./poc/cve/CVE-2025-1324-c5b5d5f8b57b0f72f4a0e57ce7d3b6a6.yaml
 ./poc/cve/CVE-2025-1324-wp_recall-3e0be093-d61a-4634-ba9b-91dd7328e8cd.yaml
 ./poc/cve/CVE-2025-1325-d85966a72e85ed6bbc1b77660d63dcf6.yaml
@@ -109341,7 +109340,6 @@
 ./poc/cve/CVE-2025-1571-exclusive_addons_for_elementor-dd2ec0b3-2784-4506-99f4-05187527fe6d.yaml
 ./poc/cve/CVE-2025-1572-f562fc162184b8a07534b1abe1dd7b5f.yaml
 ./poc/cve/CVE-2025-1572-kivicare_clinic_management_system-eb6b0c35-b478-4616-a708-1fd243c95c14.yaml
-./poc/cve/CVE-2025-1595.yaml
 ./poc/cve/CVE-2025-1619-187027ce1765aafed734f0d8b417c8e5.yaml
 ./poc/cve/CVE-2025-1619-gdpr_cookie_compliance-6f500eb7-64a2-4734-9688-fbae84f280bc.yaml
 ./poc/cve/CVE-2025-1620-2f111b52f8af50cefcaec36fa323b1b3.yaml
@@ -109372,6 +109370,7 @@
 ./poc/cve/CVE-2025-1657-ulisting-0e70184f-94b6-4742-b99b-6eec9d28f17c.yaml
 ./poc/cve/CVE-2025-1661-0e645ed2a3b7b8720ecc67464efe5df9.yaml
 ./poc/cve/CVE-2025-1661-woocommerce_products_filter-9ae7b6fc-2120-4573-8b1b-d5422d435fa5.yaml
+./poc/cve/CVE-2025-1661.yaml
 ./poc/cve/CVE-2025-1661.yml
 ./poc/cve/CVE-2025-1662-28166981ae5520dd693c51237ab77d44.yaml
 ./poc/cve/CVE-2025-1662-a1efcaf894ef18feddfb379d8597af63.yaml
@@ -109421,7 +109420,6 @@
 ./poc/cve/CVE-2025-1725-file_manager-84ddb481-f989-4ba8-9925-e8327c30de38.yaml
 ./poc/cve/CVE-2025-1730-043aaac24c6a31f54cac11cf62052ad0.yaml
 ./poc/cve/CVE-2025-1730-simple_download_counter-d0eafb20-4ef2-448b-9da7-ad8aa9e45215.yaml
-./poc/cve/CVE-2025-1743.yaml
 ./poc/cve/CVE-2025-1757-0951aeb6b0c397895a6151f01528ade3.yaml
 ./poc/cve/CVE-2025-1757-uber_grid-36dcf1c4-1e0a-4ab6-a1b3-a9fe3aaddd0b.yaml
 ./poc/cve/CVE-2025-1762-5249556b23fa18488ba238d0f20a1660.yaml
@@ -109474,6 +109472,7 @@
 ./poc/cve/CVE-2025-1972-users_customers_import_export_for_wp_woocommerce-2d443c70-6537-4c6d-a282-12d392f0f558.yaml
 ./poc/cve/CVE-2025-1973-527b50916a924591b6e4188e68b6a38c.yaml
 ./poc/cve/CVE-2025-1973-users_customers_import_export_for_wp_woocommerce-13b7a2e4-59f4-4d61-a165-a830ccfb696a.yaml
+./poc/cve/CVE-2025-1974.yaml
 ./poc/cve/CVE-2025-1986-ba046904348c2f87c7ed63806bd8382d.yaml
 ./poc/cve/CVE-2025-1986-gutentor-153647b8-c5eb-47f5-b375-0baec367287f.yaml
 ./poc/cve/CVE-2025-2004-12b51c0a1b80254033169b7e84d2296b.yaml
@@ -109494,8 +109493,10 @@
 ./poc/cve/CVE-2025-2009-newsletters_lite-3825c80c-e4b1-4dd8-be77-38f718920b9a.yaml
 ./poc/cve/CVE-2025-2010-16a4e53ef6c594ba0f2269eea7c9d406.yaml
 ./poc/cve/CVE-2025-2010-jobwp-b3b658f0-b9d8-4b7f-8d40-39ce185ef797.yaml
+./poc/cve/CVE-2025-2010.yaml
 ./poc/cve/CVE-2025-2011-993280790703a71948d108851c2dcc05.yaml
 ./poc/cve/CVE-2025-2011-depicter-49b36cde-39d8-4a69-8d7c-7b850b76a7cd.yaml
+./poc/cve/CVE-2025-2011.yaml
 ./poc/cve/CVE-2025-2025-9bce3f5ed0bfc30f03511276a6e76c48.yaml
 ./poc/cve/CVE-2025-2025-give-40595943-121d-4492-a0ed-f2de1bd99fda.yaml
 ./poc/cve/CVE-2025-2048-95d6404f309441e777f3ec5436cc46a5.yaml
@@ -110042,6 +110043,7 @@
 ./poc/cve/CVE-2025-22638-product_table_for_woocommerce-73d6efc5-8f91-453a-8c84-4b373aaf4d7a.yaml
 ./poc/cve/CVE-2025-22639-8e55e39ecfaba49c978d2975c15c6ca0.yaml
 ./poc/cve/CVE-2025-22639-distance_rate_shipping_for_woocommerce-f72ad187-9745-4d0b-8cb0-5bf07ab1e2ac.yaml
+./poc/cve/CVE-2025-2264.yaml
 ./poc/cve/CVE-2025-22640-f9835026ac580ce851adde7dddd3e1ce.yaml
 ./poc/cve/CVE-2025-22640-paytm_donation-077f3152-9735-41c7-9a17-5202b3ee3152.yaml
 ./poc/cve/CVE-2025-22641-278075cb0de31e2c8fa9f55ed54fc05a.yaml
@@ -110435,7 +110437,7 @@
 ./poc/cve/CVE-2025-2290-lifterlms-4f64dbf2-b75a-4a35-9b4e-413b8fd1fff0.yaml
 ./poc/cve/CVE-2025-2294-dc5e6f0716491afe9d6c5c97a682ffd9.yaml
 ./poc/cve/CVE-2025-2294-kubio-2fb44c6e-520e-4a9f-9987-8b770feb710d.yaml
-./poc/cve/CVE-2025-2294.yaml
+./poc/cve/CVE-2025-22952.yaml
 ./poc/cve/CVE-2025-2299-8908f9b9b2b5f853b9cc962b7c831140.yaml
 ./poc/cve/CVE-2025-2299-luckywp_table_of_contents-82df5b2e-4c4a-402f-99c9-694fa710009b.yaml
 ./poc/cve/CVE-2025-2302-25dfaaac57877fa3288c831d500af65c.yaml
@@ -111627,7 +111629,6 @@
 ./poc/cve/CVE-2025-24001-6134a2aa1016c0fc42db4db10f09ff36.yaml
 ./poc/cve/CVE-2025-24001-ppo_call_to_actions-a323ccb8-c461-4203-a590-3785594b90f5.yaml
 ./poc/cve/CVE-2025-24016.yaml
-./poc/cve/CVE-2025-24514.yaml
 ./poc/cve/CVE-2025-24533-0304a5ad8b23fb282b4e5a2ca5c91204.yaml
 ./poc/cve/CVE-2025-24533-ml_slider-50f0f0d9-973d-4903-84aa-a1a68a5c19e2.yaml
 ./poc/cve/CVE-2025-24534-0ca8e193e14a1057fc992dcb34444444.yaml
@@ -112140,7 +112141,6 @@
 ./poc/cve/CVE-2025-24982-winterlock-ccc1dd7b-61f3-4358-bbf8-75f44200d3b1.yaml
 ./poc/cve/CVE-2025-2505-a099f7c5194966cb0bef88cab4e0b0a1.yaml
 ./poc/cve/CVE-2025-2505-age_gate-d6ac2996-098f-474c-b44e-78d5af7b503a.yaml
-./poc/cve/CVE-2025-25062.yaml
 ./poc/cve/CVE-2025-25070-a31cc963618cfd136a3f3fc54eb58f3a.yaml
 ./poc/cve/CVE-2025-25070-albumreviewer-b3ece4c3-1f05-4f2d-ba2a-50327106f0fa.yaml
 ./poc/cve/CVE-2025-25071-798f160688a97f1e4d9bb9852b5ae4e3.yaml
@@ -112374,7 +112374,6 @@
 ./poc/cve/CVE-2025-25257.yaml
 ./poc/cve/CVE-2025-2526-ee91deed7e4def5f725289f1920525e0.yaml
 ./poc/cve/CVE-2025-2526-streamit-057abffb-1c52-49ca-8791-ca44f0c5a011.yaml
-./poc/cve/CVE-2025-25291.yaml
 ./poc/cve/CVE-2025-2537-7382d36d086b3e7fcf2de097b386a7a4.yaml
 ./poc/cve/CVE-2025-2537-auto_thickbox-59ea7390-3587-4fce-b267-bf525dbe3e27.yaml
 ./poc/cve/CVE-2025-2537-nextgen_gallery-59ea7390-3587-4fce-b267-bf525dbe3e27.yaml
@@ -112435,6 +112434,7 @@
 ./poc/cve/CVE-2025-2635-digital_license_manager-a266e003-3a0a-4832-a88b-60c2a26b387c.yaml
 ./poc/cve/CVE-2025-2636-10569a5171ecd0283d67abdf78aff154.yaml
 ./poc/cve/CVE-2025-2636-instawp_connect-4c8f2c6f-c231-477c-895b-df892569ef95.yaml
+./poc/cve/CVE-2025-2636.yaml
 ./poc/cve/CVE-2025-26534-8b1a73c0c10052efba0cf3ccf03a32ec.yaml
 ./poc/cve/CVE-2025-26534-ab7592a56db0920aef4b8e9429c02c78.yaml
 ./poc/cve/CVE-2025-26534-helloprint-6b3a0ceb-f42b-42dd-9308-cd66122ebb7f.yaml
@@ -112648,6 +112648,7 @@
 ./poc/cve/CVE-2025-26778-gallery-fb1392b4-326a-4a54-be04-972b0716b1de.yaml
 ./poc/cve/CVE-2025-26779-59d010b87d475f8d53a7ef877c126d3b.yaml
 ./poc/cve/CVE-2025-26779-keep_backup_daily-edc197c6-dd0e-4a61-9421-5ae2595ff42b.yaml
+./poc/cve/CVE-2025-26793.yaml
 ./poc/cve/CVE-2025-2685-e01b0063f19adfadbdae81229f296eff.yaml
 ./poc/cve/CVE-2025-2685-tablepress-e285849f-886e-49ba-bb43-8c67655fe239.yaml
 ./poc/cve/CVE-2025-26867-5432d88aa83b7d18060e139b43ba1f6b.yaml
@@ -112944,13 +112945,13 @@
 ./poc/cve/CVE-2025-27015-hostiko-f627e9a4-378f-4c05-bd6e-bc0c4523df89.yaml
 ./poc/cve/CVE-2025-27016-drivr_google_drive_file_picker-5263349f-e85f-4d36-a949-d68d31a02e0e.yaml
 ./poc/cve/CVE-2025-27016-f47f13d10839858043909cf42316d393.yaml
+./poc/cve/CVE-2025-2709.yaml
 ./poc/cve/CVE-2025-2710.yaml
 ./poc/cve/CVE-2025-2711.yaml
 ./poc/cve/CVE-2025-27134.yaml
 ./poc/cve/CVE-2025-2719-2d398de64df7a09f6e7564c9e4d77d6a.yaml
 ./poc/cve/CVE-2025-2719-345cd91fe4d434d678928faf12219ca8.yaml
 ./poc/cve/CVE-2025-2719-swatchly-39336115-5993-49e1-b810-80a712e8e42b.yaml
-./poc/cve/CVE-2025-27218.yaml
 ./poc/cve/CVE-2025-27263-aa4e41413aca54fd2304586f52498d28.yaml
 ./poc/cve/CVE-2025-27263-doctor_appointment_booking-365fce53-223b-48d3-bfb6-151b74218875.yaml
 ./poc/cve/CVE-2025-27264-5ed63d1b94110416f195a443475cc56a.yaml
@@ -113157,9 +113158,10 @@
 ./poc/cve/CVE-2025-27361-photo_express_for_google-3d0114d9-de95-444b-9820-e775bff32d53.yaml
 ./poc/cve/CVE-2025-27362-343db2f8e3a7c1abe25c3cd6358e7831.yaml
 ./poc/cve/CVE-2025-27362-bw_petito-08e9a8f1-e5ed-4af7-ab37-31bab8850dbd.yaml
+./poc/cve/CVE-2025-2748.yaml
 ./poc/cve/CVE-2025-27505.yaml
-./poc/cve/CVE-2025-2775.yaml
 ./poc/cve/CVE-2025-2776.yaml
+./poc/cve/CVE-2025-2777.yaml
 ./poc/cve/CVE-2025-2779-73b844800f72b7d9de50e3e940ce528e.yaml
 ./poc/cve/CVE-2025-2779-insert_headers_and_footers_script-75bc2295-bf9a-430f-92b7-d380eed6df11.yaml
 ./poc/cve/CVE-2025-2780-a6d054905d448d3f2e704e2f16fe3efe.yaml
@@ -113200,9 +113202,11 @@
 ./poc/cve/CVE-2025-2816-page_views_count-e6fb9558-06e5-4297-93df-ee9a6971f0ec.yaml
 ./poc/cve/CVE-2025-2821-f147d99742be873a5095b19985b4b161.yaml
 ./poc/cve/CVE-2025-2821-search_exclude-1f72a309-8ef8-4943-8e64-38bb7909397a.yaml
+./poc/cve/CVE-2025-28228.yaml
 ./poc/cve/CVE-2025-2825.yaml
 ./poc/cve/CVE-2025-2836-00a6241b5600e372b0ce5dfb6ff27fb5.yaml
 ./poc/cve/CVE-2025-2836-custom_registration_form_builder_with_submission_manager-9c0c3932-bdb0-4edb-bfec-2ed52cbc5cb6.yaml
+./poc/cve/CVE-2025-28367.yaml
 ./poc/cve/CVE-2025-2839-3892bef596fc2571f3f2211c83323fd4.yaml
 ./poc/cve/CVE-2025-2839-wp_import_export_lite-a8ca1ead-1bc5-4ccc-9034-559db27f5e82.yaml
 ./poc/cve/CVE-2025-2840-61769f7d610a8a8c932d076e557c5e33.yaml
@@ -113574,12 +113578,10 @@
 ./poc/cve/CVE-2025-2907-3979590676edfe9cfe05fab4e421a0f3.yaml
 ./poc/cve/CVE-2025-2907-order_delivery_date-41048058-1662-4ec1-81ac-6e8e42351e7e.yaml
 ./poc/cve/CVE-2025-2907.yaml
-./poc/cve/CVE-2025-29085.yaml
 ./poc/cve/CVE-2025-2918-30064fed55755255169ee384bc0035c4.yaml
 ./poc/cve/CVE-2025-2918-ultimate_blocks-41b2a4cc-fb23-41eb-b1a4-d793ae924d9a.yaml
 ./poc/cve/CVE-2025-2929-23046ca5a6a4cdee4d8b43bbc66ae534.yaml
 ./poc/cve/CVE-2025-2929-order_delivery_date-466171e7-575d-4fc1-8005-8704904b7725.yaml
-./poc/cve/CVE-2025-29306.yaml
 ./poc/cve/CVE-2025-2932-8d227ee1602055a377bf93abc8cc546a.yaml
 ./poc/cve/CVE-2025-2932-jkdevkit-68679ff9-48a8-4146-a37f-5f844dc86c92.yaml
 ./poc/cve/CVE-2025-2933-16b4e60ea7bb7f91e961292f6ab251fb.yaml
@@ -113596,10 +113598,11 @@
 ./poc/cve/CVE-2025-2942-order_delivery_date-934fd6a8-7d94-4127-9a00-1ea2f0c66cdd.yaml
 ./poc/cve/CVE-2025-2944-a2866ef7f64206a3e03eb9031aa81060.yaml
 ./poc/cve/CVE-2025-2944-jeg_elementor_kit-7baa8cca-96a5-4d6b-86d5-53cd1a4675cf.yaml
-./poc/cve/CVE-2025-29927-HEADLESS.yaml
+./poc/cve/CVE-2025-29927.yaml
 ./poc/cve/CVE-2025-29927_1.yaml
 ./poc/cve/CVE-2025-30208.yaml
 ./poc/cve/CVE-2025-30220.yaml
+./poc/cve/CVE-2025-30406.yaml
 ./poc/cve/CVE-2025-30520-8ffc7a4552dc3b551eb8b2d0d3726c9c.yaml
 ./poc/cve/CVE-2025-30520-breezing_forms-2e5b3595-932c-4a42-b340-f162b29f69ee.yaml
 ./poc/cve/CVE-2025-30521-a0fe1966d885376beff2a30752e05f6b.yaml
@@ -114592,13 +114595,14 @@
 ./poc/cve/CVE-2025-31101-wp_plugin_contact_form_7-5ee5e650-5a52-4921-92c3-3ea1a43fc238.yaml
 ./poc/cve/CVE-2025-31102-05ecdf235b3f0a462e968f0f22bab9f6.yaml
 ./poc/cve/CVE-2025-31102-hostel-255e7322-641a-4b05-ae2d-0ec90d133e8e.yaml
+./poc/cve/CVE-2025-31125.yaml
 ./poc/cve/CVE-2025-31125_1.yaml
 ./poc/cve/CVE-2025-31125_2.yaml
 ./poc/cve/CVE-2025-31125_3.yaml
 ./poc/cve/CVE-2025-31125_4.yaml
 ./poc/cve/CVE-2025-31125_5.yaml
 ./poc/cve/CVE-2025-31125_6.yaml
-./poc/cve/CVE-2025-31161.yaml
+./poc/cve/CVE-2025-31131.yaml
 ./poc/cve/CVE-2025-31324.yaml
 ./poc/cve/CVE-2025-31375-fbf02d38c99bb1655fb19a450b0e0043.yaml
 ./poc/cve/CVE-2025-31375-scheduled-fd54bedf-0bec-46ff-a555-c88eaa04068b.yaml
@@ -114805,7 +114809,6 @@
 ./poc/cve/CVE-2025-31473-wp_database_optimizer-de4c147b-748e-447e-8ee7-23072445cd56.yaml
 ./poc/cve/CVE-2025-31474-5d011511b79f059b41a5c98f7132b2ac.yaml
 ./poc/cve/CVE-2025-31474-wp_database_optimizer-65a17f2e-8ce3-4d2e-8413-05826dcd9035.yaml
-./poc/cve/CVE-2025-31489.yaml
 ./poc/cve/CVE-2025-31524-4850fc063c0a0972b8dd3489413ff645.yaml
 ./poc/cve/CVE-2025-31524-wp_user_profiles-2c69dec6-4988-4760-8dc0-a11044dde406.yaml
 ./poc/cve/CVE-2025-31525-536c259f6d87a61ba5e26033619c3688.yaml
@@ -116440,6 +116443,7 @@
 ./poc/cve/CVE-2025-3280-elex_bulk_edit_products_prices_attributes_for_woocommerce_basic-e2e4b83a-34d5-4a8a-b694-a887a46fe6bf.yaml
 ./poc/cve/CVE-2025-3281-975288ad2b613969c4d5a53b3df50c16.yaml
 ./poc/cve/CVE-2025-3281-user_registration-30339ff6-b6bf-4c56-b6cd-db0b8a6ce8b6.yaml
+./poc/cve/CVE-2025-32813.yaml
 ./poc/cve/CVE-2025-32814.yaml
 ./poc/cve/CVE-2025-3282-478343b7f8002b7312455fbf38cef10d.yaml
 ./poc/cve/CVE-2025-3282-user_registration-c525b41c-dca5-442a-927e-4583cb303ed1.yaml
@@ -116477,7 +116481,6 @@
 ./poc/cve/CVE-2025-3300-wpmastertoolkit-c389ba1a-45c5-4fba-9b99-0713fe39da42.yaml
 ./poc/cve/CVE-2025-3302-fd4f053a93316eb5e06a2730c95c06b2.yaml
 ./poc/cve/CVE-2025-3302-xagio_seo-9e2afd66-c896-47c8-bf56-84a086087d55.yaml
-./poc/cve/CVE-2025-34026.yaml
 ./poc/cve/CVE-2025-34027.yaml
 ./poc/cve/CVE-2025-34028.yaml
 ./poc/cve/CVE-2025-34031.yaml
@@ -116490,7 +116493,6 @@
 ./poc/cve/CVE-2025-34077-pie_register-819b9565-2eb1-4b87-bf3a-5cd93429cafe.yaml
 ./poc/cve/CVE-2025-34077.yaml
 ./poc/cve/CVE-2025-3414-structured_content-ec9d3cca-7061-4dc4-9c71-b2ffbfde120b.yaml
-./poc/cve/CVE-2025-34141.yaml
 ./poc/cve/CVE-2025-34143.yaml
 ./poc/cve/CVE-2025-3415.yaml
 ./poc/cve/CVE-2025-3417-1d6a9664ecd54a09078e61fac0c7dcdd.yaml
@@ -116511,7 +116513,6 @@
 ./poc/cve/CVE-2025-3429-f68b274f1caee340a167c65e02428db7.yaml
 ./poc/cve/CVE-2025-3430-3dprint_lite-718f5cf2-ca83-4981-9123-4360d043a32d.yaml
 ./poc/cve/CVE-2025-3430-c420864095aea25b7f84e8249e38e843.yaml
-./poc/cve/CVE-2025-34300.yaml
 ./poc/cve/CVE-2025-3431-15aeb659ba98dab7c76529a62bcfa6a9.yaml
 ./poc/cve/CVE-2025-3431-dzs_zoomsounds-a78998da-1cb1-4991-95a8-a551bde04064.yaml
 ./poc/cve/CVE-2025-3432-0ee85270e712d47386b567432aa822f9.yaml
@@ -117303,7 +117304,6 @@
 ./poc/cve/CVE-2025-39601-custom_css-5fd0971e-7749-4970-ad39-d0d64a9f1d90.yaml
 ./poc/cve/CVE-2025-39602-891dac09c8c5dbee60d49e7d9fbe256d.yaml
 ./poc/cve/CVE-2025-39602-wc_product_table_lite-cfb63a23-71f1-4497-a1ba-5b10abf0e22a.yaml
-./poc/cve/CVE-2025-4009.yaml
 ./poc/cve/CVE-2025-4047-b8b87e39395ecad82fd66c2c2c478acc.yaml
 ./poc/cve/CVE-2025-4047-broken_link_checker-33ac910c-9531-45ea-84cf-1d379233f7d3.yaml
 ./poc/cve/CVE-2025-4054-8bafd9312a5d6f3955319ff3e6f07c7f.yaml
@@ -117407,6 +117407,7 @@
 ./poc/cve/CVE-2025-4334-0c2842e42ca0dc725ea7d18c97cd77f6.yaml
 ./poc/cve/CVE-2025-4334-df475ea33d37cd6fc81a28f0298f7e11.yaml
 ./poc/cve/CVE-2025-4334-wp_registration-c211e0c0-3086-43d2-853c-489f9c42b0ab.yaml
+./poc/cve/CVE-2025-4334.yaml
 ./poc/cve/CVE-2025-4335-16cd304219e0b19bd870a4e85698a538.yaml
 ./poc/cve/CVE-2025-4335-woocommerce_multiple_addresses-95e74e70-9dc9-4e63-b371-fd2a38692907.yaml
 ./poc/cve/CVE-2025-4336-bb8e18df6c26fa09abe4898596b38c09.yaml
@@ -117448,7 +117449,6 @@
 ./poc/cve/CVE-2025-43841-vegas_fullscreen_background_slider-1ac6422f-0bb1-4586-adbb-71b04b2a8e63.yaml
 ./poc/cve/CVE-2025-4387-2be7abf889e7ac46e0d9b55b9e6f1dd1.yaml
 ./poc/cve/CVE-2025-4387-woocommerce_abandon_cart_pro-5d2f07bb-89b3-41d4-b606-9722deecf816.yaml
-./poc/cve/CVE-2025-4388.yaml
 ./poc/cve/CVE-2025-4389-crawlomatic_multipage_scraper_post_generator-1283e839-8588-4a76-9c1e-61562526166d.yaml
 ./poc/cve/CVE-2025-4389-dcbfb07dc669f1db2593fd06838be4bc.yaml
 ./poc/cve/CVE-2025-4390-90a39b43a376423dd14314ead12b029c.yaml
@@ -117901,7 +117901,6 @@
 ./poc/cve/CVE-2025-4672-offsprout_page_builder-9269d18d-8d83-43ff-b777-ba8f58321e9e.yaml
 ./poc/cve/CVE-2025-4682-essential_blocks-f88f065d-14ca-4547-9a41-f9177979a9ed.yaml
 ./poc/cve/CVE-2025-4682-f1c1635835ea4149fbaa955652368073.yaml
-./poc/cve/CVE-2025-46822.yaml
 ./poc/cve/CVE-2025-4683-634a7e0e188697bd2804d2427647f910.yaml
 ./poc/cve/CVE-2025-4683-mstore_api-b335bd15-7af7-4d8b-ad01-b1d9e76beb53.yaml
 ./poc/cve/CVE-2025-4684-08f1d0f9f1b76fda3cdf53521f85efe2.yaml
@@ -117912,6 +117911,7 @@
 ./poc/cve/CVE-2025-4689-ap_plugin_scripteo-038ddfcd-093b-4234-a0b8-a3bf9a3d329f.yaml
 ./poc/cve/CVE-2025-4691-1fcec353eff19e1cc8cc3bb792c7eef4.yaml
 ./poc/cve/CVE-2025-4691-easync_booking-3c9953b3-dd09-4c80-be11-4daf3bbac720.yaml
+./poc/cve/CVE-2025-47423.yaml
 ./poc/cve/CVE-2025-47437-e2a3308f6f3708d805410d584f8b1b99.yaml
 ./poc/cve/CVE-2025-47437-litespeed_cache-c96b9599-b1a5-4aa6-85fe-7af3f12d1776.yaml
 ./poc/cve/CVE-2025-47438-5014f34943dcd4721a29f90b33f7c2d0.yaml
@@ -118340,6 +118340,7 @@
 ./poc/cve/CVE-2025-47645-elex_bulk_edit_products_prices_attributes_for_woocommerce_basic-2273f637-a80d-46af-8ce6-dfcd25a87679.yaml
 ./poc/cve/CVE-2025-47646-9a6572c0d9e5a82e08cfab7137b75799.yaml
 ./poc/cve/CVE-2025-47646-psw_login_and_registration-d84b94b3-b4ef-400c-8d4c-6b52d839c239.yaml
+./poc/cve/CVE-2025-47646.yaml
 ./poc/cve/CVE-2025-47647-bfbd5365483d144bf38158292fa9fbbd.yaml
 ./poc/cve/CVE-2025-47647-sidebar_manager_light-d02bc6c9-dca7-45cb-acc7-db0d269c16a3.yaml
 ./poc/cve/CVE-2025-47648-39cf6fa9823d6acfea972a9c2ac83345.yaml
@@ -118462,6 +118463,7 @@
 ./poc/cve/CVE-2025-4774-premium_addons_for_elementor-024af9de-d4c7-43ec-a602-c45ded3ddad3.yaml
 ./poc/cve/CVE-2025-4775-6dd087660131877584179d2fb14c00e7.yaml
 ./poc/cve/CVE-2025-4775-ajax_load_more-614bdce2-bd87-4516-b1a5-028ffc08b238.yaml
+./poc/cve/CVE-2025-47812.yaml
 ./poc/cve/CVE-2025-47813.yaml
 ./poc/cve/CVE-2025-4783-7bfe03978466d36457c691bd24547e27.yaml
 ./poc/cve/CVE-2025-4783-exclusive_addons_for_elementor-ec41956f-eefc-4c8b-ade1-2a3a0f3d86df.yaml
@@ -118866,6 +118868,7 @@
 ./poc/cve/CVE-2025-4857-efd045e6203b6c1f83f99c61071d227f.yaml
 ./poc/cve/CVE-2025-4857-newsletters_lite-33c0838a-5f86-4368-8bf9-da0582acbabf.yaml
 ./poc/cve/CVE-2025-48827.yaml
+./poc/cve/CVE-2025-48828.yaml
 ./poc/cve/CVE-2025-48954.yaml
 ./poc/cve/CVE-2025-49029-9759ee93f33aea62185ed683fe8cd5fe.yaml
 ./poc/cve/CVE-2025-49029-custom_login_and_signup_widget-055d50de-8a7f-40fa-88e9-f57046c0c450.yaml
@@ -119813,6 +119816,7 @@
 ./poc/cve/CVE-2025-5286-bold_page_builder-9ae076e4-ad15-4069-be10-f0f4aced4132.yaml
 ./poc/cve/CVE-2025-5287-819f3cc6a500305e8613548fb916b731.yaml
 ./poc/cve/CVE-2025-5287-inprosysmedia_likes_dislikes_post-ad19205d-d355-45d8-be5b-f8005459a8c7.yaml
+./poc/cve/CVE-2025-5287.yaml
 ./poc/cve/CVE-2025-5288-f37e83ed3934800bceca0dc209b53df9.yaml
 ./poc/cve/CVE-2025-5288-import_export_with_custom_rest_api-0e2774fc-f028-436c-a8af-3c17378b9743.yaml
 ./poc/cve/CVE-2025-5289-92d8f6cee9e812c894a93ba6d8469a9a.yaml
@@ -120116,7 +120120,6 @@
 ./poc/cve/CVE-2025-53587-27f0c7ac5f2296c7d63e428f027bb384.yaml
 ./poc/cve/CVE-2025-53587-findgo-bb53b541-1c7a-4265-ba7a-18be976a01d7.yaml
 ./poc/cve/CVE-2025-53588-upc_ean_barcode_generator-bfc01e65-fbfa-4639-93e6-7b045b0e2ec4.yaml
-./poc/cve/CVE-2025-53624.yaml
 ./poc/cve/CVE-2025-53770.yaml
 ./poc/cve/CVE-2025-53833.yaml
 ./poc/cve/CVE-2025-5391-f6a945df69c2e21836a65c1610ed3431.yaml
@@ -120266,7 +120269,6 @@
 ./poc/cve/CVE-2025-54056-f6cc70355613c44f30b8d7fb5b91de78.yaml
 ./poc/cve/CVE-2025-54056-lbg_audio2_html5-5409a9c0-df17-4663-96c7-aced7b0f8c70.yaml
 ./poc/cve/CVE-2025-54309.yaml
-./poc/cve/CVE-2025-54589.yaml
 ./poc/cve/CVE-2025-54667-b990ded86df42494169d0440cfa2f78c.yaml
 ./poc/cve/CVE-2025-54667-mycred-84e18c54-4bc2-45c1-90fb-960a862170b6.yaml
 ./poc/cve/CVE-2025-54668-3c67794dcb6b67d8f96b063faf39a0d1.yaml
@@ -120717,6 +120719,7 @@
 ./poc/cve/CVE-2025-6214-omnishop-e7c936b8-3132-45e1-92ed-32ecdc9cbb1e.yaml
 ./poc/cve/CVE-2025-6215-73fcbcf5566a67a4f67e44cf9b63dd77.yaml
 ./poc/cve/CVE-2025-6215-omnishop-12d465d2-cd89-476e-b70a-743151a23053.yaml
+./poc/cve/CVE-2025-6216.yaml
 ./poc/cve/CVE-2025-6220-1933f5a26a4e398a2acafaa09ad42013.yaml
 ./poc/cve/CVE-2025-6220-ultimate_addons_for_contact_form_7-697f3432-63b7-42d6-b188-812165cd2020.yaml
 ./poc/cve/CVE-2025-6221-45f9704f6fe401eb4efc260b714232fd.yaml
@@ -120911,6 +120914,7 @@
 ./poc/cve/CVE-2025-6838-d03108aa591a5a92fa9dce7f76709bf9.yaml
 ./poc/cve/CVE-2025-6851-broken_link_notifier-0f76c9f8-c57a-4875-b581-f67c9c60021c.yaml
 ./poc/cve/CVE-2025-6851-f0e51b26be216e2f8fca92cbf3a6bb60.yaml
+./poc/cve/CVE-2025-6851.yaml
 ./poc/cve/CVE-2025-6895-5afb69bcc58e50ac8e199ce7c742fe66.yaml
 ./poc/cve/CVE-2025-6895-melapress_login_security-6f65d5c4-6f53-4836-9130-c9f4ed3be893.yaml
 ./poc/cve/CVE-2025-6934-941063287d026b4b2b0634705ac033f3.yaml
@@ -121217,6 +121221,7 @@
 ./poc/cve/CVE-2025-8218-real_spaces-2d07880b-9af1-4b1e-aa70-b95ef10a6e33.yaml
 ./poc/cve/CVE-2025-8268-ai_engine-be39e24f-d7d7-44db-9ffd-a4605de8e577.yaml
 ./poc/cve/CVE-2025-8281-wp_jobs2careers-559bf74a-1c34-4e77-b395-005150ab5e6e.yaml
+./poc/cve/CVE-2025-8286.yaml
 ./poc/cve/CVE-2025-8289-wpcf7_redirect-c7909b75-8087-4d38-8325-c619bf84d997.yaml
 ./poc/cve/CVE-2025-8290-list_sub_pages-b5a24a4a-654c-487e-af68-13db63961896.yaml
 ./poc/cve/CVE-2025-8293-36fbad3a74953a7dbedb0da49ba50e54.yaml
@@ -121294,6 +121299,7 @@
 ./poc/cve/CVE-2025-8678-wp_crontrol-ab40146d-9b49-4214-af73-41c5b5512542.yaml
 ./poc/cve/CVE-2025-8680-10e87f71317e8d41f955c75ebc6e623c.yaml
 ./poc/cve/CVE-2025-8680-b_slider-ac245316-228e-4508-b3fe-f7071fb1bc8e.yaml
+./poc/cve/CVE-2025-8684-flatsome-ffc82708-b04d-4fba-9a79-594ad25dc965.yaml
 ./poc/cve/CVE-2025-8685-2ed0615344525fe065bc3f5d0d79666a.yaml
 ./poc/cve/CVE-2025-8685-wp_chart_generator-25302010-202a-458e-93b6-2e6b8604c091.yaml
 ./poc/cve/CVE-2025-8688-c1101e5e0ea38076e06abf5122d9e979.yaml
@@ -121352,6 +121358,7 @@
 ./poc/cve/CVE-2025-9519-easy_timer-9f2d8a68-4cb9-44bc-b4ae-43a8e8468634.yaml
 ./poc/cve/CVE-2025-9616-popad-842f3cb4-857e-4e9c-b84e-9a47ec65db0d.yaml
 ./poc/cve/CVE-2025-9618-related_posts_lite-ec3667ac-1d1f-4faf-923c-7e55c03db3da.yaml
+./poc/cve/CVE-2025-9990-wp_helpdesk_integration-49a935cc-7b95-4abd-9a4d-c7e14c765863.yaml
 ./poc/cve/CVE202127562-220331-222408.yaml
 ./poc/cve/CVE_2021_2400.yaml
 ./poc/cve/CVE_2023_51467.yaml
@@ -129469,6 +129476,7 @@
 ./poc/detect/cacti-detect-827.yaml
 ./poc/detect/cacti-detect-981.yaml
 ./poc/detect/cacti-detect.yaml
+./poc/detect/caobox-cms-detect.yaml
 ./poc/detect/caobox-cms-detect_1.yaml
 ./poc/detect/caobox-cms-detect_2.yaml
 ./poc/detect/caobox-cms-detect_3.yaml
@@ -129874,6 +129882,7 @@
 ./poc/detect/dolibarr-detect-7071.yaml
 ./poc/detect/dolibarr-detect.yaml
 ./poc/detect/dom-xss-detection.yaml
+./poc/detect/domibus-detect.yaml
 ./poc/detect/domibus-detect_1.yaml
 ./poc/detect/domibus-detect_2.yaml
 ./poc/detect/domibus-detect_3.yaml
@@ -130225,7 +130234,6 @@
 ./poc/detect/httpbin-detection.yaml
 ./poc/detect/httponly-cookie-detect.yaml
 ./poc/detect/httponly-cookie-detect_1.yaml
-./poc/detect/hubble-detect.yaml
 ./poc/detect/hubble-detect_1.yaml
 ./poc/detect/hubble-detect_2.yaml
 ./poc/detect/hubble-detect_3.yaml
@@ -130234,6 +130242,7 @@
 ./poc/detect/hubble-detect_6.yaml
 ./poc/detect/hubble-detect_7.yaml
 ./poc/detect/hubble-detect_8.yaml
+./poc/detect/hugegraph-detect.yaml
 ./poc/detect/hugegraph-detect_1.yaml
 ./poc/detect/hugegraph-detect_2.yaml
 ./poc/detect/hugegraph-detect_3.yaml
@@ -130485,7 +130494,6 @@
 ./poc/detect/mautic-crm-detect-8787.yaml
 ./poc/detect/mautic-crm-detect-8788.yaml
 ./poc/detect/mautic-crm-detect.yaml
-./poc/detect/maxforwards-headers-detect.yaml
 ./poc/detect/maxforwards-headers-detect_1.yaml
 ./poc/detect/maxforwards-headers-detect_2.yaml
 ./poc/detect/maxforwards-headers-detect_3.yaml
@@ -130649,7 +130657,6 @@
 ./poc/detect/node-red-detect-9139.yaml
 ./poc/detect/notion-detect_1.yaml
 ./poc/detect/notion-detect_4.yaml
-./poc/detect/nperf-server-detect.yaml
 ./poc/detect/nperf-server-detect_1.yaml
 ./poc/detect/nperf-server-detect_2.yaml
 ./poc/detect/nperf-server-detect_3.yaml
@@ -130997,6 +131004,7 @@
 ./poc/detect/sceditor-detect-10093.yaml
 ./poc/detect/sceditor-detect-10094.yaml
 ./poc/detect/schneider-electric-detect.yaml
+./poc/detect/searxng-detect.yaml
 ./poc/detect/searxng-detect_1.yaml
 ./poc/detect/searxng-detect_2.yaml
 ./poc/detect/searxng-detect_3.yaml
@@ -131049,6 +131057,7 @@
 ./poc/detect/sitemap-detect_2.yaml
 ./poc/detect/sitemap-detect_3.yaml
 ./poc/detect/sitemap-sql-detector.yaml
+./poc/detect/slims-cms-detect.yaml
 ./poc/detect/slims-cms-detect_1.yaml
 ./poc/detect/slims-cms-detect_2.yaml
 ./poc/detect/slims-cms-detect_3.yaml
@@ -133434,6 +133443,7 @@
 ./poc/exposed/typea_ftc_disclosure-3fda31fa-efc9-44b9-99ba-9e3e23aa2ee0.yaml
 ./poc/exposed/typo3-sensitive-files.yaml
 ./poc/exposed/unauthenticated-duplicator-disclosure.yaml
+./poc/exposed/unigui-server-monitor-exposure.yaml
 ./poc/exposed/unigui-server-monitor-exposure_1.yaml
 ./poc/exposed/unigui-server-monitor-exposure_2.yaml
 ./poc/exposed/unigui-server-monitor-exposure_3.yaml
@@ -134484,7 +134494,6 @@
 ./poc/git/github-personal-access_5.yaml
 ./poc/git/github-personal-token-7657.yaml
 ./poc/git/github-personal-token.yaml
-./poc/git/github-phish.yaml
 ./poc/git/github-phish_1.yaml
 ./poc/git/github-phish_1_1.yaml
 ./poc/git/github-phish_2.yaml
@@ -135550,7 +135559,6 @@
 ./poc/google/google-pagespeed-insights-fbcd19deaa7c1356237c305cbda46ee8.yaml
 ./poc/google/google-pagespeed-insights.yaml
 ./poc/google/google-pagespeed-insights_1.yaml
-./poc/google/google-phish.yaml
 ./poc/google/google-phish_1.yaml
 ./poc/google/google-phish_2.yaml
 ./poc/google/google-phish_3.yaml
@@ -136804,7 +136812,6 @@
 ./poc/header/jenkins-headers-detect.yaml
 ./poc/header/jfrog-version-header.yaml
 ./poc/header/log4j-all-headers.yaml
-./poc/header/maxforwards-headers-detect.yaml
 ./poc/header/maxforwards-headers-detect_1.yaml
 ./poc/header/maxforwards-headers-detect_2.yaml
 ./poc/header/maxforwards-headers-detect_3.yaml
@@ -141592,6 +141599,7 @@
 ./poc/microsoft/camaleon_cms.yaml
 ./poc/microsoft/camoo-sms-006451f27c56b37b2e4947b6b02edd02.yaml
 ./poc/microsoft/camoo_sms-c1c7f1dc-d2c3-43d1-ba76-a2763dfac9d0.yaml
+./poc/microsoft/caobox-cms-detect.yaml
 ./poc/microsoft/caobox-cms-detect_1.yaml
 ./poc/microsoft/caobox-cms-detect_2.yaml
 ./poc/microsoft/caobox-cms-detect_3.yaml
@@ -142972,6 +142980,7 @@
 ./poc/microsoft/microsoft-iis-version_1.yaml
 ./poc/microsoft/microsoft-isa-server.yaml
 ./poc/microsoft/microsoft-online.yaml
+./poc/microsoft/microsoft-phish.yaml
 ./poc/microsoft/microsoft-phish_1.yaml
 ./poc/microsoft/microsoft-phish_2.yaml
 ./poc/microsoft/microsoft-phish_3.yaml
@@ -143716,6 +143725,7 @@
 ./poc/microsoft/safetymails-forms-ba564ab8f1a3cdbddc62b0c8085aa5af.yaml
 ./poc/microsoft/safetymails-forms.yaml
 ./poc/microsoft/safetymails_forms-58b026c8-ad67-4c77-8770-2b3b87bb2dfd.yaml
+./poc/microsoft/samsung-phish.yaml
 ./poc/microsoft/samsung-phish_1.yaml
 ./poc/microsoft/samsung-phish_2.yaml
 ./poc/microsoft/samsung-phish_3.yaml
@@ -143933,7 +143943,6 @@
 ./poc/microsoft/slick-contact-forms.yaml
 ./poc/microsoft/slick-contact-forms_1.yaml
 ./poc/microsoft/slick_contact_forms-22c63226-2bc6-40be-a5d1-1bd169fc78b8.yaml
-./poc/microsoft/slims-8-akasia-xss.yaml
 ./poc/microsoft/slims-8-akasia-xss_1.yaml
 ./poc/microsoft/slims-8-akasia-xss_2.yaml
 ./poc/microsoft/slims-8-akasia-xss_3.yaml
@@ -143945,6 +143954,7 @@
 ./poc/microsoft/slims-9-xss-index_3.yaml
 ./poc/microsoft/slims-9-xss-index_4.yaml
 ./poc/microsoft/slims-9-xss-index_5.yaml
+./poc/microsoft/slims-cms-detect.yaml
 ./poc/microsoft/slims-cms-detect_1.yaml
 ./poc/microsoft/slims-cms-detect_2.yaml
 ./poc/microsoft/slims-cms-detect_3.yaml
@@ -146316,6 +146326,7 @@
 ./poc/oracle/norse-runes-oracle-d7bddaac3605e844234a3b727d14a381.yaml
 ./poc/oracle/norse_runes_oracle-20ba8f45-d101-46e1-b2c3-4f6a588a8fc9.yaml
 ./poc/oracle/norse_runes_oracle-ff08a391-971b-4c78-80e0-1d72a3ae5f1c.yaml
+./poc/oracle/oracle-access-management.yaml
 ./poc/oracle/oracle-access-management_1.yaml
 ./poc/oracle/oracle-access-management_2.yaml
 ./poc/oracle/oracle-access-management_3.yaml
@@ -161853,6 +161864,7 @@
 ./poc/other/aklamator-infeed-809c578b82c5eddca2d26552dc317e94.yaml
 ./poc/other/aklamator_infeed-99ce64cf-3f7a-4bc0-aa06-00f0fb3bfc4c.yaml
 ./poc/other/akniga.yaml
+./poc/other/akuiteo-panel.yaml
 ./poc/other/akuiteo-panel_1.yaml
 ./poc/other/akuiteo-panel_1_1.yaml
 ./poc/other/akuiteo-panel_2.yaml
@@ -162890,7 +162902,6 @@
 ./poc/other/anycomment-ff4363070fd7cb0cfe4d0b03d9e057ef.yaml
 ./poc/other/anycomment.yaml
 ./poc/other/anycomment_1.yaml
-./poc/other/anydesk-phish.yaml
 ./poc/other/anydesk-phish_1.yaml
 ./poc/other/anydesk-phish_1_1.yaml
 ./poc/other/anydesk-phish_2.yaml
@@ -163757,7 +163768,6 @@
 ./poc/other/aspect-control-panel.yaml
 ./poc/other/aspect-control-panel_1.yaml
 ./poc/other/aspentech-aspen-infoplus21.yaml
-./poc/other/aspnet-framework-exceptions.yaml
 ./poc/other/aspnet-mvc.yaml
 ./poc/other/aspnet-requestvalidationmode.yaml
 ./poc/other/aspose-cloud-ebook-generator-294ba58c1e6acec80965380b0e0e073c.yaml
@@ -166232,7 +166242,6 @@
 ./poc/other/bitspecter-suite-8175e402098f568253f30e3bfc34c7b1.yaml
 ./poc/other/bitspecter_suite-1e0f35be-fbd1-4063-a1c8-a8e4398d8f0a.yaml
 ./poc/other/bittube.yaml
-./poc/other/bitwarden-phish.yaml
 ./poc/other/bitwarden-phish_1.yaml
 ./poc/other/bitwarden-phish_2.yaml
 ./poc/other/bitwarden-phish_3.yaml
@@ -166650,6 +166659,7 @@
 ./poc/other/blue-wrench-videos-widget-81e40e7acc19ba604b62e0ebcf016536.yaml
 ./poc/other/blue-wrench-videos-widget.yaml
 ./poc/other/blue-wrench-videos-widget_1.yaml
+./poc/other/blue-yonder-panel.yaml
 ./poc/other/blue-yonder-panel_1.yaml
 ./poc/other/blue-yonder-panel_10.yaml
 ./poc/other/blue-yonder-panel_1_1.yaml
@@ -167719,6 +167729,7 @@
 ./poc/other/brightbox.yaml
 ./poc/other/brightbox_1.yaml
 ./poc/other/brightbox_2.yaml
+./poc/other/brighthr-phish.yaml
 ./poc/other/brighthr-phish_1.yaml
 ./poc/other/brighthr-phish_10.yaml
 ./poc/other/brighthr-phish_11.yaml
@@ -169777,6 +169788,7 @@
 ./poc/other/cc_coming_soon-8ae4ffe1-ecb6-4bde-8ac4-baeea82a0299.yaml
 ./poc/other/cc_custom_taxonmy-facfa21a-4136-4161-ac39-8b18948ec073.yaml
 ./poc/other/cc_img_shortcode-81803a24-51ba-4d23-88ef-553cb4754977.yaml
+./poc/other/ccleaner-phish.yaml
 ./poc/other/ccleaner-phish_1.yaml
 ./poc/other/ccleaner-phish_10.yaml
 ./poc/other/ccleaner-phish_1_1.yaml
@@ -170554,7 +170566,6 @@
 ./poc/other/christmasify-3044e592d5eb34f4d024a31285df8711.yaml
 ./poc/other/christmasify-ac247d3a-9e60-431e-ac98-2601e9907758.yaml
 ./poc/other/christmasify.yaml
-./poc/other/chrome-phish.yaml
 ./poc/other/chrome-phish_1.yaml
 ./poc/other/chrome-phish_10.yaml
 ./poc/other/chrome-phish_11.yaml
@@ -175385,6 +175396,7 @@
 ./poc/other/deeper-comments-plugin.yaml
 ./poc/other/deeper-comments.yaml
 ./poc/other/deeper-comments_1.yaml
+./poc/other/deezer-phish.yaml
 ./poc/other/deezer-phish_1.yaml
 ./poc/other/deezer-phish_1_1.yaml
 ./poc/other/deezer-phish_2.yaml
@@ -177202,6 +177214,7 @@
 ./poc/other/dts-simple-share.yaml
 ./poc/other/dts_simple_share-d9c97745-9fe2-4ae9-b083-0eda9c20ac73.yaml
 ./poc/other/dubbo.yaml
+./poc/other/duckduckgo-phish.yaml
 ./poc/other/duckduckgo-phish_1.yaml
 ./poc/other/duckduckgo-phish_1_1.yaml
 ./poc/other/duckduckgo-phish_2.yaml
@@ -178606,7 +178619,6 @@
 ./poc/other/edge-gallery.yaml
 ./poc/other/edge-gallery_1.yaml
 ./poc/other/edge-gallery_2.yaml
-./poc/other/edge-phish.yaml
 ./poc/other/edge-phish_1.yaml
 ./poc/other/edge-phish_10.yaml
 ./poc/other/edge-phish_2.yaml
@@ -181171,6 +181183,7 @@
 ./poc/other/everlightbox-d8a0112ba49606eff55504311d2ee470.yaml
 ./poc/other/everlightbox.yaml
 ./poc/other/everlightbox_1.yaml
+./poc/other/evernote-phish.yaml
 ./poc/other/evernote-phish_1.yaml
 ./poc/other/evernote-phish_10.yaml
 ./poc/other/evernote-phish_2.yaml
@@ -182138,6 +182151,7 @@
 ./poc/other/fbgorilla-7183288f-47f1-477b-974d-e5e21c170d0f.yaml
 ./poc/other/fbgorilla.yaml
 ./poc/other/fbgorilla_1.yaml
+./poc/other/fbi-seized-nameserver.yaml
 ./poc/other/fbi-seized-nameserver_1.yaml
 ./poc/other/fbi-seized-nameserver_2.yaml
 ./poc/other/fbpromotions-a00b2d6a30a28ce9c75c1eccf4749b2b.yaml
@@ -182721,7 +182735,6 @@
 ./poc/other/firebase_urls.yaml
 ./poc/other/firebird.yaml
 ./poc/other/firedrum-email-marketing-cac5f118ac747bd8aec1e4d197e32d6d.yaml
-./poc/other/firefox-phish.yaml
 ./poc/other/firefox-phish_1.yaml
 ./poc/other/firefox-phish_1_1.yaml
 ./poc/other/firefox-phish_2.yaml
@@ -182947,6 +182960,7 @@
 ./poc/other/flatsome-bfc4863a-1b8c-4b13-9df1-18f221b40b26.yaml
 ./poc/other/flatsome-c74e1e3f4e66303af087c69e72cf95fd.yaml
 ./poc/other/flatsome-cf6c13de-e666-4c80-aa4c-6f610d899d03.yaml
+./poc/other/flatsome-ffc82708-b04d-4fba-9a79-594ad25dc965.yaml
 ./poc/other/flatsome.yaml
 ./poc/other/flatsome_1.yaml
 ./poc/other/flattr-52f98de0-ad91-4b5a-91ef-6fe705f2bf60.yaml
@@ -184075,7 +184089,6 @@
 ./poc/other/fortiportal.yaml
 ./poc/other/fortirecorder-panel_1.yaml
 ./poc/other/fortirecorder-panel_2.yaml
-./poc/other/fortiswitch-panel.yaml
 ./poc/other/fortiswitch-panel_1.yaml
 ./poc/other/fortiswitch-panel_2.yaml
 ./poc/other/fortiswitch-panel_3.yaml
@@ -185756,6 +185769,7 @@
 ./poc/other/gigpress-da3a18f1fd77ea0e23f3b02d7c27fb26.yaml
 ./poc/other/gigpress.yaml
 ./poc/other/gigpress_1.yaml
+./poc/other/gimp-phish.yaml
 ./poc/other/gimp-phish_1.yaml
 ./poc/other/gimp-phish_2.yaml
 ./poc/other/gimp-phish_3.yaml
@@ -187037,7 +187051,6 @@
 ./poc/other/haivision-gateway-panel.yaml
 ./poc/other/haivision-gateway-panel_1.yaml
 ./poc/other/haivision-gateway-panel_2.yaml
-./poc/other/haivision-media-platform-panel.yaml
 ./poc/other/haivision-media-platform-panel_1.yaml
 ./poc/other/haivision-media-platform-panel_2.yaml
 ./poc/other/haivision-media-platform-panel_3.yaml
@@ -188468,7 +188481,7 @@
 ./poc/other/hypercomments.yaml
 ./poc/other/hypercomments_1.yaml
 ./poc/other/hypercomments_2.yaml
-./poc/other/hyperdx-panel.yaml
+./poc/other/hyperplanning-panel.yaml
 ./poc/other/hyperplanning-panel_1.yaml
 ./poc/other/hyperplanning-panel_2.yaml
 ./poc/other/hyperplanning-panel_3.yaml
@@ -190510,6 +190523,7 @@
 ./poc/other/ivanti-connect-secure-panel.yaml
 ./poc/other/ivanti-connect-secure-panel_1.yaml
 ./poc/other/ivanti-connect-secure-panel_2.yaml
+./poc/other/ivanti-csa-panel.yaml
 ./poc/other/ivanti-csa-panel_1.yaml
 ./poc/other/ivanti-csa-panel_2.yaml
 ./poc/other/ivanti-csa-panel_3.yaml
@@ -191753,6 +191767,7 @@
 ./poc/other/keepass-phish_6.yaml
 ./poc/other/keepass-phish_8.yaml
 ./poc/other/keepass-phish_9.yaml
+./poc/other/keepersecurity-phish.yaml
 ./poc/other/keepersecurity-phish_1.yaml
 ./poc/other/keepersecurity-phish_10.yaml
 ./poc/other/keepersecurity-phish_2.yaml
@@ -195603,7 +195618,6 @@
 ./poc/other/mbstore-65fc2929-b65b-451b-b90d-6739a673ac16.yaml
 ./poc/other/mbstore-ec636287ec13084f4b54827aad8d8919.yaml
 ./poc/other/mcafee-intrushield.yaml
-./poc/other/mcafee-phish.yaml
 ./poc/other/mcafee-phish_1.yaml
 ./poc/other/mcafee-phish_1_1.yaml
 ./poc/other/mcafee-phish_2.yaml
@@ -195960,6 +195974,7 @@
 ./poc/other/mega-elements-addons-for-elementor.yaml
 ./poc/other/mega-elements-addons-for-elementor_1.yaml
 ./poc/other/mega-elements-addons-for-elementor_2.yaml
+./poc/other/mega-phish.yaml
 ./poc/other/mega-phish_1.yaml
 ./poc/other/mega-phish_1_1.yaml
 ./poc/other/mega-phish_2.yaml
@@ -196281,7 +196296,6 @@
 ./poc/other/message-ticker_1.yaml
 ./poc/other/message_ticker-986f158e-1960-4105-b477-9587850aa0aa.yaml
 ./poc/other/message_ticker-d0b1fa88-2fc6-41af-bd39-12af92dc6533.yaml
-./poc/other/messenger-phish.yaml
 ./poc/other/messenger-phish_1.yaml
 ./poc/other/messenger-phish_1_1.yaml
 ./poc/other/messenger-phish_2.yaml
@@ -199578,6 +199592,7 @@
 ./poc/other/nopeamedia-91272920-fec6-4c75-b7d9-a97a23a54742.yaml
 ./poc/other/nopeamedia-cd64a71da5246b226bb688bb9a81ea13.yaml
 ./poc/other/nordex-wind-farm-portal_1.yaml
+./poc/other/nordpass-phish.yaml
 ./poc/other/nordpass-phish_1.yaml
 ./poc/other/nordpass-phish_2.yaml
 ./poc/other/nordpass-phish_3.yaml
@@ -199677,6 +199692,7 @@
 ./poc/other/notifyvisitors-lead-form.yaml
 ./poc/other/notifyvisitors-lead-form_1.yaml
 ./poc/other/notifyvisitors_lead_form-dad9b612-5575-4e64-a1b3-52a2cf3f05a7.yaml
+./poc/other/notion-phish.yaml
 ./poc/other/notion-phish_1.yaml
 ./poc/other/notion-phish_2.yaml
 ./poc/other/notion-phish_3.yaml
@@ -200390,7 +200406,6 @@
 ./poc/other/open_menu-3ba9f117-c314-47ad-8af1-5294b529d95c.yaml
 ./poc/other/open_rdw_kenteken_voertuiginformatie-1fa87357-09c0-4e99-8ceb-41a7987c4a57.yaml
 ./poc/other/open_user_map-08593415-bbc9-4159-b5d5-84e4dde6c2c9.yaml
-./poc/other/openai-phish.yaml
 ./poc/other/openai-phish_1.yaml
 ./poc/other/openai-phish_3.yaml
 ./poc/other/openai-phish_4.yaml
@@ -200537,6 +200552,7 @@
 ./poc/other/openx-panel_2.yaml
 ./poc/other/openx-panel_3.yaml
 ./poc/other/openx-panel_4.yaml
+./poc/other/opera-phish.yaml
 ./poc/other/opera-phish_1.yaml
 ./poc/other/opera-phish_2.yaml
 ./poc/other/opera-phish_3.yaml
@@ -201503,7 +201519,6 @@
 ./poc/other/paramount-theme.yaml
 ./poc/other/paramount.yaml
 ./poc/other/paramount_1.yaml
-./poc/other/paramountplus-phish.yaml
 ./poc/other/paramountplus-phish_1.yaml
 ./poc/other/paramountplus-phish_3.yaml
 ./poc/other/paramountplus-phish_4.yaml
@@ -201667,6 +201682,7 @@
 ./poc/other/paypal-payment-button-by-vcita-f62cc04390794ceb9853ee2c19cfd98b.yaml
 ./poc/other/paypal-payment-button-by-vcita.yaml
 ./poc/other/paypal-payment-button-by-vcita_1.yaml
+./poc/other/paypal-phish.yaml
 ./poc/other/paypal-phish_1.yaml
 ./poc/other/paypal-phish_2.yaml
 ./poc/other/paypal-phish_3.yaml
@@ -202436,6 +202452,7 @@
 ./poc/other/photology-ee2290bce700f70459aa5a1dc13ef6a4.yaml
 ./poc/other/photology.yaml
 ./poc/other/photology_1.yaml
+./poc/other/photoprism-panel.yaml
 ./poc/other/photoprism-panel_1.yaml
 ./poc/other/photoprism-panel_2.yaml
 ./poc/other/photoprism-panel_3.yaml
@@ -202591,6 +202608,7 @@
 ./poc/other/pinterest-verify-meta-tag-84c793eadf6765d40c9a307e18381249.yaml
 ./poc/other/pinterest_pin_it_button_on_image_hover_and_post-6528041a-0217-43d5-bf29-9208e23aadd9.yaml
 ./poc/other/pinterest_rss_widget-1ec186b0-72f0-4017-ad24-1c82247a23ec.yaml
+./poc/other/pintrest-phish.yaml
 ./poc/other/pintrest-phish_2.yaml
 ./poc/other/pintrest-phish_3.yaml
 ./poc/other/pintrest-phish_4.yaml
@@ -205236,6 +205254,7 @@
 ./poc/other/promotion-slider.yaml
 ./poc/other/promotion-slider_1.yaml
 ./poc/other/promotion_slider-0cd6350c-6da8-4d5a-8ceb-d587ddf40d1d.yaml
+./poc/other/pronote-panel.yaml
 ./poc/other/pronote-panel_1.yaml
 ./poc/other/pronote-panel_2.yaml
 ./poc/other/pronote-panel_3.yaml
@@ -205341,6 +205360,7 @@
 ./poc/other/protected_posts_logout_button-6be26c07-cac4-42d8-becb-03045a54cd6c.yaml
 ./poc/other/protected_posts_logout_button-b87f8bd6-d00d-4062-bf27-b698a1d7e757.yaml
 ./poc/other/protected_posts_logout_button-c79fd08c-97bc-4d55-832e-92d0897bc3dc.yaml
+./poc/other/proton-phish.yaml
 ./poc/other/proton-phish_1.yaml
 ./poc/other/proton-phish_1_1.yaml
 ./poc/other/proton-phish_2.yaml
@@ -208696,6 +208716,7 @@
 ./poc/other/royal-elementor-kit.yaml
 ./poc/other/royal-elementor-kit_1.yaml
 ./poc/other/royal-elementor-kit_2.yaml
+./poc/other/royal-mail-phish.yaml
 ./poc/other/royal-mail-phish_1.yaml
 ./poc/other/royal-mail-phish_1_1.yaml
 ./poc/other/royal-mail-phish_2.yaml
@@ -209865,7 +209886,6 @@
 ./poc/other/seeyon_log4j.yaml
 ./poc/other/seguro-viagem-6e1530f200c59e49b9382d790355cb8e.yaml
 ./poc/other/seguro_viagem-3d0afaca-e58a-4b20-97ba-0125648a269b.yaml
-./poc/other/seized-site.yaml
 ./poc/other/seized-site_1.yaml
 ./poc/other/seized-site_2.yaml
 ./poc/other/seized-site_3.yaml
@@ -211216,6 +211236,7 @@
 ./poc/other/sight-f889342e-03fb-44eb-b5cb-acf115a526c3.yaml
 ./poc/other/sight.yaml
 ./poc/other/sigma_wide.yaml
+./poc/other/signal-phish.yaml
 ./poc/other/signal-phish_1.yaml
 ./poc/other/signal-phish_10.yaml
 ./poc/other/signal-phish_2.yaml
@@ -212743,7 +212764,6 @@
 ./poc/other/sky-elementor-addons.yaml
 ./poc/other/sky-elementor-addons_1.yaml
 ./poc/other/sky-elementor-addons_2.yaml
-./poc/other/sky-phish.yaml
 ./poc/other/sky-phish_1.yaml
 ./poc/other/sky-phish_1_1.yaml
 ./poc/other/sky-phish_2.yaml
@@ -212777,6 +212797,7 @@
 ./poc/other/skype-online-status-9f15557ccabde64a973fe40ac2ed6cd0.yaml
 ./poc/other/skype-online-status.yaml
 ./poc/other/skype-online-status_1.yaml
+./poc/other/skype-phish.yaml
 ./poc/other/skype-phish_1.yaml
 ./poc/other/skype-phish_3.yaml
 ./poc/other/skype-phish_4.yaml
@@ -212791,7 +212812,6 @@
 ./poc/other/skysa-official.yaml
 ./poc/other/skysa-official_1.yaml
 ./poc/other/skysa_official-596d1083-2030-41f0-92d4-82e98bf07331.yaml
-./poc/other/skyscanner-phish.yaml
 ./poc/other/skyscanner-phish_1.yaml
 ./poc/other/skyscanner-phish_1_1.yaml
 ./poc/other/skyscanner-phish_2.yaml
@@ -212812,6 +212832,7 @@
 ./poc/other/sl-user-create_1.yaml
 ./poc/other/sl-user-create_2.yaml
 ./poc/other/sl_user_create-d0f5b9b7-2482-4f25-b50e-e2d9b3ef4902.yaml
+./poc/other/slack-phish.yaml
 ./poc/other/slack-phish_1.yaml
 ./poc/other/slack-phish_2.yaml
 ./poc/other/slack-phish_3.yaml
@@ -214333,6 +214354,7 @@
 ./poc/other/spostarbust-21ef7eb70da830ae5a6c9b54c918128c.yaml
 ./poc/other/spostarbust-2f08961b-8da2-40bf-b197-aea76c4e79f9.yaml
 ./poc/other/spotbot-e8688b576578b0741990f62d960dc5b2.yaml
+./poc/other/spotify-phish.yaml
 ./poc/other/spotify-phish_1.yaml
 ./poc/other/spotify-phish_1_1.yaml
 ./poc/other/spotify-phish_2.yaml
@@ -214758,7 +214780,6 @@
 ./poc/other/steam-group-viewer-3757c415e3ad9d449d113cfea1ebc80e.yaml
 ./poc/other/steam-group-viewer.yaml
 ./poc/other/steam-group-viewer_1.yaml
-./poc/other/steam-phish.yaml
 ./poc/other/steam-phish_1.yaml
 ./poc/other/steam-phish_10.yaml
 ./poc/other/steam-phish_2.yaml
@@ -221968,6 +221989,7 @@
 ./poc/other/vimeography-932f3b3a179f1370d21709b26d5b7deb.yaml
 ./poc/other/vimeography.yaml
 ./poc/other/vimeography_1.yaml
+./poc/other/vince-panel.yaml
 ./poc/other/vince-panel_1.yaml
 ./poc/other/vince-panel_2.yaml
 ./poc/other/vince-panel_3.yaml
@@ -223745,6 +223767,7 @@
 ./poc/other/wildcard-postmessage-11208.yaml
 ./poc/other/wildcard-postmessage.yaml
 ./poc/other/wildcard-postmessage_2.yaml
+./poc/other/wildix-collaboration-panel.yaml
 ./poc/other/wildix-collaboration-panel_1.yaml
 ./poc/other/wildix-collaboration-panel_2.yaml
 ./poc/other/wildix-collaboration-panel_3.yaml
@@ -226005,7 +226028,6 @@
 ./poc/other/yahoo-ads-yap-csp-bypass.yaml
 ./poc/other/yahoo-boss-eb7b7e85ddfb78a6fd4318de5d15c56b.yaml
 ./poc/other/yahoo-media-player-6d6ac328025439c4bf1dd52ca758d69c.yaml
-./poc/other/yahoo-phish.yaml
 ./poc/other/yahoo-phish_1.yaml
 ./poc/other/yahoo-phish_2.yaml
 ./poc/other/yahoo-phish_3.yaml
@@ -226590,6 +226612,7 @@
 ./poc/other/zalo_live_chat-19d89e6c-72e7-48b1-bcc6-38d1f994cff6.yaml
 ./poc/other/zalo_official_live_chat-bd788e9c-223c-432f-9369-d9af380324e9.yaml
 ./poc/other/zalomeni-a4eca8f3-0b5d-4449-ba89-37c1b497c4d3.yaml
+./poc/other/zammad-helpdesk-panel.yaml
 ./poc/other/zara-4-037d939229fc6a48ed945d33e2e23d66.yaml
 ./poc/other/zarinpal-paid-downloads-3b0c6f7e6ac3a1697666608e9915c04c.yaml
 ./poc/other/zarinpal-paid-downloads-4d4443948cd8949e2e7b36aeb0c5b101.yaml
@@ -227018,6 +227041,7 @@
 ./poc/other/zoner.yaml
 ./poc/other/zoner_1.yaml
 ./poc/other/zonghousc-system.yaml
+./poc/other/zoom-phish.yaml
 ./poc/other/zoom-phish_1.yaml
 ./poc/other/zoom-phish_3.yaml
 ./poc/other/zoom-phish_4.yaml
@@ -228190,7 +228214,6 @@
 ./poc/python/python-metrics-9747.yaml
 ./poc/python/python-metrics.yaml
 ./poc/python/python-metrics_2.yaml
-./poc/python/python-phish.yaml
 ./poc/python/python-phish_1.yaml
 ./poc/python/python-phish_10.yaml
 ./poc/python/python-phish_2.yaml
@@ -239051,6 +239074,7 @@
 ./poc/social/facebook-pagelike-widget-7b45add6a4db1017bdea5020d0358073.yaml
 ./poc/social/facebook-pagelike-widget.yaml
 ./poc/social/facebook-pagelike-widget_1.yaml
+./poc/social/facebook-phish.yaml
 ./poc/social/facebook-phish_1.yaml
 ./poc/social/facebook-phish_3.yaml
 ./poc/social/facebook-phish_4.yaml
@@ -239317,6 +239341,7 @@
 ./poc/social/instagram-for-wordpress-71bb82959fe7ab1e0b311530d80766f1.yaml
 ./poc/social/instagram-for-wordpress.yaml
 ./poc/social/instagram-for-wordpress_1.yaml
+./poc/social/instagram-phish.yaml
 ./poc/social/instagram-phish_1.yaml
 ./poc/social/instagram-phish_1_1.yaml
 ./poc/social/instagram-phish_2.yaml
@@ -239421,6 +239446,7 @@
 ./poc/social/linkedin-id-11853.yaml
 ./poc/social/linkedin-id.yaml
 ./poc/social/linkedin-lite-80c1106efc70ef9c6fe430244696035e.yaml
+./poc/social/linkedin-phish.yaml
 ./poc/social/linkedin-phish_1.yaml
 ./poc/social/linkedin-phish_1_1.yaml
 ./poc/social/linkedin-phish_2.yaml
@@ -261462,6 +261488,7 @@
 ./poc/web/alphaweb-default-login-277.yaml
 ./poc/web/alphaweb-default-login.yaml
 ./poc/web/am-websystem.yaml
+./poc/web/amazon-web-services-phish.yaml
 ./poc/web/amazon-web-services-phish_1.yaml
 ./poc/web/amazon-web-services-phish_1_1.yaml
 ./poc/web/amazon-web-services-phish_2.yaml
@@ -267807,6 +267834,7 @@
 ./poc/wordpress/CVE-2025-8895-wp_webhooks-de9c9e1e-3c3c-463a-a78c-d8bc7228da93.yaml
 ./poc/wordpress/CVE-2025-9048-wptobe_memberships-466568c5-33a9-4891-b4ad-9bc6052603cb.yaml
 ./poc/wordpress/CVE-2025-9344-userswp-0ecba857-03d8-4a2e-9450-146d442f5533.yaml
+./poc/wordpress/CVE-2025-9990-wp_helpdesk_integration-49a935cc-7b95-4abd-9a4d-c7e14c765863.yaml
 ./poc/wordpress/Dahua_WPMS_upload_addimgico.yaml
 ./poc/wordpress/Find-wp-config-backup.yaml
 ./poc/wordpress/RLSWordPressSearch-d41d8cd98f00b204e9800998ecf8427e.yaml
@@ -280592,6 +280620,7 @@
 ./poc/wordpress/wp_headers_and_footers-7b00d175-261d-46e3-bf3c-2d18f4e4972d.yaml
 ./poc/wordpress/wp_headmaster-16b5ad20-a264-49fa-aafc-e137ac0d81fa.yaml
 ./poc/wordpress/wp_health-c74ce3e8-cab9-4cc6-a1ad-1e51f7268474.yaml
+./poc/wordpress/wp_helpdesk_integration-49a935cc-7b95-4abd-9a4d-c7e14c765863.yaml
 ./poc/wordpress/wp_helper_lite-4d6ea02d-df63-476c-b205-fa64ada18db5.yaml
 ./poc/wordpress/wp_helper_lite-5f3c6d98-6f30-4a98-91c9-e77c1f960527.yaml
 ./poc/wordpress/wp_helper_lite-73e2c5bd-c81d-48ee-a5fc-346dd820d0a4.yaml
@@ -284744,7 +284773,6 @@
 ./poc/xss/siteminder-dom-xss.yaml
 ./poc/xss/siteminder-dom-xss_2.yaml
 ./poc/xss/siteminder-dom-xss_3.yaml
-./poc/xss/slims-8-akasia-xss.yaml
 ./poc/xss/slims-8-akasia-xss_1.yaml
 ./poc/xss/slims-8-akasia-xss_2.yaml
 ./poc/xss/slims-8-akasia-xss_3.yaml
