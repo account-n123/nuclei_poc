@@ -1,31 +1,31 @@
-id: publitio-9eb7fc3a-6575-42ed-9304-d8ce02a849c2
+id: ziston-00200994-e9a3-4fa2-84b6-b5fd79d4995f
 
 info:
   name: >
-    Publitio <= 2.2.1 - Authenticated (Contributor+) Arbitrary File Read
+    Ziston < 1.4.5 - Unauthenticated Local File Inclusion
   author: topscoder
-  severity: low
+  severity: critical
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/9eb7fc3a-6575-42ed-9304-d8ce02a849c2?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/00200994-e9a3-4fa2-84b6-b5fd79d4995f?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/plugins/publitio/"
-    google-query: inurl:"/wp-content/plugins/publitio/"
-    shodan-query: 'http.html:"wp-content/plugins/publitio/"'
-  tags: cve,wordpress,wp-plugin,publitio,low,candidate
+    fofa-query: "wp-content/themes/ziston/"
+    google-query: inurl:"/wp-content/themes/ziston/"
+    shodan-query: 'http.html:"wp-content/themes/ziston/"'
+  tags: cve,wordpress,wp-theme,ziston,critical,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/plugins/publitio/readme.txt"
+      - "{{BaseURL}}/wp-content/themes/ziston/style.css"
 
     extractors:
       - type: regex
@@ -34,14 +34,14 @@ http:
         group: 1
         internal: true
         regex:
-          - "(?mi)Stable tag: ([0-9.]+)"
+          - "(?mi)Version: ([0-9.]+)"
 
       - type: regex
         name: version
         part: body
         group: 1
         regex:
-          - "(?mi)Stable tag: ([0-9.]+)"
+          - "(?mi)Version: ([0-9.]+)"
 
     matchers-condition: and
     matchers:
@@ -51,9 +51,9 @@ http:
 
       - type: word
         words:
-          - "publitio"
+          - "ziston"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 2.2.1')
+          - compare_versions(version, '< 1.4.5')

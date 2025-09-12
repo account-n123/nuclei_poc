@@ -1,31 +1,31 @@
-id: ajax_filter_posts-3ebc0e28-ced8-4fb0-818d-1452faf9660d
+id: side_slide_responsive_menu-57ff8e0b-92cd-49e1-9db7-91c970282e21
 
 info:
   name: >
-    Post Grid Master <= 3.4.11 - Authenticated (Contributor+) Stored Cross-Site Scripting
+    Side Slide Responsive Menu <= 1.0 - Cross-Site Request Forgery to Stored Cross-Site Scripting
   author: topscoder
-  severity: low
+  severity: medium
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/3ebc0e28-ced8-4fb0-818d-1452faf9660d?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/57ff8e0b-92cd-49e1-9db7-91c970282e21?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/plugins/ajax-filter-posts/"
-    google-query: inurl:"/wp-content/plugins/ajax-filter-posts/"
-    shodan-query: 'http.html:"wp-content/plugins/ajax-filter-posts/"'
-  tags: cve,wordpress,wp-plugin,ajax-filter-posts,low,candidate
+    fofa-query: "wp-content/plugins/side-slide-responsive-menu/"
+    google-query: inurl:"/wp-content/plugins/side-slide-responsive-menu/"
+    shodan-query: 'http.html:"wp-content/plugins/side-slide-responsive-menu/"'
+  tags: cve,wordpress,wp-plugin,side-slide-responsive-menu,medium,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/plugins/ajax-filter-posts/readme.txt"
+      - "{{BaseURL}}/wp-content/plugins/side-slide-responsive-menu/readme.txt"
 
     extractors:
       - type: regex
@@ -51,9 +51,9 @@ http:
 
       - type: word
         words:
-          - "ajax-filter-posts"
+          - "side-slide-responsive-menu"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 3.4.11')
+          - compare_versions(version, '<= 1.0')

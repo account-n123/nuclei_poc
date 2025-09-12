@@ -1,31 +1,31 @@
-id: ajax_filter_posts-3ebc0e28-ced8-4fb0-818d-1452faf9660d
+id: quiz_master_next-0e087ed4-6f40-4a00-9cdb-1453ac298188
 
 info:
   name: >
-    Post Grid Master <= 3.4.11 - Authenticated (Contributor+) Stored Cross-Site Scripting
+    Quiz And Survey Master <= 10.2.5 - Unauthenticated PHP Object Injection
   author: topscoder
-  severity: low
+  severity: critical
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/3ebc0e28-ced8-4fb0-818d-1452faf9660d?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/0e087ed4-6f40-4a00-9cdb-1453ac298188?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/plugins/ajax-filter-posts/"
-    google-query: inurl:"/wp-content/plugins/ajax-filter-posts/"
-    shodan-query: 'http.html:"wp-content/plugins/ajax-filter-posts/"'
-  tags: cve,wordpress,wp-plugin,ajax-filter-posts,low,candidate
+    fofa-query: "wp-content/plugins/quiz-master-next/"
+    google-query: inurl:"/wp-content/plugins/quiz-master-next/"
+    shodan-query: 'http.html:"wp-content/plugins/quiz-master-next/"'
+  tags: cve,wordpress,wp-plugin,quiz-master-next,critical,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/plugins/ajax-filter-posts/readme.txt"
+      - "{{BaseURL}}/wp-content/plugins/quiz-master-next/readme.txt"
 
     extractors:
       - type: regex
@@ -51,9 +51,9 @@ http:
 
       - type: word
         words:
-          - "ajax-filter-posts"
+          - "quiz-master-next"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 3.4.11')
+          - compare_versions(version, '<= 10.2.5')

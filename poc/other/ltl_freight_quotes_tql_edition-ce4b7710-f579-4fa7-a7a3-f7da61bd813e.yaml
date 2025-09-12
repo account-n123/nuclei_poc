@@ -1,31 +1,31 @@
-id: ajax_filter_posts-3ebc0e28-ced8-4fb0-818d-1452faf9660d
+id: ltl_freight_quotes_tql_edition-ce4b7710-f579-4fa7-a7a3-f7da61bd813e
 
 info:
   name: >
-    Post Grid Master <= 3.4.11 - Authenticated (Contributor+) Stored Cross-Site Scripting
+    LTL Freight Quotes - TQL Edition <= 1.2.6 - Authenticated (Administrator+) PHP Object Injection
   author: topscoder
   severity: low
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/3ebc0e28-ced8-4fb0-818d-1452faf9660d?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/ce4b7710-f579-4fa7-a7a3-f7da61bd813e?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/plugins/ajax-filter-posts/"
-    google-query: inurl:"/wp-content/plugins/ajax-filter-posts/"
-    shodan-query: 'http.html:"wp-content/plugins/ajax-filter-posts/"'
-  tags: cve,wordpress,wp-plugin,ajax-filter-posts,low,candidate
+    fofa-query: "wp-content/plugins/ltl-freight-quotes-tql-edition/"
+    google-query: inurl:"/wp-content/plugins/ltl-freight-quotes-tql-edition/"
+    shodan-query: 'http.html:"wp-content/plugins/ltl-freight-quotes-tql-edition/"'
+  tags: cve,wordpress,wp-plugin,ltl-freight-quotes-tql-edition,low,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/plugins/ajax-filter-posts/readme.txt"
+      - "{{BaseURL}}/wp-content/plugins/ltl-freight-quotes-tql-edition/readme.txt"
 
     extractors:
       - type: regex
@@ -51,9 +51,9 @@ http:
 
       - type: word
         words:
-          - "ajax-filter-posts"
+          - "ltl-freight-quotes-tql-edition"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 3.4.11')
+          - compare_versions(version, '<= 1.2.6')

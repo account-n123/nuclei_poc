@@ -1,31 +1,31 @@
-id: ajax_filter_posts-3ebc0e28-ced8-4fb0-818d-1452faf9660d
+id: spirit_framework-38391221-c435-4672-809a-ebabf639c9bb
 
 info:
   name: >
-    Post Grid Master <= 3.4.11 - Authenticated (Contributor+) Stored Cross-Site Scripting
+    Spirit Framework <= 1.2.13 - Authenticated (Subscriber+) Local File Inclusion
   author: topscoder
   severity: low
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/3ebc0e28-ced8-4fb0-818d-1452faf9660d?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/38391221-c435-4672-809a-ebabf639c9bb?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/plugins/ajax-filter-posts/"
-    google-query: inurl:"/wp-content/plugins/ajax-filter-posts/"
-    shodan-query: 'http.html:"wp-content/plugins/ajax-filter-posts/"'
-  tags: cve,wordpress,wp-plugin,ajax-filter-posts,low,candidate
+    fofa-query: "wp-content/plugins/spirit-framework/"
+    google-query: inurl:"/wp-content/plugins/spirit-framework/"
+    shodan-query: 'http.html:"wp-content/plugins/spirit-framework/"'
+  tags: cve,wordpress,wp-plugin,spirit-framework,low,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/plugins/ajax-filter-posts/readme.txt"
+      - "{{BaseURL}}/wp-content/plugins/spirit-framework/readme.txt"
 
     extractors:
       - type: regex
@@ -51,9 +51,9 @@ http:
 
       - type: word
         words:
-          - "ajax-filter-posts"
+          - "spirit-framework"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 3.4.11')
+          - compare_versions(version, '<= 1.2.13')

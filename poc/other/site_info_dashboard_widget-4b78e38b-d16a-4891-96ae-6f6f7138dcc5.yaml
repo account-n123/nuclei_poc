@@ -1,31 +1,31 @@
-id: ajax_filter_posts-3ebc0e28-ced8-4fb0-818d-1452faf9660d
+id: site_info_dashboard_widget-4b78e38b-d16a-4891-96ae-6f6f7138dcc5
 
 info:
   name: >
-    Post Grid Master <= 3.4.11 - Authenticated (Contributor+) Stored Cross-Site Scripting
+    Site Info <= 1.1 - Authenticated (Editor+) Information Exposure
   author: topscoder
   severity: low
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/3ebc0e28-ced8-4fb0-818d-1452faf9660d?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/4b78e38b-d16a-4891-96ae-6f6f7138dcc5?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/plugins/ajax-filter-posts/"
-    google-query: inurl:"/wp-content/plugins/ajax-filter-posts/"
-    shodan-query: 'http.html:"wp-content/plugins/ajax-filter-posts/"'
-  tags: cve,wordpress,wp-plugin,ajax-filter-posts,low,candidate
+    fofa-query: "wp-content/plugins/site-info-dashboard-widget/"
+    google-query: inurl:"/wp-content/plugins/site-info-dashboard-widget/"
+    shodan-query: 'http.html:"wp-content/plugins/site-info-dashboard-widget/"'
+  tags: cve,wordpress,wp-plugin,site-info-dashboard-widget,low,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/plugins/ajax-filter-posts/readme.txt"
+      - "{{BaseURL}}/wp-content/plugins/site-info-dashboard-widget/readme.txt"
 
     extractors:
       - type: regex
@@ -51,9 +51,9 @@ http:
 
       - type: word
         words:
-          - "ajax-filter-posts"
+          - "site-info-dashboard-widget"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 3.4.11')
+          - compare_versions(version, '<= 1.1')
