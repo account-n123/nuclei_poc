@@ -1,31 +1,31 @@
-id: gutenify-2697a372-dd88-4532-bbcf-ff5f8dc5a73a
+id: extended_widget_options-98f8a524-b0b8-4e11-b789-bed3bd257a10
 
 info:
   name: >
-    Gutenify <= 1.5.7 - Authenticated (Contributor+) Stored Cross-Site Scripting
+    Widget Options - Extended <= 5.2.1 - Authenticated (Contributor+) Stored Cross-Site Scripting
   author: topscoder
   severity: low
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/2697a372-dd88-4532-bbcf-ff5f8dc5a73a?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/98f8a524-b0b8-4e11-b789-bed3bd257a10?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/plugins/gutenify/"
-    google-query: inurl:"/wp-content/plugins/gutenify/"
-    shodan-query: 'http.html:"wp-content/plugins/gutenify/"'
-  tags: cve,wordpress,wp-plugin,gutenify,low,candidate
+    fofa-query: "wp-content/plugins/extended-widget-options/"
+    google-query: inurl:"/wp-content/plugins/extended-widget-options/"
+    shodan-query: 'http.html:"wp-content/plugins/extended-widget-options/"'
+  tags: cve,wordpress,wp-plugin,extended-widget-options,low,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/plugins/gutenify/readme.txt"
+      - "{{BaseURL}}/wp-content/plugins/extended-widget-options/readme.txt"
 
     extractors:
       - type: regex
@@ -51,9 +51,9 @@ http:
 
       - type: word
         words:
-          - "gutenify"
+          - "extended-widget-options"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 1.5.7')
+          - compare_versions(version, '<= 5.2.1')

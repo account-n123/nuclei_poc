@@ -1,31 +1,31 @@
-id: gutenify-2697a372-dd88-4532-bbcf-ff5f8dc5a73a
+id: wide_banner-98907ef3-7c54-4d08-9eb4-2409f1de893f
 
 info:
   name: >
-    Gutenify <= 1.5.7 - Authenticated (Contributor+) Stored Cross-Site Scripting
+    Wide Banner <= 1.0.4 - Missing Authorization
   author: topscoder
-  severity: low
+  severity: high
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/2697a372-dd88-4532-bbcf-ff5f8dc5a73a?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/98907ef3-7c54-4d08-9eb4-2409f1de893f?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/plugins/gutenify/"
-    google-query: inurl:"/wp-content/plugins/gutenify/"
-    shodan-query: 'http.html:"wp-content/plugins/gutenify/"'
-  tags: cve,wordpress,wp-plugin,gutenify,low,candidate
+    fofa-query: "wp-content/plugins/wide-banner/"
+    google-query: inurl:"/wp-content/plugins/wide-banner/"
+    shodan-query: 'http.html:"wp-content/plugins/wide-banner/"'
+  tags: cve,wordpress,wp-plugin,wide-banner,high,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/plugins/gutenify/readme.txt"
+      - "{{BaseURL}}/wp-content/plugins/wide-banner/readme.txt"
 
     extractors:
       - type: regex
@@ -51,9 +51,9 @@ http:
 
       - type: word
         words:
-          - "gutenify"
+          - "wide-banner"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 1.5.7')
+          - compare_versions(version, '<= 1.0.4')
