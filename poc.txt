@@ -17087,6 +17087,7 @@
 ./poc/cve/CVE-2004-1965_2_3.yaml
 ./poc/cve/CVE-2004-1965_4.yaml
 ./poc/cve/CVE-2004-1965_6.yaml
+./poc/cve/CVE-2004-2687.yaml
 ./poc/cve/CVE-2004-2687_1_1.yaml
 ./poc/cve/CVE-2004-2687_2.yaml
 ./poc/cve/CVE-2004-2687_3.yaml
@@ -31978,6 +31979,7 @@
 ./poc/cve/CVE-2018-8770_2_1.yaml
 ./poc/cve/CVE-2018-8770_3_2.yaml
 ./poc/cve/CVE-2018-8770_6.yaml
+./poc/cve/CVE-2018-8823.yaml
 ./poc/cve/CVE-2018-8823_1_1.yaml
 ./poc/cve/CVE-2018-8823_2.yaml
 ./poc/cve/CVE-2018-8823_3_3.yaml
@@ -35926,7 +35928,6 @@
 ./poc/cve/CVE-2020-13865.yaml
 ./poc/cve/CVE-2020-13865_1.yaml
 ./poc/cve/CVE-2020-13873_1.yaml
-./poc/cve/CVE-2020-13886.yaml
 ./poc/cve/CVE-2020-13886_1.yaml
 ./poc/cve/CVE-2020-13886_2.yaml
 ./poc/cve/CVE-2020-13886_3.yaml
@@ -39137,6 +39138,7 @@
 ./poc/cve/CVE-2020-9266.yaml
 ./poc/cve/CVE-2020-9267.yaml
 ./poc/cve/CVE-2020-9268_1.yaml
+./poc/cve/CVE-2020-9274.yaml
 ./poc/cve/CVE-2020-9315 (copy 2)_2.yaml
 ./poc/cve/CVE-2020-9315-1.yaml
 ./poc/cve/CVE-2020-9315-2.yaml
@@ -57740,6 +57742,7 @@
 ./poc/cve/CVE-2022-3865.yaml
 ./poc/cve/CVE-2022-3865_1_3.yaml
 ./poc/cve/CVE-2022-3865_3_3.yaml
+./poc/cve/CVE-2022-3869.yaml
 ./poc/cve/CVE-2022-3869_1.yaml
 ./poc/cve/CVE-2022-3869_2.yaml
 ./poc/cve/CVE-2022-3869_3.yaml
@@ -58704,6 +58707,7 @@
 ./poc/cve/CVE-2022-4140_3_1.yaml
 ./poc/cve/CVE-2022-4140_4_2.yaml
 ./poc/cve/CVE-2022-4140_6.yaml
+./poc/cve/CVE-2022-41412.yaml
 ./poc/cve/CVE-2022-41412_1_3.yaml
 ./poc/cve/CVE-2022-41412_2_2.yaml
 ./poc/cve/CVE-2022-41412_3_1.yaml
@@ -78012,6 +78016,7 @@
 ./poc/cve/CVE-2023-43275_2.yaml
 ./poc/cve/CVE-2023-43291_1.yaml
 ./poc/cve/CVE-2023-43319_3.yaml
+./poc/cve/CVE-2023-43323.yaml
 ./poc/cve/CVE-2023-43323_1.yaml
 ./poc/cve/CVE-2023-43323_3.yaml
 ./poc/cve/CVE-2023-43323_4.yaml
@@ -94068,7 +94073,6 @@
 ./poc/cve/CVE-2024-21641_1.yaml
 ./poc/cve/CVE-2024-21641_2.yaml
 ./poc/cve/CVE-2024-21641_3.yaml
-./poc/cve/CVE-2024-21644.yaml
 ./poc/cve/CVE-2024-21644_1.yaml
 ./poc/cve/CVE-2024-21644_3.yaml
 ./poc/cve/CVE-2024-21644_4.yaml
@@ -101335,6 +101339,7 @@
 ./poc/cve/CVE-2024-3405_2.yaml
 ./poc/cve/CVE-2024-3406-e579cc3a60547dee0a368ba5eb3b43db.yaml
 ./poc/cve/CVE-2024-3406-wp_prayer-bab68830-5ac5-4aa3-929a-ba2bca03b1ca.yaml
+./poc/cve/CVE-2024-34061.yaml
 ./poc/cve/CVE-2024-34061_1_1.yaml
 ./poc/cve/CVE-2024-34061_3.yaml
 ./poc/cve/CVE-2024-34061_4.yaml
@@ -114224,7 +114229,6 @@
 ./poc/cve/CVE-2024-5932_2.yaml
 ./poc/cve/CVE-2024-5932_4.yaml
 ./poc/cve/CVE-2024-5932_5.yaml
-./poc/cve/CVE-2024-5936.yaml
 ./poc/cve/CVE-2024-5936_1.yaml
 ./poc/cve/CVE-2024-5936_2.yaml
 ./poc/cve/CVE-2024-5936_3.yaml
@@ -115474,7 +115478,6 @@
 ./poc/cve/CVE-2024-6928-203b29b162bfee6a5a1d43714ecfa5ff_3.yaml
 ./poc/cve/CVE-2024-6928-66d36a40cf2172db26cce7deee6ee28d_2.yaml
 ./poc/cve/CVE-2024-6928-opti_marketing-ab8bf2d1-1af4-4ea0-bba9-e65ea1ed5978.yaml
-./poc/cve/CVE-2024-6928.yaml
 ./poc/cve/CVE-2024-6928_1_3.yaml
 ./poc/cve/CVE-2024-6928_2_1.yaml
 ./poc/cve/CVE-2024-6928_3.yaml
@@ -122229,7 +122232,6 @@
 ./poc/cve/CVE-2025-2525-streamit-83a58119-d0ed-47fe-93d1-1aa1def2cf44.yaml
 ./poc/cve/CVE-2025-2525.yaml
 ./poc/cve/CVE-2025-25256-oob_3.yaml
-./poc/cve/CVE-2025-25256.yaml
 ./poc/cve/CVE-2025-25256_1.yaml
 ./poc/cve/CVE-2025-25256_2.yaml
 ./poc/cve/CVE-2025-25256_3.yaml
@@ -128718,7 +128720,6 @@
 ./poc/cve/CVE-2025-47812_1.yaml
 ./poc/cve/CVE-2025-47812_2.yaml
 ./poc/cve/CVE-2025-47812_3.yaml
-./poc/cve/CVE-2025-47813.yaml
 ./poc/cve/CVE-2025-47813_1.yaml
 ./poc/cve/CVE-2025-47813_2.yaml
 ./poc/cve/CVE-2025-47813_3.yaml
@@ -195491,7 +195492,6 @@
 ./poc/other/crisp-6bcc8b84-34ac-4f8f-9a74-43b230877e92.yaml
 ./poc/other/crisp-7e97d9dd-7d4a-4862-abba-6e8816bbbe9b.yaml
 ./poc/other/crisp-8801e7accee853da55af7f47154b6882_3.yaml
-./poc/other/crisp-client-csp-bypass.yaml
 ./poc/other/crisp-client-csp-bypass_2.yaml
 ./poc/other/crisp_1.yaml
 ./poc/other/crisp_2.yaml
@@ -206201,6 +206201,7 @@
 ./poc/other/formidable-registration-3c31ff1b362aeaa5333e28e3a4b31d9a_3.yaml
 ./poc/other/formidable-registration_1_2.yaml
 ./poc/other/formidable-registration_2.yaml
+./poc/other/formidable.yaml
 ./poc/other/formidable_3.yaml
 ./poc/other/formidable_4_3.yaml
 ./poc/other/formidable_5_2.yaml
@@ -229307,7 +229308,7 @@
 ./poc/other/posteio-admin-panel_1_1.yaml
 ./poc/other/posteio-admin-panel_2.yaml
 ./poc/other/posteio-admin-panel_3_3.yaml
-./poc/other/posteio-installer.yaml
+./poc/other/posteio-installer_3.yaml
 ./poc/other/posten-post-blocks.yaml
 ./poc/other/posten_post_blocks-1da28958-fee8-4108-9c7a-6e9b9b5ccc0f.yaml
 ./poc/other/posterity-1b2b49af-1bed-4c81-95c2-f8b80c06a829.yaml
@@ -299749,6 +299750,7 @@
 ./poc/wordpress/all-in-one-wp-migration-plugin-d41d8cd98f00b204e9800998ecf8427e.yaml
 ./poc/wordpress/all-in-one-wp-migration-plugin_1_3.yaml
 ./poc/wordpress/all-in-one-wp-migration-plugin_2.yaml
+./poc/wordpress/all-in-one-wp-migration.yaml
 ./poc/wordpress/all-in-one-wp-migration_2.yaml
 ./poc/wordpress/all-in-one-wp-migration_4_2.yaml
 ./poc/wordpress/all-in-one-wp-security-and-firewall-0626905a7c1d04205e6c507d1e98caea_1.yaml
