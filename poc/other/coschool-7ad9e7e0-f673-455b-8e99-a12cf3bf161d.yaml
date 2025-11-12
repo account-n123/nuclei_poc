@@ -1,31 +1,31 @@
-id: groups-d0f6d28a-d5ca-4700-bc61-f2dd20f06fcf
+id: coschool-7ad9e7e0-f673-455b-8e99-a12cf3bf161d
 
 info:
   name: >
-    Groups <= 3.7.0 - Authenticated (Subscriber+) Insecure Direct Object Reference to Arbitrary Group Join
+    CoSchool LMS <= 1.4.3 - Authenticated (Subscriber+) SQL Injection
   author: topscoder
   severity: low
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/d0f6d28a-d5ca-4700-bc61-f2dd20f06fcf?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/7ad9e7e0-f673-455b-8e99-a12cf3bf161d?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/plugins/groups/"
-    google-query: inurl:"/wp-content/plugins/groups/"
-    shodan-query: 'http.html:"wp-content/plugins/groups/"'
-  tags: cve,wordpress,wp-plugin,groups,low,candidate
+    fofa-query: "wp-content/plugins/coschool/"
+    google-query: inurl:"/wp-content/plugins/coschool/"
+    shodan-query: 'http.html:"wp-content/plugins/coschool/"'
+  tags: cve,wordpress,wp-plugin,coschool,low,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/plugins/groups/readme.txt"
+      - "{{BaseURL}}/wp-content/plugins/coschool/readme.txt"
 
     extractors:
       - type: regex
@@ -43,9 +43,9 @@ http:
 
       - type: word
         words:
-          - "groups"
+          - "coschool"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 3.7.0')
+          - compare_versions(version, '<= 1.4.3')
