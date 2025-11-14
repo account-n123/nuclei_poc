@@ -1111,6 +1111,7 @@
 ./poc/api/CVE-2024-8485-rest_api_to_miniprogram-b53066d3-2ff3-4460-896a-facd77455914.yaml
 ./poc/api/CVE-2024-9195-whmpress_client_area_api-c8af0c5c-3d7b-416d-9d10-6867fcf909a5.yaml
 ./poc/api/CVE-2025-10748-rapidresult-4e5d7d04-f73a-48ea-81e3-36a514c76cc6.yaml
+./poc/api/CVE-2025-12904-h5pxapikatchu-90552d5a-6103-48c7-ad44-52ee8ecac114.yaml
 ./poc/api/CVE-2025-1311-wcfm_marketplace_rest_api-6ff5cda2-edcd-4fa5-9c8e-427a43802ed1.yaml
 ./poc/api/CVE-2025-22557-wpm_news_api-516d40c7-fc27-45df-bb08-fbafcd1c81a4.yaml
 ./poc/api/CVE-2025-22745-navigation_du_lapin_blanc-e997974c-733c-4c98-9de5-876681194bdd.yaml
@@ -2049,6 +2050,7 @@
 ./poc/api/graylog-api-browser_3_1.yaml
 ./poc/api/graylog-api-browser_5.yaml
 ./poc/api/graylog-api-exposure.yaml
+./poc/api/h5pxapikatchu-90552d5a-6103-48c7-ad44-52ee8ecac114.yaml
 ./poc/api/h5pxapikatchu-bc611a4b-f3eb-48ed-8904-27124775ed29.yaml
 ./poc/api/h5pxapikatchu.yaml
 ./poc/api/hardcoded-api-keys.yaml
@@ -6320,6 +6322,7 @@
 ./poc/auth/erident_custom_login_and_dashboard-3bed2531-1a7d-49d9-91c9-d9e7357e5613.yaml
 ./poc/auth/erident_custom_login_and_dashboard-cb714378-ed60-4bf1-8c9c-b37515ddb353.yaml
 ./poc/auth/erident_custom_login_and_dashboard-e7fb6233-3f58-4237-aaaf-4bc60c5cc8ca.yaml
+./poc/auth/erpnext-default-login.yaml
 ./poc/auth/esafenet-cdg-default-login.yaml
 ./poc/auth/esafenet-cdg-default-login_1_1.yaml
 ./poc/auth/esafenet-cdg-default-login_4.yaml
@@ -32024,7 +32027,6 @@
 ./poc/cve/CVE-2018-8770_2_1.yaml
 ./poc/cve/CVE-2018-8770_3_2.yaml
 ./poc/cve/CVE-2018-8770_6.yaml
-./poc/cve/CVE-2018-8823.yaml
 ./poc/cve/CVE-2018-8823_1_1.yaml
 ./poc/cve/CVE-2018-8823_2.yaml
 ./poc/cve/CVE-2018-8823_3_3.yaml
@@ -94556,6 +94558,7 @@
 ./poc/cve/CVE-2024-2242-8b36c4ecd0a0c68d6b11572547227a00_2.yaml
 ./poc/cve/CVE-2024-2242-contact_form_7-d5bf4972-424a-4470-a0bc-7dcc95378e0e.yaml
 ./poc/cve/CVE-2024-2242.yaml
+./poc/cve/CVE-2024-22476.yaml
 ./poc/cve/CVE-2024-22476_1_1.yaml
 ./poc/cve/CVE-2024-22476_3.yaml
 ./poc/cve/CVE-2024-22476_4.yaml
@@ -99317,7 +99320,6 @@
 ./poc/cve/CVE-2024-3217-wpdirectorykit-09b315e6-d973-467d-8b8d-4b7b4a7ca3f8.yaml
 ./poc/cve/CVE-2024-3217.yaml
 ./poc/cve/CVE-2024-3217_2_3.yaml
-./poc/cve/CVE-2024-32231.yaml
 ./poc/cve/CVE-2024-32231_1.yaml
 ./poc/cve/CVE-2024-32231_2.yaml
 ./poc/cve/CVE-2024-32231_3.yaml
@@ -119008,6 +119010,7 @@
 ./poc/cve/CVE-2025-11975-fusewp-6c68e8a1-926f-497f-b9f2-b0a67cd09adf.yaml
 ./poc/cve/CVE-2025-11976-fusewp-e5957d6b-40e5-44c4-9a1b-e9c49e175162.yaml
 ./poc/cve/CVE-2025-11980-quick_featured_images-590720a3-1881-4a5d-b004-ad92d386afe6.yaml
+./poc/cve/CVE-2025-11981-wpschoolpress-04bc4a20-0136-4fb4-9489-07140b2b86aa.yaml
 ./poc/cve/CVE-2025-11983-wp_discourse-6b1524f3-1c59-49a1-bbe3-94dcfd232b1d.yaml
 ./poc/cve/CVE-2025-11986-crypto-f062ef94-e558-478e-bbfd-06616aeb566b.yaml
 ./poc/cve/CVE-2025-11987-visual_link_preview-65ae3119-61d1-4ec0-8ba2-352aae5cc834.yaml
@@ -119199,6 +119202,7 @@
 ./poc/cve/CVE-2025-12892-survey_maker-6abc7605-2daa-44a9-8f2f-cbaacbea9348.yaml
 ./poc/cve/CVE-2025-12901-asgaros_forum-75625e6e-f75b-4e11-acd8-7388efb12b29.yaml
 ./poc/cve/CVE-2025-12903-woo_payment_gateway-89cd5429-39a0-441f-ba69-dea111eae5ed.yaml
+./poc/cve/CVE-2025-12904-h5pxapikatchu-90552d5a-6103-48c7-ad44-52ee8ecac114.yaml
 ./poc/cve/CVE-2025-1291-kadence_blocks-9df00907-c95e-445c-b424-78a1e5e00e4f.yaml
 ./poc/cve/CVE-2025-1291.yaml
 ./poc/cve/CVE-2025-1294-wp_fsqm_pro-6c5db375-e865-47ba-a3dd-462c55d066fd.yaml
@@ -127950,6 +127954,7 @@
 ./poc/cve/CVE-2025-43841-vegas_fullscreen_background_slider-1ac6422f-0bb1-4586-adbb-71b04b2a8e63.yaml
 ./poc/cve/CVE-2025-4387-2be7abf889e7ac46e0d9b55b9e6f1dd1_3.yaml
 ./poc/cve/CVE-2025-4387-woocommerce_abandon_cart_pro-5d2f07bb-89b3-41d4-b606-9722deecf816.yaml
+./poc/cve/CVE-2025-4388.yaml
 ./poc/cve/CVE-2025-4388_1.yaml
 ./poc/cve/CVE-2025-4388_2.yaml
 ./poc/cve/CVE-2025-4388_3.yaml
@@ -130287,6 +130292,7 @@
 ./poc/cve/CVE-2025-5190-e5cf813891a25086ef94c98a98f8eb4a_3.yaml
 ./poc/cve/CVE-2025-5194-adc028d281e31569cb7822bd0690f48f_1.yaml
 ./poc/cve/CVE-2025-5194-wp_map_block-94faab0a-dee9-4c31-a5be-4de35cc01d62.yaml
+./poc/cve/CVE-2025-51991.yaml
 ./poc/cve/CVE-2025-5209-add_search_to_menu-1512dcea-11b5-4176-973b-aa3fc088865b.yaml
 ./poc/cve/CVE-2025-5209-dd8319c4cf6f53963b1e39b7c5450a2d_1.yaml
 ./poc/cve/CVE-2025-52207.yaml
@@ -131918,7 +131924,6 @@
 ./poc/cve/CVE-2025-59010-permalink_manager-fa4ac740-8f57-4d0c-8e04-dcddeeb3c89e.yaml
 ./poc/cve/CVE-2025-59011-traveler-83a4caa6-207d-4ca0-bf4e-e7701d9edf91.yaml
 ./poc/cve/CVE-2025-59012-traveler-295e67ef-0d68-4b76-8dab-54dc916f3569.yaml
-./poc/cve/CVE-2025-59049.yaml
 ./poc/cve/CVE-2025-5920-57441f97527a3bbbb7cb831c9303b652_1.yaml
 ./poc/cve/CVE-2025-5920-sharable_password_protected_posts-128c6ab5-ddcf-4775-b390-db49da79e548.yaml
 ./poc/cve/CVE-2025-5921-9a4ad692bae147cb4ee3f35f89cea90b_3.yaml
@@ -140824,6 +140829,7 @@
 ./poc/default/emqx-default-login_1_3.yaml
 ./poc/default/emqx-default-login_2.yaml
 ./poc/default/enviromuux-default-login_3.yaml
+./poc/default/erpnext-default-login.yaml
 ./poc/default/esafenet-cdg-default-login.yaml
 ./poc/default/esafenet-cdg-default-login_1_1.yaml
 ./poc/default/esafenet-cdg-default-login_4.yaml
@@ -300166,6 +300172,7 @@
 ./poc/wordpress/CVE-2025-11920-wpcom_member-43b04825-d1c6-4e2a-9035-1f4fbfe14818.yaml
 ./poc/wordpress/CVE-2025-11975-fusewp-6c68e8a1-926f-497f-b9f2-b0a67cd09adf.yaml
 ./poc/wordpress/CVE-2025-11976-fusewp-e5957d6b-40e5-44c4-9a1b-e9c49e175162.yaml
+./poc/wordpress/CVE-2025-11981-wpschoolpress-04bc4a20-0136-4fb4-9489-07140b2b86aa.yaml
 ./poc/wordpress/CVE-2025-11983-wp_discourse-6b1524f3-1c59-49a1-bbe3-94dcfd232b1d.yaml
 ./poc/wordpress/CVE-2025-12000-wpfunnels-d969eb46-b12a-4a36-9321-bf1479906a5d.yaml
 ./poc/wordpress/CVE-2025-12005-wpvr-9bcbc0cf-69e5-4d6e-8987-a0fbbaf41740.yaml
@@ -317786,6 +317793,7 @@
 ./poc/wordpress/wpsc-mijnpress_1.yaml
 ./poc/wordpress/wpsc-mijnpress_2.yaml
 ./poc/wordpress/wpsc_mijnpress-83bd221e-7d01-4cba-8577-ce0a69e4a75c.yaml
+./poc/wordpress/wpschoolpress-04bc4a20-0136-4fb4-9489-07140b2b86aa.yaml
 ./poc/wordpress/wpschoolpress-09f611d7acad8f62fbafe034a1a3c68c_3.yaml
 ./poc/wordpress/wpschoolpress-1410d37a-fa8d-41e1-bed7-1c1436b52a83.yaml
 ./poc/wordpress/wpschoolpress-1680136ea39805fd2c1e7c606df0bfaf.yaml
