@@ -30131,7 +30131,6 @@
 ./poc/cve/CVE-2018-11486.yaml
 ./poc/cve/CVE-2018-11486_1_1.yaml
 ./poc/cve/CVE-2018-11510.yaml
-./poc/cve/CVE-2018-11511.yaml
 ./poc/cve/CVE-2018-11515-124cbfc0e7dbdddbad326c5880ca05d4_3.yaml
 ./poc/cve/CVE-2018-11515-wpforo-fea6ddd5-f168-471c-99eb-efc46d1bfeb9.yaml
 ./poc/cve/CVE-2018-11515.yaml
@@ -105480,6 +105479,7 @@
 ./poc/cve/CVE-2024-3987_3.yaml
 ./poc/cve/CVE-2024-3988-sina_extension_for_elementor-78b24567-c185-4bef-b025-016b091be2e4.yaml
 ./poc/cve/CVE-2024-3988.yaml
+./poc/cve/CVE-2024-39887.yaml
 ./poc/cve/CVE-2024-39887_1.yaml
 ./poc/cve/CVE-2024-39887_2.yaml
 ./poc/cve/CVE-2024-39887_3.yaml
@@ -119118,6 +119118,7 @@
 ./poc/cve/CVE-2025-12469-wp_marketing_automations-72198b74-90f6-49c6-b261-6f9c1cdc9692.yaml
 ./poc/cve/CVE-2025-12471-social_pug-fe848a09-edd3-4eea-befb-909d15ba1994.yaml
 ./poc/cve/CVE-2025-12475-blocksy_companion-dd13eb67-3bd5-41c4-a47f-5f55656ea5b9.yaml
+./poc/cve/CVE-2025-12482-ameliabooking-cacf2e32-12cf-41a9-a57f-1135c165494c.yaml
 ./poc/cve/CVE-2025-1249-events_manager-1508ae48-099c-44a2-a1c8-000a5e5acbef.yaml
 ./poc/cve/CVE-2025-1249.yaml
 ./poc/cve/CVE-2025-12493-woolentor_addons-12bb4bb9-e908-43ad-8fb1-59418580f5e1.yaml
@@ -127831,7 +127832,6 @@
 ./poc/cve/CVE-2025-4131-gmapsmania-30d39718-945a-43a2-be08-70be1af55965.yaml
 ./poc/cve/CVE-2025-4133-472750dab26629f8d372e7610beb785b.yaml
 ./poc/cve/CVE-2025-4133-blog2social-d61d2dc5-7461-460c-8dbc-e32a512d5828.yaml
-./poc/cve/CVE-2025-41393.yaml
 ./poc/cve/CVE-2025-41393_1.yaml
 ./poc/cve/CVE-2025-41393_2.yaml
 ./poc/cve/CVE-2025-41393_3.yaml
@@ -183556,6 +183556,7 @@
 ./poc/other/ameliabooking-c3ac21bf069e8e981f23c9e7fb5f0d68_1.yaml
 ./poc/other/ameliabooking-c5ead57986c0f13f183279f2155f1409_1.yaml
 ./poc/other/ameliabooking-c9aa2a44-5a71-4a10-9876-3d54b8d268c5.yaml
+./poc/other/ameliabooking-cacf2e32-12cf-41a9-a57f-1135c165494c.yaml
 ./poc/other/ameliabooking-ea984974-2835-4bad-b7ca-975ad21c80e5.yaml
 ./poc/other/ameliabooking-f1a0f113a878a6a03825a9e8f93738d2.yaml
 ./poc/other/ameliabooking-f55c3476b5c9c9b48f2320fef7d91f96_1.yaml
@@ -244847,6 +244848,7 @@
 ./poc/other/test.yml
 ./poc/other/test2.yaml
 ./poc/other/test_1.yaml
+./poc/other/test_1.yml
 ./poc/other/test_3.yml
 ./poc/other/testimonial-549ddee9-9f38-40e2-ac50-bff5366c0b94.yaml
 ./poc/other/testimonial-9be5e54c-286a-4fec-95fb-27e3517f3eb8.yaml
