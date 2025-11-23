@@ -78083,6 +78083,7 @@
 ./poc/cve/CVE-2023-43275_2.yaml
 ./poc/cve/CVE-2023-43291_1.yaml
 ./poc/cve/CVE-2023-43319_3.yaml
+./poc/cve/CVE-2023-43323.yaml
 ./poc/cve/CVE-2023-43323_1.yaml
 ./poc/cve/CVE-2023-43323_3.yaml
 ./poc/cve/CVE-2023-43323_4.yaml
@@ -78105,6 +78106,7 @@
 ./poc/cve/CVE-2023-43374_3.yaml
 ./poc/cve/CVE-2023-43374_4.yaml
 ./poc/cve/CVE-2023-43381_1.yaml
+./poc/cve/CVE-2023-43472.yaml
 ./poc/cve/CVE-2023-43472_1_1.yaml
 ./poc/cve/CVE-2023-43472_3.yaml
 ./poc/cve/CVE-2023-43472_4.yaml
@@ -106761,7 +106763,6 @@
 ./poc/cve/CVE-2024-4339-bdthemes_prime_slider_lite-6eba6056-e087-4347-ad36-96501ceb4cdd.yaml
 ./poc/cve/CVE-2024-4339.yaml
 ./poc/cve/CVE-2024-4339_1_2.yaml
-./poc/cve/CVE-2024-4340.yaml
 ./poc/cve/CVE-2024-4340_1.yaml
 ./poc/cve/CVE-2024-4340_2.yaml
 ./poc/cve/CVE-2024-4340_3.yaml
@@ -118861,6 +118862,7 @@
 ./poc/cve/CVE-2025-1093-4df57571032127b00236d1a9d49ac96d.yaml
 ./poc/cve/CVE-2025-1093-aihub-09adfe7e-f154-4143-827f-957ded3ffc8f.yaml
 ./poc/cve/CVE-2025-10938-uipress_lite-d8aa06eb-774a-4cd9-bd35-2d6409475696.yaml
+./poc/cve/CVE-2025-1097.yaml
 ./poc/cve/CVE-2025-1097_1.yaml
 ./poc/cve/CVE-2025-1097_2.yaml
 ./poc/cve/CVE-2025-1097_3.yaml
@@ -122680,6 +122682,7 @@
 ./poc/cve/CVE-2025-2525-streamit-83a58119-d0ed-47fe-93d1-1aa1def2cf44.yaml
 ./poc/cve/CVE-2025-2525.yaml
 ./poc/cve/CVE-2025-25256-oob_3.yaml
+./poc/cve/CVE-2025-25256.yaml
 ./poc/cve/CVE-2025-25256_1.yaml
 ./poc/cve/CVE-2025-25256_2.yaml
 ./poc/cve/CVE-2025-25256_3.yaml
@@ -128109,6 +128112,7 @@
 ./poc/cve/CVE-2025-43841-vegas_fullscreen_background_slider-1ac6422f-0bb1-4586-adbb-71b04b2a8e63.yaml
 ./poc/cve/CVE-2025-4387-2be7abf889e7ac46e0d9b55b9e6f1dd1_3.yaml
 ./poc/cve/CVE-2025-4387-woocommerce_abandon_cart_pro-5d2f07bb-89b3-41d4-b606-9722deecf816.yaml
+./poc/cve/CVE-2025-4388.yaml
 ./poc/cve/CVE-2025-4388_1.yaml
 ./poc/cve/CVE-2025-4388_2.yaml
 ./poc/cve/CVE-2025-4388_3.yaml
