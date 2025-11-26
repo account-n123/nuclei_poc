@@ -1,31 +1,31 @@
-id: doccure-6ff01c24-fa35-43bc-be60-f2bb37854681
+id: cibeles_ai-b3e89a1c-7606-4391-a389-fa18d0967046
 
 info:
   name: >
-    Doccure Core <= 1.5.3 - Unauthenticated Arbitrary File Upload
+    CIBELES AI <= 1.10.8 - Unauthenticated Arbitrary File Upload
   author: topscoder
   severity: critical
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/6ff01c24-fa35-43bc-be60-f2bb37854681?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/b3e89a1c-7606-4391-a389-fa18d0967046?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/plugins/doccure/"
-    google-query: inurl:"/wp-content/plugins/doccure/"
-    shodan-query: 'http.html:"wp-content/plugins/doccure/"'
-  tags: cve,wordpress,wp-plugin,doccure,critical,candidate
+    fofa-query: "wp-content/plugins/cibeles-ai/"
+    google-query: inurl:"/wp-content/plugins/cibeles-ai/"
+    shodan-query: 'http.html:"wp-content/plugins/cibeles-ai/"'
+  tags: cve,wordpress,wp-plugin,cibeles-ai,critical,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/plugins/doccure/readme.txt"
+      - "{{BaseURL}}/wp-content/plugins/cibeles-ai/readme.txt"
 
     extractors:
       - type: regex
@@ -43,9 +43,9 @@ http:
 
       - type: word
         words:
-          - "doccure"
+          - "cibeles-ai"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 1.5.3')
+          - compare_versions(version, '<= 1.10.8')

@@ -1,31 +1,31 @@
-id: doccure-6ff01c24-fa35-43bc-be60-f2bb37854681
+id: legal_pages-3d16e4a9-c8d3-49af-ac1f-1857f4b30d73
 
 info:
   name: >
-    Doccure Core <= 1.5.3 - Unauthenticated Arbitrary File Upload
+    Legal Pages <= 1.4.6 - Missing Authorization
   author: topscoder
-  severity: critical
+  severity: high
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/6ff01c24-fa35-43bc-be60-f2bb37854681?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/3d16e4a9-c8d3-49af-ac1f-1857f4b30d73?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/plugins/doccure/"
-    google-query: inurl:"/wp-content/plugins/doccure/"
-    shodan-query: 'http.html:"wp-content/plugins/doccure/"'
-  tags: cve,wordpress,wp-plugin,doccure,critical,candidate
+    fofa-query: "wp-content/plugins/legal-pages/"
+    google-query: inurl:"/wp-content/plugins/legal-pages/"
+    shodan-query: 'http.html:"wp-content/plugins/legal-pages/"'
+  tags: cve,wordpress,wp-plugin,legal-pages,high,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/plugins/doccure/readme.txt"
+      - "{{BaseURL}}/wp-content/plugins/legal-pages/readme.txt"
 
     extractors:
       - type: regex
@@ -43,9 +43,9 @@ http:
 
       - type: word
         words:
-          - "doccure"
+          - "legal-pages"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 1.5.3')
+          - compare_versions(version, '<= 1.4.6')
