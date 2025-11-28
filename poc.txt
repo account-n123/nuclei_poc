@@ -76222,6 +76222,7 @@
 ./poc/cve/CVE-2023-38192_1.yaml
 ./poc/cve/CVE-2023-38192_2.yaml
 ./poc/cve/CVE-2023-38192_3.yaml
+./poc/cve/CVE-2023-38194.yaml
 ./poc/cve/CVE-2023-38194_2.yaml
 ./poc/cve/CVE-2023-38194_3.yaml
 ./poc/cve/CVE-2023-38194_4.yaml
@@ -109405,6 +109406,7 @@
 ./poc/cve/CVE-2024-4939-weaverx_theme_support-bc121ed0-4cb3-4ba4-b693-413b1c25e4ca.yaml
 ./poc/cve/CVE-2024-4939_1_1.yaml
 ./poc/cve/CVE-2024-4939_2.yaml
+./poc/cve/CVE-2024-4940.yaml
 ./poc/cve/CVE-2024-4940_1_2.yaml
 ./poc/cve/CVE-2024-4940_2.yaml
 ./poc/cve/CVE-2024-4940_3.yaml
@@ -119488,6 +119490,7 @@
 ./poc/cve/CVE-2025-13680-tiger-645f60ad-c8e5-47ec-94f1-960de4ef7838.yaml
 ./poc/cve/CVE-2025-13692-unlimited_elements_for_elementor-ae603b13-dc09-4f83-8741-943d62615b3c.yaml
 ./poc/cve/CVE-2025-13692-unlimited_elements_for_elementor_premium-ae603b13-dc09-4f83-8741-943d62615b3c.yaml
+./poc/cve/CVE-2025-13737-nextend_facebook_connect-9c6b747e-d267-4fd3-a4fd-022aa657c796.yaml
 ./poc/cve/CVE-2025-1382-5c1bf41a4621fce230df5a8da9f83390.yaml
 ./poc/cve/CVE-2025-1382-contact_us_by_lord_linus-ee8731e6-92e9-4cc6-8e1c-0c7727420af7.yaml
 ./poc/cve/CVE-2025-1383-84d46280bc8c7ec3f1a878e3474c5bb3_1.yaml
@@ -132153,6 +132156,7 @@
 ./poc/cve/CVE-2025-59010-permalink_manager-fa4ac740-8f57-4d0c-8e04-dcddeeb3c89e.yaml
 ./poc/cve/CVE-2025-59011-traveler-83a4caa6-207d-4ca0-bf4e-e7701d9edf91.yaml
 ./poc/cve/CVE-2025-59012-traveler-295e67ef-0d68-4b76-8dab-54dc916f3569.yaml
+./poc/cve/CVE-2025-59049.yaml
 ./poc/cve/CVE-2025-5920-57441f97527a3bbbb7cb831c9303b652_1.yaml
 ./poc/cve/CVE-2025-5920-sharable_password_protected_posts-128c6ab5-ddcf-4775-b390-db49da79e548.yaml
 ./poc/cve/CVE-2025-5921-9a4ad692bae147cb4ee3f35f89cea90b_3.yaml
@@ -269596,6 +269600,7 @@
 ./poc/social/CVE-2025-13143-social_polls_by_opinionstage-2c16048a-6b05-48ef-92c3-6e3a42909adb.yaml
 ./poc/social/CVE-2025-13386-social_images_widget-95ab7473-e368-47ad-a8a0-0efbdafce562.yaml
 ./poc/social/CVE-2025-13558-blog2social-61b590f5-7854-42f7-b5e2-e6feaaf03a73.yaml
+./poc/social/CVE-2025-13737-nextend_facebook_connect-9c6b747e-d267-4fd3-a4fd-022aa657c796.yaml
 ./poc/social/CVE-2025-1506-wp_social-669833b3-1689-4051-8990-c6eddae4858f.yaml
 ./poc/social/CVE-2025-22283-getsocial-18b54d30-b876-4704-9456-28df8db0efda.yaml
 ./poc/social/CVE-2025-22706-social_pug_author_box-44735a35-c99e-445f-a117-2fbe203e9171.yaml
@@ -270775,6 +270780,7 @@
 ./poc/social/nextend_facebook_connect-3bad1d0d-3817-4c7f-a012-5a85b577781e.yaml
 ./poc/social/nextend_facebook_connect-7b834a3c-6af0-48fd-aa13-985d226b546d.yaml
 ./poc/social/nextend_facebook_connect-7fe97e7a-5a4e-43e7-b4f3-81786e9ee3dc.yaml
+./poc/social/nextend_facebook_connect-9c6b747e-d267-4fd3-a4fd-022aa657c796.yaml
 ./poc/social/nextend_facebook_connect-a3b5c7ec-eb6a-492e-962f-6ed47ee7f1f2.yaml
 ./poc/social/nextend_social_login_pro-0e4588d1-f21e-48ba-a8cb-d18c421f000a.yaml
 ./poc/social/nextend_social_login_pro-6494e54c-db04-41f9-8b91-6ad12528cf01.yaml
