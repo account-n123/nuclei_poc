@@ -66529,6 +66529,7 @@
 ./poc/cve/CVE-2023-22620_3_3.yaml
 ./poc/cve/CVE-2023-22620_5_3.yaml
 ./poc/cve/CVE-2023-22620_7.yaml
+./poc/cve/CVE-2023-22621.yaml
 ./poc/cve/CVE-2023-22621_1_1.yaml
 ./poc/cve/CVE-2023-22621_2.yaml
 ./poc/cve/CVE-2023-22621_3.yaml
@@ -89629,7 +89630,6 @@
 ./poc/cve/CVE-2024-11918-image_alt_text-22143fe3-e599-4b44-99c0-ba66d88ff5d6.yaml
 ./poc/cve/CVE-2024-11921-408ec902f54ba70b447e3c8902a0cefa_3.yaml
 ./poc/cve/CVE-2024-11921-give-18c0f717-6825-4421-af53-68f1cf502f81.yaml
-./poc/cve/CVE-2024-11921.yaml
 ./poc/cve/CVE-2024-11921_1.yaml
 ./poc/cve/CVE-2024-11921_2.yaml
 ./poc/cve/CVE-2024-11921_3.yaml
@@ -123709,6 +123709,7 @@
 ./poc/cve/CVE-2025-2779-insert_headers_and_footers_script-75bc2295-bf9a-430f-92b7-d380eed6df11.yaml
 ./poc/cve/CVE-2025-2780-a6d054905d448d3f2e704e2f16fe3efe_3.yaml
 ./poc/cve/CVE-2025-2780-woffice_core-7d057ac6-a341-4ec3-956c-2a2a5636155c.yaml
+./poc/cve/CVE-2025-27888.yaml
 ./poc/cve/CVE-2025-27888_1.yaml
 ./poc/cve/CVE-2025-27888_2.yaml
 ./poc/cve/CVE-2025-27888_3.yaml
