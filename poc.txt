@@ -78958,7 +78958,6 @@
 ./poc/cve/CVE-2023-45658-nexter-e26d4914-23fd-4e93-a08a-7e9dd5222a73.yaml
 ./poc/cve/CVE-2023-45658.yaml
 ./poc/cve/CVE-2023-45658_2_3.yaml
-./poc/cve/CVE-2023-45671.yaml
 ./poc/cve/CVE-2023-45671_1_2.yaml
 ./poc/cve/CVE-2023-45671_2_1.yaml
 ./poc/cve/CVE-2023-45671_4.yaml
@@ -89630,6 +89629,7 @@
 ./poc/cve/CVE-2024-11918-image_alt_text-22143fe3-e599-4b44-99c0-ba66d88ff5d6.yaml
 ./poc/cve/CVE-2024-11921-408ec902f54ba70b447e3c8902a0cefa_3.yaml
 ./poc/cve/CVE-2024-11921-give-18c0f717-6825-4421-af53-68f1cf502f81.yaml
+./poc/cve/CVE-2024-11921.yaml
 ./poc/cve/CVE-2024-11921_1.yaml
 ./poc/cve/CVE-2024-11921_2.yaml
 ./poc/cve/CVE-2024-11921_3.yaml
@@ -116255,7 +116255,6 @@
 ./poc/cve/CVE-2024-8016-d1bc0d8335eb95e44886878c9717595b_1.yaml
 ./poc/cve/CVE-2024-8016-events_calendar_pro-34f0e5a6-0bd3-4734-b7e0-27dc825d193f.yaml
 ./poc/cve/CVE-2024-8016_2.yaml
-./poc/cve/CVE-2024-8021.yaml
 ./poc/cve/CVE-2024-8021_1.yaml
 ./poc/cve/CVE-2024-8021_2.yaml
 ./poc/cve/CVE-2024-8021_3.yaml
@@ -119482,6 +119481,7 @@
 ./poc/cve/CVE-2025-13597-ai_feeds-c5007dd0-a62c-4ad8-8f8b-eb3f4387c370.yaml
 ./poc/cve/CVE-2025-1361-8431d0bdf09199012802dd0d7c12fb76.yaml
 ./poc/cve/CVE-2025-1361-ip2location_country_blocker-b63bc2b6-1abc-4cfa-a7e5-3995640f66a7.yaml
+./poc/cve/CVE-2025-13615-streamtube_core-b812a0d7-99a1-4f61-b78a-78cea6a2ada1.yaml
 ./poc/cve/CVE-2025-1362-c0f9c85c0f787c989565d38f2725ca56_1.yaml
 ./poc/cve/CVE-2025-1362-easy_broken_link_checker-3728c2bb-ff02-45b1-8bc8-112a68e3fabf.yaml
 ./poc/cve/CVE-2025-1363-easy_broken_link_checker-8cc15755-0348-48e6-b269-cefad504752d.yaml
@@ -129243,7 +129243,6 @@
 ./poc/cve/CVE-2025-47812_1.yaml
 ./poc/cve/CVE-2025-47812_2.yaml
 ./poc/cve/CVE-2025-47812_3.yaml
-./poc/cve/CVE-2025-47813.yaml
 ./poc/cve/CVE-2025-47813_1.yaml
 ./poc/cve/CVE-2025-47813_2.yaml
 ./poc/cve/CVE-2025-47813_3.yaml
@@ -131518,7 +131517,6 @@
 ./poc/cve/CVE-2025-5567.yaml
 ./poc/cve/CVE-2025-5568-d3963481ecea24e1bab8e4a89afa017b_2.yaml
 ./poc/cve/CVE-2025-5568-mage_eventpress-a3659c4d-3a19-4f74-9f6d-26d7b24ebe56.yaml
-./poc/cve/CVE-2025-5569.yaml
 ./poc/cve/CVE-2025-5569_1.yaml
 ./poc/cve/CVE-2025-5569_2.yaml
 ./poc/cve/CVE-2025-5569_3.yaml
@@ -132582,7 +132580,6 @@
 ./poc/cve/CVE-2025-6214-omnishop-e7c936b8-3132-45e1-92ed-32ecdc9cbb1e.yaml
 ./poc/cve/CVE-2025-6215-73fcbcf5566a67a4f67e44cf9b63dd77_2.yaml
 ./poc/cve/CVE-2025-6215-omnishop-12d465d2-cd89-476e-b70a-743151a23053.yaml
-./poc/cve/CVE-2025-6216.yaml
 ./poc/cve/CVE-2025-6216_1.yaml
 ./poc/cve/CVE-2025-6216_2.yaml
 ./poc/cve/CVE-2025-6216_3.yaml
@@ -243274,6 +243271,7 @@
 ./poc/other/streamlabs_1.yaml
 ./poc/other/streampark.yaml
 ./poc/other/streampipes.yaml
+./poc/other/streamtube_core-b812a0d7-99a1-4f61-b78a-78cea6a2ada1.yaml
 ./poc/other/streamweasels-kick-integration-731a934a4771ce7ab5cc63cb85dd66a1_3.yaml
 ./poc/other/streamweasels-kick-integration-772ed0ffd8d710c91969af2e2067e767_3.yaml
 ./poc/other/streamweasels-kick-integration-ce9881901c334831ebb84918c3bd106f_1.yaml
