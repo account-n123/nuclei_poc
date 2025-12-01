@@ -78958,6 +78958,7 @@
 ./poc/cve/CVE-2023-45658-nexter-e26d4914-23fd-4e93-a08a-7e9dd5222a73.yaml
 ./poc/cve/CVE-2023-45658.yaml
 ./poc/cve/CVE-2023-45658_2_3.yaml
+./poc/cve/CVE-2023-45671.yaml
 ./poc/cve/CVE-2023-45671_1_2.yaml
 ./poc/cve/CVE-2023-45671_2_1.yaml
 ./poc/cve/CVE-2023-45671_4.yaml
@@ -129243,6 +129244,7 @@
 ./poc/cve/CVE-2025-47812_1.yaml
 ./poc/cve/CVE-2025-47812_2.yaml
 ./poc/cve/CVE-2025-47812_3.yaml
+./poc/cve/CVE-2025-47813.yaml
 ./poc/cve/CVE-2025-47813_1.yaml
 ./poc/cve/CVE-2025-47813_2.yaml
 ./poc/cve/CVE-2025-47813_3.yaml
@@ -131517,6 +131519,7 @@
 ./poc/cve/CVE-2025-5567.yaml
 ./poc/cve/CVE-2025-5568-d3963481ecea24e1bab8e4a89afa017b_2.yaml
 ./poc/cve/CVE-2025-5568-mage_eventpress-a3659c4d-3a19-4f74-9f6d-26d7b24ebe56.yaml
+./poc/cve/CVE-2025-5569.yaml
 ./poc/cve/CVE-2025-5569_1.yaml
 ./poc/cve/CVE-2025-5569_2.yaml
 ./poc/cve/CVE-2025-5569_3.yaml
@@ -132447,7 +132450,6 @@
 ./poc/cve/CVE-2025-6057-wpbookit-fac81cc0-c6c9-4009-aacb-52adc70c0261.yaml
 ./poc/cve/CVE-2025-6058-9951634801fe1240e604e0401817fc5f_2.yaml
 ./poc/cve/CVE-2025-6058-wpbookit-1d779ad1-fdbe-444c-85c5-99146a1a03d8.yaml
-./poc/cve/CVE-2025-6058.yaml
 ./poc/cve/CVE-2025-6058_1.yaml
 ./poc/cve/CVE-2025-6058_2.yaml
 ./poc/cve/CVE-2025-6058_3.yaml
@@ -132580,6 +132582,7 @@
 ./poc/cve/CVE-2025-6214-omnishop-e7c936b8-3132-45e1-92ed-32ecdc9cbb1e.yaml
 ./poc/cve/CVE-2025-6215-73fcbcf5566a67a4f67e44cf9b63dd77_2.yaml
 ./poc/cve/CVE-2025-6215-omnishop-12d465d2-cd89-476e-b70a-743151a23053.yaml
+./poc/cve/CVE-2025-6216.yaml
 ./poc/cve/CVE-2025-6216_1.yaml
 ./poc/cve/CVE-2025-6216_2.yaml
 ./poc/cve/CVE-2025-6216_3.yaml
