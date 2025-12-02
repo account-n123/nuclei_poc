@@ -1,31 +1,31 @@
-id: wpbookit-abe1b727-cd92-43aa-8b6e-e02befa53195
+id: userswp-2e933356-1faf-4766-9554-aad618052d83
 
 info:
   name: >
-    WPBookit <= 1.0.7 - Missing Authorization
+    UsersWP <= 1.2.47 - Missing Authorization
   author: topscoder
   severity: high
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/abe1b727-cd92-43aa-8b6e-e02befa53195?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/2e933356-1faf-4766-9554-aad618052d83?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/plugins/wpbookit/"
-    google-query: inurl:"/wp-content/plugins/wpbookit/"
-    shodan-query: 'http.html:"wp-content/plugins/wpbookit/"'
-  tags: cve,wordpress,wp-plugin,wpbookit,high,candidate
+    fofa-query: "wp-content/plugins/userswp/"
+    google-query: inurl:"/wp-content/plugins/userswp/"
+    shodan-query: 'http.html:"wp-content/plugins/userswp/"'
+  tags: cve,wordpress,wp-plugin,userswp,high,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/plugins/wpbookit/readme.txt"
+      - "{{BaseURL}}/wp-content/plugins/userswp/readme.txt"
 
     extractors:
       - type: regex
@@ -43,9 +43,9 @@ http:
 
       - type: word
         words:
-          - "wpbookit"
+          - "userswp"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 1.0.7')
+          - compare_versions(version, '<= 1.2.47')

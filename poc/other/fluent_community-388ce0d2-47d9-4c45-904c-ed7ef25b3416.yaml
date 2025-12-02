@@ -1,31 +1,31 @@
-id: wpbookit-abe1b727-cd92-43aa-8b6e-e02befa53195
+id: fluent_community-388ce0d2-47d9-4c45-904c-ed7ef25b3416
 
 info:
   name: >
-    WPBookit <= 1.0.7 - Missing Authorization
+    FluentCommunity <= 2.0.0 - Missing Authorization
   author: topscoder
   severity: high
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/abe1b727-cd92-43aa-8b6e-e02befa53195?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/388ce0d2-47d9-4c45-904c-ed7ef25b3416?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/plugins/wpbookit/"
-    google-query: inurl:"/wp-content/plugins/wpbookit/"
-    shodan-query: 'http.html:"wp-content/plugins/wpbookit/"'
-  tags: cve,wordpress,wp-plugin,wpbookit,high,candidate
+    fofa-query: "wp-content/plugins/fluent-community/"
+    google-query: inurl:"/wp-content/plugins/fluent-community/"
+    shodan-query: 'http.html:"wp-content/plugins/fluent-community/"'
+  tags: cve,wordpress,wp-plugin,fluent-community,high,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/plugins/wpbookit/readme.txt"
+      - "{{BaseURL}}/wp-content/plugins/fluent-community/readme.txt"
 
     extractors:
       - type: regex
@@ -43,9 +43,9 @@ http:
 
       - type: word
         words:
-          - "wpbookit"
+          - "fluent-community"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 1.0.7')
+          - compare_versions(version, '<= 2.0.0')

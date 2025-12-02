@@ -1,31 +1,31 @@
-id: wpbookit-abe1b727-cd92-43aa-8b6e-e02befa53195
+id: front_editor-c997dfc8-7cec-4636-9fe4-df1fb6436082
 
 info:
   name: >
-    WPBookit <= 1.0.7 - Missing Authorization
+    Front User Submit <= 4.9.5 - Open Redirect
   author: topscoder
-  severity: high
+  severity: low
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/abe1b727-cd92-43aa-8b6e-e02befa53195?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/c997dfc8-7cec-4636-9fe4-df1fb6436082?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/plugins/wpbookit/"
-    google-query: inurl:"/wp-content/plugins/wpbookit/"
-    shodan-query: 'http.html:"wp-content/plugins/wpbookit/"'
-  tags: cve,wordpress,wp-plugin,wpbookit,high,candidate
+    fofa-query: "wp-content/plugins/front-editor/"
+    google-query: inurl:"/wp-content/plugins/front-editor/"
+    shodan-query: 'http.html:"wp-content/plugins/front-editor/"'
+  tags: cve,wordpress,wp-plugin,front-editor,low,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/plugins/wpbookit/readme.txt"
+      - "{{BaseURL}}/wp-content/plugins/front-editor/readme.txt"
 
     extractors:
       - type: regex
@@ -43,9 +43,9 @@ http:
 
       - type: word
         words:
-          - "wpbookit"
+          - "front-editor"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 1.0.7')
+          - compare_versions(version, '<= 4.9.5')
