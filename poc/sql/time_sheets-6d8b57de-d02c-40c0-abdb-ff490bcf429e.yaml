@@ -1,31 +1,31 @@
-id: instapage-8790bcca-a8c8-4b66-9ecc-47b7783cb224
+id: time_sheets-6d8b57de-d02c-40c0-abdb-ff490bcf429e
 
 info:
   name: >
-    Instapage Plugin <= 3.7.0 - Cross-Site Request Forgery
+    Time Sheets <= 2.1.3 - Cross-Site Request Forgery
   author: topscoder
   severity: medium
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/8790bcca-a8c8-4b66-9ecc-47b7783cb224?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/6d8b57de-d02c-40c0-abdb-ff490bcf429e?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/plugins/instapage/"
-    google-query: inurl:"/wp-content/plugins/instapage/"
-    shodan-query: 'http.html:"wp-content/plugins/instapage/"'
-  tags: cve,wordpress,wp-plugin,instapage,medium,candidate
+    fofa-query: "wp-content/plugins/time-sheets/"
+    google-query: inurl:"/wp-content/plugins/time-sheets/"
+    shodan-query: 'http.html:"wp-content/plugins/time-sheets/"'
+  tags: cve,wordpress,wp-plugin,time-sheets,medium,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/plugins/instapage/readme.txt"
+      - "{{BaseURL}}/wp-content/plugins/time-sheets/readme.txt"
 
     extractors:
       - type: regex
@@ -43,9 +43,9 @@ http:
 
       - type: word
         words:
-          - "instapage"
+          - "time-sheets"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 3.7.0')
+          - compare_versions(version, '<= 2.1.3')
