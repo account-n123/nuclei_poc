@@ -109783,7 +109783,6 @@
 ./poc/cve/CVE-2024-4971-learnpress-10b08a05-3561-4d05-985b-6a2339a547a7.yaml
 ./poc/cve/CVE-2024-4971.yaml
 ./poc/cve/CVE-2024-4971_1_1.yaml
-./poc/cve/CVE-2024-49757.yaml
 ./poc/cve/CVE-2024-49757_1_1.yaml
 ./poc/cve/CVE-2024-49757_2.yaml
 ./poc/cve/CVE-2024-49757_3.yaml
@@ -129398,6 +129397,7 @@
 ./poc/cve/CVE-2025-47812_1.yaml
 ./poc/cve/CVE-2025-47812_2.yaml
 ./poc/cve/CVE-2025-47812_3.yaml
+./poc/cve/CVE-2025-47813.yaml
 ./poc/cve/CVE-2025-47813_1.yaml
 ./poc/cve/CVE-2025-47813_2.yaml
 ./poc/cve/CVE-2025-47813_3.yaml
