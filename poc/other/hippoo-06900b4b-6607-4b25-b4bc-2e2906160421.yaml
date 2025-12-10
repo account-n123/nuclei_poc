@@ -1,31 +1,31 @@
-id: app_builder-bf5dab26-6674-49d9-bc14-13430f4d644f
+id: hippoo-06900b4b-6607-4b25-b4bc-2e2906160421
 
 info:
   name: >
-    App Builder <= 5.5.7 - Missing Authorization
+    Hippoo Mobile App for WooCommerce <= 1.7.1 - Unauthenticated Arbitrary File Read
   author: topscoder
-  severity: high
+  severity: low
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/bf5dab26-6674-49d9-bc14-13430f4d644f?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/06900b4b-6607-4b25-b4bc-2e2906160421?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/plugins/app-builder/"
-    google-query: inurl:"/wp-content/plugins/app-builder/"
-    shodan-query: 'http.html:"wp-content/plugins/app-builder/"'
-  tags: cve,wordpress,wp-plugin,app-builder,high,candidate
+    fofa-query: "wp-content/plugins/hippoo/"
+    google-query: inurl:"/wp-content/plugins/hippoo/"
+    shodan-query: 'http.html:"wp-content/plugins/hippoo/"'
+  tags: cve,wordpress,wp-plugin,hippoo,low,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/plugins/app-builder/readme.txt"
+      - "{{BaseURL}}/wp-content/plugins/hippoo/readme.txt"
 
     extractors:
       - type: regex
@@ -43,9 +43,9 @@ http:
 
       - type: word
         words:
-          - "app-builder"
+          - "hippoo"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 5.5.7')
+          - compare_versions(version, '<= 1.7.1')
