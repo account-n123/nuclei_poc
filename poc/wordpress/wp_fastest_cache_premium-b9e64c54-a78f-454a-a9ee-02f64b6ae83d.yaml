@@ -1,4 +1,4 @@
-id: wp_fastest_cache-b9e64c54-a78f-454a-a9ee-02f64b6ae83d
+id: wp_fastest_cache_premium-b9e64c54-a78f-454a-a9ee-02f64b6ae83d
 
 info:
   name: >
@@ -15,17 +15,17 @@ info:
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/plugins/wp-fastest-cache/"
-    google-query: inurl:"/wp-content/plugins/wp-fastest-cache/"
-    shodan-query: 'http.html:"wp-content/plugins/wp-fastest-cache/"'
-  tags: cve,wordpress,wp-plugin,wp-fastest-cache,low,candidate
+    fofa-query: "wp-content/plugins/wp-fastest-cache-premium/"
+    google-query: inurl:"/wp-content/plugins/wp-fastest-cache-premium/"
+    shodan-query: 'http.html:"wp-content/plugins/wp-fastest-cache-premium/"'
+  tags: cve,wordpress,wp-plugin,wp-fastest-cache-premium,low,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/plugins/wp-fastest-cache/readme.txt"
+      - "{{BaseURL}}/wp-content/plugins/wp-fastest-cache-premium/readme.txt"
 
     extractors:
       - type: regex
@@ -43,9 +43,9 @@ http:
 
       - type: word
         words:
-          - "wp-fastest-cache"
+          - "wp-fastest-cache-premium"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '>= 1.6.0', '<= 1.7.4')
+          - compare_versions(version, '<= 1.7.4')
