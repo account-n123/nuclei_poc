@@ -53968,7 +53968,6 @@
 ./poc/cve/CVE-2022-24816_3_1.yaml
 ./poc/cve/CVE-2022-24816_4.yaml
 ./poc/cve/CVE-2022-24816_6.yaml
-./poc/cve/CVE-2022-24819.yaml
 ./poc/cve/CVE-2022-24819_1_2.yaml
 ./poc/cve/CVE-2022-24819_2.yaml
 ./poc/cve/CVE-2022-24819_3.yaml
@@ -133065,7 +133064,6 @@
 ./poc/cve/CVE-2025-6057-wpbookit-fac81cc0-c6c9-4009-aacb-52adc70c0261.yaml
 ./poc/cve/CVE-2025-6058-9951634801fe1240e604e0401817fc5f_2.yaml
 ./poc/cve/CVE-2025-6058-wpbookit-1d779ad1-fdbe-444c-85c5-99146a1a03d8.yaml
-./poc/cve/CVE-2025-6058.yaml
 ./poc/cve/CVE-2025-6058_1.yaml
 ./poc/cve/CVE-2025-6058_2.yaml
 ./poc/cve/CVE-2025-6058_3.yaml
