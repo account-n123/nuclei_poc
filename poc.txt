@@ -53968,6 +53968,7 @@
 ./poc/cve/CVE-2022-24816_3_1.yaml
 ./poc/cve/CVE-2022-24816_4.yaml
 ./poc/cve/CVE-2022-24816_6.yaml
+./poc/cve/CVE-2022-24819.yaml
 ./poc/cve/CVE-2022-24819_1_2.yaml
 ./poc/cve/CVE-2022-24819_2.yaml
 ./poc/cve/CVE-2022-24819_3.yaml
@@ -104673,7 +104674,6 @@
 ./poc/cve/CVE-2024-3849-click_to_chat_for_whatsapp-fe25bfef-34f0-4d57-9cba-9dcbf58281c6.yaml
 ./poc/cve/CVE-2024-3849.yaml
 ./poc/cve/CVE-2024-3849_2_1.yaml
-./poc/cve/CVE-2024-3850.yaml
 ./poc/cve/CVE-2024-3850_1_2.yaml
 ./poc/cve/CVE-2024-3850_3.yaml
 ./poc/cve/CVE-2024-3850_4.yaml
@@ -120021,6 +120021,7 @@
 ./poc/cve/CVE-2025-1490.yaml
 ./poc/cve/CVE-2025-1491-419f8ddd2c115480034564eef75997ab_3.yaml
 ./poc/cve/CVE-2025-1491-wp_posts_carousel-7f708c72-7ce2-4eb0-869b-cec4613f6f3f.yaml
+./poc/cve/CVE-2025-14913-frontend_post_submission_manager_lite-19a6b19c-244d-4b30-8db2-b4d06a5f5509.yaml
 ./poc/cve/CVE-2025-1502-93a4ad2faf4641729328147536cd94cc_3.yaml
 ./poc/cve/CVE-2025-1502-ip2location_redirection-bca41dd8-5bd3-4fee-9f3f-feb8f1a4c687.yaml
 ./poc/cve/CVE-2025-1503-e7d1eced8c982758c79cf8b587f3b796.yaml
@@ -133064,6 +133065,7 @@
 ./poc/cve/CVE-2025-6057-wpbookit-fac81cc0-c6c9-4009-aacb-52adc70c0261.yaml
 ./poc/cve/CVE-2025-6058-9951634801fe1240e604e0401817fc5f_2.yaml
 ./poc/cve/CVE-2025-6058-wpbookit-1d779ad1-fdbe-444c-85c5-99146a1a03d8.yaml
+./poc/cve/CVE-2025-6058.yaml
 ./poc/cve/CVE-2025-6058_1.yaml
 ./poc/cve/CVE-2025-6058_2.yaml
 ./poc/cve/CVE-2025-6058_3.yaml
@@ -279367,6 +279369,7 @@
 ./poc/sql/CVE-2025-1457-80bed5e19b826bdbc3367d939355e00a_2.yaml
 ./poc/sql/CVE-2025-14855-sureforms-5e493f01-95db-48ba-8daf-d7ff69df29bf.yaml
 ./poc/sql/CVE-2025-1489-23a16966ce80540b20a4d91ee8b6adbc.yaml
+./poc/sql/CVE-2025-14913-frontend_post_submission_manager_lite-19a6b19c-244d-4b30-8db2-b4d06a5f5509.yaml
 ./poc/sql/CVE-2025-1504-415695926fdb9a2872fbb9a50c80539d.yaml
 ./poc/sql/CVE-2025-1507-7ce279240e4db62bf7db3a3fb97364b8_3.yaml
 ./poc/sql/CVE-2025-1508-ac825f427b7bbb873db2ba4d17bcdc6c_1.yaml
@@ -284820,6 +284823,7 @@
 ./poc/sql/frontend_dashboard-85fdf21b-0d16-4404-aad0-a2eae12f5db5.yaml
 ./poc/sql/frontend_group_restriction_for_learndash-39fb0499-9ab4-4a2f-b0db-ece86bcf4d42.yaml
 ./poc/sql/frontend_login_and_registration_blocks-b06ce1e4-5cfb-415d-ad09-db194d6b4354.yaml
+./poc/sql/frontend_post_submission_manager_lite-19a6b19c-244d-4b30-8db2-b4d06a5f5509.yaml
 ./poc/sql/frontpage-category-filter-143e9ee64bc6705a775af33bd95abbdb_1.yaml
 ./poc/sql/froxlor-database-backup.yaml
 ./poc/sql/froxlor-database-backup_1_1.yaml
