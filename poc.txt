@@ -82276,6 +82276,7 @@
 ./poc/cve/CVE-2023-5057-activitypub-76e35dc6-a4d2-4dca-a186-395f0dd954aa.yaml
 ./poc/cve/CVE-2023-5057-b714e8f9f5cfc22796b43f7fee1d99b8_1.yaml
 ./poc/cve/CVE-2023-5057.yaml
+./poc/cve/CVE-2023-50578.yaml
 ./poc/cve/CVE-2023-5057_2.yaml
 ./poc/cve/CVE-2023-5062-f6a727af1486c6b6e16beb2d524c3b39_3.yaml
 ./poc/cve/CVE-2023-5062-wp_charts-2de2d2c5-1373-45b6-93a0-575713226669.yaml
