@@ -1543,7 +1543,7 @@
 ./poc/api/api-onyphe.yaml
 ./poc/api/api-open-page-rank.yaml
 ./poc/api/api-open-page-rank_2.yaml
-./poc/api/api-openai_2.yaml
+./poc/api/api-openai.yaml
 ./poc/api/api-opengraphr_3.yaml
 ./poc/api/api-openweather-473.yaml
 ./poc/api/api-openweather_1.yaml
@@ -120004,6 +120004,7 @@
 ./poc/cve/CVE-2025-14735-afiliados_de_amazon_lite-0c23cc3c-3c76-4ba8-8fa6-6ed0507a35c9.yaml
 ./poc/cve/CVE-2025-1475-90d4674f1fefd2d857173637b3e7ccb2_3.yaml
 ./poc/cve/CVE-2025-1475-wpcom_member-05178bf3-3040-41aa-ba43-779376d30298.yaml
+./poc/cve/CVE-2025-14783-easy_digital_downloads-3c0fb43c-f576-412e-a144-4725356ed9a0.yaml
 ./poc/cve/CVE-2025-14800-wpcf7_redirect-b249ec90-a364-4644-94fb-d42eb6cc4d9a.yaml
 ./poc/cve/CVE-2025-1481-b0b911ba5537b7632361e20b5a9d30c4_2.yaml
 ./poc/cve/CVE-2025-1481-shortcode_cleaner_lite-15613da5-f900-4a33-8eec-6c9e52ed30fc.yaml
@@ -150783,6 +150784,7 @@
 ./poc/git/CVE-2024-9654-easy_digital_downloads-d3f4de75-abf5-46e8-854d-be91ed74a5f3.yaml
 ./poc/git/CVE-2025-11271-easy_digital_downloads-4c63154e-9413-47ea-a740-441618266adf.yaml
 ./poc/git/CVE-2025-12667-github_gist_shortcode-fc6468bf-37b6-4dd7-b2e5-e880e3cc3c32.yaml
+./poc/git/CVE-2025-14783-easy_digital_downloads-3c0fb43c-f576-412e-a144-4725356ed9a0.yaml
 ./poc/git/CVE-2025-2252-easy_digital_downloads-9e0e3b81-55fe-46b2-bae1-d7321d74c485.yaml
 ./poc/git/CVE-2025-22549-wp_github-1fd45d76-d82b-46e6-b9fc-95d2d977fcd2.yaml
 ./poc/git/CVE-2025-22690-digitimber_cpanel_integration-937a1474-2fe8-40dd-86c3-2d839a7b9c07.yaml
@@ -151029,6 +151031,7 @@
 ./poc/git/easy_digital_downloads-1ec207cd-cae5-4950-bbc8-d28f108b4ae7.yaml
 ./poc/git/easy_digital_downloads-20fdbe6b-45a8-41f4-8dde-35a0f9ea04a1.yaml
 ./poc/git/easy_digital_downloads-301d273e-5cd2-49b8-b2ce-b30731ab4550.yaml
+./poc/git/easy_digital_downloads-3c0fb43c-f576-412e-a144-4725356ed9a0.yaml
 ./poc/git/easy_digital_downloads-44777529-660f-4038-bbee-566ca3a8d24e.yaml
 ./poc/git/easy_digital_downloads-456f038c-85a4-426e-b9e0-3acf91f9b93a.yaml
 ./poc/git/easy_digital_downloads-4c63154e-9413-47ea-a740-441618266adf.yaml
@@ -187837,7 +187840,7 @@
 ./poc/other/azure-nsg-udp-unrestricted.yaml
 ./poc/other/azure-nsg-udp-unrestricted_3.yaml
 ./poc/other/azure-nsg-unrestricted-port-range_1.yaml
-./poc/other/azure-openai-cmk-not-enabled_1.yaml
+./poc/other/azure-openai-cmk-not-enabled.yaml
 ./poc/other/azure-openai-managed-identity-not-used_1.yaml
 ./poc/other/azure-openai-public-access-disabled_1.yaml
 ./poc/other/azure-policy-assignment-create-alert-missing_2.yaml
@@ -214019,7 +214022,7 @@
 ./poc/other/huger_elementor-a201aa76-8849-47a8-bc67-86a08a4159ea.yaml
 ./poc/other/hugging-face.yaml
 ./poc/other/hugging-face_1.yaml
-./poc/other/huggingface-user-access_1.yaml
+./poc/other/huggingface-user-access.yaml
 ./poc/other/huginn-panel_1.yaml
 ./poc/other/hui-dun-an-quan-shi-pin-he-xin-an-quan-wang-guan_3.yaml
 ./poc/other/hui-er-dun-e-di-tongvpn.yaml
