@@ -34642,6 +34642,8 @@
 ./poc/cve/CVE-2019-25223-circle_image_slider_with_lightbox-bd3e30ea-8f58-4895-b78c-fb18c94d5253.yaml
 ./poc/cve/CVE-2019-25224-341f51f4e104c798d67c1217c6125dbd_2.yaml
 ./poc/cve/CVE-2019-25224-wp_database_backup-d21cf285-9d75-43a2-9e81-67116f0bf896.yaml
+./poc/cve/CVE-2019-25295-wp_estimation_form-65a9e877-e870-4e36-985d-c0629abe3f78.yaml
+./poc/cve/CVE-2019-25296-wp_estimation_form-ae50aa5d-95e3-4650-9dbf-118b4ba3abda.yaml
 ./poc/cve/CVE-2019-2578-1.yaml
 ./poc/cve/CVE-2019-2578-2.yaml
 ./poc/cve/CVE-2019-2578.yaml
@@ -119473,6 +119475,7 @@
 ./poc/cve/CVE-2025-12639-catalog_mode_pricing_enquiry_forms_promotions-979001c4-45dd-4168-8749-c8eebe237b60.yaml
 ./poc/cve/CVE-2025-1264-849353fdfd3152b0813f3436fd7c149d_2.yaml
 ./poc/cve/CVE-2025-1264-broken_link_checker_seo-ce2d582e-4f50-4b55-9f3b-3c46d96c0927.yaml
+./poc/cve/CVE-2025-12640-folders-ac6432a4-6597-4d1e-b63d-c007a301d1b2.yaml
 ./poc/cve/CVE-2025-12643-saphali_liqpay_for_donate-63d73de6-56ac-41ab-a673-4e379eeed26c.yaml
 ./poc/cve/CVE-2025-12644-nonaki_email_template_customizer-467261ba-f41f-4e94-8941-e5b3d8392fdb.yaml
 ./poc/cve/CVE-2025-12645-inline_frame_iframe-ceda1e49-4e65-4038-9207-ef4647838f53.yaml
@@ -119848,6 +119851,7 @@
 ./poc/cve/CVE-2025-13675-tiger-4750b57e-7d8d-49d7-bbbf-46483eb97bd9.yaml
 ./poc/cve/CVE-2025-13677-simple_download_counter-b82a0f71-29d7-469a-8c69-5ab68d599cb9.yaml
 ./poc/cve/CVE-2025-13678-thai_lottery_widget-949eb9d6-0c8f-43f1-8580-998ea78c9549.yaml
+./poc/cve/CVE-2025-13679-tutor-0830d0c3-99c0-423e-99ab-f0c1cbec52d9.yaml
 ./poc/cve/CVE-2025-13680-tiger-645f60ad-c8e5-47ec-94f1-960de4ef7838.yaml
 ./poc/cve/CVE-2025-13682-trail_manager-eb43502e-dedd-46ff-b8e8-68298779f125.yaml
 ./poc/cve/CVE-2025-13684-ark_relatedpost-7eb53a80-89e5-4d8c-a1ba-c272196a3340.yaml
@@ -120028,6 +120032,7 @@
 ./poc/cve/CVE-2025-14168-wp_db_booster-cc0af0a4-81b5-425e-aba3-0c422aa33634.yaml
 ./poc/cve/CVE-2025-14169-funnel_builder-fb19f920-0fd0-491e-9e87-62c828cad9b9.yaml
 ./poc/cve/CVE-2025-14170-vimeo_simplegallery-0bb28557-7023-481f-a05b-0b9a22d7a456.yaml
+./poc/cve/CVE-2025-14275-jeg_elementor_kit-8fcb4047-5173-4d10-a4bb-72f1919b9203.yaml
 ./poc/cve/CVE-2025-14277-bdthemes_prime_slider_lite-069a56a1-ca17-43cc-a51f-51b6111f5b61.yaml
 ./poc/cve/CVE-2025-14278-ht_slider_for_elementor-af580e5a-a9da-4516-b612-b544dc73cf23.yaml
 ./poc/cve/CVE-2025-14280-pixelyoursite-0fe77926-8a43-42ce-9d3d-3aac2334dcbd.yaml
@@ -120172,6 +120177,7 @@
 ./poc/cve/CVE-2025-1491-419f8ddd2c115480034564eef75997ab_3.yaml
 ./poc/cve/CVE-2025-1491-wp_posts_carousel-7f708c72-7ce2-4eb0-869b-cec4613f6f3f.yaml
 ./poc/cve/CVE-2025-14913-frontend_post_submission_manager_lite-19a6b19c-244d-4b30-8db2-b4d06a5f5509.yaml
+./poc/cve/CVE-2025-14984-gutenverse_form-792fa6cb-e55a-4f68-b8a8-9039fb1ff694.yaml
 ./poc/cve/CVE-2025-14996-as_password_field_in_default_registration_form-061f022b-b922-4499-bb34-8ea91ba5ace3.yaml
 ./poc/cve/CVE-2025-14997-bp_xprofile_custom_field_types-89a7a717-dac3-490e-89dd-268be8eb7bf5.yaml
 ./poc/cve/CVE-2025-14998-branda_white_labeling-ae46be82-570f-4172-9c3f-746b894b84b9.yaml
@@ -209010,6 +209016,7 @@
 ./poc/other/folders-877efc41c9f6a415b6c29230ae5c516f_1.yaml
 ./poc/other/folders-9ab28410-76c5-43cb-b87a-c99f8867167c.yaml
 ./poc/other/folders-9d8f481baf9a9ff447351c5ea58fd5fb_1.yaml
+./poc/other/folders-ac6432a4-6597-4d1e-b63d-c007a301d1b2.yaml
 ./poc/other/folders-b4cc839c-de7a-43eb-a7fa-b1049419bfa3.yaml
 ./poc/other/folders-c2a2c069-5dc6-45e2-8ca1-842759d541c4.yaml
 ./poc/other/folders-daa48b64-6f89-40be-a31f-31d1481dfc91.yaml
@@ -212953,6 +212960,7 @@
 ./poc/other/gutenverse.yaml
 ./poc/other/gutenverse_1_3.yaml
 ./poc/other/gutenverse_form-5d18f911-a766-4b13-a00e-8cdeee788d7a.yaml
+./poc/other/gutenverse_form-792fa6cb-e55a-4f68-b8a8-9039fb1ff694.yaml
 ./poc/other/gutenverse_form-d2f7f4dd-097e-4ee7-b430-a9e7b5323a1b.yaml
 ./poc/other/gutenverse_news-32c7a2fb-8390-4ae0-9a12-113250b1969e.yaml
 ./poc/other/gutenverse_news-e8b1f60a-3a13-4679-af3e-d6f95fd83cea.yaml
@@ -217401,6 +217409,7 @@
 ./poc/other/jeg_elementor_kit-5b624e9b-d21e-43d2-83ad-7760ed63a75c.yaml
 ./poc/other/jeg_elementor_kit-7baa8cca-96a5-4d6b-86d5-53cd1a4675cf.yaml
 ./poc/other/jeg_elementor_kit-84b616fa-ff64-49e8-8c4a-7d7bfdf758be.yaml
+./poc/other/jeg_elementor_kit-8fcb4047-5173-4d10-a4bb-72f1919b9203.yaml
 ./poc/other/jeg_elementor_kit-950e9042-1364-4200-8f57-171346075764.yaml
 ./poc/other/jeg_elementor_kit-98aed079-672c-43bb-a5eb-faf8ffc04b71.yaml
 ./poc/other/jeg_elementor_kit-c6048ba9-671f-4729-9618-d7a0556a31e6.yaml
@@ -250155,6 +250164,7 @@
 ./poc/other/tutor-018c942c74a65c124e20e8b0d3ade5aa_2.yaml
 ./poc/other/tutor-050647a8-6743-46e4-b31c-0b5bd4a1007f.yaml
 ./poc/other/tutor-0558e00319c784dfa46371750d0abeea_1.yaml
+./poc/other/tutor-0830d0c3-99c0-423e-99ab-f0c1cbec52d9.yaml
 ./poc/other/tutor-0a8b5554-b4d9-48f2-ad16-cf96aabcbb6f.yaml
 ./poc/other/tutor-0fccc2c3d586072b8c14b4927c72ebe7_2.yaml
 ./poc/other/tutor-109017c7ae238b193363fac9700c023d.yaml
@@ -275468,6 +275478,7 @@
 ./poc/sql/CVE-2019-25216-rich_reviews-db701ad3-10fd-4a40-b239-139fbc95ab61.yaml
 ./poc/sql/CVE-2019-25224-341f51f4e104c798d67c1217c6125dbd_2.yaml
 ./poc/sql/CVE-2019-25224-wp_database_backup-d21cf285-9d75-43a2-9e81-67116f0bf896.yaml
+./poc/sql/CVE-2019-25296-wp_estimation_form-ae50aa5d-95e3-4650-9dbf-118b4ba3abda.yaml
 ./poc/sql/CVE-2019-5970-ddbaafbac4ccd6a9f828817ccaf9b115_1.yaml
 ./poc/sql/CVE-2019-5971-469fdaf4466dbf902daeba9fc22d22f6.yaml
 ./poc/sql/CVE-2019-5972-b7603ae3190b8ddb6b30d90a76b8978a_3.yaml
@@ -300841,6 +300852,8 @@
 ./poc/wordpress/CVE-2019-25218-wp_responsive_photo_gallery-05ff1b1e-f7ba-485d-9421-9bb38f6831ef.yaml
 ./poc/wordpress/CVE-2019-25222-wp_responsive_thumbnail_slider-f6023483-3fa5-4b85-9422-7d395abcfbd8.yaml
 ./poc/wordpress/CVE-2019-25224-wp_database_backup-d21cf285-9d75-43a2-9e81-67116f0bf896.yaml
+./poc/wordpress/CVE-2019-25295-wp_estimation_form-65a9e877-e870-4e36-985d-c0629abe3f78.yaml
+./poc/wordpress/CVE-2019-25296-wp_estimation_form-ae50aa5d-95e3-4650-9dbf-118b4ba3abda.yaml
 ./poc/wordpress/CVE-2019-5992-wp_ultra_simple_paypal_shopping_cart-eb6ac547-59fd-4d51-a140-06f7f70a43ab.yaml
 ./poc/wordpress/CVE-2019-6011-wpdatatables-cb68f328-3090-487e-bb1f-95fe1571abd0.yaml
 ./poc/wordpress/CVE-2019-6012-wpdatatables-c4831a75-9d2b-4808-8b23-f1e9750fd905.yaml
