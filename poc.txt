@@ -124121,6 +124121,7 @@
 ./poc/cve/CVE-2025-2710_1.yaml
 ./poc/cve/CVE-2025-2710_2.yaml
 ./poc/cve/CVE-2025-2710_3.yaml
+./poc/cve/CVE-2025-2711.yaml
 ./poc/cve/CVE-2025-27112.yaml
 ./poc/cve/CVE-2025-27112_1.yaml
 ./poc/cve/CVE-2025-27112_2.yaml
@@ -133517,6 +133518,7 @@
 ./poc/cve/CVE-2025-62152-conveythis_translate-d5a135cf-99b6-4e9e-b66a-1b547501ce9f.yaml
 ./poc/cve/CVE-2025-62153-quick_interest_slider-2a4bd32b-ab84-4668-a53c-960b42142968.yaml
 ./poc/cve/CVE-2025-62154-ai_content_writing_assistant-972ce9b3-93f6-449d-8d3e-79cfaffa082d.yaml
+./poc/cve/CVE-2025-6216.yaml
 ./poc/cve/CVE-2025-6216_1.yaml
 ./poc/cve/CVE-2025-6216_2.yaml
 ./poc/cve/CVE-2025-6216_3.yaml
