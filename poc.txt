@@ -119971,6 +119971,7 @@
 ./poc/cve/CVE-2025-13993-official_mailerlite_sign_up_forms-8c37cc28-fde0-45c6-b49c-d6dfb296c4a5.yaml
 ./poc/cve/CVE-2025-13999-html5_audio_player-989b4b9d-e22e-46a7-8ebc-5c8b33f98111.yaml
 ./poc/cve/CVE-2025-14000-restrict_content-0b6a84d7-9e77-4a2f-b065-872e8650e75e.yaml
+./poc/cve/CVE-2025-14001-wp_duplicate_page-60830ed8-3ab8-44e8-899c-7032a187da8b.yaml
 ./poc/cve/CVE-2025-14002-wpcom_member-4f02ee56-40bd-4132-92e1-e2897ff2a4c4.yaml
 ./poc/cve/CVE-2025-14003-modula_best_grid_gallery-4490afba-1487-40a4-99c6-c753acb10df3.yaml
 ./poc/cve/CVE-2025-1401-wp_click_info-cf8817fd-b49a-4fb3-9c91-09e952ff0953.yaml
@@ -120136,6 +120137,7 @@
 ./poc/cve/CVE-2025-1450-83a751b8e3e466451488d919dc97c8e9_3.yaml
 ./poc/cve/CVE-2025-1450-chaty-a87d0966-3fd4-46f8-acd5-1cf0cb18af42.yaml
 ./poc/cve/CVE-2025-14506-convertforce_popup_builder-c57b9a78-53f4-40bb-ae6a-c5242b41329f.yaml
+./poc/cve/CVE-2025-14507-eventprime_event_calendar_management-4b170ed1-72ee-40b6-9882-e978d630f6bb.yaml
 ./poc/cve/CVE-2025-14508-mediacommander-9102fe7e-7baa-4bc0-879f-cc7df1ea13d2.yaml
 ./poc/cve/CVE-2025-14509-woo_lucky_wheel-9a41bc0e-0ab9-4cee-b3ca-d730c828782c.yaml
 ./poc/cve/CVE-2025-1452-4cd4ea26e776461ee5336efa488071b6.yaml
@@ -135257,6 +135259,7 @@
 ./poc/cve/CVE-2026-0604-fastdup-ac97c729-4c75-429b-bbf2-27ca322be1cf.yaml
 ./poc/cve/CVE-2026-0627-accelerated_mobile_pages-4ed23318-3b47-4336-a3aa-6b09f3911926.yaml
 ./poc/cve/CVE-2026-0656-ipaymu_for_woocommerce-7e639aed-ec67-4212-9051-1f7465bbfde2.yaml
+./poc/cve/CVE-2026-0684-cp_image_store-28e48604-2aaf-4e02-9b1e-cebf5f0bfcf7.yaml
 ./poc/cve/CVE-2026-0831-templately-778242f4-5dfa-4d72-a032-8b5521c5b8ce.yaml
 ./poc/cve/CVE202127562-220331-222408.yaml
 ./poc/cve/CVE_2021_2400_1.yaml
@@ -198459,6 +198462,7 @@
 ./poc/other/cp_easy_form_builder-a018fcb1-b7a6-456f-ab0b-59ccc1fd5b67.yaml
 ./poc/other/cp_image_gallery-3fda31fa-efc9-44b9-99ba-9e3e23aa2ee0.yaml
 ./poc/other/cp_image_store-24c78d62-c2d0-4699-bd80-e8deef301eb3.yaml
+./poc/other/cp_image_store-28e48604-2aaf-4e02-9b1e-cebf5f0bfcf7.yaml
 ./poc/other/cp_image_store-d49bd587-26fc-48fb-86aa-a043a5938d43.yaml
 ./poc/other/cp_image_store-ded1b46e-b4b0-4f0d-929e-e1caf93576a7.yaml
 ./poc/other/cp_multi_view_calendar-13d0eb8a-5b63-460e-b4ba-a3ed80c84fc2.yaml
@@ -206407,6 +206411,7 @@
 ./poc/other/eventprime_event_calendar_management-35c7c089-6517-419e-8ba3-e6c2692fe1ae.yaml
 ./poc/other/eventprime_event_calendar_management-399848fd-e9f6-40e4-bfeb-08f53eb511c6.yaml
 ./poc/other/eventprime_event_calendar_management-39da62be-e630-48cd-b732-80ed3d337638.yaml
+./poc/other/eventprime_event_calendar_management-4b170ed1-72ee-40b6-9882-e978d630f6bb.yaml
 ./poc/other/eventprime_event_calendar_management-5124be64-6679-4dc5-8117-55c73ae91489.yaml
 ./poc/other/eventprime_event_calendar_management-5baea929-0c46-4a43-b2af-367c0b5037bb.yaml
 ./poc/other/eventprime_event_calendar_management-67b36ed7-d7f4-4944-b721-219d1990971a.yaml
@@ -304063,6 +304068,7 @@
 ./poc/wordpress/CVE-2025-13904-wpgancio-593fefe1-8813-440b-b8c7-fbfd5b71a737.yaml
 ./poc/wordpress/CVE-2025-13906-wp_flot-b4905ca1-3096-45c5-838b-1237888fb969.yaml
 ./poc/wordpress/CVE-2025-13989-wp_dropzone-23953909-4836-4226-b00b-eb0e24cc3ad7.yaml
+./poc/wordpress/CVE-2025-14001-wp_duplicate_page-60830ed8-3ab8-44e8-899c-7032a187da8b.yaml
 ./poc/wordpress/CVE-2025-14002-wpcom_member-4f02ee56-40bd-4132-92e1-e2897ff2a4c4.yaml
 ./poc/wordpress/CVE-2025-1401-wp_click_info-cf8817fd-b49a-4fb3-9c91-09e952ff0953.yaml
 ./poc/wordpress/CVE-2025-14047-wp_user_frontend-6e95b16f-a25a-45c7-a875-2d34a1e127ce.yaml
@@ -317989,6 +317995,7 @@
 ./poc/wordpress/wp_dummy_content_generator-a2bda5d0-9589-4925-baa6-6e207e6fc978.yaml
 ./poc/wordpress/wp_dummy_content_generator-f4dad030-41e4-4d67-8650-8d268c44d352.yaml
 ./poc/wordpress/wp_duplicate_page-52944aa6-a6ee-46ce-bd0c-18c69fe1ada7.yaml
+./poc/wordpress/wp_duplicate_page-60830ed8-3ab8-44e8-899c-7032a187da8b.yaml
 ./poc/wordpress/wp_duplicate_page-61105f6a-1bd7-415d-9481-a1c2c310f778.yaml
 ./poc/wordpress/wp_dynamic_keywords_injector-992f9f08-82c1-4bbd-bbd2-543ad8affe53.yaml
 ./poc/wordpress/wp_dynamic_keywords_injector-f5b00784-9120-403d-9788-3cd3c3c020aa.yaml
