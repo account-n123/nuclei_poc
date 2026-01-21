@@ -1,4 +1,4 @@
-id: responsive_addons_for_elementor-ee9b78d6-da16-4668-a118-61cd3adbab58
+id: responsive_addons_for_elementor-d22e1b63-6ec9-4c06-9616-d976a8a83769
 
 info:
   name: >
@@ -9,7 +9,7 @@ info:
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/ee9b78d6-da16-4668-a118-61cd3adbab58?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/d22e1b63-6ec9-4c06-9616-d976a8a83769?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
