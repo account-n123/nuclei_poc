@@ -85824,7 +85824,6 @@
 ./poc/cve/CVE-2023-6975_1.yaml
 ./poc/cve/CVE-2023-6975_2_1.yaml
 ./poc/cve/CVE-2023-6977-MLflow_2.yaml
-./poc/cve/CVE-2023-6977.yaml
 ./poc/cve/CVE-2023-6977_1_1.yaml
 ./poc/cve/CVE-2023-6977_2_2.yaml
 ./poc/cve/CVE-2023-6977_3_1.yaml
@@ -104741,7 +104740,6 @@
 ./poc/cve/CVE-2024-3849-click_to_chat_for_whatsapp-fe25bfef-34f0-4d57-9cba-9dcbf58281c6.yaml
 ./poc/cve/CVE-2024-3849.yaml
 ./poc/cve/CVE-2024-3849_2_1.yaml
-./poc/cve/CVE-2024-3850.yaml
 ./poc/cve/CVE-2024-3850_1_2.yaml
 ./poc/cve/CVE-2024-3850_3.yaml
 ./poc/cve/CVE-2024-3850_4.yaml
@@ -117349,7 +117347,6 @@
 ./poc/cve/CVE-2024-8991-1040b7d5761884370ece96a54a7bee7f_1.yaml
 ./poc/cve/CVE-2024-8991-osm-839ecd06-9c74-4ddc-b455-26ec3e627889.yaml
 ./poc/cve/CVE-2024-8991.yaml
-./poc/cve/CVE-2024-9007.yaml
 ./poc/cve/CVE-2024-9007_1.yaml
 ./poc/cve/CVE-2024-9007_2.yaml
 ./poc/cve/CVE-2024-9007_3.yaml
@@ -124246,6 +124243,7 @@
 ./poc/cve/CVE-2025-2709_1.yaml
 ./poc/cve/CVE-2025-2709_2.yaml
 ./poc/cve/CVE-2025-2709_3.yaml
+./poc/cve/CVE-2025-2710.yaml
 ./poc/cve/CVE-2025-2710_1.yaml
 ./poc/cve/CVE-2025-2710_2.yaml
 ./poc/cve/CVE-2025-2710_3.yaml
@@ -135647,11 +135645,13 @@
 ./poc/cve/CVE-2026-0833-team_section-6348b119-a0dc-40ef-ae62-1de86dcefac7.yaml
 ./poc/cve/CVE-2026-0913-user_submitted_posts-85bf7a1b-3c54-40c9-8f19-fcb9dd478a0e.yaml
 ./poc/cve/CVE-2026-0916-related_posts_by_taxonomy-0582fe7d-884c-4019-837a-861d36ccc842.yaml
+./poc/cve/CVE-2026-0920-lastudio_element_kit-65ebc744-6cc2-47ce-b225-81820e49d59c.yaml
 ./poc/cve/CVE-2026-0939-woo_rede-722c666b-913f-4289-82e6-30aa0a3abc2b.yaml
 ./poc/cve/CVE-2026-0942-woo_rede-4927c060-f2b2-4916-b049-1442bba63e98.yaml
 ./poc/cve/CVE-2026-1000-woo_mailerlite-e20deec4-f40c-4bd3-91f7-6a9d643a5520.yaml
 ./poc/cve/CVE-2026-1003-getgenie-38ec647a-3c0c-4d3c-ba34-64c17803867b.yaml
 ./poc/cve/CVE-2026-1004-essential_addons_for_elementor_lite-06ef9a21-e2b9-40c7-9de5-cff175fa10a5.yaml
+./poc/cve/CVE-2026-1036-photo_gallery-4eb2ae42-584d-4da8-9184-461b5a37b7b6.yaml
 ./poc/cve/CVE-2026-1042-wp_hello_bar-73b55486-adb8-40c6-9113-c98618d9cb00.yaml
 ./poc/cve/CVE-2026-1045-viet_contact-131a6a35-e0d2-4613-8614-24bf11011098.yaml
 ./poc/cve/CVE-2026-1051-newsletter-8de2156f-5087-4c16-8e5d-93b5c72ec536.yaml
@@ -220296,6 +220296,7 @@
 ./poc/other/lastudio_element_kit-523f7a8a-d06d-4778-be14-d0b7ca32dab3.yaml
 ./poc/other/lastudio_element_kit-59415c36-e48a-4c05-ad22-8d55a9e13bcd.yaml
 ./poc/other/lastudio_element_kit-5c5822b9-7fd0-4c39-a298-70d0debcc136.yaml
+./poc/other/lastudio_element_kit-65ebc744-6cc2-47ce-b225-81820e49d59c.yaml
 ./poc/other/lastudio_element_kit-68ae8404-6dfa-4b13-b2a6-bd4554f1043f.yaml
 ./poc/other/lastudio_element_kit-6c87204d-6697-4d06-aad2-279fa95f503a.yaml
 ./poc/other/lastudio_element_kit-6d5f3b7e-b36f-47a5-9e24-2e9bc17f6cc7.yaml
@@ -231962,6 +231963,7 @@
 ./poc/other/photo_gallery-3770f3d7-35ab-4f86-acc3-9d2816d50581.yaml
 ./poc/other/photo_gallery-3a3b8f32-f29d-4e67-8fad-202bfc8a9918.yaml
 ./poc/other/photo_gallery-3c6fd92f-a541-42d1-8093-c3a4a61ab39b.yaml
+./poc/other/photo_gallery-4eb2ae42-584d-4da8-9184-461b5a37b7b6.yaml
 ./poc/other/photo_gallery-55a0b4ad-de5e-4203-a702-d498bf566165.yaml
 ./poc/other/photo_gallery-5b1a2126-978c-48fa-b260-abfd26d0ec97.yaml
 ./poc/other/photo_gallery-5b49f379-7ae1-4da9-8e1b-cbe5a561b803.yaml
