@@ -54040,7 +54040,6 @@
 ./poc/cve/CVE-2022-24816_3_1.yaml
 ./poc/cve/CVE-2022-24816_4.yaml
 ./poc/cve/CVE-2022-24816_6.yaml
-./poc/cve/CVE-2022-24819.yaml
 ./poc/cve/CVE-2022-24819_1_2.yaml
 ./poc/cve/CVE-2022-24819_2.yaml
 ./poc/cve/CVE-2022-24819_3.yaml
@@ -75434,6 +75433,7 @@
 ./poc/cve/CVE-2023-35156_1.yaml
 ./poc/cve/CVE-2023-35156_2.yaml
 ./poc/cve/CVE-2023-35156_3.yaml
+./poc/cve/CVE-2023-35158.yaml
 ./poc/cve/CVE-2023-35158_1_1.yaml
 ./poc/cve/CVE-2023-35158_3.yaml
 ./poc/cve/CVE-2023-35158_4.yaml
@@ -78223,6 +78223,7 @@
 ./poc/cve/CVE-2023-43275_2.yaml
 ./poc/cve/CVE-2023-43291_1.yaml
 ./poc/cve/CVE-2023-43319_3.yaml
+./poc/cve/CVE-2023-43323.yaml
 ./poc/cve/CVE-2023-43323_1.yaml
 ./poc/cve/CVE-2023-43323_3.yaml
 ./poc/cve/CVE-2023-43323_4.yaml
@@ -104744,7 +104745,6 @@
 ./poc/cve/CVE-2024-3849-click_to_chat_for_whatsapp-fe25bfef-34f0-4d57-9cba-9dcbf58281c6.yaml
 ./poc/cve/CVE-2024-3849.yaml
 ./poc/cve/CVE-2024-3849_2_1.yaml
-./poc/cve/CVE-2024-3850.yaml
 ./poc/cve/CVE-2024-3850_1_2.yaml
 ./poc/cve/CVE-2024-3850_3.yaml
 ./poc/cve/CVE-2024-3850_4.yaml
@@ -134145,6 +134145,7 @@
 ./poc/cve/CVE-2025-6441-webinar_ignition-52c19707-df18-4239-af46-12ea5ee86a4b.yaml
 ./poc/cve/CVE-2025-6459-3183a66979de8177d5f86c9888a8ade5_1.yaml
 ./poc/cve/CVE-2025-6459-ap_plugin_scripteo-22fa8290-ebab-4fa4-bcba-0053c3b79f76.yaml
+./poc/cve/CVE-2025-6461-cubewp_framework-0edb6b7c-8a78-44b9-a5d6-b4a563c92484.yaml
 ./poc/cve/CVE-2025-6462-elisqlreports-a6811f19-07fb-4c05-977f-90f9c5d89bb4.yaml
 ./poc/cve/CVE-2025-6462.yaml
 ./poc/cve/CVE-2025-6463-6b1da488fcca3cf584e71e70478f3fb8_1.yaml
@@ -282840,6 +282841,7 @@
 ./poc/sql/CVE-2025-64357-advanced_database_cleaner-c3c5a2b6-9df1-45e9-832d-53e4a397aebf.yaml
 ./poc/sql/CVE-2025-64359-consulting-7dc02b21-5102-4789-8db4-84014f8807ca.yaml
 ./poc/sql/CVE-2025-64373-traveler-22fb6ed8-18e7-450a-8db0-83c45ac258b6.yaml
+./poc/sql/CVE-2025-6461-cubewp_framework-0edb6b7c-8a78-44b9-a5d6-b4a563c92484.yaml
 ./poc/sql/CVE-2025-6462-elisqlreports-a6811f19-07fb-4c05-977f-90f9c5d89bb4.yaml
 ./poc/sql/CVE-2025-64639-wp_compress_mainwp-db2b245f-1b9f-4605-8600-2eca8858c0d1.yaml
 ./poc/sql/CVE-2025-6464-forminator-6707aa4c-c652-42c0-bdb9-00be984e7271.yaml
@@ -285315,6 +285317,7 @@
 ./poc/sql/csz-cms-sqli.yaml
 ./poc/sql/cubewp-forms-adba285f4b9d23e87711c98d2c951234_3.yaml
 ./poc/sql/cubewp-framework-4c26f64eb0b49d690846b516bacadbec_3.yaml
+./poc/sql/cubewp_framework-0edb6b7c-8a78-44b9-a5d6-b4a563c92484.yaml
 ./poc/sql/cubewp_framework-441a2519-9d24-4427-b109-ecd953fdbc93.yaml
 ./poc/sql/cue-cec225aa787dfae2cb5db9d970b01fcd_1.yaml
 ./poc/sql/cuisine-palace-6477bf18cad6c823db485408d49b337b_1.yaml
@@ -306142,6 +306145,7 @@
 ./poc/wordpress/CVE-2025-64294-wp_snow_effect-b4f32ec5-c744-45ca-a7a2-3d4a241f82c1.yaml
 ./poc/wordpress/CVE-2025-64368-bardwp-7ab4517e-8dd8-47a8-8e03-d3e0fd991820.yaml
 ./poc/wordpress/CVE-2025-64375-wp_social_reviews-138818d2-f66b-4503-9df6-b89765191d50.yaml
+./poc/wordpress/CVE-2025-6461-cubewp_framework-0edb6b7c-8a78-44b9-a5d6-b4a563c92484.yaml
 ./poc/wordpress/CVE-2025-64639-wp_compress_mainwp-db2b245f-1b9f-4605-8600-2eca8858c0d1.yaml
 ./poc/wordpress/CVE-2025-6585-wp_jobhunt-afb3e0e0-68c7-43f6-981f-59c3f3507429.yaml
 ./poc/wordpress/CVE-2025-66062-wp_youtube_lyte-daf8e0ca-abe7-4243-8921-ff5a6f88cfcf.yaml
@@ -307218,6 +307222,7 @@
 ./poc/wordpress/cubewp_forms-084d0604-096d-4fec-a764-13e5c163ab5e.yaml
 ./poc/wordpress/cubewp_forms-7571a0c6-0baf-4fc0-bd6e-e792e47dffe5.yaml
 ./poc/wordpress/cubewp_forms-aa8c5c44-235a-4839-9dc4-064ef25abfac.yaml
+./poc/wordpress/cubewp_framework-0edb6b7c-8a78-44b9-a5d6-b4a563c92484.yaml
 ./poc/wordpress/cubewp_framework-2006dc4c-ec1a-45ab-94a3-1f86d80e70ca.yaml
 ./poc/wordpress/cubewp_framework-307e3e47-fac8-400d-9b90-b75b39ee14c3.yaml
 ./poc/wordpress/cubewp_framework-430b7e72-72b8-4cf8-99f4-ee1d1d4b4f24.yaml
