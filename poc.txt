@@ -54040,6 +54040,7 @@
 ./poc/cve/CVE-2022-24816_3_1.yaml
 ./poc/cve/CVE-2022-24816_4.yaml
 ./poc/cve/CVE-2022-24816_6.yaml
+./poc/cve/CVE-2022-24819.yaml
 ./poc/cve/CVE-2022-24819_1_2.yaml
 ./poc/cve/CVE-2022-24819_2.yaml
 ./poc/cve/CVE-2022-24819_3.yaml
@@ -78556,7 +78557,6 @@
 ./poc/cve/CVE-2023-44808_1.yaml
 ./poc/cve/CVE-2023-44809_3.yaml
 ./poc/cve/CVE-2023-44811_2.yaml
-./poc/cve/CVE-2023-44812.yaml
 ./poc/cve/CVE-2023-44812_1_1.yaml
 ./poc/cve/CVE-2023-44812_3.yaml
 ./poc/cve/CVE-2023-44812_4.yaml
@@ -104745,6 +104745,7 @@
 ./poc/cve/CVE-2024-3849-click_to_chat_for_whatsapp-fe25bfef-34f0-4d57-9cba-9dcbf58281c6.yaml
 ./poc/cve/CVE-2024-3849.yaml
 ./poc/cve/CVE-2024-3849_2_1.yaml
+./poc/cve/CVE-2024-3850.yaml
 ./poc/cve/CVE-2024-3850_1_2.yaml
 ./poc/cve/CVE-2024-3850_3.yaml
 ./poc/cve/CVE-2024-3850_4.yaml
