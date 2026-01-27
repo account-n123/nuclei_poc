@@ -78557,6 +78557,7 @@
 ./poc/cve/CVE-2023-44808_1.yaml
 ./poc/cve/CVE-2023-44809_3.yaml
 ./poc/cve/CVE-2023-44811_2.yaml
+./poc/cve/CVE-2023-44812.yaml
 ./poc/cve/CVE-2023-44812_1_1.yaml
 ./poc/cve/CVE-2023-44812_3.yaml
 ./poc/cve/CVE-2023-44812_4.yaml
@@ -120338,6 +120339,7 @@
 ./poc/cve/CVE-2025-14943-blog2social-7374db91-4e7d-4db2-9c58-bb9bdda5c85d.yaml
 ./poc/cve/CVE-2025-14947-all_in_one_video_gallery-bedfb712-faf6-4131-b254-e6d7c367f49f.yaml
 ./poc/cve/CVE-2025-14948-miniorange_sms_order_notification_otp_verification-f84ddc83-2079-45b9-8354-51094581b1f8.yaml
+./poc/cve/CVE-2025-14971-invoice_payment_for_woocommerce-96a8fc8b-6f0a-486c-89d1-7211b4ca31bd.yaml
 ./poc/cve/CVE-2025-14976-user_registration-e5495b4c-a1ac-4860-83a7-686d9436d983.yaml
 ./poc/cve/CVE-2025-14977-dokan_lite-4ab9d7e9-9a81-48f8-bc37-ad6de43a566f.yaml
 ./poc/cve/CVE-2025-14978-peachpay_for_woocommerce-5480a151-3e3a-46ba-9712-6c61fba06812.yaml
@@ -263237,6 +263239,7 @@
 ./poc/remote_code_execution/CVE-2025-14880-netcash_pay_now_payment_gateway_for_woocommerce-6ca11df6-83e3-48b5-84b8-3f3e4f75ac4a.yaml
 ./poc/remote_code_execution/CVE-2025-14886-woocommerce_for_japan-4bf3248a-f235-472c-b751-96ac9838b27f.yaml
 ./poc/remote_code_execution/CVE-2025-14891-customer_reviews_woocommerce-88e4eec2-2861-4d1d-97eb-67887f59c745.yaml
+./poc/remote_code_execution/CVE-2025-14971-invoice_payment_for_woocommerce-96a8fc8b-6f0a-486c-89d1-7211b4ca31bd.yaml
 ./poc/remote_code_execution/CVE-2025-14978-peachpay_for_woocommerce-5480a151-3e3a-46ba-9712-6c61fba06812.yaml
 ./poc/remote_code_execution/CVE-2025-15033-woocommerce-137327c8-01cb-4074-9424-89d826a9586e.yaml
 ./poc/remote_code_execution/CVE-2025-1505-woocommerce_ajax_filters-94b289bf-0ef1-47d1-98bd-8f7bb753c2bc.yaml
@@ -265757,6 +265760,7 @@
 ./poc/remote_code_execution/integration_for_szamlazzhu_woocommerce-5eafb620-f5dd-4e60-b9a6-859832ae706c.yaml
 ./poc/remote_code_execution/invoice-payment-for-woocommerce-adedb759d22a43562f20e45349b2ae1f_3.yaml
 ./poc/remote_code_execution/invoice_payment_for_woocommerce-638c86d4-973d-41fc-9d59-9d2e79f42f72.yaml
+./poc/remote_code_execution/invoice_payment_for_woocommerce-96a8fc8b-6f0a-486c-89d1-7211b4ca31bd.yaml
 ./poc/remote_code_execution/ioffice-oa-rce.yaml
 ./poc/remote_code_execution/ioffice-oa-rce_1.yaml
 ./poc/remote_code_execution/ip-guard-webserver-rce_2.yaml
