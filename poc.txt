@@ -80956,7 +80956,6 @@
 ./poc/cve/CVE-2023-48022_2.yaml
 ./poc/cve/CVE-2023-48022_3.yaml
 ./poc/cve/CVE-2023-48023-ray.yaml
-./poc/cve/CVE-2023-48023.yaml
 ./poc/cve/CVE-2023-48023_1.yaml
 ./poc/cve/CVE-2023-48023_2_1.yaml
 ./poc/cve/CVE-2023-48023_4.yaml
@@ -124306,7 +124305,6 @@
 ./poc/cve/CVE-2025-2709_1.yaml
 ./poc/cve/CVE-2025-2709_2.yaml
 ./poc/cve/CVE-2025-2709_3.yaml
-./poc/cve/CVE-2025-2710.yaml
 ./poc/cve/CVE-2025-2710_1.yaml
 ./poc/cve/CVE-2025-2710_2.yaml
 ./poc/cve/CVE-2025-2710_3.yaml
