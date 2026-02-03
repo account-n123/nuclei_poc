@@ -1,31 +1,31 @@
-id: uploadify-4893d7a7-6e37-4b58-b7ae-53feb0c85ff5
+id: educare-045fdfd8-7c4a-4fa8-81fd-f749777fb9ed
 
 info:
   name: >
-    Uploadify <= 1.0 - Arbitrary File Upload
+    Educare <= 1.6.1 - Unauthenticated Stored Cross-Site Scripting
   author: topscoder
-  severity: critical
+  severity: high
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/4893d7a7-6e37-4b58-b7ae-53feb0c85ff5?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/045fdfd8-7c4a-4fa8-81fd-f749777fb9ed?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/plugins/uploadify/"
-    google-query: inurl:"/wp-content/plugins/uploadify/"
-    shodan-query: 'http.html:"wp-content/plugins/uploadify/"'
-  tags: cve,wordpress,wp-plugin,uploadify,critical,candidate
+    fofa-query: "wp-content/plugins/educare/"
+    google-query: inurl:"/wp-content/plugins/educare/"
+    shodan-query: 'http.html:"wp-content/plugins/educare/"'
+  tags: cve,wordpress,wp-plugin,educare,high,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/plugins/uploadify/readme.txt"
+      - "{{BaseURL}}/wp-content/plugins/educare/readme.txt"
 
     extractors:
       - type: regex
@@ -43,9 +43,9 @@ http:
 
       - type: word
         words:
-          - "uploadify"
+          - "educare"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 1.0')
+          - compare_versions(version, '<= 1.6.1')

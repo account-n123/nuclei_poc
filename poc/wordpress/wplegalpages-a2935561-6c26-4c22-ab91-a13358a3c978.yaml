@@ -1,31 +1,31 @@
-id: uploadify-4893d7a7-6e37-4b58-b7ae-53feb0c85ff5
+id: wplegalpages-a2935561-6c26-4c22-ab91-a13358a3c978
 
 info:
   name: >
-    Uploadify <= 1.0 - Arbitrary File Upload
+    WPLegalPages <= 3.5.4 - Missing Authorization
   author: topscoder
-  severity: critical
+  severity: high
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/4893d7a7-6e37-4b58-b7ae-53feb0c85ff5?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/a2935561-6c26-4c22-ab91-a13358a3c978?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/plugins/uploadify/"
-    google-query: inurl:"/wp-content/plugins/uploadify/"
-    shodan-query: 'http.html:"wp-content/plugins/uploadify/"'
-  tags: cve,wordpress,wp-plugin,uploadify,critical,candidate
+    fofa-query: "wp-content/plugins/wplegalpages/"
+    google-query: inurl:"/wp-content/plugins/wplegalpages/"
+    shodan-query: 'http.html:"wp-content/plugins/wplegalpages/"'
+  tags: cve,wordpress,wp-plugin,wplegalpages,high,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/plugins/uploadify/readme.txt"
+      - "{{BaseURL}}/wp-content/plugins/wplegalpages/readme.txt"
 
     extractors:
       - type: regex
@@ -43,9 +43,9 @@ http:
 
       - type: word
         words:
-          - "uploadify"
+          - "wplegalpages"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 1.0')
+          - compare_versions(version, '<= 3.5.4')

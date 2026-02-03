@@ -1,31 +1,31 @@
-id: uploadify-4893d7a7-6e37-4b58-b7ae-53feb0c85ff5
+id: wp_subscribe-83a7e451-6d8f-48aa-9774-46e3d4434330
 
 info:
   name: >
-    Uploadify <= 1.0 - Arbitrary File Upload
+    Subscribe <= 1.2.16 - Missing Authorization
   author: topscoder
-  severity: critical
+  severity: high
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/4893d7a7-6e37-4b58-b7ae-53feb0c85ff5?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/83a7e451-6d8f-48aa-9774-46e3d4434330?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/plugins/uploadify/"
-    google-query: inurl:"/wp-content/plugins/uploadify/"
-    shodan-query: 'http.html:"wp-content/plugins/uploadify/"'
-  tags: cve,wordpress,wp-plugin,uploadify,critical,candidate
+    fofa-query: "wp-content/plugins/wp-subscribe/"
+    google-query: inurl:"/wp-content/plugins/wp-subscribe/"
+    shodan-query: 'http.html:"wp-content/plugins/wp-subscribe/"'
+  tags: cve,wordpress,wp-plugin,wp-subscribe,high,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/plugins/uploadify/readme.txt"
+      - "{{BaseURL}}/wp-content/plugins/wp-subscribe/readme.txt"
 
     extractors:
       - type: regex
@@ -43,9 +43,9 @@ http:
 
       - type: word
         words:
-          - "uploadify"
+          - "wp-subscribe"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 1.0')
+          - compare_versions(version, '<= 1.2.16')
