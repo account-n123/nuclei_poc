@@ -1,31 +1,31 @@
-id: netgsm-422b127f-aa52-40ab-a1c0-9d8b70aafe94
+id: title_animator-98736b9d-3e0a-40c0-900a-fbbaaac07958
 
 info:
   name: >
-    Netgsm <= 2.9.63 - Reflected Cross-Site Scripting
+    TITLE ANIMATOR <= 1.0 - Cross-Site Request Forgery to Settings Update
   author: topscoder
   severity: medium
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/422b127f-aa52-40ab-a1c0-9d8b70aafe94?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/98736b9d-3e0a-40c0-900a-fbbaaac07958?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/plugins/netgsm/"
-    google-query: inurl:"/wp-content/plugins/netgsm/"
-    shodan-query: 'http.html:"wp-content/plugins/netgsm/"'
-  tags: cve,wordpress,wp-plugin,netgsm,medium,candidate
+    fofa-query: "wp-content/plugins/title-animator/"
+    google-query: inurl:"/wp-content/plugins/title-animator/"
+    shodan-query: 'http.html:"wp-content/plugins/title-animator/"'
+  tags: cve,wordpress,wp-plugin,title-animator,medium,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/plugins/netgsm/readme.txt"
+      - "{{BaseURL}}/wp-content/plugins/title-animator/readme.txt"
 
     extractors:
       - type: regex
@@ -43,9 +43,9 @@ http:
 
       - type: word
         words:
-          - "netgsm"
+          - "title-animator"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 2.9.63')
+          - compare_versions(version, '<= 1.0')
