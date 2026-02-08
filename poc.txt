@@ -3779,7 +3779,9 @@
 ./poc/auth/CVE-2025-14996-as_password_field_in_default_registration_form-061f022b-b922-4499-bb34-8ea91ba5ace3.yaml
 ./poc/auth/CVE-2025-15000-page_keys-2d3863ec-0cc7-4128-a19e-fc1e2c31195e.yaml
 ./poc/auth/CVE-2025-15001-registration_password-22351b90-fc34-44ce-9241-4a0f01eb7b1c.yaml
+./poc/auth/CVE-2025-15027-jay_login_register-b08198a6-10e8-44ca-a1c5-8d987d85c469.yaml
 ./poc/auth/CVE-2025-1509-show_me_the_cookies-65d15ceb-ab39-4088-a289-7244063aedf8.yaml
+./poc/auth/CVE-2025-15100-jay_login_register-fb900810-23a2-4920-a5e8-4388c4474de0.yaml
 ./poc/auth/CVE-2025-1619-gdpr_cookie_compliance-6f500eb7-64a2-4734-9688-fbae84f280bc.yaml
 ./poc/auth/CVE-2025-1620-gdpr_cookie_compliance-659e13bc-c225-4c35-95d5-455d39798bc5.yaml
 ./poc/auth/CVE-2025-1621-gdpr_cookie_compliance-a375da2f-f074-4b03-af5b-2a4c2853cc58.yaml
@@ -7629,6 +7631,8 @@
 ./poc/auth/jamf-login_4.yaml
 ./poc/auth/jamf-login_5_1.yaml
 ./poc/auth/jay_login_register-928877a6-eeeb-4ed5-900b-9b1560e1bf87.yaml
+./poc/auth/jay_login_register-b08198a6-10e8-44ca-a1c5-8d987d85c469.yaml
+./poc/auth/jay_login_register-fb900810-23a2-4920-a5e8-4388c4474de0.yaml
 ./poc/auth/jboss-default-password.yaml
 ./poc/auth/jboss-jbpm-default-login.yaml
 ./poc/auth/jboss-jbpm-default-login_1.yaml
@@ -29334,6 +29338,7 @@
 ./poc/cve/CVE-2017-3131_2.yaml
 ./poc/cve/CVE-2017-3131_3.yaml
 ./poc/cve/CVE-2017-3131_4.yaml
+./poc/cve/CVE-2017-3132.yaml
 ./poc/cve/CVE-2017-3132_1_1.yaml
 ./poc/cve/CVE-2017-3132_2.yaml
 ./poc/cve/CVE-2017-3132_3.yaml
@@ -120412,6 +120417,7 @@
 ./poc/cve/CVE-2025-1502-ip2location_redirection-bca41dd8-5bd3-4fee-9f3f-feb8f1a4c687.yaml
 ./poc/cve/CVE-2025-15020-gotham_block_extra_light-b194b241-d8f4-430c-b00c-d84190026bad.yaml
 ./poc/cve/CVE-2025-15021-gotham_block_extra_light-b4c36899-3c7b-41b6-a38d-86c8834b4c03.yaml
+./poc/cve/CVE-2025-15027-jay_login_register-b08198a6-10e8-44ca-a1c5-8d987d85c469.yaml
 ./poc/cve/CVE-2025-1503-e7d1eced8c982758c79cf8b587f3b796.yaml
 ./poc/cve/CVE-2025-1503-wp_recipe_maker-e23f63a0-3061-42e0-a6be-05fa20a174ea.yaml
 ./poc/cve/CVE-2025-15033-woocommerce-137327c8-01cb-4074-9424-89d826a9586e.yaml
@@ -120435,6 +120441,7 @@
 ./poc/cve/CVE-2025-1509-show_me_the_cookies-65d15ceb-ab39-4088-a289-7244063aedf8.yaml
 ./poc/cve/CVE-2025-1510-20f088813d16002a58629f62db78e853_2.yaml
 ./poc/cve/CVE-2025-1510-custom_post_type_date_archives-996ade9c-2531-4f43-87f6-eddb2ce98a12.yaml
+./poc/cve/CVE-2025-15100-jay_login_register-fb900810-23a2-4920-a5e8-4388c4474de0.yaml
 ./poc/cve/CVE-2025-1511-6f939701c7c1282f3b7c4dde32d053b5.yaml
 ./poc/cve/CVE-2025-1511-user_registration-0e0bee7c-8dce-421c-af16-7e5152797e6c.yaml
 ./poc/cve/CVE-2025-1512-178ef7fd08885ad6034366daf1fd72ef_2.yaml
@@ -128912,6 +128919,7 @@
 ./poc/cve/CVE-2025-4054-relevanssi_premium-6f77f10b-f142-4859-a941-0fbde6ef7fdb.yaml
 ./poc/cve/CVE-2025-4055-3bb34d3afa76812338a9550182299a60_2.yaml
 ./poc/cve/CVE-2025-4055-multiple_post_type_order-b148926d-090d-4fab-991c-89105078a263.yaml
+./poc/cve/CVE-2025-40630.yaml
 ./poc/cve/CVE-2025-40630_1.yaml
 ./poc/cve/CVE-2025-40630_2.yaml
 ./poc/cve/CVE-2025-40630_3.yaml
