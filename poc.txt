@@ -135887,6 +135887,7 @@
 ./poc/cve/CVE-2026-0608-head_meta_data-9592bb6d-8e1d-4c89-addd-11c07272a628.yaml
 ./poc/cve/CVE-2026-0617-latepoint-22bcfd36-ecf9-4d2c-ac94-94ffa0340c4c.yaml
 ./poc/cve/CVE-2026-0627-accelerated_mobile_pages-4ed23318-3b47-4336-a3aa-6b09f3911926.yaml
+./poc/cve/CVE-2026-0632-fluentformpro-fd3bf470-f966-454d-8df3-0dec4682e883.yaml
 ./poc/cve/CVE-2026-0633-metform-d72cc420-1ff5-403b-b4ea-7c820fdebcf3.yaml
 ./poc/cve/CVE-2026-0635-responsive_accordion_slider-55cfb2c6-ca3f-45b7-8cd9-a5a1c3783ae0.yaml
 ./poc/cve/CVE-2026-0656-ipaymu_for_woocommerce-7e639aed-ec67-4212-9051-1f7465bbfde2.yaml
@@ -210265,6 +210266,7 @@
 ./poc/other/fluentform_1.yaml
 ./poc/other/fluentform_5.yaml
 ./poc/other/fluentform_6_1.yaml
+./poc/other/fluentformpro-fd3bf470-f966-454d-8df3-0dec4682e883.yaml
 ./poc/other/fluer-e845e565-3c9f-4de3-94ce-e0b03ed4d5a9.yaml
 ./poc/other/fluid-accessible-pager.yaml
 ./poc/other/fluid-accessible-pager_1_3.yaml
