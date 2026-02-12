@@ -1,31 +1,31 @@
-id: gowilds-7f25f001-cbb7-4d73-b37d-47bc1681c690
+id: adforest-34fd42cb-3868-4b1c-bc56-575faf01e8f3
 
 info:
   name: >
-    Multiple Themes by gavias <= Various Versions - Reflected Cross-Site Scripting
+    AdForest <= 6.0.12 - Authentication Bypass
   author: topscoder
-  severity: medium
+  severity: critical
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/7f25f001-cbb7-4d73-b37d-47bc1681c690?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/34fd42cb-3868-4b1c-bc56-575faf01e8f3?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/themes/gowilds/"
-    google-query: inurl:"/wp-content/themes/gowilds/"
-    shodan-query: 'http.html:"wp-content/themes/gowilds/"'
-  tags: cve,wordpress,wp-theme,gowilds,medium,candidate
+    fofa-query: "wp-content/themes/adforest/"
+    google-query: inurl:"/wp-content/themes/adforest/"
+    shodan-query: 'http.html:"wp-content/themes/adforest/"'
+  tags: cve,wordpress,wp-theme,adforest,critical,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/themes/gowilds/style.css"
+      - "{{BaseURL}}/wp-content/themes/adforest/style.css"
 
     extractors:
       - type: regex
@@ -43,9 +43,9 @@ http:
 
       - type: word
         words:
-          - "gowilds"
+          - "adforest"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '< 1.1.9')
+          - compare_versions(version, '<= 6.0.12')
