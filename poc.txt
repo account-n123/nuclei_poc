@@ -136227,6 +136227,7 @@
 ./poc/cve/CVE-2026-1401-tune_library-cd600810-b1bc-4025-b441-5c90da7240de.yaml
 ./poc/cve/CVE-2026-1431-booking-0bd92f91-d9b1-4f6f-ac1a-477950ea2e80.yaml
 ./poc/cve/CVE-2026-1447-mail_mint-e67ae204-2848-4389-a78d-7b3798e4ee54.yaml
+./poc/cve/CVE-2026-1490-cleantalk_spam_protect-cb603be6-4a12-49e1-b8cc-b2062eb97f16.yaml
 ./poc/cve/CVE-2026-1499-local_sync-11bb7190-023b-45e1-99a5-7313c489ef45.yaml
 ./poc/cve/CVE-2026-1512-essential_addons_for_elementor_lite-d652f383-ca3d-440e-a30f-64a50efd65e1.yaml
 ./poc/cve/CVE-2026-1537-latepoint-c18ad885-52a8-467b-83f2-aeb0c8be8be0.yaml
@@ -136245,12 +136246,14 @@
 ./poc/cve/CVE-2026-1729-adforest-34fd42cb-3868-4b1c-bc56-575faf01e8f3.yaml
 ./poc/cve/CVE-2026-1730-os_datahub_maps-c32ba2a0-a9a7-4f17-8169-912cecc40b7b.yaml
 ./poc/cve/CVE-2026-1748-kirilkirkov_pdf_invoice_manager-79e4b7e1-9fff-4ff2-be2b-6dfa5f1ff48a.yaml
+./poc/cve/CVE-2026-1750-ecwid_shopping_cart-2d29f77c-b86d-4058-b528-27631e8a1f2e.yaml
 ./poc/cve/CVE-2026-1754-personal_authors_category-6f57d5ec-bc2d-4dc4-b1b2-c5919986d198.yaml
 ./poc/cve/CVE-2026-1755-menu_icons-30bfa616-c7f3-4ff0-85b3-468debc8a73e.yaml
 ./poc/cve/CVE-2026-1756-wp_foft_loader-cede8ff5-f739-4eb3-9672-5adb5d2ae0a9.yaml
 ./poc/cve/CVE-2026-1785-code_snippets-4a5787f3-6a16-491a-aa01-6222f275cf0f.yaml
 ./poc/cve/CVE-2026-1786-twitter_posts_to_blog-abcbb84c-6c2d-40c1-8c64-7d4866fa9503.yaml
 ./poc/cve/CVE-2026-1792-geowidget-5d3029bb-74d0-4594-80c9-b7cb6c049216.yaml
+./poc/cve/CVE-2026-1793-bdthemes_element_pack_lite-58f9bef5-6596-40b2-bcb6-d686e87d8d8f.yaml
 ./poc/cve/CVE-2026-1795-address_bar_ads-6728fca7-f66d-4b8a-a16f-db60a315b434.yaml
 ./poc/cve/CVE-2026-1796-stylebidet-030d4038-cf31-4ad9-a89a-6cf5f6177c2e.yaml
 ./poc/cve/CVE-2026-1804-wdes_responsive_popup-3afdffa7-23ec-41ea-b05a-152a69b7ce50.yaml
@@ -189961,6 +189964,7 @@
 ./poc/other/bdthemes_element_pack_lite-3b955662-ce67-4c4c-8703-7460a7bcd4fc.yaml
 ./poc/other/bdthemes_element_pack_lite-3e343ea3-996c-47c7-9480-e6264cbded98.yaml
 ./poc/other/bdthemes_element_pack_lite-3f5d3585-19fe-4e85-87d0-7f4c62944146.yaml
+./poc/other/bdthemes_element_pack_lite-58f9bef5-6596-40b2-bcb6-d686e87d8d8f.yaml
 ./poc/other/bdthemes_element_pack_lite-5b77982e-15ab-4376-89d3-7a2609b118eb.yaml
 ./poc/other/bdthemes_element_pack_lite-67eb77e9-7e0b-4134-9cb6-30ba78f6a686.yaml
 ./poc/other/bdthemes_element_pack_lite-696c379a-c5a4-489f-8363-8aea9a4da814.yaml
@@ -195941,6 +195945,7 @@
 ./poc/other/cleantalk_spam_protect-79ae062c-b084-4045-9407-2d94919993af.yaml
 ./poc/other/cleantalk_spam_protect-7fe50510-6736-4bcf-b62f-0b8d2cb8ff3a.yaml
 ./poc/other/cleantalk_spam_protect-89dab433-91e9-4500-ab40-f4b500e66983.yaml
+./poc/other/cleantalk_spam_protect-cb603be6-4a12-49e1-b8cc-b2062eb97f16.yaml
 ./poc/other/cleantalk_spam_protect-d7eb5fad-bb62-4f0b-ad52-b16c3e442b62.yaml
 ./poc/other/cleantalk_spam_protect-ebb33fdc-fd89-4d4f-9107-287a64abc150.yaml
 ./poc/other/cleanup-light.yaml
@@ -204419,6 +204424,7 @@
 ./poc/other/ecwid-shopping-cart_2.yaml
 ./poc/other/ecwid_shopping_cart-0f02cc66-7782-45fe-ae5e-340ff7ae1fe9.yaml
 ./poc/other/ecwid_shopping_cart-1e9fa1f8-5070-4e2f-a5ee-810eccf7ec4d.yaml
+./poc/other/ecwid_shopping_cart-2d29f77c-b86d-4058-b528-27631e8a1f2e.yaml
 ./poc/other/ecwid_shopping_cart-757938f4-c6ef-4152-a0d6-f14d2a043c85.yaml
 ./poc/other/ecwid_shopping_cart-af5a58d1-946a-451b-bc8b-a397345ae89a.yaml
 ./poc/other/ecwid_shopping_cart-b786ad61-eed7-4be7-9204-f440570916ea.yaml
