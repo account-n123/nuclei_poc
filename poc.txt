@@ -58649,7 +58649,6 @@
 ./poc/cve/CVE-2022-40619.yaml
 ./poc/cve/CVE-2022-4061_2.yaml
 ./poc/cve/CVE-2022-4061_3_3.yaml
-./poc/cve/CVE-2022-40624.yaml
 ./poc/cve/CVE-2022-40624_1_2.yaml
 ./poc/cve/CVE-2022-40624_2.yaml
 ./poc/cve/CVE-2022-40624_3.yaml
@@ -158303,7 +158302,6 @@
 ./poc/javascript/nextjs-rsc-cache_2.yaml
 ./poc/javascript/nextjs_1.yaml
 ./poc/javascript/nextjs_3.yaml
-./poc/javascript/nodejs-framework-exceptions.yaml
 ./poc/javascript/nodejs-framework-exceptions_1.yaml
 ./poc/javascript/nodejs-framework-exceptions_2.yaml
 ./poc/javascript/nodejs-framework-exceptions_3.yaml
@@ -166300,7 +166298,6 @@
 ./poc/nodejs/nodebb-installer_3_1.yaml
 ./poc/nodejs/nodebb-installer_4.yaml
 ./poc/nodejs/nodebb_1.yaml
-./poc/nodejs/nodejs-framework-exceptions.yaml
 ./poc/nodejs/nodejs-framework-exceptions_1.yaml
 ./poc/nodejs/nodejs-framework-exceptions_2.yaml
 ./poc/nodejs/nodejs-framework-exceptions_3.yaml
@@ -187870,7 +187867,6 @@
 ./poc/other/aspect-control-panel_1_1.yaml
 ./poc/other/aspentech-aspen-infoplus21_2.yaml
 ./poc/other/aspentech-aspen-infoplus21_3.yaml
-./poc/other/aspnet-framework-exceptions.yaml
 ./poc/other/aspnet-framework-exceptions_1.yaml
 ./poc/other/aspnet-framework-exceptions_2.yaml
 ./poc/other/aspnet-framework-exceptions_3.yaml
