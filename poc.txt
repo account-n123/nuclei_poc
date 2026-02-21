@@ -120274,6 +120274,7 @@
 ./poc/cve/CVE-2025-14313-advance_wp_query_search_filter-e8cbd8ee-1bd5-43ea-8e67-5ad893258512.yaml
 ./poc/cve/CVE-2025-14314-popup_builder_block-c7f041a7-f5cc-463c-97b0-d4ecb3edb77a.yaml
 ./poc/cve/CVE-2025-14316-ahachat_messenger_marketing-d328e059-7235-496d-9c5a-c394df7ad235.yaml
+./poc/cve/CVE-2025-14339-wemail-16dd90c3-3962-4c8e-993f-b6824c48ab76.yaml
 ./poc/cve/CVE-2025-14342-squirrly_seo-7ad25948-3265-4c4c-9b99-86f7240600ce.yaml
 ./poc/cve/CVE-2025-14344-gf_multi_uploader-346af237-0411-4cc4-9544-eab697385a2f.yaml
 ./poc/cve/CVE-2025-14348-wemail-59c0caa2-d0c2-472e-83c3-d11ad313720d.yaml
@@ -136306,6 +136307,7 @@
 ./poc/cve/CVE-2026-1756-wp_foft_loader-cede8ff5-f739-4eb3-9672-5adb5d2ae0a9.yaml
 ./poc/cve/CVE-2026-1785-code_snippets-4a5787f3-6a16-491a-aa01-6222f275cf0f.yaml
 ./poc/cve/CVE-2026-1786-twitter_posts_to_blog-abcbb84c-6c2d-40c1-8c64-7d4866fa9503.yaml
+./poc/cve/CVE-2026-1787-learnpress_import_export-7bde915d-092a-452b-a0e0-ce5c2ce203dc.yaml
 ./poc/cve/CVE-2026-1792-geowidget-5d3029bb-74d0-4594-80c9-b7cb6c049216.yaml
 ./poc/cve/CVE-2026-1793-bdthemes_element_pack_lite-58f9bef5-6596-40b2-bcb6-d686e87d8d8f.yaml
 ./poc/cve/CVE-2026-1795-address_bar_ads-6728fca7-f66d-4b8a-a16f-db60a315b434.yaml
@@ -222232,6 +222234,7 @@
 ./poc/other/learnpress_import_export-096ea1e3-a6c3-43c7-94f0-6c5617dd3fa9.yaml
 ./poc/other/learnpress_import_export-1322e229-5e0b-4c3d-ae96-e211a2831842.yaml
 ./poc/other/learnpress_import_export-462d6d01-ce4c-4c76-932a-6466f9a8d807.yaml
+./poc/other/learnpress_import_export-7bde915d-092a-452b-a0e0-ce5c2ce203dc.yaml
 ./poc/other/learnpress_import_export-98a274eb-036f-44f1-861d-1cfea0b34d7f.yaml
 ./poc/other/learnpress_import_export-9e169776-0475-45b8-8e8f-ac98cee558a3.yaml
 ./poc/other/learnpress_import_export-c7429367-f9f4-4859-9537-0f543e32870a.yaml
@@ -257613,6 +257616,7 @@
 ./poc/other/weluka_lite-d21a12b4-2f9d-4ae3-a5f6-1ba90fab43a2.yaml
 ./poc/other/wemail-0b93269a8622bf0f0acc99e30689bd4d.yaml
 ./poc/other/wemail-0d997e98-dfb6-4f41-8711-7645d2a9435e.yaml
+./poc/other/wemail-16dd90c3-3962-4c8e-993f-b6824c48ab76.yaml
 ./poc/other/wemail-307c045ce407a6d8e70ca844a5900ee8_2.yaml
 ./poc/other/wemail-55347e9ac58126992d50d45693e54288.yaml
 ./poc/other/wemail-59c0caa2-d0c2-472e-83c3-d11ad313720d.yaml
