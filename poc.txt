@@ -133696,7 +133696,6 @@
 ./poc/cve/CVE-2025-6057-wpbookit-fac81cc0-c6c9-4009-aacb-52adc70c0261.yaml
 ./poc/cve/CVE-2025-6058-9951634801fe1240e604e0401817fc5f_2.yaml
 ./poc/cve/CVE-2025-6058-wpbookit-1d779ad1-fdbe-444c-85c5-99146a1a03d8.yaml
-./poc/cve/CVE-2025-6058.yaml
 ./poc/cve/CVE-2025-6058_1.yaml
 ./poc/cve/CVE-2025-6058_2.yaml
 ./poc/cve/CVE-2025-6058_3.yaml
@@ -136457,6 +136456,7 @@
 ./poc/cve/CVE-2026-23550-modular_connector-22dd9fbb-77d2-48cd-91a5-eba39ef9d2c1.yaml
 ./poc/cve/CVE-2026-23800-modular_connector-8bd035bf-003f-4f97-be76-7b1c50727d21.yaml
 ./poc/cve/CVE-2026-2384-quiz_maker-e54e2831-e5e9-43f4-acb6-9cf00fdb4e57.yaml
+./poc/cve/CVE-2026-2385-the_plus_addons_for_elementor_page_builder-9176535c-8e37-4a18-b458-a71c4a84daa4.yaml
 ./poc/cve/CVE-2026-2386-the_plus_addons_for_elementor_page_builder-4fc3e24a-8b51-4b6f-bacf-665ceb03bc05.yaml
 ./poc/cve/CVE-2026-23974-golo-e5c99252-ca42-4c93-8f24-c39326f26983.yaml
 ./poc/cve/CVE-2026-23975-golo-ca4e2fa0-9b18-4318-b588-33d5bc3c5ab9.yaml
@@ -250531,6 +250531,7 @@
 ./poc/other/the_plus_addons_for_elementor_page_builder-7707ca04-e136-4d4b-869b-cd270359991e.yaml
 ./poc/other/the_plus_addons_for_elementor_page_builder-78a5b2ab-4735-41b9-8807-8f98586cd3d7.yaml
 ./poc/other/the_plus_addons_for_elementor_page_builder-8758cda7-06a7-4bc4-b393-bca654f7ecd3.yaml
+./poc/other/the_plus_addons_for_elementor_page_builder-9176535c-8e37-4a18-b458-a71c4a84daa4.yaml
 ./poc/other/the_plus_addons_for_elementor_page_builder-96388c82-2392-42b3-b0a0-c3d92910fb5c.yaml
 ./poc/other/the_plus_addons_for_elementor_page_builder-a412e682-869a-46ba-a2d0-d84ed542adc9.yaml
 ./poc/other/the_plus_addons_for_elementor_page_builder-a4fdfc83-cce9-4c87-88f2-331be081b32c.yaml
