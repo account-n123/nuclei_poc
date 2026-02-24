@@ -17270,6 +17270,11 @@
 ./poc/cve/CNVD-C-2023-76801.yaml
 ./poc/cve/CNVD-C-2023-76801_2.yaml
 ./poc/cve/CNVD-C-2023-76801_4.yaml
+./poc/cve/CVE-1999-0067.yaml
+./poc/cve/CVE-1999-0266.yaml
+./poc/cve/CVE-1999-0267.yaml
+./poc/cve/CVE-1999-1083.yaml
+./poc/cve/CVE-1999-1177.yaml
 ./poc/cve/CVE-2000-0114-1295_2.yaml
 ./poc/cve/CVE-2000-0114-1296_1_1.yaml
 ./poc/cve/CVE-2000-0114.yaml
@@ -71079,6 +71084,7 @@
 ./poc/cve/CVE-2023-28432_4_1.yaml
 ./poc/cve/CVE-2023-28432_5.yaml
 ./poc/cve/CVE-2023-2843_2_2.yaml
+./poc/cve/CVE-2023-28461.yaml
 ./poc/cve/CVE-2023-28490-a3d69054bc38af3766bbfa5a8ae17557_1.yaml
 ./poc/cve/CVE-2023-28490-estatik_mortgage_calculator-5ce9dd21-3c89-4ddd-9022-f1edf1224e2d.yaml
 ./poc/cve/CVE-2023-28490.yaml
@@ -89361,6 +89367,7 @@
 ./poc/cve/CVE-2024-1165.yaml
 ./poc/cve/CVE-2024-1165_2_1.yaml
 ./poc/cve/CVE-2024-1166-image_hover_effects_addon_for_elementor-4d72a57f-9acc-43e4-af81-024bc6e0d3fd.yaml
+./poc/cve/CVE-2024-11667.yaml
 ./poc/cve/CVE-2024-1166_1_2.yaml
 ./poc/cve/CVE-2024-1166_2.yaml
 ./poc/cve/CVE-2024-1166_4.yaml
@@ -94113,6 +94120,7 @@
 ./poc/cve/CVE-2024-2053_1.yaml
 ./poc/cve/CVE-2024-2053_2.yaml
 ./poc/cve/CVE-2024-2053_3.yaml
+./poc/cve/CVE-2024-20720.yaml
 ./poc/cve/CVE-2024-20767.yaml
 ./poc/cve/CVE-2024-20767_1.yaml
 ./poc/cve/CVE-2024-20767_2.yaml
@@ -212260,6 +212268,7 @@
 ./poc/other/funding-11850.yaml
 ./poc/other/funding.yaml
 ./poc/other/funding.yml
+./poc/other/funding_3.yml
 ./poc/other/fundpress-0177ceb7-d507-468a-9b64-629237bc7306.yaml
 ./poc/other/fundpress-ef1292a0b34ed51a442ccb12af02a557_3.yaml
 ./poc/other/fundraising_script_3.yaml
