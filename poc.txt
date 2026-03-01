@@ -34254,7 +34254,6 @@
 ./poc/cve/CVE-2019-19411_2.yaml
 ./poc/cve/CVE-2019-19411_3.yaml
 ./poc/cve/CVE-2019-19411_4.yaml
-./poc/cve/CVE-2019-1943.yaml
 ./poc/cve/CVE-2019-1943_1_3.yaml
 ./poc/cve/CVE-2019-1943_2_1.yaml
 ./poc/cve/CVE-2019-1943_4.yaml
