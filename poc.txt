@@ -136925,6 +136925,8 @@
 ./poc/cve/CVE-2026-27542-woocommerce_wholesale_lead_capture-033e8326-38ed-4d36-8a29-06f9c8a5e808.yaml
 ./poc/cve/CVE-2026-2831-mailarchiver-5bc8da1b-8095-46b5-8268-63bdddb4e629.yaml
 ./poc/cve/CVE-2026-3075-simple_ajax_chat-abc0d9c0-ed5a-4bb8-9ff1-d2833dd04d31.yaml
+./poc/cve/CVE-2026-3132-master_addons_pro-76c31190-9db9-4d14-83e0-cbfca812e8ea.yaml
+./poc/cve/CVE-2026-3180-contest_gallery-91d52a64-8dc1-4923-be0b-06800382151e.yaml
 ./poc/cve/CVE202127562-220331-222408_1.yaml
 ./poc/cve/CVE_2021_2400_2.yaml
 ./poc/cve/CVE_2023_51467.yaml
@@ -158690,6 +158692,7 @@
 ./poc/javascript/nextjs-rsc-cache_2.yaml
 ./poc/javascript/nextjs_1.yaml
 ./poc/javascript/nextjs_3.yaml
+./poc/javascript/nodejs-framework-exceptions.yaml
 ./poc/javascript/nodejs-framework-exceptions_1.yaml
 ./poc/javascript/nodejs-framework-exceptions_2.yaml
 ./poc/javascript/nodejs-framework-exceptions_3.yaml
@@ -166708,6 +166711,7 @@
 ./poc/nodejs/nodebb-installer_3_1.yaml
 ./poc/nodejs/nodebb-installer_4.yaml
 ./poc/nodejs/nodebb_1.yaml
+./poc/nodejs/nodejs-framework-exceptions.yaml
 ./poc/nodejs/nodejs-framework-exceptions_1.yaml
 ./poc/nodejs/nodejs-framework-exceptions_2.yaml
 ./poc/nodejs/nodejs-framework-exceptions_3.yaml
@@ -198757,6 +198761,7 @@
 ./poc/other/contest_gallery-78f745f9-c44e-4458-9381-f639c842a31e.yaml
 ./poc/other/contest_gallery-8b0c54f2-3942-48bd-b821-b66a57fd1506.yaml
 ./poc/other/contest_gallery-8ed63de5-ef65-4e90-afc1-b7a075e99316.yaml
+./poc/other/contest_gallery-91d52a64-8dc1-4923-be0b-06800382151e.yaml
 ./poc/other/contest_gallery-9a0dc62c-786d-40f3-b9c9-bd199a176192.yaml
 ./poc/other/contest_gallery-a1b043a1-7bee-4ef0-86d9-19cf202cfc71.yaml
 ./poc/other/contest_gallery-b24625d7-2a38-451b-ab79-a1d9c5b8822a.yaml
@@ -283993,6 +283998,7 @@
 ./poc/sql/CVE-2026-25410-wp_cors-b0224760-b492-4a00-bdf8-24a8db3ea3df.yaml
 ./poc/sql/CVE-2026-2633-kadence_blocks-9c06e0a9-a13a-4cee-a1a5-c43c114b2dbf.yaml
 ./poc/sql/CVE-2026-2831-mailarchiver-5bc8da1b-8095-46b5-8268-63bdddb4e629.yaml
+./poc/sql/CVE-2026-3132-master_addons_pro-76c31190-9db9-4d14-83e0-cbfca812e8ea.yaml
 ./poc/sql/Changdao-165-SQLi_1.yaml
 ./poc/sql/Clickhouse-DB-Detect_3.yaml
 ./poc/sql/Cmseasy-Http-Head-sqli_2.yaml
@@ -289484,6 +289490,7 @@
 ./poc/sql/master-slider-fda4296ee577901bd01db008680a73fe.yaml
 ./poc/sql/master_addons-39fb0499-9ab4-4a2f-b0db-ece86bcf4d42.yaml
 ./poc/sql/master_addons-8910b6f0-1bf4-4ac0-93b7-54db7c15392c.yaml
+./poc/sql/master_addons_pro-76c31190-9db9-4d14-83e0-cbfca812e8ea.yaml
 ./poc/sql/master_blocks-39fb0499-9ab4-4a2f-b0db-ece86bcf4d42.yaml
 ./poc/sql/master_slider-ac6e587c-59b2-4f93-ab88-5e548b52db45.yaml
 ./poc/sql/master_slider-af9adb6b-f726-4b74-be5c-82fdab0ae1f2.yaml
