@@ -158953,7 +158953,6 @@
 ./poc/javascript/nextjs-rsc-cache_2.yaml
 ./poc/javascript/nextjs_1.yaml
 ./poc/javascript/nextjs_3.yaml
-./poc/javascript/nodejs-framework-exceptions.yaml
 ./poc/javascript/nodejs-framework-exceptions_1.yaml
 ./poc/javascript/nodejs-framework-exceptions_2.yaml
 ./poc/javascript/nodejs-framework-exceptions_3.yaml
@@ -166978,7 +166977,6 @@
 ./poc/nodejs/nodebb-installer_3_1.yaml
 ./poc/nodejs/nodebb-installer_4.yaml
 ./poc/nodejs/nodebb_1.yaml
-./poc/nodejs/nodejs-framework-exceptions.yaml
 ./poc/nodejs/nodejs-framework-exceptions_1.yaml
 ./poc/nodejs/nodejs-framework-exceptions_2.yaml
 ./poc/nodejs/nodejs-framework-exceptions_3.yaml
